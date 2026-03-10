@@ -1,13 +1,15 @@
-﻿{
-    "summary":  "Step-by-step guide for Databases topic 5.",
+{
+    "summary":  "Foundations for scaling databases with indexes, caching, and replication.",
     "id":  "guide-005",
     "examples":  [
-                     "Example workflow for Databases.",
-                     "Checklist for common pitfalls."
+                     "Add an index to speed up a frequent query.",
+                     "Introduce a read replica for read-heavy workloads.",
+                     "Cache hot query results to reduce database load."
                  ],
     "references":  [
-                       "Databases Field Notes",
-                       "Checklist: Databases Review"
+                       "Designing Data-Intensive Applications (Kleppmann), Storage and Retrieval",
+                       "Database System Concepts (Silberschatz), Indexing",
+                       "Scaling databases best practices"
                    ],
     "category":  "databases",
     "tags":  [
@@ -15,15 +17,16 @@
                  "guide"
              ],
     "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
+                     "Query path with cache and database",
+                     "Primary-replica topology"
                  ],
-    "content":  "## Overview\nStep-by-step guide for Databases topic 5.\n\nUse this guide to move from concepts to practical implementation.",
+    "content":  "## Overview\nScaling databases usually starts with better queries and indexes, then adds caching, replication, and partitioning as needed.\n\n### First steps\n- Measure slow queries and add indexes\n- Reduce payload size and avoid full table scans\n- Cache repeated reads\n\n### When growth continues\n- Add read replicas for read-heavy traffic\n- Shard by tenant or key range\n- Use background jobs for heavy writes",
     "title":  "Guide 5: Scaling Essentials",
     "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Databases patterns.",
-                  "Validate with tests or examples."
+                  "Profile queries and identify bottlenecks.",
+                  "Add indexes that match access patterns.",
+                  "Introduce caching with clear invalidation rules.",
+                  "Scale reads with replicas, writes with partitioning.",
+                  "Continuously monitor latency and error rates."
               ]
 }

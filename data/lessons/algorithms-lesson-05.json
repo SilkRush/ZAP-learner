@@ -1,38 +1,47 @@
-﻿{
-    "topic":  "Algorithms Topic 5",
+{
+    "topic":  "Recursion and the Call Stack",
     "id":  "algorithms-lesson-05",
     "practice":  [
-                     "Describe the main steps of Algorithms Topic 5.",
-                     "Solve a small exercise using Algorithms Topic 5.",
-                     "List two pitfalls and how to avoid them."
+                     "Write a recursive factorial and identify the base case.",
+                     "Convert a recursive sum into an iterative loop.",
+                     "Draw the call stack for a recursive Fibonacci call."
                  ],
     "quizzes":  [
                     "quiz-005"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 5\\nStep 3: Verify results",
-                            "language":  "plaintext"
+                            "code":  "function factorial(n){\n    if(n <= 1) return 1\n    return n * factorial(n - 1)\n}\n\n// factorial(4) -> 24",
+                            "language":  "javascript"
+                        },
+                        {
+                            "code":  "function sumRecursive(arr, index = 0){\n    if(index >= arr.length) return 0\n    return arr[index] + sumRecursive(arr, index + 1)\n}",
+                            "language":  "javascript"
                         }
                     ],
     "module":  "Algorithms",
-    "title":  "Algorithms Lesson 5",
+    "title":  "Algorithms Lesson 5: Recursion",
     "references":  [
-                       "Guide: Algorithms Topic 5 Essentials",
-                       "Cheat Sheet: Algorithms Basics"
+                       "Structure and Interpretation of Computer Programs, Recursion",
+                       "Introduction to Algorithms (Cormen et al.), Recurrence Relations",
+                       "Problem Solving with Algorithms and Data Structures, Recursion"
                    ],
-    "summary":  "Master Algorithms Topic 5 with focused objectives, examples, and practice tasks.",
+    "summary":  "Understand base cases, recursive structure, and how the call stack evolves.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 5\n\n## Overview\nMaster Algorithms Topic 5 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "content":  "# Algorithms Lesson 5: Recursion\n\n## Overview\nRecursion solves a problem by breaking it into smaller instances of the same problem. Each call adds a frame to the call stack.\n\n## Two essential parts\n- Base case: the stopping condition\n- Recursive case: reduce the problem size\n\n## Common pitfalls\n- Missing or incorrect base cases\n- Not making progress toward the base case\n- Excessive stack depth for large inputs\n\n## Think in patterns\n1. Identify the smaller subproblem\n2. Assume the recursive call works\n3. Combine the result with the current step\n\n## Example\nRecursive factorial uses n * factorial(n - 1) and stops at n <= 1.",
     "examples":  [
-                     "Worked example using Algorithms Topic 5.",
-                     "Edge case analysis for Algorithms Topic 5."
+                     "Compute the sum of a list using recursion.",
+                     "Traverse a tree with a recursive preorder walk.",
+                     "Explain why naive Fibonacci recursion is slow."
                  ],
     "tags":  [
                  "algorithms",
                  "lesson"
              ],
     "objectives":  [
-                       "Explain key concepts in Algorithms Topic 5."
+                       "Define base cases and recursive cases clearly.",
+                       "Trace recursive calls and stack frames.",
+                       "Convert a recursive solution to iterative form.",
+                       "Recognize when recursion is not efficient."
                    ]
 }

@@ -1,13 +1,15 @@
-﻿{
-    "summary":  "Step-by-step guide for Algorithms topic 1.",
+{
+    "summary":  "Practical checklist for choosing and implementing search algorithms.",
     "id":  "guide-001",
     "examples":  [
-                     "Example workflow for Algorithms.",
-                     "Checklist for common pitfalls."
+                     "Scan an unsorted list of IDs to find a match.",
+                     "Binary search a sorted list of SKUs.",
+                     "Use a hash lookup when queries are frequent."
                  ],
     "references":  [
-                       "Algorithms Field Notes",
-                       "Checklist: Algorithms Review"
+                       "Introduction to Algorithms (Cormen et al.), Searching",
+                       "Algorithms (Sedgewick), Searching",
+                       "Binary search correctness notes"
                    ],
     "category":  "algorithms",
     "tags":  [
@@ -15,15 +17,16 @@
                  "guide"
              ],
     "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
+                     "Binary search window shrinking (low, mid, high)",
+                     "Decision tree: sorted vs unsorted input"
                  ],
-    "content":  "## Overview\nStep-by-step guide for Algorithms topic 1.\n\nUse this guide to move from concepts to practical implementation.",
+    "content":  "## Overview\nUse this guide to pick the right search strategy based on data shape and constraints.\n\n### When to use which\n- Linear search: unsorted data, small collections\n- Binary search: sorted data, random access\n- Hash lookup: repeated queries with preprocessing\n\n### Common pitfalls\n- Off-by-one errors in binary search bounds\n- Assuming data is sorted when it is not\n- Ignoring duplicates and empty inputs",
     "title":  "Guide 1: Searching Essentials",
     "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Algorithms patterns.",
-                  "Validate with tests or examples."
+                  "Clarify the data shape (sorted or unsorted).",
+                  "Choose linear, binary, or hash-based search.",
+                  "Define the target match rule (exact, first, last).",
+                  "Implement with careful bounds and test edge cases.",
+                  "Measure performance on realistic input sizes."
               ]
 }

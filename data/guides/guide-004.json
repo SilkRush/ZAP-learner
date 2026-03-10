@@ -1,13 +1,15 @@
-﻿{
-    "summary":  "Step-by-step guide for Operating Systems topic 4.",
+{
+    "summary":  "Quick reference for CPU scheduling goals and common policies.",
     "id":  "guide-004",
     "examples":  [
-                     "Example workflow for Operating Systems.",
-                     "Checklist for common pitfalls."
+                     "Compare FCFS and Round Robin on short jobs.",
+                     "Explain why SJF minimizes average waiting time.",
+                     "Pick a policy for interactive vs batch workloads."
                  ],
     "references":  [
-                       "Operating Systems Field Notes",
-                       "Checklist: Operating Systems Review"
+                       "Operating System Concepts (Silberschatz), CPU Scheduling",
+                       "Modern Operating Systems (Tanenbaum), Scheduling",
+                       "Scheduling policy comparison notes"
                    ],
     "category":  "operating-systems",
     "tags":  [
@@ -15,15 +17,16 @@
                  "guide"
              ],
     "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
+                     "Gantt chart of process scheduling",
+                     "Timeline comparing FCFS, SJF, and Round Robin"
                  ],
-    "content":  "## Overview\nStep-by-step guide for Operating Systems topic 4.\n\nUse this guide to move from concepts to practical implementation.",
+    "content":  "## Overview\nScheduling decides which process runs on the CPU. The policy affects throughput, responsiveness, and fairness.\n\n### Key goals\n- Low waiting time\n- High throughput\n- Fairness and responsiveness\n\n### Common policies\n- FCFS: simple, can cause long waits\n- SJF: optimal average waiting time, needs job length estimate\n- Round Robin: good for interactive systems\n- Priority: flexible but can starve low-priority jobs",
     "title":  "Guide 4: Scheduling Essentials",
     "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Operating Systems patterns.",
-                  "Validate with tests or examples."
+                  "Define the workload (batch vs interactive).",
+                  "Pick metrics: waiting time, turnaround, response.",
+                  "Choose a policy that matches the workload.",
+                  "Simulate on sample processes to validate.",
+                  "Watch for starvation and apply aging if needed."
               ]
 }

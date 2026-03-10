@@ -1,162 +1,162 @@
-﻿{
+{
     "id":  "quiz-003",
     "tags":  [
                  "fundamentals"
              ],
     "questions":  [
                       {
-                          "question":  "Question 1 on Programming Fundamentals fundamentals.",
+                          "question":  "Which statement best describes a variable?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Variables store values that can change during program execution.",
+                          "correct_answer":  "A named value that can change",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "A named value that can change",
+                                          "A fixed constant that never changes",
+                                          "A data type definition",
+                                          "A loop construct"
                                       ]
                       },
                       {
-                          "question":  "Question 2 on Programming Fundamentals fundamentals.",
+                          "question":  "What is the purpose of a function parameter?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Parameters define the inputs a function accepts.",
+                          "correct_answer":  "To define inputs to the function",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "To define inputs to the function",
+                                          "To store output values",
+                                          "To control program flow",
+                                          "To allocate memory"
                                       ]
                       },
                       {
-                          "question":  "Question 3 on Programming Fundamentals fundamentals.",
+                          "question":  "Which construct repeats a block of code while a condition is true?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "While loops repeat as long as the condition remains true.",
+                          "correct_answer":  "While loop",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "If statement",
+                                          "While loop",
+                                          "Switch statement",
+                                          "Function call"
                                       ]
                       },
                       {
-                          "question":  "Question 4 on Programming Fundamentals fundamentals.",
+                          "question":  "What does an if/else statement do?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "It selects between branches based on a condition.",
+                          "correct_answer":  "Chooses a branch based on a condition",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Repeats a block of code",
+                                          "Chooses a branch based on a condition",
+                                          "Defines a new data type",
+                                          "Allocates memory"
                                       ]
                       },
                       {
-                          "question":  "Question 5 on Programming Fundamentals fundamentals.",
+                          "question":  "What does a function return?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Functions return output values to the caller.",
+                          "correct_answer":  "An output value",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "An output value",
+                                          "Only input values",
+                                          "Only global variables",
+                                          "Nothing ever"
                                       ]
                       },
                       {
-                          "question":  "Question 6 on Programming Fundamentals fundamentals.",
+                          "question":  "Which data type represents true/false values?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Boolean values are either true or false.",
+                          "correct_answer":  "Boolean",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Integer",
+                                          "String",
+                                          "Boolean",
+                                          "Array"
                                       ]
                       },
                       {
-                          "question":  "Question 7 on Programming Fundamentals fundamentals.",
+                          "question":  "What is a common cause of off-by-one errors?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Incorrect loop boundaries often lead to off-by-one mistakes.",
+                          "correct_answer":  "Incorrect loop boundaries",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Using variables",
+                                          "Incorrect loop boundaries",
+                                          "Using functions",
+                                          "Using constants"
                                       ]
                       },
                       {
-                          "question":  "Question 8 on Programming Fundamentals fundamentals.",
+                          "question":  "What does local scope mean?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Local scope limits a variable to a specific block or function.",
+                          "correct_answer":  "Visibility limited to a block or function",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Visible everywhere",
+                                          "Visibility limited to a block or function",
+                                          "Stored on disk",
+                                          "Only for constants"
                                       ]
                       },
                       {
-                          "question":  "Question 9 on Programming Fundamentals fundamentals.",
+                          "question":  "Which step helps break a problem into manageable parts?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Decomposition separates a problem into smaller tasks.",
+                          "correct_answer":  "Decomposition",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Inlining",
+                                          "Decomposition",
+                                          "Compilation",
+                                          "Memoization"
                                       ]
                       },
                       {
-                          "question":  "Question 10 on Programming Fundamentals fundamentals.",
+                          "question":  "What is the main benefit of writing small, focused functions?",
                           "tags":  [
                                        "fundamentals"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Small functions are easier to test and understand.",
+                          "correct_answer":  "They are easier to test and understand",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "They use more memory",
+                                          "They are easier to test and understand",
+                                          "They require fewer variables",
+                                          "They always run faster"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
     "module":  "Programming Fundamentals",
-    "summary":  "Check your understanding of Programming Fundamentals concepts.",
+    "summary":  "Check your grasp of variables, functions, control flow, and scope.",
     "title":  "Programming Fundamentals Quiz 3"
 }

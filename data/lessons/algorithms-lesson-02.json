@@ -1,38 +1,47 @@
-﻿{
-    "topic":  "Algorithms Topic 2",
+{
+    "topic":  "Arrays and Strings as Linear Containers",
     "id":  "algorithms-lesson-02",
     "practice":  [
-                     "Describe the main steps of Algorithms Topic 2.",
-                     "Solve a small exercise using Algorithms Topic 2.",
-                     "List two pitfalls and how to avoid them."
+                     "Write a function that reverses an array in place.",
+                     "Use two pointers to check if a string is a palindrome.",
+                     "Describe the difference between random access and sequential access."
                  ],
     "quizzes":  [
                     "quiz-002"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 2\\nStep 3: Verify results",
-                            "language":  "plaintext"
+                            "code":  "function reverseInPlace(arr){\n    let left = 0\n    let right = arr.length - 1\n    while(left < right){\n        const tmp = arr[left]\n        arr[left] = arr[right]\n        arr[right] = tmp\n        left++\n        right--\n    }\n    return arr\n}",
+                            "language":  "javascript"
+                        },
+                        {
+                            "code":  "function isPalindrome(text){\n    let left = 0\n    let right = text.length - 1\n    while(left < right){\n        if(text[left] !== text[right]) return false\n        left++\n        right--\n    }\n    return true\n}",
+                            "language":  "javascript"
                         }
                     ],
     "module":  "Algorithms",
-    "title":  "Algorithms Lesson 2",
+    "title":  "Algorithms Lesson 2: Arrays and Strings",
     "references":  [
-                       "Guide: Algorithms Topic 2 Essentials",
-                       "Cheat Sheet: Algorithms Basics"
+                       "Cracking the Coding Interview, Arrays and Strings",
+                       "Competitive Programming 4, Arrays and Strings",
+                       "JavaScript Arrays and Strings reference"
                    ],
-    "summary":  "Master Algorithms Topic 2 with focused objectives, examples, and practice tasks.",
+    "summary":  "Understand indexing, traversal, and common patterns like two pointers and sliding windows.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 2\n\n## Overview\nMaster Algorithms Topic 2 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "content":  "# Algorithms Lesson 2: Arrays and Strings\n\n## Overview\nArrays and strings are linear containers with fast random access. Many algorithmic patterns build on them, including two pointers and sliding windows.\n\n## Key properties\n- Indexing is O(1)\n- Insertion or deletion in the middle is O(n)\n- Contiguous storage helps cache performance\n\n## Common patterns\n- Two pointers for pairs and palindromes\n- Sliding window for ranges and subarrays\n- Prefix sums for fast range queries\n\n## Practical tips\n1. Be explicit about bounds and indices\n2. Watch for off-by-one errors\n3. Handle empty input early\n\n## Example use case\nFind the longest substring with at most k distinct characters using a sliding window.",
     "examples":  [
-                     "Worked example using Algorithms Topic 2.",
-                     "Edge case analysis for Algorithms Topic 2."
+                     "Remove duplicates from a sorted array.",
+                     "Find two numbers that sum to a target in a sorted array.",
+                     "Compute the maximum sum of a fixed-length window."
                  ],
     "tags":  [
                  "algorithms",
                  "lesson"
              ],
     "objectives":  [
-                       "Explain key concepts in Algorithms Topic 2."
+                       "Explain array access costs and tradeoffs.",
+                       "Use two pointers to solve a linear scan problem.",
+                       "Apply a sliding window to range-based queries.",
+                       "Identify off-by-one pitfalls in index math."
                    ]
 }

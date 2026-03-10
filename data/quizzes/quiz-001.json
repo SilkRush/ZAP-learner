@@ -1,162 +1,162 @@
-﻿{
+{
     "id":  "quiz-001",
     "tags":  [
                  "algorithms"
              ],
     "questions":  [
                       {
-                          "question":  "Question 1 on Algorithms fundamentals.",
+                          "question":  "What is the worst-case time complexity of linear search on an unsorted array of size n?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Linear search may inspect every element, so the worst case is proportional to n.",
+                          "correct_answer":  "O(n)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 2 on Algorithms fundamentals.",
+                          "question":  "Which precondition is required for binary search?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Binary search only works when the data is sorted in a known order.",
+                          "correct_answer":  "The data must be sorted",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "The data must be sorted",
+                                          "The data must be unique",
+                                          "The data must be a tree",
+                                          "The data must fit in cache"
                                       ]
                       },
                       {
-                          "question":  "Question 3 on Algorithms fundamentals.",
+                          "question":  "What is the time complexity of selection sort in the worst case?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Selection sort scans the remaining elements for each position, resulting in O(n^2) comparisons.",
+                          "correct_answer":  "O(n^2)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(n)",
+                                          "O(n log n)",
+                                          "O(n^2)",
+                                          "O(log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 4 on Algorithms fundamentals.",
+                          "question":  "What is the best-case time complexity of insertion sort on an already sorted array?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Insertion sort only checks adjacent elements in a sorted list, so it runs in O(n).",
+                          "correct_answer":  "O(n)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n^2)"
                                       ]
                       },
                       {
-                          "question":  "Question 5 on Algorithms fundamentals.",
+                          "question":  "What is the primary purpose of a recursion base case?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "The base case stops recursion and prevents infinite calls.",
+                          "correct_answer":  "To stop recursion",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "To optimize runtime",
+                                          "To stop recursion",
+                                          "To sort data",
+                                          "To allocate memory"
                                       ]
                       },
                       {
-                          "question":  "Question 6 on Algorithms fundamentals.",
+                          "question":  "Which sorting algorithm is stable in its typical implementation?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Insertion sort preserves the relative order of equal elements when implemented by shifting.",
+                          "correct_answer":  "Insertion sort",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Selection sort",
+                                          "Insertion sort",
+                                          "Heap sort",
+                                          "Quick sort"
                                       ]
                       },
                       {
-                          "question":  "Question 7 on Algorithms fundamentals.",
+                          "question":  "What is the time complexity of accessing arr[i] in a normal array?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Arrays provide constant-time random access by index.",
+                          "correct_answer":  "O(1)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 8 on Algorithms fundamentals.",
+                          "question":  "Which growth rate increases the fastest as n grows?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Quadratic growth dominates linear and logarithmic growth for large n.",
+                          "correct_answer":  "O(n^2)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n log n)",
+                                          "O(n^2)"
                                       ]
                       },
                       {
-                          "question":  "Question 9 on Algorithms fundamentals.",
+                          "question":  "In binary search, what do you do after comparing the middle element to the target?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Binary search discards the half that cannot contain the target.",
+                          "correct_answer":  "Discard one half of the remaining range",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Restart from the beginning",
+                                          "Discard one half of the remaining range",
+                                          "Sort the data again",
+                                          "Move the target to the middle"
                                       ]
                       },
                       {
-                          "question":  "Question 10 on Algorithms fundamentals.",
+                          "question":  "What is the time complexity of two nested loops that each run n times?",
                           "tags":  [
                                        "algorithms"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Algorithms to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Nested loops multiply, yielding O(n^2).",
+                          "correct_answer":  "O(n^2)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(n)",
+                                          "O(n log n)",
+                                          "O(n^2)",
+                                          "O(log n)"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
     "module":  "Algorithms",
-    "summary":  "Check your understanding of Algorithms concepts.",
+    "summary":  "Check your understanding of Big-O, searching, sorting, and recursion basics.",
     "title":  "Algorithms Quiz 1"
 }

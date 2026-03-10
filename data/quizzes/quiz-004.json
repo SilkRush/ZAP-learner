@@ -1,162 +1,162 @@
-﻿{
+{
     "id":  "quiz-004",
     "tags":  [
                  "operating-systems"
              ],
     "questions":  [
                       {
-                          "question":  "Question 1 on Operating Systems fundamentals.",
+                          "question":  "What is the main difference between a process and a thread?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Threads share a process address space, while processes have separate address spaces.",
+                          "correct_answer":  "Threads share an address space; processes do not",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Threads share an address space; processes do not",
+                                          "Processes are always faster",
+                                          "Threads cannot be scheduled",
+                                          "Processes have no memory"
                                       ]
                       },
                       {
-                          "question":  "Question 2 on Operating Systems fundamentals.",
+                          "question":  "Which scheduling algorithm is commonly used for time-sharing systems?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Round Robin gives each process a time slice and is standard for interactive systems.",
+                          "correct_answer":  "Round Robin",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "FCFS",
+                                          "Round Robin",
+                                          "SJF",
+                                          "Priority without aging"
                                       ]
                       },
                       {
-                          "question":  "Question 3 on Operating Systems fundamentals.",
+                          "question":  "What does a context switch do?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "A context switch saves and restores CPU state when switching processes or threads.",
+                          "correct_answer":  "Saves and restores CPU state",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Deletes a process",
+                                          "Saves and restores CPU state",
+                                          "Allocates disk space",
+                                          "Compiles a program"
                                       ]
                       },
                       {
-                          "question":  "Question 4 on Operating Systems fundamentals.",
+                          "question":  "Which is NOT a necessary condition for deadlock?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait. Unlimited resources are not a condition.",
+                          "correct_answer":  "Unlimited resources",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Mutual exclusion",
+                                          "Hold and wait",
+                                          "No preemption",
+                                          "Unlimited resources"
                                       ]
                       },
                       {
-                          "question":  "Question 5 on Operating Systems fundamentals.",
+                          "question":  "Paging divides memory into: ",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Paging uses fixed-size pages and frames.",
+                          "correct_answer":  "Fixed-size pages",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Variable-size segments",
+                                          "Fixed-size pages",
+                                          "Files",
+                                          "Registers only"
                                       ]
                       },
                       {
-                          "question":  "Question 6 on Operating Systems fundamentals.",
+                          "question":  "What is a system call?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "System calls are the interface from user programs to OS services.",
+                          "correct_answer":  "An interface to OS services",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "A hardware interrupt",
+                                          "An interface to OS services",
+                                          "A type of memory",
+                                          "A scheduling policy"
                                       ]
                       },
                       {
-                          "question":  "Question 7 on Operating Systems fundamentals.",
+                          "question":  "What is thrashing?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Thrashing occurs when the system spends most of its time paging rather than doing useful work.",
+                          "correct_answer":  "Excessive paging that kills performance",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "A kernel crash",
+                                          "Excessive paging that kills performance",
+                                          "A fast context switch",
+                                          "A file system error"
                                       ]
                       },
                       {
-                          "question":  "Question 8 on Operating Systems fundamentals.",
+                          "question":  "Which metric measures time from job submission to completion?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Turnaround time includes waiting and execution time.",
+                          "correct_answer":  "Turnaround time",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Response time",
+                                          "Turnaround time",
+                                          "CPU utilization",
+                                          "Throughput"
                                       ]
                       },
                       {
-                          "question":  "Question 9 on Operating Systems fundamentals.",
+                          "question":  "What does a mutex provide?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "A mutex enforces mutual exclusion for critical sections.",
+                          "correct_answer":  "Mutual exclusion",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Deadlock",
+                                          "Mutual exclusion",
+                                          "Priority scheduling",
+                                          "Virtual memory"
                                       ]
                       },
                       {
-                          "question":  "Question 10 on Operating Systems fundamentals.",
+                          "question":  "What is a daemon process?",
                           "tags":  [
                                        "operating-systems"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Daemons run in the background to provide services.",
+                          "correct_answer":  "A background service",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "A user interface",
+                                          "A background service",
+                                          "A file format",
+                                          "A memory leak"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
     "module":  "Operating Systems",
-    "summary":  "Check your understanding of Operating Systems concepts.",
+    "summary":  "Check your understanding of processes, scheduling, and memory basics.",
     "title":  "Operating Systems Quiz 4"
 }

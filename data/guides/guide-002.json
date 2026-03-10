@@ -1,13 +1,15 @@
-﻿{
-    "summary":  "Step-by-step guide for Data Structures topic 2.",
+{
+    "summary":  "Field guide to tree terminology, structure, and traversal choices.",
     "id":  "guide-002",
     "examples":  [
-                     "Example workflow for Data Structures.",
-                     "Checklist for common pitfalls."
+                     "Insert and search in a binary search tree.",
+                     "Traverse a tree to sum all node values.",
+                     "Use level-order traversal to compute depth."
                  ],
     "references":  [
-                       "Data Structures Field Notes",
-                       "Checklist: Data Structures Review"
+                       "Introduction to Algorithms (Cormen et al.), Trees",
+                       "Algorithms (Sedgewick), Trees",
+                       "Data Structures and Algorithms in Java, Trees"
                    ],
     "category":  "data-structures",
     "tags":  [
@@ -15,15 +17,16 @@
                  "guide"
              ],
     "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
+                     "Binary tree with parent/child pointers",
+                     "Preorder, inorder, and postorder traversal order"
                  ],
-    "content":  "## Overview\nStep-by-step guide for Data Structures topic 2.\n\nUse this guide to move from concepts to practical implementation.",
+    "content":  "## Overview\nTrees model hierarchical data and enable efficient search and aggregation. This guide focuses on core vocabulary and traversal decisions.\n\n### Key terms\n- Root, parent, child, leaf\n- Height and depth\n- Balanced vs unbalanced\n\n### Traversal choices\n- Preorder for structure copying\n- Inorder for sorted order in BSTs\n- Postorder for cleanup and deletion\n- Level-order for breadth-first tasks",
     "title":  "Guide 2: Trees Essentials",
     "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Data Structures patterns.",
-                  "Validate with tests or examples."
+                  "Define the node structure and fields.",
+                  "Choose the traversal that matches the task.",
+                  "Handle empty trees and single-node trees.",
+                  "Implement recursively or iteratively with a stack/queue.",
+                  "Test with balanced and skewed examples."
               ]
 }

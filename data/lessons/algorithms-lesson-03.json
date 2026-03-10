@@ -1,38 +1,47 @@
-﻿{
-    "topic":  "Algorithms Topic 3",
+{
+    "topic":  "Searching: Linear and Binary Search",
     "id":  "algorithms-lesson-03",
     "practice":  [
-                     "Describe the main steps of Algorithms Topic 3.",
-                     "Solve a small exercise using Algorithms Topic 3.",
-                     "List two pitfalls and how to avoid them."
+                     "Implement linear search and analyze its complexity.",
+                     "Write iterative binary search and explain each boundary update.",
+                     "List three edge cases for binary search and how to handle them."
                  ],
     "quizzes":  [
                     "quiz-003"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 3\\nStep 3: Verify results",
-                            "language":  "plaintext"
+                            "code":  "function linearSearch(arr, target){\n    for(let i = 0; i < arr.length; i++){\n        if(arr[i] === target) return i\n    }\n    return -1\n}",
+                            "language":  "javascript"
+                        },
+                        {
+                            "code":  "function binarySearch(sorted, target){\n    let low = 0\n    let high = sorted.length - 1\n    while(low <= high){\n        const mid = Math.floor((low + high) / 2)\n        const value = sorted[mid]\n        if(value === target) return mid\n        if(value < target){\n            low = mid + 1\n        }\n        else{\n            high = mid - 1\n        }\n    }\n    return -1\n}",
+                            "language":  "javascript"
                         }
                     ],
     "module":  "Algorithms",
-    "title":  "Algorithms Lesson 3",
+    "title":  "Algorithms Lesson 3: Searching",
     "references":  [
-                       "Guide: Algorithms Topic 3 Essentials",
-                       "Cheat Sheet: Algorithms Basics"
+                       "Introduction to Algorithms (Cormen et al.), Binary Search",
+                       "Algorithms (Sedgewick), Searching",
+                       "Binary search correctness notes"
                    ],
-    "summary":  "Master Algorithms Topic 3 with focused objectives, examples, and practice tasks.",
+    "summary":  "Learn when to use linear search vs binary search and how to implement each safely.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 3\n\n## Overview\nMaster Algorithms Topic 3 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "content":  "# Algorithms Lesson 3: Searching\n\n## Overview\nSearching finds a target item in a collection. The best approach depends on ordering, access costs, and query frequency.\n\n## Linear search\n- Works on unsorted data\n- Worst-case time is O(n)\n- Simple and reliable for small collections\n\n## Binary search\n- Requires sorted data and random access\n- Time complexity is O(log n)\n- Must update bounds carefully to avoid infinite loops\n\n## Correctness checklist\n1. Set low = 0 and high = n - 1\n2. Compute mid with integer division\n3. If value < target, move low up; else move high down\n4. Stop when low > high\n\n## When to choose which\nUse linear search for one-off scans or unsorted input. Use binary search when the input is sorted or can be sorted once and searched many times.",
     "examples":  [
-                     "Worked example using Algorithms Topic 3.",
-                     "Edge case analysis for Algorithms Topic 3."
+                     "Search a log list of user IDs (unsorted) for a specific ID.",
+                     "Search a sorted list of product SKUs for a target.",
+                     "Explain why binary search fails on unsorted input."
                  ],
     "tags":  [
                  "algorithms",
                  "lesson"
              ],
     "objectives":  [
-                       "Explain key concepts in Algorithms Topic 3."
+                       "Differentiate between linear and binary search use cases.",
+                       "Implement binary search without off-by-one errors.",
+                       "Explain time complexity for both searches.",
+                       "Identify preconditions for binary search."
                    ]
 }

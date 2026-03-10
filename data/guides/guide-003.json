@@ -1,13 +1,15 @@
-﻿{
-    "summary":  "Step-by-step guide for Programming Fundamentals topic 3.",
+{
+    "summary":  "A practical guide to designing clear, testable functions.",
     "id":  "guide-003",
     "examples":  [
-                     "Example workflow for Programming Fundamentals.",
-                     "Checklist for common pitfalls."
+                     "Extract repeated logic into a reusable function.",
+                     "Write a pure function for input validation.",
+                     "Refactor a large function into smaller helpers."
                  ],
     "references":  [
-                       "Programming Fundamentals Field Notes",
-                       "Checklist: Programming Fundamentals Review"
+                       "Clean Code (Martin), Functions",
+                       "Structure and Interpretation of Computer Programs, Procedures",
+                       "Language reference for functions and scope"
                    ],
     "category":  "fundamentals",
     "tags":  [
@@ -15,15 +17,16 @@
                  "guide"
              ],
     "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
+                     "Input -> Function -> Output flow",
+                     "Call stack with nested function calls"
                  ],
-    "content":  "## Overview\nStep-by-step guide for Programming Fundamentals topic 3.\n\nUse this guide to move from concepts to practical implementation.",
+    "content":  "## Overview\nFunctions package logic into reusable units with clear inputs and outputs. This guide focuses on designing functions that are easy to read and test.\n\n### Design principles\n- One responsibility per function\n- Explicit inputs and return values\n- Minimize side effects\n\n### Testing mindset\n- Cover normal cases, edge cases, and invalid inputs\n- Prefer small functions that are easy to isolate",
     "title":  "Guide 3: Functions Essentials",
     "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Programming Fundamentals patterns.",
-                  "Validate with tests or examples."
+                  "Define inputs, outputs, and invariants.",
+                  "Pick a descriptive, verb-based name.",
+                  "Keep the function small and focused.",
+                  "Handle edge cases up front.",
+                  "Write a few focused tests."
               ]
 }

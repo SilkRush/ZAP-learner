@@ -1,162 +1,162 @@
-﻿{
+{
     "id":  "quiz-005",
     "tags":  [
                  "databases"
              ],
     "questions":  [
                       {
-                          "question":  "Question 1 on Databases fundamentals.",
+                          "question":  "What is the purpose of a primary key in a relational table?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "A primary key uniquely identifies each row.",
+                          "correct_answer":  "Uniquely identify each row",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Allow duplicate rows",
+                                          "Uniquely identify each row",
+                                          "Store large blobs",
+                                          "Encrypt the table"
                                       ]
                       },
                       {
-                          "question":  "Question 2 on Databases fundamentals.",
+                          "question":  "What is the main benefit of an index?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Indexes speed up lookups by avoiding full table scans for common queries.",
+                          "correct_answer":  "Faster lookups",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Faster lookups",
+                                          "Automatic backups",
+                                          "Lower storage cost",
+                                          "Guaranteed ordering"
                                       ]
                       },
                       {
-                          "question":  "Question 3 on Databases fundamentals.",
+                          "question":  "Which of the following is part of ACID?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "ACID stands for Atomicity, Consistency, Isolation, Durability.",
+                          "correct_answer":  "Isolation",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Sharding",
+                                          "Isolation",
+                                          "Caching",
+                                          "Replication"
                                       ]
                       },
                       {
-                          "question":  "Question 4 on Databases fundamentals.",
+                          "question":  "What does normalization primarily reduce?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Normalization reduces redundancy and update anomalies.",
+                          "correct_answer":  "Redundant data",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Query speed",
+                                          "Redundant data",
+                                          "Disk size",
+                                          "Index usage"
                                       ]
                       },
                       {
-                          "question":  "Question 5 on Databases fundamentals.",
+                          "question":  "Which SQL clause filters rows returned by a query?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "The WHERE clause filters rows based on a condition.",
+                          "correct_answer":  "WHERE",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "FROM",
+                                          "WHERE",
+                                          "SELECT",
+                                          "JOIN"
                                       ]
                       },
                       {
-                          "question":  "Question 6 on Databases fundamentals.",
+                          "question":  "What does a foreign key enforce?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Foreign keys enforce referential integrity between tables.",
+                          "correct_answer":  "Referential integrity",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Sorting",
+                                          "Referential integrity",
+                                          "Compression",
+                                          "Sharding"
                                       ]
                       },
                       {
-                          "question":  "Question 7 on Databases fundamentals.",
+                          "question":  "Why are transactions important?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Transactions group operations so they succeed or fail together reliably.",
+                          "correct_answer":  "To ensure reliable, all-or-nothing changes",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "To encrypt rows",
+                                          "To ensure reliable, all-or-nothing changes",
+                                          "To speed up network calls",
+                                          "To remove indexes"
                                       ]
                       },
                       {
-                          "question":  "Question 8 on Databases fundamentals.",
+                          "question":  "What is a full table scan?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "A full table scan checks every row to satisfy a query.",
+                          "correct_answer":  "Reading every row in the table",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Reading every row in the table",
+                                          "Reading only indexed rows",
+                                          "Updating all rows",
+                                          "Dropping a table"
                                       ]
                       },
                       {
-                          "question":  "Question 9 on Databases fundamentals.",
+                          "question":  "What is a common tradeoff of denormalization?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Denormalization improves read performance but increases redundancy and update complexity.",
+                          "correct_answer":  "More redundancy and harder updates",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "More redundancy and harder updates",
+                                          "Less storage usage",
+                                          "Slower reads",
+                                          "Fewer indexes"
                                       ]
                       },
                       {
-                          "question":  "Question 10 on Databases fundamentals.",
+                          "question":  "Why use a JOIN in SQL?",
                           "tags":  [
                                        "databases"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Databases to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "JOIN combines related rows from multiple tables.",
+                          "correct_answer":  "To combine rows from related tables",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "To sort rows",
+                                          "To delete rows",
+                                          "To combine rows from related tables",
+                                          "To create an index"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
     "module":  "Databases",
-    "summary":  "Check your understanding of Databases concepts.",
+    "summary":  "Check your understanding of relational concepts, indexing, and transactions.",
     "title":  "Databases Quiz 5"
 }

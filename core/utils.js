@@ -19,19 +19,20 @@ export function markdownToHTML(markdown){
     if(!markdown) return ""
     const lines = String(markdown).split(/\r?\n/)
     let html = ""
-    let inList = false
+    let listType = null
     let inCode = false
 
     const flushList = ()=>{
-        if(inList){
-            html += "</ul>"
-            inList = false
+        if(listType){
+            html += `</${listType}>`
+            listType = null
         }
     }
 
     for(const rawLine of lines){
         const line = rawLine.trimEnd()
-        if(line.startsWith("```")){
+        const trimmed = line.trimStart()
+        if(trimmed.startsWith("```")){
             if(inCode){
                 html += "</code></pre>"
                 inCode = false
@@ -49,37 +50,49 @@ export function markdownToHTML(markdown){
             continue
         }
 
-        if(!line){
+        if(!trimmed){
             flushList()
             continue
         }
 
-        if(line.startsWith("### ")){
+        if(trimmed.startsWith("### ")){
             flushList()
-            html += `<h3>${formatInline(line.slice(4))}</h3>`
+            html += `<h3>${formatInline(trimmed.slice(4))}</h3>`
             continue
         }
-        if(line.startsWith("## ")){
+        if(trimmed.startsWith("## ")){
             flushList()
-            html += `<h2>${formatInline(line.slice(3))}</h2>`
+            html += `<h2>${formatInline(trimmed.slice(3))}</h2>`
             continue
         }
-        if(line.startsWith("# ")){
+        if(trimmed.startsWith("# ")){
             flushList()
-            html += `<h1>${formatInline(line.slice(2))}</h1>`
+            html += `<h1>${formatInline(trimmed.slice(2))}</h1>`
             continue
         }
-        if(line.startsWith("- ")){
-            if(!inList){
-                html += "<ul>"
-                inList = true
+        const orderedMatch = trimmed.match(/^\d+[.)]\s+/)
+        if(orderedMatch){
+            if(listType !== "ol"){
+                flushList()
+                html += "<ol>"
+                listType = "ol"
             }
-            html += `<li>${formatInline(line.slice(2))}</li>`
+            html += `<li>${formatInline(trimmed.slice(orderedMatch[0].length))}</li>`
+            continue
+        }
+        const unorderedMatch = trimmed.match(/^[-*+]\s+/)
+        if(unorderedMatch){
+            if(listType !== "ul"){
+                flushList()
+                html += "<ul>"
+                listType = "ul"
+            }
+            html += `<li>${formatInline(trimmed.slice(unorderedMatch[0].length))}</li>`
             continue
         }
 
         flushList()
-        html += `<p>${formatInline(line)}</p>`
+        html += `<p>${formatInline(trimmed)}</p>`
     }
 
     flushList()

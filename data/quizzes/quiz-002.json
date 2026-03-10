@@ -1,162 +1,162 @@
-﻿{
+{
     "id":  "quiz-002",
     "tags":  [
                  "data-structures"
              ],
     "questions":  [
                       {
-                          "question":  "Question 1 on Data Structures fundamentals.",
+                          "question":  "Which data structure follows LIFO (last in, first out)?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Stacks add and remove elements from the same end.",
+                          "correct_answer":  "Stack",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Queue",
+                                          "Stack",
+                                          "Linked list",
+                                          "Tree"
                                       ]
                       },
                       {
-                          "question":  "Question 2 on Data Structures fundamentals.",
+                          "question":  "Which data structure follows FIFO (first in, first out)?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Queues remove elements in the order they were added.",
+                          "correct_answer":  "Queue",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Queue",
+                                          "Stack",
+                                          "Hash table",
+                                          "Heap"
                                       ]
                       },
                       {
-                          "question":  "Question 3 on Data Structures fundamentals.",
+                          "question":  "What is the time complexity to access the middle element of a linked list?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "Linked lists require traversal from the head to reach the middle.",
+                          "correct_answer":  "O(n)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 4 on Data Structures fundamentals.",
+                          "question":  "What is the average-case lookup time for a well-implemented hash table?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "With a good hash function and low load factor, lookup is constant on average.",
+                          "correct_answer":  "O(1)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 5 on Data Structures fundamentals.",
+                          "question":  "What is the typical time complexity for search in a balanced BST?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Balanced trees keep height near log n.",
+                          "correct_answer":  "O(log n)",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1)",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n^2)"
                                       ]
                       },
                       {
-                          "question":  "Question 6 on Data Structures fundamentals.",
+                          "question":  "Which data structure is most appropriate for BFS traversal?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "BFS explores neighbors in layers using a queue.",
+                          "correct_answer":  "Queue",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Stack",
+                                          "Queue",
+                                          "Heap",
+                                          "Set"
                                       ]
                       },
                       {
-                          "question":  "Question 7 on Data Structures fundamentals.",
+                          "question":  "In a binary tree, each node has at most how many children?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option C",
+                          "explanation":  "By definition, a binary tree node has at most two children.",
+                          "correct_answer":  "Two",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "One",
+                                          "Two",
+                                          "Three",
+                                          "Four"
                                       ]
                       },
                       {
-                          "question":  "Question 8 on Data Structures fundamentals.",
+                          "question":  "What is the amortized time complexity of appending to a dynamic array?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option D",
+                          "explanation":  "Resizing is occasional, so appends are O(1) amortized.",
+                          "correct_answer":  "O(1) amortized",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "O(1) amortized",
+                                          "O(log n)",
+                                          "O(n)",
+                                          "O(n log n)"
                                       ]
                       },
                       {
-                          "question":  "Question 9 on Data Structures fundamentals.",
+                          "question":  "Which data structure is commonly used to check balanced parentheses?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option A",
+                          "explanation":  "Stacks track the most recent opening bracket.",
+                          "correct_answer":  "Stack",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Queue",
+                                          "Stack",
+                                          "Array",
+                                          "Priority queue"
                                       ]
                       },
                       {
-                          "question":  "Question 10 on Data Structures fundamentals.",
+                          "question":  "Which traversal yields sorted order for a binary search tree?",
                           "tags":  [
                                        "data-structures"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
-                          "correct_answer":  "Option B",
+                          "explanation":  "Inorder traversal of a BST visits nodes in ascending key order.",
+                          "correct_answer":  "Inorder traversal",
                           "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
+                                          "Preorder traversal",
+                                          "Inorder traversal",
+                                          "Postorder traversal",
+                                          "Level-order traversal"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
     "module":  "Data Structures",
-    "summary":  "Check your understanding of Data Structures concepts.",
+    "summary":  "Check your understanding of core data structures and their performance.",
     "title":  "Data Structures Quiz 2"
 }

@@ -1,6 +1,8 @@
 /**
  * Hash-based router with support for named parameters.
  */
+import { enhanceCodeBlocks } from "./codeBlocks.js"
+
 export const Router = {
 routes: [],
 notFoundHandler: null,
@@ -54,10 +56,13 @@ resolve(){
             try{
                 const result = route.handler({ params, query, path })
                 if(result && typeof result.then === "function"){
-                    result.catch(err=>{
+                    result.then(()=>enhanceCodeBlocks()).catch(err=>{
                         console.error("Route Error:", err)
                         renderError("Something went wrong while loading.")
                     })
+                }
+                else{
+                    enhanceCodeBlocks()
                 }
             }
             catch(err){

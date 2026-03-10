@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Algorithms topic 1.",
+{
+    "summary":  "Implement linear and binary search with thorough edge-case tests.",
     "id":  "lab-001",
     "category":  "algorithms",
     "tags":  [
                  "algorithms",
                  "lab"
              ],
-    "starter":  "/* Starter template for Algorithms lab */",
+    "starter":  "function linearSearch(arr, target){\n    // TODO: return the index of target or -1\n}\n\nfunction binarySearch(sorted, target){\n    // TODO: assume sorted array, return index or -1\n}\n\n// TODO: add tests for empty input, duplicates, and missing targets",
     "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
+                       "Implement linear search with correct return values.",
+                       "Implement iterative binary search with safe bounds.",
+                       "Write tests for edge cases and duplicates."
                    ],
     "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
+                            "Use a single loop for linear search and return early on match.",
+                            "Implement binary search with low/high bounds and mid updates.",
+                            "Add tests for empty arrays, single element arrays, and missing values.",
+                            "Confirm binary search behavior for duplicate values (first or any)."
                         ],
     "difficulty":  "beginner",
     "title":  "Lab 1: Searching",
     "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
+                  "Implement linearSearch and confirm it returns the first match.",
+                  "Implement binarySearch for sorted input using a while loop.",
+                  "Test with empty arrays, single items, and targets not found.",
+                  "Add a test set with duplicates and document your behavior."
               ],
-    "overview":  "## Goal\nHands-on lab for Algorithms topic 1.\n\nComplete the steps to build a working solution."
+    "overview":  "## Goal\nBuild reliable search utilities and validate them with clear tests.\n\n### Requirements\n- linearSearch works on unsorted arrays\n- binarySearch assumes sorted input\n- Both return -1 when the target is missing\n\n### Deliverables\n- Implementations and a small test suite with edge cases"
 }

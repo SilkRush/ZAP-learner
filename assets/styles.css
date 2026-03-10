@@ -374,8 +374,57 @@ button{
     color: var(--muted);
 }
 
+.markdown ul,
+.markdown ol,
+.content-block ul,
+.content-block ol{
+    margin: 12px 0 0;
+    padding-left: 24px;
+}
+
+.markdown li,
+.content-block li{
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+pre,
+code{
+    font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", ui-monospace, monospace;
+}
+
+.markdown code,
+.content-block code{
+    background: #f0e9de;
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-size: 0.9em;
+}
+
+pre code{
+    background: none;
+    padding: 0;
+    font-size: 1em;
+}
+
 .code-sample{
     margin-bottom: 16px;
+}
+
+.code-block{
+    margin-bottom: 16px;
+}
+
+.code-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.code-header .code-label{
+    margin: 0;
 }
 
 .code-label{
@@ -384,12 +433,23 @@ button{
     margin-bottom: 6px;
 }
 
+.code-copy{
+    font-size: 0.8rem;
+}
+
+.code-copy.is-copied{
+    background: var(--accent-light);
+    border-color: var(--accent);
+    color: var(--accent-dark);
+}
+
 pre{
     background: #1f1a17;
     color: #f5f2ea;
     padding: 16px;
     border-radius: 12px;
     overflow-x: auto;
+    margin: 0;
 }
 
 .quiz-card{
