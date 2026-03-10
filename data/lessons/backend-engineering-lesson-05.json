@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Backend Engineering Topic 5",
+    "id":  "backend-engineering-lesson-05",
+    "practice":  [
+                     "Describe the main steps of Backend Engineering Topic 5.",
+                     "Solve a small exercise using Backend Engineering Topic 5.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-115"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Backend Engineering Topic 5\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Backend Engineering",
+    "title":  "Backend Engineering Lesson 5",
+    "references":  [
+                       "Guide: Backend Engineering Topic 5 Essentials",
+                       "Cheat Sheet: Backend Engineering Basics"
+                   ],
+    "summary":  "Master Backend Engineering Topic 5 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Backend Engineering Lesson 5\n\n## Overview\nMaster Backend Engineering Topic 5 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Backend Engineering Topic 5.",
+                     "Edge case analysis for Backend Engineering Topic 5."
+                 ],
+    "tags":  [
+                 "backend",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Backend Engineering Topic 5."
+                   ]
+}

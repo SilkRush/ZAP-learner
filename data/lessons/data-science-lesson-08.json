@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Data Science Topic 8",
+    "id":  "data-science-lesson-08",
+    "practice":  [
+                     "Describe the main steps of Data Science Topic 8.",
+                     "Solve a small exercise using Data Science Topic 8.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-198"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Data Science Topic 8\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Data Science",
+    "title":  "Data Science Lesson 8",
+    "references":  [
+                       "Guide: Data Science Topic 8 Essentials",
+                       "Cheat Sheet: Data Science Basics"
+                   ],
+    "summary":  "Master Data Science Topic 8 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Data Science Lesson 8\n\n## Overview\nMaster Data Science Topic 8 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Data Science Topic 8.",
+                     "Edge case analysis for Data Science Topic 8."
+                 ],
+    "tags":  [
+                 "data-science",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Data Science Topic 8."
+                   ]
+}

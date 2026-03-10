@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-164",
+    "tags":  [
+                 "web"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Web Development fundamentals.",
+                          "tags":  [
+                                       "web"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Web Development to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "beginner",
+    "module":  "Web Development",
+    "summary":  "Check your understanding of Web Development concepts.",
+    "title":  "Web Development Quiz 164"
+}

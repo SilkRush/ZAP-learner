@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Algorithms Topic 12",
+    "id":  "algorithms-lesson-12",
+    "practice":  [
+                     "Describe the main steps of Algorithms Topic 12.",
+                     "Solve a small exercise using Algorithms Topic 12.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-012"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 12\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Algorithms",
+    "title":  "Algorithms Lesson 12",
+    "references":  [
+                       "Guide: Algorithms Topic 12 Essentials",
+                       "Cheat Sheet: Algorithms Basics"
+                   ],
+    "summary":  "Master Algorithms Topic 12 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Algorithms Lesson 12\n\n## Overview\nMaster Algorithms Topic 12 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Algorithms Topic 12.",
+                     "Edge case analysis for Algorithms Topic 12."
+                 ],
+    "tags":  [
+                 "algorithms",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Algorithms Topic 12."
+                   ]
+}

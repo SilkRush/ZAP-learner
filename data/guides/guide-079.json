@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Algorithms topic 79.",
+    "id":  "guide-079",
+    "examples":  [
+                     "Example workflow for Algorithms.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Algorithms Field Notes",
+                       "Checklist: Algorithms Review"
+                   ],
+    "category":  "algorithms",
+    "tags":  [
+                 "algorithms",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Algorithms topic 79.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 79: Graphs Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Algorithms patterns.",
+                  "Validate with tests or examples."
+              ]
+}

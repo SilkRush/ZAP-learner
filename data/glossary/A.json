@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-001",
+        "related_terms":  [
+                              "term-320",
+                              "term-002"
+                          ],
+        "definition":  "Definition for Algorithm Concept 1 within the Algorithms domain.",
+        "term":  "Algorithm Concept 1",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 1.",
+                         "Common scenario for Algorithm Concept 1."
+                     ]
+    },
+    {
+        "id":  "term-027",
+        "related_terms":  [
+                              "term-026",
+                              "term-028"
+                          ],
+        "definition":  "Definition for Algorithm Concept 27 within the Algorithms domain.",
+        "term":  "Algorithm Concept 27",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 27.",
+                         "Common scenario for Algorithm Concept 27."
+                     ]
+    },
+    {
+        "id":  "term-053",
+        "related_terms":  [
+                              "term-052",
+                              "term-054"
+                          ],
+        "definition":  "Definition for Algorithm Concept 53 within the Algorithms domain.",
+        "term":  "Algorithm Concept 53",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 53.",
+                         "Common scenario for Algorithm Concept 53."
+                     ]
+    },
+    {
+        "id":  "term-079",
+        "related_terms":  [
+                              "term-078",
+                              "term-080"
+                          ],
+        "definition":  "Definition for Algorithm Concept 79 within the Algorithms domain.",
+        "term":  "Algorithm Concept 79",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 79.",
+                         "Common scenario for Algorithm Concept 79."
+                     ]
+    },
+    {
+        "id":  "term-105",
+        "related_terms":  [
+                              "term-104",
+                              "term-106"
+                          ],
+        "definition":  "Definition for Algorithm Concept 105 within the Algorithms domain.",
+        "term":  "Algorithm Concept 105",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 105.",
+                         "Common scenario for Algorithm Concept 105."
+                     ]
+    },
+    {
+        "id":  "term-131",
+        "related_terms":  [
+                              "term-130",
+                              "term-132"
+                          ],
+        "definition":  "Definition for Algorithm Concept 131 within the Algorithms domain.",
+        "term":  "Algorithm Concept 131",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 131.",
+                         "Common scenario for Algorithm Concept 131."
+                     ]
+    },
+    {
+        "id":  "term-157",
+        "related_terms":  [
+                              "term-156",
+                              "term-158"
+                          ],
+        "definition":  "Definition for Algorithm Concept 157 within the Algorithms domain.",
+        "term":  "Algorithm Concept 157",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 157.",
+                         "Common scenario for Algorithm Concept 157."
+                     ]
+    },
+    {
+        "id":  "term-183",
+        "related_terms":  [
+                              "term-182",
+                              "term-184"
+                          ],
+        "definition":  "Definition for Algorithm Concept 183 within the Algorithms domain.",
+        "term":  "Algorithm Concept 183",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 183.",
+                         "Common scenario for Algorithm Concept 183."
+                     ]
+    },
+    {
+        "id":  "term-209",
+        "related_terms":  [
+                              "term-208",
+                              "term-210"
+                          ],
+        "definition":  "Definition for Algorithm Concept 209 within the Algorithms domain.",
+        "term":  "Algorithm Concept 209",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 209.",
+                         "Common scenario for Algorithm Concept 209."
+                     ]
+    },
+    {
+        "id":  "term-235",
+        "related_terms":  [
+                              "term-234",
+                              "term-236"
+                          ],
+        "definition":  "Definition for Algorithm Concept 235 within the Algorithms domain.",
+        "term":  "Algorithm Concept 235",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 235.",
+                         "Common scenario for Algorithm Concept 235."
+                     ]
+    },
+    {
+        "id":  "term-261",
+        "related_terms":  [
+                              "term-260",
+                              "term-262"
+                          ],
+        "definition":  "Definition for Algorithm Concept 261 within the Algorithms domain.",
+        "term":  "Algorithm Concept 261",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 261.",
+                         "Common scenario for Algorithm Concept 261."
+                     ]
+    },
+    {
+        "id":  "term-287",
+        "related_terms":  [
+                              "term-286",
+                              "term-288"
+                          ],
+        "definition":  "Definition for Algorithm Concept 287 within the Algorithms domain.",
+        "term":  "Algorithm Concept 287",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 287.",
+                         "Common scenario for Algorithm Concept 287."
+                     ]
+    },
+    {
+        "id":  "term-313",
+        "related_terms":  [
+                              "term-312",
+                              "term-314"
+                          ],
+        "definition":  "Definition for Algorithm Concept 313 within the Algorithms domain.",
+        "term":  "Algorithm Concept 313",
+        "category":  "algorithms",
+        "examples":  [
+                         "Example use of Algorithm Concept 313.",
+                         "Common scenario for Algorithm Concept 313."
+                     ]
+    }
+]

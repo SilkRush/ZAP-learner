@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Databases Topic 30",
+    "id":  "databases-lesson-30",
+    "practice":  [
+                     "Describe the main steps of Databases Topic 30.",
+                     "Solve a small exercise using Databases Topic 30.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-190"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Databases Topic 30\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Databases",
+    "title":  "Databases Lesson 30",
+    "references":  [
+                       "Guide: Databases Topic 30 Essentials",
+                       "Cheat Sheet: Databases Basics"
+                   ],
+    "summary":  "Master Databases Topic 30 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "advanced",
+    "content":  "# Databases Lesson 30\n\n## Overview\nMaster Databases Topic 30 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Databases Topic 30.",
+                     "Edge case analysis for Databases Topic 30."
+                 ],
+    "tags":  [
+                 "databases",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Databases Topic 30."
+                   ]
+}

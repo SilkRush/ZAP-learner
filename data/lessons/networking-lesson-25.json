@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Networking Topic 25",
+    "id":  "networking-lesson-25",
+    "practice":  [
+                     "Describe the main steps of Networking Topic 25.",
+                     "Solve a small exercise using Networking Topic 25.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-015"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Networking Topic 25\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Networking",
+    "title":  "Networking Lesson 25",
+    "references":  [
+                       "Guide: Networking Topic 25 Essentials",
+                       "Cheat Sheet: Networking Basics"
+                   ],
+    "summary":  "Master Networking Topic 25 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Networking Lesson 25\n\n## Overview\nMaster Networking Topic 25 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Networking Topic 25.",
+                     "Edge case analysis for Networking Topic 25."
+                 ],
+    "tags":  [
+                 "networking",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Networking Topic 25."
+                   ]
+}

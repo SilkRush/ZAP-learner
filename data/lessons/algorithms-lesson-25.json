@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Algorithms Topic 25",
+    "id":  "algorithms-lesson-25",
+    "practice":  [
+                     "Describe the main steps of Algorithms Topic 25.",
+                     "Solve a small exercise using Algorithms Topic 25.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-025"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 25\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Algorithms",
+    "title":  "Algorithms Lesson 25",
+    "references":  [
+                       "Guide: Algorithms Topic 25 Essentials",
+                       "Cheat Sheet: Algorithms Basics"
+                   ],
+    "summary":  "Master Algorithms Topic 25 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Algorithms Lesson 25\n\n## Overview\nMaster Algorithms Topic 25 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Algorithms Topic 25.",
+                     "Edge case analysis for Algorithms Topic 25."
+                 ],
+    "tags":  [
+                 "algorithms",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Algorithms Topic 25."
+                   ]
+}

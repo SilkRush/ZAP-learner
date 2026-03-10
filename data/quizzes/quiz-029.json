@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-029",
+    "tags":  [
+                 "fundamentals"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Programming Fundamentals fundamentals.",
+                          "tags":  [
+                                       "fundamentals"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Programming Fundamentals to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "advanced",
+    "module":  "Programming Fundamentals",
+    "summary":  "Check your understanding of Programming Fundamentals concepts.",
+    "title":  "Programming Fundamentals Quiz 29"
+}

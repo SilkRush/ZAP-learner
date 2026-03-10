@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Algorithms Topic 23",
+    "id":  "algorithms-lesson-23",
+    "practice":  [
+                     "Describe the main steps of Algorithms Topic 23.",
+                     "Solve a small exercise using Algorithms Topic 23.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-023"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Algorithms Topic 23\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Algorithms",
+    "title":  "Algorithms Lesson 23",
+    "references":  [
+                       "Guide: Algorithms Topic 23 Essentials",
+                       "Cheat Sheet: Algorithms Basics"
+                   ],
+    "summary":  "Master Algorithms Topic 23 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Algorithms Lesson 23\n\n## Overview\nMaster Algorithms Topic 23 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Algorithms Topic 23.",
+                     "Edge case analysis for Algorithms Topic 23."
+                 ],
+    "tags":  [
+                 "algorithms",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Algorithms Topic 23."
+                   ]
+}

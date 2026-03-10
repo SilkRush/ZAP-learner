@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Frontend Engineering topic 218.",
+    "id":  "guide-218",
+    "examples":  [
+                     "Example workflow for Frontend Engineering.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Frontend Engineering Field Notes",
+                       "Checklist: Frontend Engineering Review"
+                   ],
+    "category":  "frontend",
+    "tags":  [
+                 "frontend",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Frontend Engineering topic 218.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 218: Performance Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Frontend Engineering patterns.",
+                  "Validate with tests or examples."
+              ]
+}

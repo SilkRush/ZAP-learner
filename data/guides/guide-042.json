@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Programming Fundamentals topic 42.",
+    "id":  "guide-042",
+    "examples":  [
+                     "Example workflow for Programming Fundamentals.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Programming Fundamentals Field Notes",
+                       "Checklist: Programming Fundamentals Review"
+                   ],
+    "category":  "fundamentals",
+    "tags":  [
+                 "fundamentals",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Programming Fundamentals topic 42.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 42: Control Flow Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Programming Fundamentals patterns.",
+                  "Validate with tests or examples."
+              ]
+}

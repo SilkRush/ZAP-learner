@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-002",
+        "related_terms":  [
+                              "term-001",
+                              "term-003"
+                          ],
+        "definition":  "Definition for Buffer Concept 2 within the Data Structures domain.",
+        "term":  "Buffer Concept 2",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 2.",
+                         "Common scenario for Buffer Concept 2."
+                     ]
+    },
+    {
+        "id":  "term-028",
+        "related_terms":  [
+                              "term-027",
+                              "term-029"
+                          ],
+        "definition":  "Definition for Buffer Concept 28 within the Data Structures domain.",
+        "term":  "Buffer Concept 28",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 28.",
+                         "Common scenario for Buffer Concept 28."
+                     ]
+    },
+    {
+        "id":  "term-054",
+        "related_terms":  [
+                              "term-053",
+                              "term-055"
+                          ],
+        "definition":  "Definition for Buffer Concept 54 within the Data Structures domain.",
+        "term":  "Buffer Concept 54",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 54.",
+                         "Common scenario for Buffer Concept 54."
+                     ]
+    },
+    {
+        "id":  "term-080",
+        "related_terms":  [
+                              "term-079",
+                              "term-081"
+                          ],
+        "definition":  "Definition for Buffer Concept 80 within the Data Structures domain.",
+        "term":  "Buffer Concept 80",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 80.",
+                         "Common scenario for Buffer Concept 80."
+                     ]
+    },
+    {
+        "id":  "term-106",
+        "related_terms":  [
+                              "term-105",
+                              "term-107"
+                          ],
+        "definition":  "Definition for Buffer Concept 106 within the Data Structures domain.",
+        "term":  "Buffer Concept 106",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 106.",
+                         "Common scenario for Buffer Concept 106."
+                     ]
+    },
+    {
+        "id":  "term-132",
+        "related_terms":  [
+                              "term-131",
+                              "term-133"
+                          ],
+        "definition":  "Definition for Buffer Concept 132 within the Data Structures domain.",
+        "term":  "Buffer Concept 132",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 132.",
+                         "Common scenario for Buffer Concept 132."
+                     ]
+    },
+    {
+        "id":  "term-158",
+        "related_terms":  [
+                              "term-157",
+                              "term-159"
+                          ],
+        "definition":  "Definition for Buffer Concept 158 within the Data Structures domain.",
+        "term":  "Buffer Concept 158",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 158.",
+                         "Common scenario for Buffer Concept 158."
+                     ]
+    },
+    {
+        "id":  "term-184",
+        "related_terms":  [
+                              "term-183",
+                              "term-185"
+                          ],
+        "definition":  "Definition for Buffer Concept 184 within the Data Structures domain.",
+        "term":  "Buffer Concept 184",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 184.",
+                         "Common scenario for Buffer Concept 184."
+                     ]
+    },
+    {
+        "id":  "term-210",
+        "related_terms":  [
+                              "term-209",
+                              "term-211"
+                          ],
+        "definition":  "Definition for Buffer Concept 210 within the Data Structures domain.",
+        "term":  "Buffer Concept 210",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 210.",
+                         "Common scenario for Buffer Concept 210."
+                     ]
+    },
+    {
+        "id":  "term-236",
+        "related_terms":  [
+                              "term-235",
+                              "term-237"
+                          ],
+        "definition":  "Definition for Buffer Concept 236 within the Data Structures domain.",
+        "term":  "Buffer Concept 236",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 236.",
+                         "Common scenario for Buffer Concept 236."
+                     ]
+    },
+    {
+        "id":  "term-262",
+        "related_terms":  [
+                              "term-261",
+                              "term-263"
+                          ],
+        "definition":  "Definition for Buffer Concept 262 within the Data Structures domain.",
+        "term":  "Buffer Concept 262",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 262.",
+                         "Common scenario for Buffer Concept 262."
+                     ]
+    },
+    {
+        "id":  "term-288",
+        "related_terms":  [
+                              "term-287",
+                              "term-289"
+                          ],
+        "definition":  "Definition for Buffer Concept 288 within the Data Structures domain.",
+        "term":  "Buffer Concept 288",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 288.",
+                         "Common scenario for Buffer Concept 288."
+                     ]
+    },
+    {
+        "id":  "term-314",
+        "related_terms":  [
+                              "term-313",
+                              "term-315"
+                          ],
+        "definition":  "Definition for Buffer Concept 314 within the Data Structures domain.",
+        "term":  "Buffer Concept 314",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Buffer Concept 314.",
+                         "Common scenario for Buffer Concept 314."
+                     ]
+    }
+]

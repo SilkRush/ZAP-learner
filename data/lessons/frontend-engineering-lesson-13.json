@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Frontend Engineering Topic 13",
+    "id":  "frontend-engineering-lesson-13",
+    "practice":  [
+                     "Describe the main steps of Frontend Engineering Topic 13.",
+                     "Solve a small exercise using Frontend Engineering Topic 13.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-163"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Frontend Engineering Topic 13\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Frontend Engineering",
+    "title":  "Frontend Engineering Lesson 13",
+    "references":  [
+                       "Guide: Frontend Engineering Topic 13 Essentials",
+                       "Cheat Sheet: Frontend Engineering Basics"
+                   ],
+    "summary":  "Master Frontend Engineering Topic 13 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Frontend Engineering Lesson 13\n\n## Overview\nMaster Frontend Engineering Topic 13 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Frontend Engineering Topic 13.",
+                     "Edge case analysis for Frontend Engineering Topic 13."
+                 ],
+    "tags":  [
+                 "frontend",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Frontend Engineering Topic 13."
+                   ]
+}

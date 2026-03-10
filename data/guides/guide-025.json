@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Machine Learning topic 25.",
+    "id":  "guide-025",
+    "examples":  [
+                     "Example workflow for Machine Learning.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Machine Learning Field Notes",
+                       "Checklist: Machine Learning Review"
+                   ],
+    "category":  "machine-learning",
+    "tags":  [
+                 "machine-learning",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Machine Learning topic 25.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 25: Ethics Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Machine Learning patterns.",
+                  "Validate with tests or examples."
+              ]
+}

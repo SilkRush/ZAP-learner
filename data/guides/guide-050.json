@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Data Science topic 50.",
+    "id":  "guide-050",
+    "examples":  [
+                     "Example workflow for Data Science.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Data Science Field Notes",
+                       "Checklist: Data Science Review"
+                   ],
+    "category":  "data-science",
+    "tags":  [
+                 "data-science",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Data Science topic 50.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 50: Feature Engineering Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Data Science patterns.",
+                  "Validate with tests or examples."
+              ]
+}

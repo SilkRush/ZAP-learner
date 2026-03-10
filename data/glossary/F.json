@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-006",
+        "related_terms":  [
+                              "term-005",
+                              "term-007"
+                          ],
+        "definition":  "Definition for Function Concept 6 within the Networking domain.",
+        "term":  "Function Concept 6",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 6.",
+                         "Common scenario for Function Concept 6."
+                     ]
+    },
+    {
+        "id":  "term-032",
+        "related_terms":  [
+                              "term-031",
+                              "term-033"
+                          ],
+        "definition":  "Definition for Function Concept 32 within the Networking domain.",
+        "term":  "Function Concept 32",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 32.",
+                         "Common scenario for Function Concept 32."
+                     ]
+    },
+    {
+        "id":  "term-058",
+        "related_terms":  [
+                              "term-057",
+                              "term-059"
+                          ],
+        "definition":  "Definition for Function Concept 58 within the Networking domain.",
+        "term":  "Function Concept 58",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 58.",
+                         "Common scenario for Function Concept 58."
+                     ]
+    },
+    {
+        "id":  "term-084",
+        "related_terms":  [
+                              "term-083",
+                              "term-085"
+                          ],
+        "definition":  "Definition for Function Concept 84 within the Networking domain.",
+        "term":  "Function Concept 84",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 84.",
+                         "Common scenario for Function Concept 84."
+                     ]
+    },
+    {
+        "id":  "term-110",
+        "related_terms":  [
+                              "term-109",
+                              "term-111"
+                          ],
+        "definition":  "Definition for Function Concept 110 within the Networking domain.",
+        "term":  "Function Concept 110",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 110.",
+                         "Common scenario for Function Concept 110."
+                     ]
+    },
+    {
+        "id":  "term-136",
+        "related_terms":  [
+                              "term-135",
+                              "term-137"
+                          ],
+        "definition":  "Definition for Function Concept 136 within the Networking domain.",
+        "term":  "Function Concept 136",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 136.",
+                         "Common scenario for Function Concept 136."
+                     ]
+    },
+    {
+        "id":  "term-162",
+        "related_terms":  [
+                              "term-161",
+                              "term-163"
+                          ],
+        "definition":  "Definition for Function Concept 162 within the Networking domain.",
+        "term":  "Function Concept 162",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 162.",
+                         "Common scenario for Function Concept 162."
+                     ]
+    },
+    {
+        "id":  "term-188",
+        "related_terms":  [
+                              "term-187",
+                              "term-189"
+                          ],
+        "definition":  "Definition for Function Concept 188 within the Networking domain.",
+        "term":  "Function Concept 188",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 188.",
+                         "Common scenario for Function Concept 188."
+                     ]
+    },
+    {
+        "id":  "term-214",
+        "related_terms":  [
+                              "term-213",
+                              "term-215"
+                          ],
+        "definition":  "Definition for Function Concept 214 within the Networking domain.",
+        "term":  "Function Concept 214",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 214.",
+                         "Common scenario for Function Concept 214."
+                     ]
+    },
+    {
+        "id":  "term-240",
+        "related_terms":  [
+                              "term-239",
+                              "term-241"
+                          ],
+        "definition":  "Definition for Function Concept 240 within the Networking domain.",
+        "term":  "Function Concept 240",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 240.",
+                         "Common scenario for Function Concept 240."
+                     ]
+    },
+    {
+        "id":  "term-266",
+        "related_terms":  [
+                              "term-265",
+                              "term-267"
+                          ],
+        "definition":  "Definition for Function Concept 266 within the Networking domain.",
+        "term":  "Function Concept 266",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 266.",
+                         "Common scenario for Function Concept 266."
+                     ]
+    },
+    {
+        "id":  "term-292",
+        "related_terms":  [
+                              "term-291",
+                              "term-293"
+                          ],
+        "definition":  "Definition for Function Concept 292 within the Networking domain.",
+        "term":  "Function Concept 292",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 292.",
+                         "Common scenario for Function Concept 292."
+                     ]
+    },
+    {
+        "id":  "term-318",
+        "related_terms":  [
+                              "term-317",
+                              "term-319"
+                          ],
+        "definition":  "Definition for Function Concept 318 within the Networking domain.",
+        "term":  "Function Concept 318",
+        "category":  "networking",
+        "examples":  [
+                         "Example use of Function Concept 318.",
+                         "Common scenario for Function Concept 318."
+                     ]
+    }
+]

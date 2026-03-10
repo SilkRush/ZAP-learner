@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Data Structures topic 171.",
+    "id":  "guide-171",
+    "examples":  [
+                     "Example workflow for Data Structures.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Data Structures Field Notes",
+                       "Checklist: Data Structures Review"
+                   ],
+    "category":  "data-structures",
+    "tags":  [
+                 "data-structures",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Data Structures topic 171.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 171: Arrays Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Data Structures patterns.",
+                  "Validate with tests or examples."
+              ]
+}

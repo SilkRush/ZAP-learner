@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Backend Engineering Topic 14",
+    "id":  "backend-engineering-lesson-14",
+    "practice":  [
+                     "Describe the main steps of Backend Engineering Topic 14.",
+                     "Solve a small exercise using Backend Engineering Topic 14.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-124"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Backend Engineering Topic 14\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Backend Engineering",
+    "title":  "Backend Engineering Lesson 14",
+    "references":  [
+                       "Guide: Backend Engineering Topic 14 Essentials",
+                       "Cheat Sheet: Backend Engineering Basics"
+                   ],
+    "summary":  "Master Backend Engineering Topic 14 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Backend Engineering Lesson 14\n\n## Overview\nMaster Backend Engineering Topic 14 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Backend Engineering Topic 14.",
+                     "Edge case analysis for Backend Engineering Topic 14."
+                 ],
+    "tags":  [
+                 "backend",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Backend Engineering Topic 14."
+                   ]
+}

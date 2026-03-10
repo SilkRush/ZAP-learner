@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Backend Engineering topic 139.",
+    "id":  "guide-139",
+    "examples":  [
+                     "Example workflow for Backend Engineering.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Backend Engineering Field Notes",
+                       "Checklist: Backend Engineering Review"
+                   ],
+    "category":  "backend",
+    "tags":  [
+                 "backend",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Backend Engineering topic 139.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 139: Queues Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Backend Engineering patterns.",
+                  "Validate with tests or examples."
+              ]
+}

@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  "term-013",
+        "related_terms":  [
+                              "term-012",
+                              "term-014"
+                          ],
+        "definition":  "Definition for Module Concept 13 within the Security domain.",
+        "term":  "Module Concept 13",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 13.",
+                         "Common scenario for Module Concept 13."
+                     ]
+    },
+    {
+        "id":  "term-039",
+        "related_terms":  [
+                              "term-038",
+                              "term-040"
+                          ],
+        "definition":  "Definition for Module Concept 39 within the Security domain.",
+        "term":  "Module Concept 39",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 39.",
+                         "Common scenario for Module Concept 39."
+                     ]
+    },
+    {
+        "id":  "term-065",
+        "related_terms":  [
+                              "term-064",
+                              "term-066"
+                          ],
+        "definition":  "Definition for Module Concept 65 within the Security domain.",
+        "term":  "Module Concept 65",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 65.",
+                         "Common scenario for Module Concept 65."
+                     ]
+    },
+    {
+        "id":  "term-091",
+        "related_terms":  [
+                              "term-090",
+                              "term-092"
+                          ],
+        "definition":  "Definition for Module Concept 91 within the Security domain.",
+        "term":  "Module Concept 91",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 91.",
+                         "Common scenario for Module Concept 91."
+                     ]
+    },
+    {
+        "id":  "term-117",
+        "related_terms":  [
+                              "term-116",
+                              "term-118"
+                          ],
+        "definition":  "Definition for Module Concept 117 within the Security domain.",
+        "term":  "Module Concept 117",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 117.",
+                         "Common scenario for Module Concept 117."
+                     ]
+    },
+    {
+        "id":  "term-143",
+        "related_terms":  [
+                              "term-142",
+                              "term-144"
+                          ],
+        "definition":  "Definition for Module Concept 143 within the Security domain.",
+        "term":  "Module Concept 143",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 143.",
+                         "Common scenario for Module Concept 143."
+                     ]
+    },
+    {
+        "id":  "term-169",
+        "related_terms":  [
+                              "term-168",
+                              "term-170"
+                          ],
+        "definition":  "Definition for Module Concept 169 within the Security domain.",
+        "term":  "Module Concept 169",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 169.",
+                         "Common scenario for Module Concept 169."
+                     ]
+    },
+    {
+        "id":  "term-195",
+        "related_terms":  [
+                              "term-194",
+                              "term-196"
+                          ],
+        "definition":  "Definition for Module Concept 195 within the Security domain.",
+        "term":  "Module Concept 195",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 195.",
+                         "Common scenario for Module Concept 195."
+                     ]
+    },
+    {
+        "id":  "term-221",
+        "related_terms":  [
+                              "term-220",
+                              "term-222"
+                          ],
+        "definition":  "Definition for Module Concept 221 within the Security domain.",
+        "term":  "Module Concept 221",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 221.",
+                         "Common scenario for Module Concept 221."
+                     ]
+    },
+    {
+        "id":  "term-247",
+        "related_terms":  [
+                              "term-246",
+                              "term-248"
+                          ],
+        "definition":  "Definition for Module Concept 247 within the Security domain.",
+        "term":  "Module Concept 247",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 247.",
+                         "Common scenario for Module Concept 247."
+                     ]
+    },
+    {
+        "id":  "term-273",
+        "related_terms":  [
+                              "term-272",
+                              "term-274"
+                          ],
+        "definition":  "Definition for Module Concept 273 within the Security domain.",
+        "term":  "Module Concept 273",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 273.",
+                         "Common scenario for Module Concept 273."
+                     ]
+    },
+    {
+        "id":  "term-299",
+        "related_terms":  [
+                              "term-298",
+                              "term-300"
+                          ],
+        "definition":  "Definition for Module Concept 299 within the Security domain.",
+        "term":  "Module Concept 299",
+        "category":  "security",
+        "examples":  [
+                         "Example use of Module Concept 299.",
+                         "Common scenario for Module Concept 299."
+                     ]
+    }
+]

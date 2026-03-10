@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Security topic 182.",
+    "id":  "guide-182",
+    "examples":  [
+                     "Example workflow for Security.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Security Field Notes",
+                       "Checklist: Security Review"
+                   ],
+    "category":  "security",
+    "tags":  [
+                 "security",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Security topic 182.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 182: Auth Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Security patterns.",
+                  "Validate with tests or examples."
+              ]
+}

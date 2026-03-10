@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Operating Systems topic 4.",
+    "id":  "lab-004",
+    "category":  "operating-systems",
+    "tags":  [
+                 "operating-systems",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Operating Systems lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "beginner",
+    "title":  "Lab 4: Scheduling",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Operating Systems topic 4.\n\nComplete the steps to build a working solution."
+}

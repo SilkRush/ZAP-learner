@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Frontend Engineering topic 36.",
+    "id":  "lab-036",
+    "category":  "frontend",
+    "tags":  [
+                 "frontend",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Frontend Engineering lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "advanced",
+    "title":  "Lab 36: UI Systems",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Frontend Engineering topic 36.\n\nComplete the steps to build a working solution."
+}

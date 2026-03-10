@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Security Topic 12",
+    "id":  "security-lesson-12",
+    "practice":  [
+                     "Describe the main steps of Security Topic 12.",
+                     "Solve a small exercise using Security Topic 12.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-072"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 12\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Security",
+    "title":  "Security Lesson 12",
+    "references":  [
+                       "Guide: Security Topic 12 Essentials",
+                       "Cheat Sheet: Security Basics"
+                   ],
+    "summary":  "Master Security Topic 12 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Security Lesson 12\n\n## Overview\nMaster Security Topic 12 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Security Topic 12.",
+                     "Edge case analysis for Security Topic 12."
+                 ],
+    "tags":  [
+                 "security",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Security Topic 12."
+                   ]
+}

@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Networking Topic 7",
+    "id":  "networking-lesson-07",
+    "practice":  [
+                     "Describe the main steps of Networking Topic 7.",
+                     "Solve a small exercise using Networking Topic 7.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-207"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Networking Topic 7\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Networking",
+    "title":  "Networking Lesson 7",
+    "references":  [
+                       "Guide: Networking Topic 7 Essentials",
+                       "Cheat Sheet: Networking Basics"
+                   ],
+    "summary":  "Master Networking Topic 7 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Networking Lesson 7\n\n## Overview\nMaster Networking Topic 7 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Networking Topic 7.",
+                     "Edge case analysis for Networking Topic 7."
+                 ],
+    "tags":  [
+                 "networking",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Networking Topic 7."
+                   ]
+}

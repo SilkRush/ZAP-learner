@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "System Design Topic 15",
+    "id":  "system-design-lesson-15",
+    "practice":  [
+                     "Describe the main steps of System Design Topic 15.",
+                     "Solve a small exercise using System Design Topic 15.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-045"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply System Design Topic 15\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "System Design",
+    "title":  "System Design Lesson 15",
+    "references":  [
+                       "Guide: System Design Topic 15 Essentials",
+                       "Cheat Sheet: System Design Basics"
+                   ],
+    "summary":  "Master System Design Topic 15 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# System Design Lesson 15\n\n## Overview\nMaster System Design Topic 15 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using System Design Topic 15.",
+                     "Edge case analysis for System Design Topic 15."
+                 ],
+    "tags":  [
+                 "system-design",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in System Design Topic 15."
+                   ]
+}

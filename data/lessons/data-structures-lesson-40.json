@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Data Structures Topic 40",
+    "id":  "data-structures-lesson-40",
+    "practice":  [
+                     "Describe the main steps of Data Structures Topic 40.",
+                     "Solve a small exercise using Data Structures Topic 40.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-080"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Data Structures Topic 40\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Data Structures",
+    "title":  "Data Structures Lesson 40",
+    "references":  [
+                       "Guide: Data Structures Topic 40 Essentials",
+                       "Cheat Sheet: Data Structures Basics"
+                   ],
+    "summary":  "Master Data Structures Topic 40 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "advanced",
+    "content":  "# Data Structures Lesson 40\n\n## Overview\nMaster Data Structures Topic 40 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Data Structures Topic 40.",
+                     "Edge case analysis for Data Structures Topic 40."
+                 ],
+    "tags":  [
+                 "data-structures",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Data Structures Topic 40."
+                   ]
+}

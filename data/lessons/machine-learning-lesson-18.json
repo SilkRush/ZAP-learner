@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Machine Learning Topic 18",
+    "id":  "machine-learning-lesson-18",
+    "practice":  [
+                     "Describe the main steps of Machine Learning Topic 18.",
+                     "Solve a small exercise using Machine Learning Topic 18.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-038"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Machine Learning Topic 18\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Machine Learning",
+    "title":  "Machine Learning Lesson 18",
+    "references":  [
+                       "Guide: Machine Learning Topic 18 Essentials",
+                       "Cheat Sheet: Machine Learning Basics"
+                   ],
+    "summary":  "Master Machine Learning Topic 18 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Machine Learning Lesson 18\n\n## Overview\nMaster Machine Learning Topic 18 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Machine Learning Topic 18.",
+                     "Edge case analysis for Machine Learning Topic 18."
+                 ],
+    "tags":  [
+                 "machine-learning",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Machine Learning Topic 18."
+                   ]
+}

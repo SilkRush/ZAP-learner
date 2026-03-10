@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-061",
+    "tags":  [
+                 "backend"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Backend Engineering fundamentals.",
+                          "tags":  [
+                                       "backend"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Backend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "intermediate",
+    "module":  "Backend Engineering",
+    "summary":  "Check your understanding of Backend Engineering concepts.",
+    "title":  "Backend Engineering Quiz 61"
+}

@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Data Science topic 11.",
+    "id":  "lab-011",
+    "category":  "data-science",
+    "tags":  [
+                 "data-science",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Data Science lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "beginner",
+    "title":  "Lab 11: Pandas",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Data Science topic 11.\n\nComplete the steps to build a working solution."
+}

@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Operating Systems Topic 15",
+    "id":  "operating-systems-lesson-15",
+    "practice":  [
+                     "Describe the main steps of Operating Systems Topic 15.",
+                     "Solve a small exercise using Operating Systems Topic 15.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-135"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Operating Systems Topic 15\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Operating Systems",
+    "title":  "Operating Systems Lesson 15",
+    "references":  [
+                       "Guide: Operating Systems Topic 15 Essentials",
+                       "Cheat Sheet: Operating Systems Basics"
+                   ],
+    "summary":  "Master Operating Systems Topic 15 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Operating Systems Lesson 15\n\n## Overview\nMaster Operating Systems Topic 15 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Operating Systems Topic 15.",
+                     "Edge case analysis for Operating Systems Topic 15."
+                 ],
+    "tags":  [
+                 "operating-systems",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Operating Systems Topic 15."
+                   ]
+}

@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Security Topic 38",
+    "id":  "security-lesson-38",
+    "practice":  [
+                     "Describe the main steps of Security Topic 38.",
+                     "Solve a small exercise using Security Topic 38.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-098"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 38\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Security",
+    "title":  "Security Lesson 38",
+    "references":  [
+                       "Guide: Security Topic 38 Essentials",
+                       "Cheat Sheet: Security Basics"
+                   ],
+    "summary":  "Master Security Topic 38 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "advanced",
+    "content":  "# Security Lesson 38\n\n## Overview\nMaster Security Topic 38 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Security Topic 38.",
+                     "Edge case analysis for Security Topic 38."
+                 ],
+    "tags":  [
+                 "security",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Security Topic 38."
+                   ]
+}

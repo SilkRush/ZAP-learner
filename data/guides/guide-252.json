@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Databases topic 252.",
+    "id":  "guide-252",
+    "examples":  [
+                     "Example workflow for Databases.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Databases Field Notes",
+                       "Checklist: Databases Review"
+                   ],
+    "category":  "databases",
+    "tags":  [
+                 "databases",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Databases topic 252.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 252: Indexes Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Databases patterns.",
+                  "Validate with tests or examples."
+              ]
+}

@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  "term-018",
+        "related_terms":  [
+                              "term-017",
+                              "term-019"
+                          ],
+        "definition":  "Definition for Runtime Concept 18 within the Databases domain.",
+        "term":  "Runtime Concept 18",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 18.",
+                         "Common scenario for Runtime Concept 18."
+                     ]
+    },
+    {
+        "id":  "term-044",
+        "related_terms":  [
+                              "term-043",
+                              "term-045"
+                          ],
+        "definition":  "Definition for Runtime Concept 44 within the Databases domain.",
+        "term":  "Runtime Concept 44",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 44.",
+                         "Common scenario for Runtime Concept 44."
+                     ]
+    },
+    {
+        "id":  "term-070",
+        "related_terms":  [
+                              "term-069",
+                              "term-071"
+                          ],
+        "definition":  "Definition for Runtime Concept 70 within the Databases domain.",
+        "term":  "Runtime Concept 70",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 70.",
+                         "Common scenario for Runtime Concept 70."
+                     ]
+    },
+    {
+        "id":  "term-096",
+        "related_terms":  [
+                              "term-095",
+                              "term-097"
+                          ],
+        "definition":  "Definition for Runtime Concept 96 within the Databases domain.",
+        "term":  "Runtime Concept 96",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 96.",
+                         "Common scenario for Runtime Concept 96."
+                     ]
+    },
+    {
+        "id":  "term-122",
+        "related_terms":  [
+                              "term-121",
+                              "term-123"
+                          ],
+        "definition":  "Definition for Runtime Concept 122 within the Databases domain.",
+        "term":  "Runtime Concept 122",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 122.",
+                         "Common scenario for Runtime Concept 122."
+                     ]
+    },
+    {
+        "id":  "term-148",
+        "related_terms":  [
+                              "term-147",
+                              "term-149"
+                          ],
+        "definition":  "Definition for Runtime Concept 148 within the Databases domain.",
+        "term":  "Runtime Concept 148",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 148.",
+                         "Common scenario for Runtime Concept 148."
+                     ]
+    },
+    {
+        "id":  "term-174",
+        "related_terms":  [
+                              "term-173",
+                              "term-175"
+                          ],
+        "definition":  "Definition for Runtime Concept 174 within the Databases domain.",
+        "term":  "Runtime Concept 174",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 174.",
+                         "Common scenario for Runtime Concept 174."
+                     ]
+    },
+    {
+        "id":  "term-200",
+        "related_terms":  [
+                              "term-199",
+                              "term-201"
+                          ],
+        "definition":  "Definition for Runtime Concept 200 within the Databases domain.",
+        "term":  "Runtime Concept 200",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 200.",
+                         "Common scenario for Runtime Concept 200."
+                     ]
+    },
+    {
+        "id":  "term-226",
+        "related_terms":  [
+                              "term-225",
+                              "term-227"
+                          ],
+        "definition":  "Definition for Runtime Concept 226 within the Databases domain.",
+        "term":  "Runtime Concept 226",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 226.",
+                         "Common scenario for Runtime Concept 226."
+                     ]
+    },
+    {
+        "id":  "term-252",
+        "related_terms":  [
+                              "term-251",
+                              "term-253"
+                          ],
+        "definition":  "Definition for Runtime Concept 252 within the Databases domain.",
+        "term":  "Runtime Concept 252",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 252.",
+                         "Common scenario for Runtime Concept 252."
+                     ]
+    },
+    {
+        "id":  "term-278",
+        "related_terms":  [
+                              "term-277",
+                              "term-279"
+                          ],
+        "definition":  "Definition for Runtime Concept 278 within the Databases domain.",
+        "term":  "Runtime Concept 278",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 278.",
+                         "Common scenario for Runtime Concept 278."
+                     ]
+    },
+    {
+        "id":  "term-304",
+        "related_terms":  [
+                              "term-303",
+                              "term-305"
+                          ],
+        "definition":  "Definition for Runtime Concept 304 within the Databases domain.",
+        "term":  "Runtime Concept 304",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Runtime Concept 304.",
+                         "Common scenario for Runtime Concept 304."
+                     ]
+    }
+]

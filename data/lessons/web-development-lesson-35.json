@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Web Development Topic 35",
+    "id":  "web-development-lesson-35",
+    "practice":  [
+                     "Describe the main steps of Web Development Topic 35.",
+                     "Solve a small exercise using Web Development Topic 35.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-105"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Web Development Topic 35\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Web Development",
+    "title":  "Web Development Lesson 35",
+    "references":  [
+                       "Guide: Web Development Topic 35 Essentials",
+                       "Cheat Sheet: Web Development Basics"
+                   ],
+    "summary":  "Master Web Development Topic 35 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "advanced",
+    "content":  "# Web Development Lesson 35\n\n## Overview\nMaster Web Development Topic 35 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Web Development Topic 35.",
+                     "Edge case analysis for Web Development Topic 35."
+                 ],
+    "tags":  [
+                 "web",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Web Development Topic 35."
+                   ]
+}

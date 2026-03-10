@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-005",
+        "related_terms":  [
+                              "term-004",
+                              "term-006"
+                          ],
+        "definition":  "Definition for Encoding Concept 5 within the Databases domain.",
+        "term":  "Encoding Concept 5",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 5.",
+                         "Common scenario for Encoding Concept 5."
+                     ]
+    },
+    {
+        "id":  "term-031",
+        "related_terms":  [
+                              "term-030",
+                              "term-032"
+                          ],
+        "definition":  "Definition for Encoding Concept 31 within the Databases domain.",
+        "term":  "Encoding Concept 31",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 31.",
+                         "Common scenario for Encoding Concept 31."
+                     ]
+    },
+    {
+        "id":  "term-057",
+        "related_terms":  [
+                              "term-056",
+                              "term-058"
+                          ],
+        "definition":  "Definition for Encoding Concept 57 within the Databases domain.",
+        "term":  "Encoding Concept 57",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 57.",
+                         "Common scenario for Encoding Concept 57."
+                     ]
+    },
+    {
+        "id":  "term-083",
+        "related_terms":  [
+                              "term-082",
+                              "term-084"
+                          ],
+        "definition":  "Definition for Encoding Concept 83 within the Databases domain.",
+        "term":  "Encoding Concept 83",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 83.",
+                         "Common scenario for Encoding Concept 83."
+                     ]
+    },
+    {
+        "id":  "term-109",
+        "related_terms":  [
+                              "term-108",
+                              "term-110"
+                          ],
+        "definition":  "Definition for Encoding Concept 109 within the Databases domain.",
+        "term":  "Encoding Concept 109",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 109.",
+                         "Common scenario for Encoding Concept 109."
+                     ]
+    },
+    {
+        "id":  "term-135",
+        "related_terms":  [
+                              "term-134",
+                              "term-136"
+                          ],
+        "definition":  "Definition for Encoding Concept 135 within the Databases domain.",
+        "term":  "Encoding Concept 135",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 135.",
+                         "Common scenario for Encoding Concept 135."
+                     ]
+    },
+    {
+        "id":  "term-161",
+        "related_terms":  [
+                              "term-160",
+                              "term-162"
+                          ],
+        "definition":  "Definition for Encoding Concept 161 within the Databases domain.",
+        "term":  "Encoding Concept 161",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 161.",
+                         "Common scenario for Encoding Concept 161."
+                     ]
+    },
+    {
+        "id":  "term-187",
+        "related_terms":  [
+                              "term-186",
+                              "term-188"
+                          ],
+        "definition":  "Definition for Encoding Concept 187 within the Databases domain.",
+        "term":  "Encoding Concept 187",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 187.",
+                         "Common scenario for Encoding Concept 187."
+                     ]
+    },
+    {
+        "id":  "term-213",
+        "related_terms":  [
+                              "term-212",
+                              "term-214"
+                          ],
+        "definition":  "Definition for Encoding Concept 213 within the Databases domain.",
+        "term":  "Encoding Concept 213",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 213.",
+                         "Common scenario for Encoding Concept 213."
+                     ]
+    },
+    {
+        "id":  "term-239",
+        "related_terms":  [
+                              "term-238",
+                              "term-240"
+                          ],
+        "definition":  "Definition for Encoding Concept 239 within the Databases domain.",
+        "term":  "Encoding Concept 239",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 239.",
+                         "Common scenario for Encoding Concept 239."
+                     ]
+    },
+    {
+        "id":  "term-265",
+        "related_terms":  [
+                              "term-264",
+                              "term-266"
+                          ],
+        "definition":  "Definition for Encoding Concept 265 within the Databases domain.",
+        "term":  "Encoding Concept 265",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 265.",
+                         "Common scenario for Encoding Concept 265."
+                     ]
+    },
+    {
+        "id":  "term-291",
+        "related_terms":  [
+                              "term-290",
+                              "term-292"
+                          ],
+        "definition":  "Definition for Encoding Concept 291 within the Databases domain.",
+        "term":  "Encoding Concept 291",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 291.",
+                         "Common scenario for Encoding Concept 291."
+                     ]
+    },
+    {
+        "id":  "term-317",
+        "related_terms":  [
+                              "term-316",
+                              "term-318"
+                          ],
+        "definition":  "Definition for Encoding Concept 317 within the Databases domain.",
+        "term":  "Encoding Concept 317",
+        "category":  "databases",
+        "examples":  [
+                         "Example use of Encoding Concept 317.",
+                         "Common scenario for Encoding Concept 317."
+                     ]
+    }
+]

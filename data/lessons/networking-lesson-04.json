@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Networking Topic 4",
+    "id":  "networking-lesson-04",
+    "practice":  [
+                     "Describe the main steps of Networking Topic 4.",
+                     "Solve a small exercise using Networking Topic 4.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-204"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Networking Topic 4\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Networking",
+    "title":  "Networking Lesson 4",
+    "references":  [
+                       "Guide: Networking Topic 4 Essentials",
+                       "Cheat Sheet: Networking Basics"
+                   ],
+    "summary":  "Master Networking Topic 4 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "beginner",
+    "content":  "# Networking Lesson 4\n\n## Overview\nMaster Networking Topic 4 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Networking Topic 4.",
+                     "Edge case analysis for Networking Topic 4."
+                 ],
+    "tags":  [
+                 "networking",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Networking Topic 4."
+                   ]
+}

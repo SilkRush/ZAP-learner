@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Data Science Topic 28",
+    "id":  "data-science-lesson-28",
+    "practice":  [
+                     "Describe the main steps of Data Science Topic 28.",
+                     "Solve a small exercise using Data Science Topic 28.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-008"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Data Science Topic 28\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Data Science",
+    "title":  "Data Science Lesson 28",
+    "references":  [
+                       "Guide: Data Science Topic 28 Essentials",
+                       "Cheat Sheet: Data Science Basics"
+                   ],
+    "summary":  "Master Data Science Topic 28 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Data Science Lesson 28\n\n## Overview\nMaster Data Science Topic 28 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Data Science Topic 28.",
+                     "Edge case analysis for Data Science Topic 28."
+                 ],
+    "tags":  [
+                 "data-science",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Data Science Topic 28."
+                   ]
+}

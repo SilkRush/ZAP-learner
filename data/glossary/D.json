@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-004",
+        "related_terms":  [
+                              "term-003",
+                              "term-005"
+                          ],
+        "definition":  "Definition for Data Concept 4 within the Operating Systems domain.",
+        "term":  "Data Concept 4",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 4.",
+                         "Common scenario for Data Concept 4."
+                     ]
+    },
+    {
+        "id":  "term-030",
+        "related_terms":  [
+                              "term-029",
+                              "term-031"
+                          ],
+        "definition":  "Definition for Data Concept 30 within the Operating Systems domain.",
+        "term":  "Data Concept 30",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 30.",
+                         "Common scenario for Data Concept 30."
+                     ]
+    },
+    {
+        "id":  "term-056",
+        "related_terms":  [
+                              "term-055",
+                              "term-057"
+                          ],
+        "definition":  "Definition for Data Concept 56 within the Operating Systems domain.",
+        "term":  "Data Concept 56",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 56.",
+                         "Common scenario for Data Concept 56."
+                     ]
+    },
+    {
+        "id":  "term-082",
+        "related_terms":  [
+                              "term-081",
+                              "term-083"
+                          ],
+        "definition":  "Definition for Data Concept 82 within the Operating Systems domain.",
+        "term":  "Data Concept 82",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 82.",
+                         "Common scenario for Data Concept 82."
+                     ]
+    },
+    {
+        "id":  "term-108",
+        "related_terms":  [
+                              "term-107",
+                              "term-109"
+                          ],
+        "definition":  "Definition for Data Concept 108 within the Operating Systems domain.",
+        "term":  "Data Concept 108",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 108.",
+                         "Common scenario for Data Concept 108."
+                     ]
+    },
+    {
+        "id":  "term-134",
+        "related_terms":  [
+                              "term-133",
+                              "term-135"
+                          ],
+        "definition":  "Definition for Data Concept 134 within the Operating Systems domain.",
+        "term":  "Data Concept 134",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 134.",
+                         "Common scenario for Data Concept 134."
+                     ]
+    },
+    {
+        "id":  "term-160",
+        "related_terms":  [
+                              "term-159",
+                              "term-161"
+                          ],
+        "definition":  "Definition for Data Concept 160 within the Operating Systems domain.",
+        "term":  "Data Concept 160",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 160.",
+                         "Common scenario for Data Concept 160."
+                     ]
+    },
+    {
+        "id":  "term-186",
+        "related_terms":  [
+                              "term-185",
+                              "term-187"
+                          ],
+        "definition":  "Definition for Data Concept 186 within the Operating Systems domain.",
+        "term":  "Data Concept 186",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 186.",
+                         "Common scenario for Data Concept 186."
+                     ]
+    },
+    {
+        "id":  "term-212",
+        "related_terms":  [
+                              "term-211",
+                              "term-213"
+                          ],
+        "definition":  "Definition for Data Concept 212 within the Operating Systems domain.",
+        "term":  "Data Concept 212",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 212.",
+                         "Common scenario for Data Concept 212."
+                     ]
+    },
+    {
+        "id":  "term-238",
+        "related_terms":  [
+                              "term-237",
+                              "term-239"
+                          ],
+        "definition":  "Definition for Data Concept 238 within the Operating Systems domain.",
+        "term":  "Data Concept 238",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 238.",
+                         "Common scenario for Data Concept 238."
+                     ]
+    },
+    {
+        "id":  "term-264",
+        "related_terms":  [
+                              "term-263",
+                              "term-265"
+                          ],
+        "definition":  "Definition for Data Concept 264 within the Operating Systems domain.",
+        "term":  "Data Concept 264",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 264.",
+                         "Common scenario for Data Concept 264."
+                     ]
+    },
+    {
+        "id":  "term-290",
+        "related_terms":  [
+                              "term-289",
+                              "term-291"
+                          ],
+        "definition":  "Definition for Data Concept 290 within the Operating Systems domain.",
+        "term":  "Data Concept 290",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 290.",
+                         "Common scenario for Data Concept 290."
+                     ]
+    },
+    {
+        "id":  "term-316",
+        "related_terms":  [
+                              "term-315",
+                              "term-317"
+                          ],
+        "definition":  "Definition for Data Concept 316 within the Operating Systems domain.",
+        "term":  "Data Concept 316",
+        "category":  "operating-systems",
+        "examples":  [
+                         "Example use of Data Concept 316.",
+                         "Common scenario for Data Concept 316."
+                     ]
+    }
+]

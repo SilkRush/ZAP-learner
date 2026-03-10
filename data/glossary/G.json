@@ -1,0 +1,184 @@
+﻿[
+    {
+        "id":  "term-007",
+        "related_terms":  [
+                              "term-006",
+                              "term-008"
+                          ],
+        "definition":  "Definition for Gateway Concept 7 within the System Design domain.",
+        "term":  "Gateway Concept 7",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 7.",
+                         "Common scenario for Gateway Concept 7."
+                     ]
+    },
+    {
+        "id":  "term-033",
+        "related_terms":  [
+                              "term-032",
+                              "term-034"
+                          ],
+        "definition":  "Definition for Gateway Concept 33 within the System Design domain.",
+        "term":  "Gateway Concept 33",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 33.",
+                         "Common scenario for Gateway Concept 33."
+                     ]
+    },
+    {
+        "id":  "term-059",
+        "related_terms":  [
+                              "term-058",
+                              "term-060"
+                          ],
+        "definition":  "Definition for Gateway Concept 59 within the System Design domain.",
+        "term":  "Gateway Concept 59",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 59.",
+                         "Common scenario for Gateway Concept 59."
+                     ]
+    },
+    {
+        "id":  "term-085",
+        "related_terms":  [
+                              "term-084",
+                              "term-086"
+                          ],
+        "definition":  "Definition for Gateway Concept 85 within the System Design domain.",
+        "term":  "Gateway Concept 85",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 85.",
+                         "Common scenario for Gateway Concept 85."
+                     ]
+    },
+    {
+        "id":  "term-111",
+        "related_terms":  [
+                              "term-110",
+                              "term-112"
+                          ],
+        "definition":  "Definition for Gateway Concept 111 within the System Design domain.",
+        "term":  "Gateway Concept 111",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 111.",
+                         "Common scenario for Gateway Concept 111."
+                     ]
+    },
+    {
+        "id":  "term-137",
+        "related_terms":  [
+                              "term-136",
+                              "term-138"
+                          ],
+        "definition":  "Definition for Gateway Concept 137 within the System Design domain.",
+        "term":  "Gateway Concept 137",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 137.",
+                         "Common scenario for Gateway Concept 137."
+                     ]
+    },
+    {
+        "id":  "term-163",
+        "related_terms":  [
+                              "term-162",
+                              "term-164"
+                          ],
+        "definition":  "Definition for Gateway Concept 163 within the System Design domain.",
+        "term":  "Gateway Concept 163",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 163.",
+                         "Common scenario for Gateway Concept 163."
+                     ]
+    },
+    {
+        "id":  "term-189",
+        "related_terms":  [
+                              "term-188",
+                              "term-190"
+                          ],
+        "definition":  "Definition for Gateway Concept 189 within the System Design domain.",
+        "term":  "Gateway Concept 189",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 189.",
+                         "Common scenario for Gateway Concept 189."
+                     ]
+    },
+    {
+        "id":  "term-215",
+        "related_terms":  [
+                              "term-214",
+                              "term-216"
+                          ],
+        "definition":  "Definition for Gateway Concept 215 within the System Design domain.",
+        "term":  "Gateway Concept 215",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 215.",
+                         "Common scenario for Gateway Concept 215."
+                     ]
+    },
+    {
+        "id":  "term-241",
+        "related_terms":  [
+                              "term-240",
+                              "term-242"
+                          ],
+        "definition":  "Definition for Gateway Concept 241 within the System Design domain.",
+        "term":  "Gateway Concept 241",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 241.",
+                         "Common scenario for Gateway Concept 241."
+                     ]
+    },
+    {
+        "id":  "term-267",
+        "related_terms":  [
+                              "term-266",
+                              "term-268"
+                          ],
+        "definition":  "Definition for Gateway Concept 267 within the System Design domain.",
+        "term":  "Gateway Concept 267",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 267.",
+                         "Common scenario for Gateway Concept 267."
+                     ]
+    },
+    {
+        "id":  "term-293",
+        "related_terms":  [
+                              "term-292",
+                              "term-294"
+                          ],
+        "definition":  "Definition for Gateway Concept 293 within the System Design domain.",
+        "term":  "Gateway Concept 293",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 293.",
+                         "Common scenario for Gateway Concept 293."
+                     ]
+    },
+    {
+        "id":  "term-319",
+        "related_terms":  [
+                              "term-318",
+                              "term-320"
+                          ],
+        "definition":  "Definition for Gateway Concept 319 within the System Design domain.",
+        "term":  "Gateway Concept 319",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Gateway Concept 319.",
+                         "Common scenario for Gateway Concept 319."
+                     ]
+    }
+]

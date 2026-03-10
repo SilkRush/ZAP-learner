@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Networking topic 19.",
+    "id":  "lab-019",
+    "category":  "networking",
+    "tags":  [
+                 "networking",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Networking lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "intermediate",
+    "title":  "Lab 19: Security",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Networking topic 19.\n\nComplete the steps to build a working solution."
+}

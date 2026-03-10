@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  "term-020",
+        "related_terms":  [
+                              "term-019",
+                              "term-021"
+                          ],
+        "definition":  "Definition for Thread Concept 20 within the System Design domain.",
+        "term":  "Thread Concept 20",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 20.",
+                         "Common scenario for Thread Concept 20."
+                     ]
+    },
+    {
+        "id":  "term-046",
+        "related_terms":  [
+                              "term-045",
+                              "term-047"
+                          ],
+        "definition":  "Definition for Thread Concept 46 within the System Design domain.",
+        "term":  "Thread Concept 46",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 46.",
+                         "Common scenario for Thread Concept 46."
+                     ]
+    },
+    {
+        "id":  "term-072",
+        "related_terms":  [
+                              "term-071",
+                              "term-073"
+                          ],
+        "definition":  "Definition for Thread Concept 72 within the System Design domain.",
+        "term":  "Thread Concept 72",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 72.",
+                         "Common scenario for Thread Concept 72."
+                     ]
+    },
+    {
+        "id":  "term-098",
+        "related_terms":  [
+                              "term-097",
+                              "term-099"
+                          ],
+        "definition":  "Definition for Thread Concept 98 within the System Design domain.",
+        "term":  "Thread Concept 98",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 98.",
+                         "Common scenario for Thread Concept 98."
+                     ]
+    },
+    {
+        "id":  "term-124",
+        "related_terms":  [
+                              "term-123",
+                              "term-125"
+                          ],
+        "definition":  "Definition for Thread Concept 124 within the System Design domain.",
+        "term":  "Thread Concept 124",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 124.",
+                         "Common scenario for Thread Concept 124."
+                     ]
+    },
+    {
+        "id":  "term-150",
+        "related_terms":  [
+                              "term-149",
+                              "term-151"
+                          ],
+        "definition":  "Definition for Thread Concept 150 within the System Design domain.",
+        "term":  "Thread Concept 150",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 150.",
+                         "Common scenario for Thread Concept 150."
+                     ]
+    },
+    {
+        "id":  "term-176",
+        "related_terms":  [
+                              "term-175",
+                              "term-177"
+                          ],
+        "definition":  "Definition for Thread Concept 176 within the System Design domain.",
+        "term":  "Thread Concept 176",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 176.",
+                         "Common scenario for Thread Concept 176."
+                     ]
+    },
+    {
+        "id":  "term-202",
+        "related_terms":  [
+                              "term-201",
+                              "term-203"
+                          ],
+        "definition":  "Definition for Thread Concept 202 within the System Design domain.",
+        "term":  "Thread Concept 202",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 202.",
+                         "Common scenario for Thread Concept 202."
+                     ]
+    },
+    {
+        "id":  "term-228",
+        "related_terms":  [
+                              "term-227",
+                              "term-229"
+                          ],
+        "definition":  "Definition for Thread Concept 228 within the System Design domain.",
+        "term":  "Thread Concept 228",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 228.",
+                         "Common scenario for Thread Concept 228."
+                     ]
+    },
+    {
+        "id":  "term-254",
+        "related_terms":  [
+                              "term-253",
+                              "term-255"
+                          ],
+        "definition":  "Definition for Thread Concept 254 within the System Design domain.",
+        "term":  "Thread Concept 254",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 254.",
+                         "Common scenario for Thread Concept 254."
+                     ]
+    },
+    {
+        "id":  "term-280",
+        "related_terms":  [
+                              "term-279",
+                              "term-281"
+                          ],
+        "definition":  "Definition for Thread Concept 280 within the System Design domain.",
+        "term":  "Thread Concept 280",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 280.",
+                         "Common scenario for Thread Concept 280."
+                     ]
+    },
+    {
+        "id":  "term-306",
+        "related_terms":  [
+                              "term-305",
+                              "term-307"
+                          ],
+        "definition":  "Definition for Thread Concept 306 within the System Design domain.",
+        "term":  "Thread Concept 306",
+        "category":  "system-design",
+        "examples":  [
+                         "Example use of Thread Concept 306.",
+                         "Common scenario for Thread Concept 306."
+                     ]
+    }
+]

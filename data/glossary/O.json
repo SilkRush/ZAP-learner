@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  "term-015",
+        "related_terms":  [
+                              "term-014",
+                              "term-016"
+                          ],
+        "definition":  "Definition for Opcode Concept 15 within the Data Structures domain.",
+        "term":  "Opcode Concept 15",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 15.",
+                         "Common scenario for Opcode Concept 15."
+                     ]
+    },
+    {
+        "id":  "term-041",
+        "related_terms":  [
+                              "term-040",
+                              "term-042"
+                          ],
+        "definition":  "Definition for Opcode Concept 41 within the Data Structures domain.",
+        "term":  "Opcode Concept 41",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 41.",
+                         "Common scenario for Opcode Concept 41."
+                     ]
+    },
+    {
+        "id":  "term-067",
+        "related_terms":  [
+                              "term-066",
+                              "term-068"
+                          ],
+        "definition":  "Definition for Opcode Concept 67 within the Data Structures domain.",
+        "term":  "Opcode Concept 67",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 67.",
+                         "Common scenario for Opcode Concept 67."
+                     ]
+    },
+    {
+        "id":  "term-093",
+        "related_terms":  [
+                              "term-092",
+                              "term-094"
+                          ],
+        "definition":  "Definition for Opcode Concept 93 within the Data Structures domain.",
+        "term":  "Opcode Concept 93",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 93.",
+                         "Common scenario for Opcode Concept 93."
+                     ]
+    },
+    {
+        "id":  "term-119",
+        "related_terms":  [
+                              "term-118",
+                              "term-120"
+                          ],
+        "definition":  "Definition for Opcode Concept 119 within the Data Structures domain.",
+        "term":  "Opcode Concept 119",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 119.",
+                         "Common scenario for Opcode Concept 119."
+                     ]
+    },
+    {
+        "id":  "term-145",
+        "related_terms":  [
+                              "term-144",
+                              "term-146"
+                          ],
+        "definition":  "Definition for Opcode Concept 145 within the Data Structures domain.",
+        "term":  "Opcode Concept 145",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 145.",
+                         "Common scenario for Opcode Concept 145."
+                     ]
+    },
+    {
+        "id":  "term-171",
+        "related_terms":  [
+                              "term-170",
+                              "term-172"
+                          ],
+        "definition":  "Definition for Opcode Concept 171 within the Data Structures domain.",
+        "term":  "Opcode Concept 171",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 171.",
+                         "Common scenario for Opcode Concept 171."
+                     ]
+    },
+    {
+        "id":  "term-197",
+        "related_terms":  [
+                              "term-196",
+                              "term-198"
+                          ],
+        "definition":  "Definition for Opcode Concept 197 within the Data Structures domain.",
+        "term":  "Opcode Concept 197",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 197.",
+                         "Common scenario for Opcode Concept 197."
+                     ]
+    },
+    {
+        "id":  "term-223",
+        "related_terms":  [
+                              "term-222",
+                              "term-224"
+                          ],
+        "definition":  "Definition for Opcode Concept 223 within the Data Structures domain.",
+        "term":  "Opcode Concept 223",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 223.",
+                         "Common scenario for Opcode Concept 223."
+                     ]
+    },
+    {
+        "id":  "term-249",
+        "related_terms":  [
+                              "term-248",
+                              "term-250"
+                          ],
+        "definition":  "Definition for Opcode Concept 249 within the Data Structures domain.",
+        "term":  "Opcode Concept 249",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 249.",
+                         "Common scenario for Opcode Concept 249."
+                     ]
+    },
+    {
+        "id":  "term-275",
+        "related_terms":  [
+                              "term-274",
+                              "term-276"
+                          ],
+        "definition":  "Definition for Opcode Concept 275 within the Data Structures domain.",
+        "term":  "Opcode Concept 275",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 275.",
+                         "Common scenario for Opcode Concept 275."
+                     ]
+    },
+    {
+        "id":  "term-301",
+        "related_terms":  [
+                              "term-300",
+                              "term-302"
+                          ],
+        "definition":  "Definition for Opcode Concept 301 within the Data Structures domain.",
+        "term":  "Opcode Concept 301",
+        "category":  "data-structures",
+        "examples":  [
+                         "Example use of Opcode Concept 301.",
+                         "Common scenario for Opcode Concept 301."
+                     ]
+    }
+]

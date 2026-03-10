@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-145",
+    "tags":  [
+                 "data-structures"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Data Structures fundamentals.",
+                          "tags":  [
+                                       "data-structures"
+                                   ],
+                          "difficulty":  "intermediate",
+                          "explanation":  "Review the key steps for Data Structures to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "intermediate",
+    "module":  "Data Structures",
+    "summary":  "Check your understanding of Data Structures concepts.",
+    "title":  "Data Structures Quiz 145"
+}

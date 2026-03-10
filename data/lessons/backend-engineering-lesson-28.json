@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Backend Engineering Topic 28",
+    "id":  "backend-engineering-lesson-28",
+    "practice":  [
+                     "Describe the main steps of Backend Engineering Topic 28.",
+                     "Solve a small exercise using Backend Engineering Topic 28.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-138"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Backend Engineering Topic 28\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Backend Engineering",
+    "title":  "Backend Engineering Lesson 28",
+    "references":  [
+                       "Guide: Backend Engineering Topic 28 Essentials",
+                       "Cheat Sheet: Backend Engineering Basics"
+                   ],
+    "summary":  "Master Backend Engineering Topic 28 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Backend Engineering Lesson 28\n\n## Overview\nMaster Backend Engineering Topic 28 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Backend Engineering Topic 28.",
+                     "Edge case analysis for Backend Engineering Topic 28."
+                 ],
+    "tags":  [
+                 "backend",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Backend Engineering Topic 28."
+                   ]
+}

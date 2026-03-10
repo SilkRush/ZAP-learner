@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Operating Systems topic 147.",
+    "id":  "guide-147",
+    "examples":  [
+                     "Example workflow for Operating Systems.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Operating Systems Field Notes",
+                       "Checklist: Operating Systems Review"
+                   ],
+    "category":  "operating-systems",
+    "tags":  [
+                 "operating-systems",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Operating Systems topic 147.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 147: Threads Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Operating Systems patterns.",
+                  "Validate with tests or examples."
+              ]
+}

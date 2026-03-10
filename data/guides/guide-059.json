@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for System Design topic 59.",
+    "id":  "guide-059",
+    "examples":  [
+                     "Example workflow for System Design.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "System Design Field Notes",
+                       "Checklist: System Design Review"
+                   ],
+    "category":  "system-design",
+    "tags":  [
+                 "system-design",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for System Design topic 59.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 59: Queues Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply System Design patterns.",
+                  "Validate with tests or examples."
+              ]
+}

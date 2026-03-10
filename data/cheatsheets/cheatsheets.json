@@ -1,0 +1,266 @@
+﻿[
+    {
+        "title":  "Algorithms Cheat Sheet 1",
+        "category":  "algorithms",
+        "id":  "cheatsheet-001",
+        "items":  [
+                      "Key concept 1 for Algorithms",
+                      "Key concept 2 for Algorithms",
+                      "Key concept 3 for Algorithms",
+                      "Key concept 4 for Algorithms"
+                  ]
+    },
+    {
+        "title":  "Data Structures Cheat Sheet 2",
+        "category":  "data-structures",
+        "id":  "cheatsheet-002",
+        "items":  [
+                      "Key concept 1 for Data Structures",
+                      "Key concept 2 for Data Structures",
+                      "Key concept 3 for Data Structures",
+                      "Key concept 4 for Data Structures"
+                  ]
+    },
+    {
+        "title":  "Programming Fundamentals Cheat Sheet 3",
+        "category":  "fundamentals",
+        "id":  "cheatsheet-003",
+        "items":  [
+                      "Key concept 1 for Programming Fundamentals",
+                      "Key concept 2 for Programming Fundamentals",
+                      "Key concept 3 for Programming Fundamentals",
+                      "Key concept 4 for Programming Fundamentals"
+                  ]
+    },
+    {
+        "title":  "Operating Systems Cheat Sheet 4",
+        "category":  "operating-systems",
+        "id":  "cheatsheet-004",
+        "items":  [
+                      "Key concept 1 for Operating Systems",
+                      "Key concept 2 for Operating Systems",
+                      "Key concept 3 for Operating Systems",
+                      "Key concept 4 for Operating Systems"
+                  ]
+    },
+    {
+        "title":  "Databases Cheat Sheet 5",
+        "category":  "databases",
+        "id":  "cheatsheet-005",
+        "items":  [
+                      "Key concept 1 for Databases",
+                      "Key concept 2 for Databases",
+                      "Key concept 3 for Databases",
+                      "Key concept 4 for Databases"
+                  ]
+    },
+    {
+        "title":  "Networking Cheat Sheet 6",
+        "category":  "networking",
+        "id":  "cheatsheet-006",
+        "items":  [
+                      "Key concept 1 for Networking",
+                      "Key concept 2 for Networking",
+                      "Key concept 3 for Networking",
+                      "Key concept 4 for Networking"
+                  ]
+    },
+    {
+        "title":  "System Design Cheat Sheet 7",
+        "category":  "system-design",
+        "id":  "cheatsheet-007",
+        "items":  [
+                      "Key concept 1 for System Design",
+                      "Key concept 2 for System Design",
+                      "Key concept 3 for System Design",
+                      "Key concept 4 for System Design"
+                  ]
+    },
+    {
+        "title":  "Web Development Cheat Sheet 8",
+        "category":  "web",
+        "id":  "cheatsheet-008",
+        "items":  [
+                      "Key concept 1 for Web Development",
+                      "Key concept 2 for Web Development",
+                      "Key concept 3 for Web Development",
+                      "Key concept 4 for Web Development"
+                  ]
+    },
+    {
+        "title":  "Backend Engineering Cheat Sheet 9",
+        "category":  "backend",
+        "id":  "cheatsheet-009",
+        "items":  [
+                      "Key concept 1 for Backend Engineering",
+                      "Key concept 2 for Backend Engineering",
+                      "Key concept 3 for Backend Engineering",
+                      "Key concept 4 for Backend Engineering"
+                  ]
+    },
+    {
+        "title":  "Frontend Engineering Cheat Sheet 10",
+        "category":  "frontend",
+        "id":  "cheatsheet-010",
+        "items":  [
+                      "Key concept 1 for Frontend Engineering",
+                      "Key concept 2 for Frontend Engineering",
+                      "Key concept 3 for Frontend Engineering",
+                      "Key concept 4 for Frontend Engineering"
+                  ]
+    },
+    {
+        "title":  "Data Science Cheat Sheet 11",
+        "category":  "data-science",
+        "id":  "cheatsheet-011",
+        "items":  [
+                      "Key concept 1 for Data Science",
+                      "Key concept 2 for Data Science",
+                      "Key concept 3 for Data Science",
+                      "Key concept 4 for Data Science"
+                  ]
+    },
+    {
+        "title":  "Machine Learning Cheat Sheet 12",
+        "category":  "machine-learning",
+        "id":  "cheatsheet-012",
+        "items":  [
+                      "Key concept 1 for Machine Learning",
+                      "Key concept 2 for Machine Learning",
+                      "Key concept 3 for Machine Learning",
+                      "Key concept 4 for Machine Learning"
+                  ]
+    },
+    {
+        "title":  "Security Cheat Sheet 13",
+        "category":  "security",
+        "id":  "cheatsheet-013",
+        "items":  [
+                      "Key concept 1 for Security",
+                      "Key concept 2 for Security",
+                      "Key concept 3 for Security",
+                      "Key concept 4 for Security"
+                  ]
+    },
+    {
+        "title":  "Algorithms Cheat Sheet 14",
+        "category":  "algorithms",
+        "id":  "cheatsheet-014",
+        "items":  [
+                      "Key concept 1 for Algorithms",
+                      "Key concept 2 for Algorithms",
+                      "Key concept 3 for Algorithms",
+                      "Key concept 4 for Algorithms"
+                  ]
+    },
+    {
+        "title":  "Data Structures Cheat Sheet 15",
+        "category":  "data-structures",
+        "id":  "cheatsheet-015",
+        "items":  [
+                      "Key concept 1 for Data Structures",
+                      "Key concept 2 for Data Structures",
+                      "Key concept 3 for Data Structures",
+                      "Key concept 4 for Data Structures"
+                  ]
+    },
+    {
+        "title":  "Programming Fundamentals Cheat Sheet 16",
+        "category":  "fundamentals",
+        "id":  "cheatsheet-016",
+        "items":  [
+                      "Key concept 1 for Programming Fundamentals",
+                      "Key concept 2 for Programming Fundamentals",
+                      "Key concept 3 for Programming Fundamentals",
+                      "Key concept 4 for Programming Fundamentals"
+                  ]
+    },
+    {
+        "title":  "Operating Systems Cheat Sheet 17",
+        "category":  "operating-systems",
+        "id":  "cheatsheet-017",
+        "items":  [
+                      "Key concept 1 for Operating Systems",
+                      "Key concept 2 for Operating Systems",
+                      "Key concept 3 for Operating Systems",
+                      "Key concept 4 for Operating Systems"
+                  ]
+    },
+    {
+        "title":  "Databases Cheat Sheet 18",
+        "category":  "databases",
+        "id":  "cheatsheet-018",
+        "items":  [
+                      "Key concept 1 for Databases",
+                      "Key concept 2 for Databases",
+                      "Key concept 3 for Databases",
+                      "Key concept 4 for Databases"
+                  ]
+    },
+    {
+        "title":  "Networking Cheat Sheet 19",
+        "category":  "networking",
+        "id":  "cheatsheet-019",
+        "items":  [
+                      "Key concept 1 for Networking",
+                      "Key concept 2 for Networking",
+                      "Key concept 3 for Networking",
+                      "Key concept 4 for Networking"
+                  ]
+    },
+    {
+        "title":  "System Design Cheat Sheet 20",
+        "category":  "system-design",
+        "id":  "cheatsheet-020",
+        "items":  [
+                      "Key concept 1 for System Design",
+                      "Key concept 2 for System Design",
+                      "Key concept 3 for System Design",
+                      "Key concept 4 for System Design"
+                  ]
+    },
+    {
+        "title":  "Web Development Cheat Sheet 21",
+        "category":  "web",
+        "id":  "cheatsheet-021",
+        "items":  [
+                      "Key concept 1 for Web Development",
+                      "Key concept 2 for Web Development",
+                      "Key concept 3 for Web Development",
+                      "Key concept 4 for Web Development"
+                  ]
+    },
+    {
+        "title":  "Backend Engineering Cheat Sheet 22",
+        "category":  "backend",
+        "id":  "cheatsheet-022",
+        "items":  [
+                      "Key concept 1 for Backend Engineering",
+                      "Key concept 2 for Backend Engineering",
+                      "Key concept 3 for Backend Engineering",
+                      "Key concept 4 for Backend Engineering"
+                  ]
+    },
+    {
+        "title":  "Frontend Engineering Cheat Sheet 23",
+        "category":  "frontend",
+        "id":  "cheatsheet-023",
+        "items":  [
+                      "Key concept 1 for Frontend Engineering",
+                      "Key concept 2 for Frontend Engineering",
+                      "Key concept 3 for Frontend Engineering",
+                      "Key concept 4 for Frontend Engineering"
+                  ]
+    },
+    {
+        "title":  "Data Science Cheat Sheet 24",
+        "category":  "data-science",
+        "id":  "cheatsheet-024",
+        "items":  [
+                      "Key concept 1 for Data Science",
+                      "Key concept 2 for Data Science",
+                      "Key concept 3 for Data Science",
+                      "Key concept 4 for Data Science"
+                  ]
+    }
+]

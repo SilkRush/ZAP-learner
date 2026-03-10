@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Security Topic 18",
+    "id":  "security-lesson-18",
+    "practice":  [
+                     "Describe the main steps of Security Topic 18.",
+                     "Solve a small exercise using Security Topic 18.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-078"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 18\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Security",
+    "title":  "Security Lesson 18",
+    "references":  [
+                       "Guide: Security Topic 18 Essentials",
+                       "Cheat Sheet: Security Basics"
+                   ],
+    "summary":  "Master Security Topic 18 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "intermediate",
+    "content":  "# Security Lesson 18\n\n## Overview\nMaster Security Topic 18 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Security Topic 18.",
+                     "Edge case analysis for Security Topic 18."
+                 ],
+    "tags":  [
+                 "security",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Security Topic 18."
+                   ]
+}

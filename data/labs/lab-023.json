@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Frontend Engineering topic 23.",
+    "id":  "lab-023",
+    "category":  "frontend",
+    "tags":  [
+                 "frontend",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Frontend Engineering lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "intermediate",
+    "title":  "Lab 23: Performance",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Frontend Engineering topic 23.\n\nComplete the steps to build a working solution."
+}

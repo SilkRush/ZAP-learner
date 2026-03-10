@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  "term-012",
+        "related_terms":  [
+                              "term-011",
+                              "term-013"
+                          ],
+        "definition":  "Definition for Latency Concept 12 within the Machine Learning domain.",
+        "term":  "Latency Concept 12",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 12.",
+                         "Common scenario for Latency Concept 12."
+                     ]
+    },
+    {
+        "id":  "term-038",
+        "related_terms":  [
+                              "term-037",
+                              "term-039"
+                          ],
+        "definition":  "Definition for Latency Concept 38 within the Machine Learning domain.",
+        "term":  "Latency Concept 38",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 38.",
+                         "Common scenario for Latency Concept 38."
+                     ]
+    },
+    {
+        "id":  "term-064",
+        "related_terms":  [
+                              "term-063",
+                              "term-065"
+                          ],
+        "definition":  "Definition for Latency Concept 64 within the Machine Learning domain.",
+        "term":  "Latency Concept 64",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 64.",
+                         "Common scenario for Latency Concept 64."
+                     ]
+    },
+    {
+        "id":  "term-090",
+        "related_terms":  [
+                              "term-089",
+                              "term-091"
+                          ],
+        "definition":  "Definition for Latency Concept 90 within the Machine Learning domain.",
+        "term":  "Latency Concept 90",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 90.",
+                         "Common scenario for Latency Concept 90."
+                     ]
+    },
+    {
+        "id":  "term-116",
+        "related_terms":  [
+                              "term-115",
+                              "term-117"
+                          ],
+        "definition":  "Definition for Latency Concept 116 within the Machine Learning domain.",
+        "term":  "Latency Concept 116",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 116.",
+                         "Common scenario for Latency Concept 116."
+                     ]
+    },
+    {
+        "id":  "term-142",
+        "related_terms":  [
+                              "term-141",
+                              "term-143"
+                          ],
+        "definition":  "Definition for Latency Concept 142 within the Machine Learning domain.",
+        "term":  "Latency Concept 142",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 142.",
+                         "Common scenario for Latency Concept 142."
+                     ]
+    },
+    {
+        "id":  "term-168",
+        "related_terms":  [
+                              "term-167",
+                              "term-169"
+                          ],
+        "definition":  "Definition for Latency Concept 168 within the Machine Learning domain.",
+        "term":  "Latency Concept 168",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 168.",
+                         "Common scenario for Latency Concept 168."
+                     ]
+    },
+    {
+        "id":  "term-194",
+        "related_terms":  [
+                              "term-193",
+                              "term-195"
+                          ],
+        "definition":  "Definition for Latency Concept 194 within the Machine Learning domain.",
+        "term":  "Latency Concept 194",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 194.",
+                         "Common scenario for Latency Concept 194."
+                     ]
+    },
+    {
+        "id":  "term-220",
+        "related_terms":  [
+                              "term-219",
+                              "term-221"
+                          ],
+        "definition":  "Definition for Latency Concept 220 within the Machine Learning domain.",
+        "term":  "Latency Concept 220",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 220.",
+                         "Common scenario for Latency Concept 220."
+                     ]
+    },
+    {
+        "id":  "term-246",
+        "related_terms":  [
+                              "term-245",
+                              "term-247"
+                          ],
+        "definition":  "Definition for Latency Concept 246 within the Machine Learning domain.",
+        "term":  "Latency Concept 246",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 246.",
+                         "Common scenario for Latency Concept 246."
+                     ]
+    },
+    {
+        "id":  "term-272",
+        "related_terms":  [
+                              "term-271",
+                              "term-273"
+                          ],
+        "definition":  "Definition for Latency Concept 272 within the Machine Learning domain.",
+        "term":  "Latency Concept 272",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 272.",
+                         "Common scenario for Latency Concept 272."
+                     ]
+    },
+    {
+        "id":  "term-298",
+        "related_terms":  [
+                              "term-297",
+                              "term-299"
+                          ],
+        "definition":  "Definition for Latency Concept 298 within the Machine Learning domain.",
+        "term":  "Latency Concept 298",
+        "category":  "machine-learning",
+        "examples":  [
+                         "Example use of Latency Concept 298.",
+                         "Common scenario for Latency Concept 298."
+                     ]
+    }
+]

@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for Databases topic 5.",
+    "id":  "lab-005",
+    "category":  "databases",
+    "tags":  [
+                 "databases",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for Databases lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "beginner",
+    "title":  "Lab 5: Scaling",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for Databases topic 5.\n\nComplete the steps to build a working solution."
+}

@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-202",
+    "tags":  [
+                 "system-design"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on System Design fundamentals.",
+                          "tags":  [
+                                       "system-design"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for System Design to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "beginner",
+    "module":  "System Design",
+    "summary":  "Check your understanding of System Design concepts.",
+    "title":  "System Design Quiz 202"
+}

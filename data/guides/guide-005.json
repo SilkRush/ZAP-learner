@@ -1,0 +1,29 @@
+﻿{
+    "summary":  "Step-by-step guide for Databases topic 5.",
+    "id":  "guide-005",
+    "examples":  [
+                     "Example workflow for Databases.",
+                     "Checklist for common pitfalls."
+                 ],
+    "references":  [
+                       "Databases Field Notes",
+                       "Checklist: Databases Review"
+                   ],
+    "category":  "databases",
+    "tags":  [
+                 "databases",
+                 "guide"
+             ],
+    "diagrams":  [
+                     "High-level architecture diagram.",
+                     "Flow diagram with key checkpoints."
+                 ],
+    "content":  "## Overview\nStep-by-step guide for Databases topic 5.\n\nUse this guide to move from concepts to practical implementation.",
+    "title":  "Guide 5: Scaling Essentials",
+    "steps":  [
+                  "Clarify the goal and constraints.",
+                  "Break the problem into smaller steps.",
+                  "Apply Databases patterns.",
+                  "Validate with tests or examples."
+              ]
+}

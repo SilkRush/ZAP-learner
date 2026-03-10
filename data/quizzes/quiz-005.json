@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-005",
+    "tags":  [
+                 "databases"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Databases fundamentals.",
+                          "tags":  [
+                                       "databases"
+                                   ],
+                          "difficulty":  "beginner",
+                          "explanation":  "Review the key steps for Databases to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "beginner",
+    "module":  "Databases",
+    "summary":  "Check your understanding of Databases concepts.",
+    "title":  "Databases Quiz 5"
+}

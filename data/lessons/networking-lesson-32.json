@@ -1,0 +1,38 @@
+﻿{
+    "topic":  "Networking Topic 32",
+    "id":  "networking-lesson-32",
+    "practice":  [
+                     "Describe the main steps of Networking Topic 32.",
+                     "Solve a small exercise using Networking Topic 32.",
+                     "List two pitfalls and how to avoid them."
+                 ],
+    "quizzes":  [
+                    "quiz-022"
+                ],
+    "codeSamples":  [
+                        {
+                            "code":  "Step 1: Define the problem\\nStep 2: Apply Networking Topic 32\\nStep 3: Verify results",
+                            "language":  "plaintext"
+                        }
+                    ],
+    "module":  "Networking",
+    "title":  "Networking Lesson 32",
+    "references":  [
+                       "Guide: Networking Topic 32 Essentials",
+                       "Cheat Sheet: Networking Basics"
+                   ],
+    "summary":  "Master Networking Topic 32 with focused objectives, examples, and practice tasks.",
+    "difficulty":  "advanced",
+    "content":  "# Networking Lesson 32\n\n## Overview\nMaster Networking Topic 32 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
+    "examples":  [
+                     "Worked example using Networking Topic 32.",
+                     "Edge case analysis for Networking Topic 32."
+                 ],
+    "tags":  [
+                 "networking",
+                 "lesson"
+             ],
+    "objectives":  [
+                       "Explain key concepts in Networking Topic 32."
+                   ]
+}

@@ -1,0 +1,28 @@
+﻿{
+    "summary":  "Hands-on lab for System Design topic 33.",
+    "id":  "lab-033",
+    "category":  "system-design",
+    "tags":  [
+                 "system-design",
+                 "lab"
+             ],
+    "starter":  "/* Starter template for System Design lab */",
+    "objectives":  [
+                       "Set up the lab environment.",
+                       "Implement the required functionality.",
+                       "Validate the results."
+                   ],
+    "solutionOutline":  [
+                            "Implement core data structures.",
+                            "Handle edge cases and errors.",
+                            "Write a quick verification script."
+                        ],
+    "difficulty":  "advanced",
+    "title":  "Lab 33: Caching",
+    "steps":  [
+                  "Review the requirements and constraints.",
+                  "Sketch a plan for the implementation.",
+                  "Build and test the solution."
+              ],
+    "overview":  "## Goal\nHands-on lab for System Design topic 33.\n\nComplete the steps to build a working solution."
+}

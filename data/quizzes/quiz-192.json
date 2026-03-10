@@ -1,0 +1,162 @@
+﻿{
+    "id":  "quiz-192",
+    "tags":  [
+                 "frontend"
+             ],
+    "questions":  [
+                      {
+                          "question":  "Question 1 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 2 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 3 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 4 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 5 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 6 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 7 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option C",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 8 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option D",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 9 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option A",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      },
+                      {
+                          "question":  "Question 10 on Frontend Engineering fundamentals.",
+                          "tags":  [
+                                       "frontend"
+                                   ],
+                          "difficulty":  "advanced",
+                          "explanation":  "Review the key steps for Frontend Engineering to validate this answer.",
+                          "correct_answer":  "Option B",
+                          "choices":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ]
+                      }
+                  ],
+    "difficulty":  "advanced",
+    "module":  "Frontend Engineering",
+    "summary":  "Check your understanding of Frontend Engineering concepts.",
+    "title":  "Frontend Engineering Quiz 192"
+}
