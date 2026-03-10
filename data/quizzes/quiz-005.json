@@ -1,162 +1,163 @@
 {
     "id":  "quiz-005",
     "tags":  [
-                 "databases"
+                 "zap",
+                 "automation"
              ],
     "questions":  [
                       {
-                          "question":  "What is the purpose of a primary key in a relational table?",
+                          "question":  "What format does the Automation Framework plan use?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "A primary key uniquely identifies each row.",
-                          "correct_answer":  "Uniquely identify each row",
+                          "explanation":  "Automation plans are defined in YAML files.",
+                          "correct_answer":  "YAML",
                           "choices":  [
-                                          "Allow duplicate rows",
-                                          "Uniquely identify each row",
-                                          "Store large blobs",
-                                          "Encrypt the table"
+                                          "XML",
+                                          "YAML",
+                                          "CSV",
+                                          "Binary"
                                       ]
                       },
                       {
-                          "question":  "What is the main benefit of an index?",
+                          "question":  "Which command line option executes an automation plan?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Indexes speed up lookups by avoiding full table scans for common queries.",
-                          "correct_answer":  "Faster lookups",
+                          "explanation":  "-autorun runs the automation plan in ZAP.",
+                          "correct_answer":  "-autorun",
                           "choices":  [
-                                          "Faster lookups",
-                                          "Automatic backups",
-                                          "Lower storage cost",
-                                          "Guaranteed ordering"
+                                          "-autogenmin",
+                                          "-autorun",
+                                          "-daemon",
+                                          "-config"
                                       ]
                       },
                       {
-                          "question":  "Which of the following is part of ACID?",
+                          "question":  "Which option generates a minimal automation plan template?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "ACID stands for Atomicity, Consistency, Isolation, Durability.",
-                          "correct_answer":  "Isolation",
+                          "explanation":  "-autogenmin creates a minimal plan template.",
+                          "correct_answer":  "-autogenmin",
                           "choices":  [
-                                          "Sharding",
-                                          "Isolation",
-                                          "Caching",
-                                          "Replication"
+                                          "-autogenmin",
+                                          "-autogenmax",
+                                          "-autorun",
+                                          "-autocheck"
                                       ]
                       },
                       {
-                          "question":  "What does normalization primarily reduce?",
+                          "question":  "What does the Webswing container provide?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Normalization reduces redundancy and update anomalies.",
-                          "correct_answer":  "Redundant data",
+                          "explanation":  "Webswing provides the ZAP UI in a browser.",
+                          "correct_answer":  "A browser-based ZAP UI",
                           "choices":  [
-                                          "Query speed",
-                                          "Redundant data",
-                                          "Disk size",
-                                          "Index usage"
+                                          "A database",
+                                          "A browser-based ZAP UI",
+                                          "A vulnerability feed",
+                                          "A packet sniffer"
                                       ]
                       },
                       {
-                          "question":  "Which SQL clause filters rows returned by a query?",
+                          "question":  "Which ports are used by the Webswing container command in the docs?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "The WHERE clause filters rows based on a condition.",
-                          "correct_answer":  "WHERE",
+                          "explanation":  "The recommended Webswing command maps ports 8080 and 8090.",
+                          "correct_answer":  "8080 and 8090",
                           "choices":  [
-                                          "FROM",
-                                          "WHERE",
-                                          "SELECT",
-                                          "JOIN"
+                                          "80 and 443",
+                                          "3000 and 3001",
+                                          "8080 and 8090",
+                                          "9000 and 9001"
                                       ]
                       },
                       {
-                          "question":  "What does a foreign key enforce?",
+                          "question":  "Why is the Automation Framework useful in CI pipelines?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Foreign keys enforce referential integrity between tables.",
-                          "correct_answer":  "Referential integrity",
+                          "explanation":  "It enables repeatable, headless scans defined in code.",
+                          "correct_answer":  "Repeatable, headless scans",
                           "choices":  [
-                                          "Sorting",
-                                          "Referential integrity",
-                                          "Compression",
-                                          "Sharding"
+                                          "It replaces unit tests",
+                                          "Repeatable, headless scans",
+                                          "It disables scanning",
+                                          "It encrypts secrets"
                                       ]
                       },
                       {
-                          "question":  "Why are transactions important?",
+                          "question":  "What do automation plans typically include?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Transactions group operations so they succeed or fail together reliably.",
-                          "correct_answer":  "To ensure reliable, all-or-nothing changes",
+                          "explanation":  "Plans include environment definitions and jobs such as spider or active scan.",
+                          "correct_answer":  "Environment definitions and jobs",
                           "choices":  [
-                                          "To encrypt rows",
-                                          "To ensure reliable, all-or-nothing changes",
-                                          "To speed up network calls",
-                                          "To remove indexes"
+                                          "Only UI themes",
+                                          "Environment definitions and jobs",
+                                          "Binary patches",
+                                          "User passwords"
                                       ]
                       },
                       {
-                          "question":  "What is a full table scan?",
+                          "question":  "Which packaged script is commonly used for CLI scans in ZAP Docker images?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "A full table scan checks every row to satisfy a query.",
-                          "correct_answer":  "Reading every row in the table",
+                          "explanation":  "ZAP Docker images include scripts like zap-full-scan.py.",
+                          "correct_answer":  "zap-full-scan.py",
                           "choices":  [
-                                          "Reading every row in the table",
-                                          "Reading only indexed rows",
-                                          "Updating all rows",
-                                          "Dropping a table"
+                                          "zap-full-scan.py",
+                                          "pip-audit",
+                                          "nmap",
+                                          "terraform"
                                       ]
                       },
                       {
-                          "question":  "What is a common tradeoff of denormalization?",
+                          "question":  "What is a recommended reason to use a stable Docker image tag?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Denormalization improves read performance but increases redundancy and update complexity.",
-                          "correct_answer":  "More redundancy and harder updates",
+                          "explanation":  "Stable tags help keep scans reproducible over time.",
+                          "correct_answer":  "Reproducible scans",
                           "choices":  [
-                                          "More redundancy and harder updates",
-                                          "Less storage usage",
-                                          "Slower reads",
-                                          "Fewer indexes"
+                                          "Faster internet",
+                                          "Reproducible scans",
+                                          "Extra UI features",
+                                          "Mandatory licensing"
                                       ]
                       },
                       {
-                          "question":  "Why use a JOIN in SQL?",
+                          "question":  "Which command creates a maximal plan template?",
                           "tags":  [
-                                       "databases"
+                                       "automation"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "JOIN combines related rows from multiple tables.",
-                          "correct_answer":  "To combine rows from related tables",
+                          "explanation":  "-autogenmax generates a full template plan.",
+                          "correct_answer":  "-autogenmax",
                           "choices":  [
-                                          "To sort rows",
-                                          "To delete rows",
-                                          "To combine rows from related tables",
-                                          "To create an index"
+                                          "-autogenmax",
+                                          "-autorun",
+                                          "-config",
+                                          "-daemon"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
-    "module":  "Databases",
-    "summary":  "Check your understanding of relational concepts, indexing, and transactions.",
-    "title":  "Databases Quiz 5"
+    "module":  "ZAP Automation",
+    "summary":  "Check your understanding of the Automation Framework and Docker options.",
+    "title":  "ZAP Automation Quiz 5"
 }

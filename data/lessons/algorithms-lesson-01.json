@@ -1,47 +1,44 @@
 {
-    "topic":  "Algorithmic Thinking and Big-O Fundamentals",
+    "topic":  "What ZAP is and how to use it safely",
     "id":  "algorithms-lesson-01",
     "practice":  [
-                     "Estimate the time complexity of three short snippets you write.",
-                     "Explain why binary search is O(log n) in your own words.",
-                     "Compare O(n log n) and O(n^2) for n=1,000 and n=1,000,000."
+                     "Explain how an intercepting proxy changes the testing workflow.",
+                     "List the four ZAP modes and describe when each is appropriate.",
+                     "Write a short authorization checklist for testing a target."
                  ],
     "quizzes":  [
                     "quiz-001"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "function sum(arr){\n    let total = 0\n    for(const value of arr){\n        total += value\n    }\n    return total\n}\n\n// O(n) time, O(1) extra space",
-                            "language":  "javascript"
-                        },
-                        {
-                            "code":  "function hasZeroPair(arr){\n    for(let i = 0; i < arr.length; i++){\n        for(let j = i + 1; j < arr.length; j++){\n            if(arr[i] + arr[j] === 0) return true\n        }\n    }\n    return false\n}\n\n// O(n^2) time",
-                            "language":  "javascript"
+                            "code":  "Safe: no potentially dangerous actions\nProtected: only in-scope actions allowed\nStandard: no restrictions\nAttack: in-scope nodes actively scanned when discovered",
+                            "language":  "plaintext"
                         }
                     ],
-    "module":  "Algorithms",
-    "title":  "Algorithms Lesson 1: Big-O Fundamentals",
+    "module":  "ZAP Fundamentals",
+    "title":  "ZAP Lesson 1: Overview and Modes",
     "references":  [
-                       "Introduction to Algorithms (Cormen et al.), Chapter 2",
-                       "The Algorithm Design Manual (Skiena), Chapter 2",
-                       "Big-O Cheat Sheet (overview of common complexities)"
+                       "OWASP ZAP Getting Started",
+                       "ZAP Desktop User Guide: Modes",
+                       "ZAP Quick Start"
                    ],
-    "summary":  "Learn how to describe algorithms, measure complexity, and compare growth rates.",
+    "summary":  "Learn how ZAP works as an intercepting proxy and how modes control risk.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 1: Big-O Fundamentals\n\n## Overview\nAlgorithms are repeatable procedures for solving problems. Big-O notation gives a high-level upper bound on how runtime grows as input size n grows.\n\n## Big-O in plain language\n- Focus on growth rate, not exact timing\n- Drop constants and lower-order terms\n- Use worst-case unless stated otherwise\n\n## Common growth rates\n- O(1) constant time\n- O(log n) logarithmic (binary search)\n- O(n) linear (simple scan)\n- O(n log n) efficient sorting\n- O(n^2) quadratic (nested loops)\n\n## Estimating complexity\n1. Identify loops and how many times they run\n2. Multiply for nested loops, add for sequential blocks\n3. Keep the dominant term and drop constants\n\n## Example: search choices\nUse linear search for unsorted data. Use binary search only when the data is sorted and random access is fast.",
+    "content":  "# ZAP Lesson 1: Overview and Modes\n\n## Overview\nOWASP ZAP is an intercepting proxy for testing web applications. It sits between your browser and the target so you can observe and analyze traffic as you explore the application.\n\n## How ZAP works\n- Runs locally as a proxy\n- Records and analyzes requests and responses\n- Raises alerts via passive and active scanners\n\n## ZAP modes\n- Safe: no potentially dangerous actions\n- Protected: only allows potentially dangerous actions on in-scope URLs\n- Standard: does not restrict actions\n- Attack: actively scans new in-scope nodes as they are discovered\n\n## Recommended baseline\nStart in Protected mode and define scope before scanning. This reduces the chance of scanning the wrong target.\n\n## Quick Start\nThe Quick Start tab provides a streamlined workflow for scanning a target you are authorized to test.",
     "examples":  [
-                     "Analyze a double loop and explain why it is O(n^2).",
-                     "Compare linear search vs binary search for n=1,024.",
-                     "Decide whether preprocessing a list for faster queries is worth it."
+                     "Explain why Protected mode prevents accidental out-of-scope scans.",
+                     "Identify when Attack mode is appropriate in a controlled test environment.",
+                     "Describe how Quick Start fits into a basic test workflow."
                  ],
     "tags":  [
-                 "algorithms",
-                 "lesson"
+                 "zap",
+                 "owasp",
+                 "web-security"
              ],
     "objectives":  [
-                       "Define algorithmic complexity and input size.",
-                       "Explain Big-O with concrete examples.",
-                       "Estimate the complexity of simple code blocks.",
-                       "Choose between algorithms using growth rates."
+                       "Describe ZAP as an intercepting proxy.",
+                       "Differentiate Safe, Protected, Standard, and Attack modes.",
+                       "Explain why scope and authorization matter in ZAP testing.",
+                       "Recognize when to use Quick Start."
                    ]
 }

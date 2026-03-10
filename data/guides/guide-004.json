@@ -1,32 +1,32 @@
 {
-    "summary":  "Quick reference for CPU scheduling goals and common policies.",
+    "summary":  "Build an Automation Framework plan for repeatable ZAP scans.",
     "id":  "guide-004",
     "examples":  [
-                     "Compare FCFS and Round Robin on short jobs.",
-                     "Explain why SJF minimizes average waiting time.",
-                     "Pick a policy for interactive vs batch workloads."
+                     "Generate a starter plan with -autogenmin.",
+                     "Run a headless scan with -autorun.",
+                     "Store plans in version control for CI."
                  ],
     "references":  [
-                       "Operating System Concepts (Silberschatz), CPU Scheduling",
-                       "Modern Operating Systems (Tanenbaum), Scheduling",
-                       "Scheduling policy comparison notes"
+                       "ZAP Automation Framework Add-on",
+                       "ZAP Automation Framework Environment"
                    ],
-    "category":  "operating-systems",
+    "category":  "zap-automation",
     "tags":  [
-                 "operating-systems",
-                 "guide"
+                 "zap",
+                 "automation",
+                 "ci-cd"
              ],
     "diagrams":  [
-                     "Gantt chart of process scheduling",
-                     "Timeline comparing FCFS, SJF, and Round Robin"
+                     "Automation plan: env -> jobs -> reports",
+                     "CI flow: build -> zap scan -> report"
                  ],
-    "content":  "## Overview\nScheduling decides which process runs on the CPU. The policy affects throughput, responsiveness, and fairness.\n\n### Key goals\n- Low waiting time\n- High throughput\n- Fairness and responsiveness\n\n### Common policies\n- FCFS: simple, can cause long waits\n- SJF: optimal average waiting time, needs job length estimate\n- Round Robin: good for interactive systems\n- Priority: flexible but can starve low-priority jobs",
-    "title":  "Guide 4: Scheduling Essentials",
+    "content":  "## Overview\nThe Automation Framework uses a YAML plan to define environments and jobs. It is designed for repeatable, headless scans.\n\n### Typical workflow\n- Generate a template plan\n- Fill in contexts, users, and scan jobs\n- Run the plan in CI or locally\n\n### Key commands\n- -autogenmin: minimal template\n- -autogenmax: full template\n- -autorun: execute the plan",
+    "title":  "Guide 4: Automation Framework Basics",
     "steps":  [
-                  "Define the workload (batch vs interactive).",
-                  "Pick metrics: waiting time, turnaround, response.",
-                  "Choose a policy that matches the workload.",
-                  "Simulate on sample processes to validate.",
-                  "Watch for starvation and apply aging if needed."
+                  "Generate a minimal plan template.",
+                  "Fill in the environment section and context URLs.",
+                  "Add spider and active scan jobs as needed.",
+                  "Run the plan headlessly with -autorun.",
+                  "Review reports and store the plan for reuse."
               ]
 }

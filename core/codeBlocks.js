@@ -1,5 +1,18 @@
 function normalizeCodeText(text){
-    return String(text || "").replace(/\n$/, "")
+    return String(text || "")
+        .replace(/\r\n/g, "\n")
+        .replace(/\n$/, "")
+}
+
+function normalizeCodeDisplay(code){
+    if(!code || typeof code.textContent !== "string") return
+    const raw = code.textContent
+    if(raw.includes("\\n") && !raw.includes("\n")){
+        code.textContent = raw.replace(/\\n/g, "\n")
+    }
+    if(code.textContent.includes("\\t") && !code.textContent.includes("\t")){
+        code.textContent = code.textContent.replace(/\\t/g, "\t")
+    }
 }
 
 async function copyText(text){
@@ -80,6 +93,7 @@ function ensureCopyButton(wrapper){
 export function enhanceCodeBlocks(root = document){
     const blocks = root.querySelectorAll("pre > code")
     blocks.forEach(code=>{
+        normalizeCodeDisplay(code)
         const pre = code.parentElement
         if(!pre) return
         let wrapper = pre.parentElement

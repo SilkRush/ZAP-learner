@@ -1,47 +1,44 @@
 {
-    "topic":  "Searching: Linear and Binary Search",
+    "topic":  "Quick Start automated scan workflow",
     "id":  "algorithms-lesson-03",
     "practice":  [
-                     "Implement linear search and analyze its complexity.",
-                     "Write iterative binary search and explain each boundary update.",
-                     "List three edge cases for binary search and how to handle them."
+                     "Describe the steps in the Quick Start automated scan.",
+                     "Explain when to choose the traditional spider vs the AJAX spider.",
+                     "List two reasons to run a scan only with explicit permission."
                  ],
     "quizzes":  [
                     "quiz-003"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "function linearSearch(arr, target){\n    for(let i = 0; i < arr.length; i++){\n        if(arr[i] === target) return i\n    }\n    return -1\n}",
-                            "language":  "javascript"
-                        },
-                        {
-                            "code":  "function binarySearch(sorted, target){\n    let low = 0\n    let high = sorted.length - 1\n    while(low <= high){\n        const mid = Math.floor((low + high) / 2)\n        const value = sorted[mid]\n        if(value === target) return mid\n        if(value < target){\n            low = mid + 1\n        }\n        else{\n            high = mid - 1\n        }\n    }\n    return -1\n}",
-                            "language":  "javascript"
+                            "code":  "zap-full-scan.py -t https://example.test -r zap-report.html",
+                            "language":  "bash"
                         }
                     ],
-    "module":  "Algorithms",
-    "title":  "Algorithms Lesson 3: Searching",
+    "module":  "ZAP Scanning",
+    "title":  "ZAP Lesson 3: Quick Start Automated Scan",
     "references":  [
-                       "Introduction to Algorithms (Cormen et al.), Binary Search",
-                       "Algorithms (Sedgewick), Searching",
-                       "Binary search correctness notes"
+                       "ZAP Quick Start: Automated Scan",
+                       "OWASP ZAP Getting Started",
+                       "ZAP Docker: About"
                    ],
-    "summary":  "Learn when to use linear search vs binary search and how to implement each safely.",
+    "summary":  "Run a Quick Start automated scan and understand spider options.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 3: Searching\n\n## Overview\nSearching finds a target item in a collection. The best approach depends on ordering, access costs, and query frequency.\n\n## Linear search\n- Works on unsorted data\n- Worst-case time is O(n)\n- Simple and reliable for small collections\n\n## Binary search\n- Requires sorted data and random access\n- Time complexity is O(log n)\n- Must update bounds carefully to avoid infinite loops\n\n## Correctness checklist\n1. Set low = 0 and high = n - 1\n2. Compute mid with integer division\n3. If value < target, move low up; else move high down\n4. Stop when low > high\n\n## When to choose which\nUse linear search for one-off scans or unsorted input. Use binary search when the input is sorted or can be sorted once and searched many times.",
+    "content":  "# ZAP Lesson 3: Quick Start Automated Scan\n\n## Overview\nQuick Start provides an automated scan workflow. You enter a target URL, choose scan options, and ZAP handles crawling and testing.\n\n## Automated scan steps\n1. Open the Quick Start tab\n2. Choose Automated Scan\n3. Enter the target URL you are authorized to test\n4. Select spider options if needed\n5. Start the scan and review alerts\n\n## Spider choices\n- Traditional spider: fast, works best on classic HTML navigation\n- AJAX spider: slower, uses a browser to explore JavaScript-heavy apps\n\n## After the scan\nReview alerts, confirm false positives, and prioritize by risk and confidence.\n\n## CLI alternative\nFor CI pipelines, packaged scripts can run scans from the command line using ZAP Docker images.",
     "examples":  [
-                     "Search a log list of user IDs (unsorted) for a specific ID.",
-                     "Search a sorted list of product SKUs for a target.",
-                     "Explain why binary search fails on unsorted input."
+                     "Run a traditional spider for a server-rendered app.",
+                     "Use the AJAX spider for a single-page application.",
+                     "Export an HTML report after scanning a test environment."
                  ],
     "tags":  [
-                 "algorithms",
-                 "lesson"
+                 "zap",
+                 "owasp",
+                 "scanning"
              ],
     "objectives":  [
-                       "Differentiate between linear and binary search use cases.",
-                       "Implement binary search without off-by-one errors.",
-                       "Explain time complexity for both searches.",
-                       "Identify preconditions for binary search."
+                       "Perform a Quick Start automated scan.",
+                       "Choose the appropriate spider type for the target app.",
+                       "Explain what happens after a scan completes.",
+                       "Identify when to use CLI automation."
                    ]
 }

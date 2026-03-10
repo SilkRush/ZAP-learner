@@ -1,162 +1,163 @@
 {
     "id":  "quiz-001",
     "tags":  [
-                 "algorithms"
+                 "zap",
+                 "owasp"
              ],
     "questions":  [
                       {
-                          "question":  "What is the worst-case time complexity of linear search on an unsorted array of size n?",
+                          "question":  "What is OWASP ZAP primarily used for?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Linear search may inspect every element, so the worst case is proportional to n.",
-                          "correct_answer":  "O(n)",
+                          "explanation":  "ZAP is an intercepting proxy used to test web applications by observing and analyzing traffic.",
+                          "correct_answer":  "Intercepting proxy for web app testing",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n log n)"
+                                          "Database administration tool",
+                                          "Intercepting proxy for web app testing",
+                                          "Static code formatter",
+                                          "Package manager"
                                       ]
                       },
                       {
-                          "question":  "Which precondition is required for binary search?",
+                          "question":  "Which ZAP mode blocks potentially dangerous actions outside of scope?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Binary search only works when the data is sorted in a known order.",
-                          "correct_answer":  "The data must be sorted",
+                          "explanation":  "Protected mode only allows potentially dangerous actions on in-scope URLs.",
+                          "correct_answer":  "Protected",
                           "choices":  [
-                                          "The data must be sorted",
-                                          "The data must be unique",
-                                          "The data must be a tree",
-                                          "The data must fit in cache"
+                                          "Safe",
+                                          "Protected",
+                                          "Standard",
+                                          "Attack"
                                       ]
                       },
                       {
-                          "question":  "What is the time complexity of selection sort in the worst case?",
+                          "question":  "What happens in Attack mode?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Selection sort scans the remaining elements for each position, resulting in O(n^2) comparisons.",
-                          "correct_answer":  "O(n^2)",
+                          "explanation":  "Attack mode actively scans in-scope nodes as they are discovered.",
+                          "correct_answer":  "In-scope nodes are actively scanned automatically",
                           "choices":  [
-                                          "O(n)",
-                                          "O(n log n)",
-                                          "O(n^2)",
-                                          "O(log n)"
+                                          "All actions are blocked",
+                                          "Only passive scanning runs",
+                                          "In-scope nodes are actively scanned automatically",
+                                          "Nothing is recorded"
                                       ]
                       },
                       {
-                          "question":  "What is the best-case time complexity of insertion sort on an already sorted array?",
+                          "question":  "Which ZAP feature provides a streamlined automated scan workflow?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Insertion sort only checks adjacent elements in a sorted list, so it runs in O(n).",
-                          "correct_answer":  "O(n)",
+                          "explanation":  "Quick Start offers an automated scan flow for authorized targets.",
+                          "correct_answer":  "Quick Start",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n^2)"
+                                          "Scripting console",
+                                          "Quick Start",
+                                          "Glossary",
+                                          "Storage"
                                       ]
                       },
                       {
-                          "question":  "What is the primary purpose of a recursion base case?",
+                          "question":  "Which scan type is safe because it does not modify requests?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "The base case stops recursion and prevents infinite calls.",
-                          "correct_answer":  "To stop recursion",
+                          "explanation":  "Passive scanning analyzes traffic without changing it.",
+                          "correct_answer":  "Passive scanning",
                           "choices":  [
-                                          "To optimize runtime",
-                                          "To stop recursion",
-                                          "To sort data",
-                                          "To allocate memory"
+                                          "Active scanning",
+                                          "Passive scanning",
+                                          "Fuzzing",
+                                          "Attack mode"
                                       ]
                       },
                       {
-                          "question":  "Which sorting algorithm is stable in its typical implementation?",
+                          "question":  "Which spider is best for JavaScript-heavy applications?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Insertion sort preserves the relative order of equal elements when implemented by shifting.",
-                          "correct_answer":  "Insertion sort",
+                          "explanation":  "The AJAX spider uses a browser to explore JS-heavy apps.",
+                          "correct_answer":  "AJAX spider",
                           "choices":  [
-                                          "Selection sort",
-                                          "Insertion sort",
-                                          "Heap sort",
-                                          "Quick sort"
+                                          "Traditional spider",
+                                          "AJAX spider",
+                                          "Passive scanner",
+                                          "Active scanner"
                                       ]
                       },
                       {
-                          "question":  "What is the time complexity of accessing arr[i] in a normal array?",
+                          "question":  "What must you have before scanning a target with ZAP?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Arrays provide constant-time random access by index.",
-                          "correct_answer":  "O(1)",
+                          "explanation":  "You should only test systems you own or are explicitly authorized to test.",
+                          "correct_answer":  "Explicit authorization",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n log n)"
+                                          "A faster internet connection",
+                                          "Explicit authorization",
+                                          "A paid license",
+                                          "A private cloud"
                                       ]
                       },
                       {
-                          "question":  "Which growth rate increases the fastest as n grows?",
+                          "question":  "How can you quickly proxy traffic without manual browser configuration?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Quadratic growth dominates linear and logarithmic growth for large n.",
-                          "correct_answer":  "O(n^2)",
+                          "explanation":  "ZAP can launch a built-in browser that is already configured to proxy through ZAP.",
+                          "correct_answer":  "Use ZAP's built-in browser",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n log n)",
-                                          "O(n^2)"
+                                          "Disable HTTPS",
+                                          "Use ZAP's built-in browser",
+                                          "Run a VPN",
+                                          "Use a different OS"
                                       ]
                       },
                       {
-                          "question":  "In binary search, what do you do after comparing the middle element to the target?",
+                          "question":  "Passive scanning can analyze which message types by default?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Binary search discards the half that cannot contain the target.",
-                          "correct_answer":  "Discard one half of the remaining range",
+                          "explanation":  "Passive scanning inspects HTTP and WebSocket messages.",
+                          "correct_answer":  "HTTP and WebSocket messages",
                           "choices":  [
-                                          "Restart from the beginning",
-                                          "Discard one half of the remaining range",
-                                          "Sort the data again",
-                                          "Move the target to the middle"
+                                          "Only HTTP requests",
+                                          "Only DNS messages",
+                                          "HTTP and WebSocket messages",
+                                          "Only TLS handshakes"
                                       ]
                       },
                       {
-                          "question":  "What is the time complexity of two nested loops that each run n times?",
+                          "question":  "Which mode imposes no restrictions on actions?",
                           "tags":  [
-                                       "algorithms"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Nested loops multiply, yielding O(n^2).",
-                          "correct_answer":  "O(n^2)",
+                          "explanation":  "Standard mode does not restrict actions, though scope still matters for safety.",
+                          "correct_answer":  "Standard",
                           "choices":  [
-                                          "O(n)",
-                                          "O(n log n)",
-                                          "O(n^2)",
-                                          "O(log n)"
+                                          "Safe",
+                                          "Protected",
+                                          "Standard",
+                                          "Attack"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
-    "module":  "Algorithms",
-    "summary":  "Check your understanding of Big-O, searching, sorting, and recursion basics.",
-    "title":  "Algorithms Quiz 1"
+    "module":  "ZAP Fundamentals",
+    "summary":  "Check your understanding of ZAP basics, modes, and Quick Start.",
+    "title":  "ZAP Fundamentals Quiz 1"
 }

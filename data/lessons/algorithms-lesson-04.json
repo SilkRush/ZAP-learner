@@ -1,47 +1,44 @@
 {
-    "topic":  "Sorting Basics: Selection and Insertion",
+    "topic":  "Proxying traffic and passive scanning",
     "id":  "algorithms-lesson-04",
     "practice":  [
-                     "Implement selection sort and trace it on a small array.",
-                     "Implement insertion sort and explain why it is stable.",
-                     "Compare when you would choose insertion sort vs a faster O(n log n) sort."
+                     "Configure a browser to send traffic through ZAP.",
+                     "Explain how passive scanning differs from active scanning.",
+                     "Identify two types of messages that passive scanning inspects."
                  ],
     "quizzes":  [
                     "quiz-004"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "function selectionSort(arr){\n    for(let i = 0; i < arr.length - 1; i++){\n        let minIndex = i\n        for(let j = i + 1; j < arr.length; j++){\n            if(arr[j] < arr[minIndex]){\n                minIndex = j\n            }\n        }\n        if(minIndex !== i){\n            const tmp = arr[i]\n            arr[i] = arr[minIndex]\n            arr[minIndex] = tmp\n        }\n    }\n    return arr\n}",
-                            "language":  "javascript"
-                        },
-                        {
-                            "code":  "function insertionSort(arr){\n    for(let i = 1; i < arr.length; i++){\n        const current = arr[i]\n        let j = i - 1\n        while(j >= 0 && arr[j] > current){\n            arr[j + 1] = arr[j]\n            j--\n        }\n        arr[j + 1] = current\n    }\n    return arr\n}",
-                            "language":  "javascript"
+                            "code":  "pscans.scanOnlyInScope=true\npscans.maxAlertsPerRule=50",
+                            "language":  "plaintext"
                         }
                     ],
-    "module":  "Algorithms",
-    "title":  "Algorithms Lesson 4: Sorting Basics",
+    "module":  "ZAP Proxying",
+    "title":  "ZAP Lesson 4: Proxying and Passive Scan",
     "references":  [
-                       "Algorithms (Sedgewick), Elementary Sorts",
-                       "Introduction to Algorithms (Cormen et al.), Sorting Basics",
-                       "Stability in sorting algorithms (overview notes)"
+                       "OWASP ZAP Getting Started",
+                       "ZAP Passive Scanner Add-on"
                    ],
-    "summary":  "Understand how selection and insertion sort work and when they are useful.",
+    "summary":  "Route traffic through ZAP and understand how passive scanning works.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 4: Sorting Basics\n\n## Overview\nSorting orders data so searching, grouping, and reporting become easier. We start with selection and insertion sort to build intuition.\n\n## Selection sort\n- Repeatedly selects the smallest remaining element\n- Simple but always O(n^2) time\n- Not stable in its typical swap-based form\n\n## Insertion sort\n- Builds a sorted prefix by inserting each next element\n- O(n^2) worst case, but O(n) on nearly sorted data\n- Stable when implemented by shifting elements\n\n## Practical guidance\n- Use insertion sort for tiny or nearly sorted arrays\n- Prefer O(n log n) sorts for large inputs\n\n## Key idea\nSorting tradeoffs often balance simplicity, stability, and performance.",
+    "content":  "# ZAP Lesson 4: Proxying and Passive Scan\n\n## Overview\nZAP can proxy your browser so it records requests and responses while you explore the target. Passive scanning then analyzes this traffic in the background.\n\n## Proxying basics\n- Configure your browser to use ZAP as an HTTP/HTTPS proxy\n- Use the built-in browser from Quick Start for a preconfigured setup\n- Explore the application to populate the Sites tree\n\n## Passive scanning\n- Runs in the background on observed traffic\n- Does not modify requests or responses\n- Scans HTTP and WebSocket messages to raise alerts\n\n## Why it matters\nPassive scanning is safe and can run continuously while you browse or test. It surfaces issues without actively attacking the target.",
     "examples":  [
-                     "Sort a list of scores and keep duplicate order stable.",
-                     "Explain why selection sort always does O(n^2) comparisons.",
-                     "Identify which sort would be better for a nearly sorted list."
+                     "Launch the built-in browser to avoid manual proxy configuration.",
+                     "Review passive scan alerts after a manual walkthrough.",
+                     "Use passive scanning to catch missing security headers."
                  ],
     "tags":  [
-                 "algorithms",
-                 "lesson"
+                 "zap",
+                 "owasp",
+                 "proxy",
+                 "passive-scan"
              ],
     "objectives":  [
-                       "Describe how selection and insertion sort operate.",
-                       "Compare their time complexity and stability.",
-                       "Choose a simple sort for small input sizes.",
-                       "Trace a sort step-by-step on sample data."
+                       "Proxy traffic through ZAP.",
+                       "Describe how passive scanning analyzes traffic.",
+                       "Identify where passive alerts appear in the UI.",
+                       "Explain why passive scanning is safe to run."
                    ]
 }

@@ -1,162 +1,163 @@
 {
     "id":  "quiz-004",
     "tags":  [
-                 "operating-systems"
+                 "zap",
+                 "passive-scan"
              ],
     "questions":  [
                       {
-                          "question":  "What is the main difference between a process and a thread?",
+                          "question":  "Which scan type analyzes traffic without changing requests?",
                           "tags":  [
-                                       "operating-systems"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Threads share a process address space, while processes have separate address spaces.",
-                          "correct_answer":  "Threads share an address space; processes do not",
+                          "explanation":  "Passive scanning observes traffic without modifying it.",
+                          "correct_answer":  "Passive scanning",
                           "choices":  [
-                                          "Threads share an address space; processes do not",
-                                          "Processes are always faster",
-                                          "Threads cannot be scheduled",
-                                          "Processes have no memory"
+                                          "Active scanning",
+                                          "Passive scanning",
+                                          "Fuzzing",
+                                          "Attack mode"
                                       ]
                       },
                       {
-                          "question":  "Which scheduling algorithm is commonly used for time-sharing systems?",
+                          "question":  "When does passive scanning typically run?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Round Robin gives each process a time slice and is standard for interactive systems.",
-                          "correct_answer":  "Round Robin",
+                          "explanation":  "Passive scanning runs in the background as traffic is observed.",
+                          "correct_answer":  "In the background as traffic is observed",
                           "choices":  [
-                                          "FCFS",
-                                          "Round Robin",
-                                          "SJF",
-                                          "Priority without aging"
+                                          "Only at startup",
+                                          "In the background as traffic is observed",
+                                          "Only after a report is exported",
+                                          "Only in Safe mode"
                                       ]
                       },
                       {
-                          "question":  "What does a context switch do?",
+                          "question":  "Which message types can passive scanning analyze?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "A context switch saves and restores CPU state when switching processes or threads.",
-                          "correct_answer":  "Saves and restores CPU state",
+                          "explanation":  "Passive scanning can analyze HTTP and WebSocket messages.",
+                          "correct_answer":  "HTTP and WebSocket messages",
                           "choices":  [
-                                          "Deletes a process",
-                                          "Saves and restores CPU state",
-                                          "Allocates disk space",
-                                          "Compiles a program"
+                                          "Only HTTP requests",
+                                          "Only DNS traffic",
+                                          "HTTP and WebSocket messages",
+                                          "Only encrypted payloads"
                                       ]
                       },
                       {
-                          "question":  "Which is NOT a necessary condition for deadlock?",
+                          "question":  "Which scan type sends attack payloads to find vulnerabilities?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait. Unlimited resources are not a condition.",
-                          "correct_answer":  "Unlimited resources",
+                          "explanation":  "Active scanning sends requests designed to trigger vulnerabilities.",
+                          "correct_answer":  "Active scanning",
                           "choices":  [
-                                          "Mutual exclusion",
-                                          "Hold and wait",
-                                          "No preemption",
-                                          "Unlimited resources"
+                                          "Passive scanning",
+                                          "Active scanning",
+                                          "Proxying",
+                                          "Indexing"
                                       ]
                       },
                       {
-                          "question":  "Paging divides memory into: ",
+                          "question":  "Why is passive scanning considered safer?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Paging uses fixed-size pages and frames.",
-                          "correct_answer":  "Fixed-size pages",
+                          "explanation":  "It does not modify traffic and therefore does not actively attack the target.",
+                          "correct_answer":  "It does not modify traffic",
                           "choices":  [
-                                          "Variable-size segments",
-                                          "Fixed-size pages",
-                                          "Files",
-                                          "Registers only"
+                                          "It runs faster",
+                                          "It does not modify traffic",
+                                          "It requires no proxy",
+                                          "It uses no CPU"
                                       ]
                       },
                       {
-                          "question":  "What is a system call?",
+                          "question":  "What does Protected mode enforce?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "System calls are the interface from user programs to OS services.",
-                          "correct_answer":  "An interface to OS services",
+                          "explanation":  "Protected mode blocks potentially dangerous actions outside the defined scope.",
+                          "correct_answer":  "Only in-scope dangerous actions are allowed",
                           "choices":  [
-                                          "A hardware interrupt",
-                                          "An interface to OS services",
-                                          "A type of memory",
-                                          "A scheduling policy"
+                                          "All scans are disabled",
+                                          "Only in-scope dangerous actions are allowed",
+                                          "Only passive scanning is disabled",
+                                          "Everything is auto-allowed"
                                       ]
                       },
                       {
-                          "question":  "What is thrashing?",
+                          "question":  "Which mode automatically performs active scans on in-scope nodes?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Thrashing occurs when the system spends most of its time paging rather than doing useful work.",
-                          "correct_answer":  "Excessive paging that kills performance",
+                          "explanation":  "Attack mode actively scans in-scope nodes as they are discovered.",
+                          "correct_answer":  "Attack mode",
                           "choices":  [
-                                          "A kernel crash",
-                                          "Excessive paging that kills performance",
-                                          "A fast context switch",
-                                          "A file system error"
+                                          "Safe mode",
+                                          "Protected mode",
+                                          "Standard mode",
+                                          "Attack mode"
                                       ]
                       },
                       {
-                          "question":  "Which metric measures time from job submission to completion?",
+                          "question":  "When should you schedule active scans?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Turnaround time includes waiting and execution time.",
-                          "correct_answer":  "Turnaround time",
+                          "explanation":  "Active scans can be intrusive, so they should run during approved test windows.",
+                          "correct_answer":  "During authorized test windows",
                           "choices":  [
-                                          "Response time",
-                                          "Turnaround time",
-                                          "CPU utilization",
-                                          "Throughput"
+                                          "During peak production traffic",
+                                          "During authorized test windows",
+                                          "Never",
+                                          "Only without scope"
                                       ]
                       },
                       {
-                          "question":  "What does a mutex provide?",
+                          "question":  "What is a common outcome of passive scanning?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "A mutex enforces mutual exclusion for critical sections.",
-                          "correct_answer":  "Mutual exclusion",
+                          "explanation":  "Passive scanning raises alerts based on observed issues.",
+                          "correct_answer":  "Alerts based on observed issues",
                           "choices":  [
-                                          "Deadlock",
-                                          "Mutual exclusion",
-                                          "Priority scheduling",
-                                          "Virtual memory"
+                                          "Automatic patching",
+                                          "Alerts based on observed issues",
+                                          "Database migrations",
+                                          "User creation"
                                       ]
                       },
                       {
-                          "question":  "What is a daemon process?",
+                          "question":  "What is the recommended scanning sequence?",
                           "tags":  [
-                                       "operating-systems"
+                                       "passive-scan"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Daemons run in the background to provide services.",
-                          "correct_answer":  "A background service",
+                          "explanation":  "Start with passive scanning and then run targeted active scans for deeper coverage.",
+                          "correct_answer":  "Passive first, then targeted active scans",
                           "choices":  [
-                                          "A user interface",
-                                          "A background service",
-                                          "A file format",
-                                          "A memory leak"
+                                          "Active first, then passive",
+                                          "Passive first, then targeted active scans",
+                                          "Only active scans",
+                                          "Only manual testing"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
-    "module":  "Operating Systems",
-    "summary":  "Check your understanding of processes, scheduling, and memory basics.",
-    "title":  "Operating Systems Quiz 4"
+    "module":  "ZAP Proxying",
+    "summary":  "Check your understanding of passive vs active scanning and safe workflows.",
+    "title":  "ZAP Scanning Quiz 4"
 }

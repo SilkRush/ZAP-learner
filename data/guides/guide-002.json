@@ -1,32 +1,32 @@
 {
-    "summary":  "Field guide to tree terminology, structure, and traversal choices.",
+    "summary":  "Define scope safely with include/exclude patterns in contexts.",
     "id":  "guide-002",
     "examples":  [
-                     "Insert and search in a binary search tree.",
-                     "Traverse a tree to sum all node values.",
-                     "Use level-order traversal to compute depth."
+                     "Include only https://app.example.com/.*",
+                     "Exclude /logout or /admin if it is out of scope.",
+                     "Create a context for a single subdomain."
                  ],
     "references":  [
-                       "Introduction to Algorithms (Cormen et al.), Trees",
-                       "Algorithms (Sedgewick), Trees",
-                       "Data Structures and Algorithms in Java, Trees"
+                       "ZAP Contexts",
+                       "ZAP Desktop User Guide: Modes"
                    ],
-    "category":  "data-structures",
+    "category":  "zap-scope",
     "tags":  [
-                 "data-structures",
-                 "guide"
+                 "zap",
+                 "context",
+                 "scope"
              ],
     "diagrams":  [
-                     "Binary tree with parent/child pointers",
-                     "Preorder, inorder, and postorder traversal order"
+                     "Scope boundary: in-scope vs out-of-scope URLs",
+                     "Include/exclude regex matching flow"
                  ],
-    "content":  "## Overview\nTrees model hierarchical data and enable efficient search and aggregation. This guide focuses on core vocabulary and traversal decisions.\n\n### Key terms\n- Root, parent, child, leaf\n- Height and depth\n- Balanced vs unbalanced\n\n### Traversal choices\n- Preorder for structure copying\n- Inorder for sorted order in BSTs\n- Postorder for cleanup and deletion\n- Level-order for breadth-first tasks",
-    "title":  "Guide 2: Trees Essentials",
+    "content":  "## Overview\nContexts define scope for scanning and for authentication settings. Use narrow include rules and explicit excludes.\n\n### Best practices\n- Prefer explicit include paths\n- Use exclude rules for logouts and destructive endpoints\n- Validate your regex with sample URLs",
+    "title":  "Guide 2: Contexts and Scope",
     "steps":  [
-                  "Define the node structure and fields.",
-                  "Choose the traversal that matches the task.",
-                  "Handle empty trees and single-node trees.",
-                  "Implement recursively or iteratively with a stack/queue.",
-                  "Test with balanced and skewed examples."
+                  "Create a new context for your target.",
+                  "Add include paths using regex that match your target URLs.",
+                  "Add exclude paths for areas you must not scan.",
+                  "Switch to Protected mode to enforce scope.",
+                  "Verify scope by opening a few URLs and checking in-scope status."
               ]
 }

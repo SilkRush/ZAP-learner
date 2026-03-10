@@ -1,47 +1,45 @@
 {
-    "topic":  "Recursion and the Call Stack",
+    "topic":  "Defining scope with contexts, users, and authentication",
     "id":  "algorithms-lesson-05",
     "practice":  [
-                     "Write a recursive factorial and identify the base case.",
-                     "Convert a recursive sum into an iterative loop.",
-                     "Draw the call stack for a recursive Fibonacci call."
+                     "Create an include and exclude regex for a target domain.",
+                     "Explain how users relate to a context.",
+                     "List the steps to validate authentication in ZAP."
                  ],
     "quizzes":  [
                     "quiz-005"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "function factorial(n){\n    if(n <= 1) return 1\n    return n * factorial(n - 1)\n}\n\n// factorial(4) -> 24",
-                            "language":  "javascript"
-                        },
-                        {
-                            "code":  "function sumRecursive(arr, index = 0){\n    if(index >= arr.length) return 0\n    return arr[index] + sumRecursive(arr, index + 1)\n}",
-                            "language":  "javascript"
+                            "code":  "env:\n  contexts:\n    - name: Target\n      urls:\n        - https://app.example.com\n      includePaths:\n        - https://app.example.com/.*",
+                            "language":  "yaml"
                         }
                     ],
-    "module":  "Algorithms",
-    "title":  "Algorithms Lesson 5: Recursion",
+    "module":  "ZAP Auth & Contexts",
+    "title":  "ZAP Lesson 5: Contexts and Authentication",
     "references":  [
-                       "Structure and Interpretation of Computer Programs, Recursion",
-                       "Introduction to Algorithms (Cormen et al.), Recurrence Relations",
-                       "Problem Solving with Algorithms and Data Structures, Recursion"
+                       "ZAP Contexts",
+                       "ZAP Users",
+                       "ZAP Authentication (All Done)"
                    ],
-    "summary":  "Understand base cases, recursive structure, and how the call stack evolves.",
+    "summary":  "Define scope with contexts and configure users and authentication.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 5: Recursion\n\n## Overview\nRecursion solves a problem by breaking it into smaller instances of the same problem. Each call adds a frame to the call stack.\n\n## Two essential parts\n- Base case: the stopping condition\n- Recursive case: reduce the problem size\n\n## Common pitfalls\n- Missing or incorrect base cases\n- Not making progress toward the base case\n- Excessive stack depth for large inputs\n\n## Think in patterns\n1. Identify the smaller subproblem\n2. Assume the recursive call works\n3. Combine the result with the current step\n\n## Example\nRecursive factorial uses n * factorial(n - 1) and stops at n <= 1.",
+    "content":  "# ZAP Lesson 5: Contexts and Authentication\n\n## Overview\nContexts define what is in scope and how ZAP should handle authentication. They are the foundation for safe scanning and repeatable automation.\n\n## Contexts and scope\n- Include and exclude paths using regular expressions\n- Keep the scope narrow to avoid scanning unrelated systems\n- Use context settings in protected mode and automation\n\n## Users and authentication\n- Users belong to a context\n- Authentication methods are configured per context\n- Validate authentication before running active scans\n\n## Practical workflow\n1. Create a context and define include/exclude paths\n2. Configure the authentication method\n3. Add users and verify they are logged in\n4. Export the context for reuse in automation\n\n## Tips\n- Prefer explicit include paths over broad wildcards\n- Re-test authentication after login flows change",
     "examples":  [
-                     "Compute the sum of a list using recursion.",
-                     "Traverse a tree with a recursive preorder walk.",
-                     "Explain why naive Fibonacci recursion is slow."
+                     "Define a scope for https://app.example.com and exclude /logout.",
+                     "Create a user for an authenticated scan of an admin area.",
+                     "Export a context for use in the Automation Framework."
                  ],
     "tags":  [
-                 "algorithms",
-                 "lesson"
+                 "zap",
+                 "owasp",
+                 "context",
+                 "authentication"
              ],
     "objectives":  [
-                       "Define base cases and recursive cases clearly.",
-                       "Trace recursive calls and stack frames.",
-                       "Convert a recursive solution to iterative form.",
-                       "Recognize when recursion is not efficient."
+                       "Define a safe scope with contexts.",
+                       "Explain how users and authentication are configured.",
+                       "Validate authentication before scanning.",
+                       "Reuse context configuration in automation."
                    ]
 }

@@ -409,18 +409,21 @@ pre code{
 
 .code-sample{
     margin-bottom: 16px;
+    position: relative;
 }
 
 .code-block{
     margin-bottom: 16px;
+    position: relative;
 }
 
 .code-header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 12px;
     margin-bottom: 6px;
+    min-height: 32px;
+    padding-right: 72px;
 }
 
 .code-header .code-label{
@@ -435,6 +438,9 @@ pre code{
 
 .code-copy{
     font-size: 0.8rem;
+    position: absolute;
+    top: 10px;
+    right: 12px;
 }
 
 .code-copy.is-copied{

@@ -1,32 +1,33 @@
 {
-    "summary":  "Foundations for scaling databases with indexes, caching, and replication.",
+    "summary":  "Choose the right mix of passive and active scanning for the target.",
     "id":  "guide-005",
     "examples":  [
-                     "Add an index to speed up a frequent query.",
-                     "Introduce a read replica for read-heavy workloads.",
-                     "Cache hot query results to reduce database load."
+                     "Run passive scanning during a manual walkthrough.",
+                     "Schedule an active scan during a test window.",
+                     "Use AJAX spider + active scan for SPAs."
                  ],
     "references":  [
-                       "Designing Data-Intensive Applications (Kleppmann), Storage and Retrieval",
-                       "Database System Concepts (Silberschatz), Indexing",
-                       "Scaling databases best practices"
+                       "ZAP Passive Scanner Add-on",
+                       "ZAP Quick Start: Automated Scan"
                    ],
-    "category":  "databases",
+    "category":  "zap-scanning",
     "tags":  [
-                 "databases",
-                 "guide"
+                 "zap",
+                 "scanning",
+                 "passive-scan",
+                 "active-scan"
              ],
     "diagrams":  [
-                     "Query path with cache and database",
-                     "Primary-replica topology"
+                     "Passive vs active scan comparison",
+                     "Scan timeline: explore -> passive -> active"
                  ],
-    "content":  "## Overview\nScaling databases usually starts with better queries and indexes, then adds caching, replication, and partitioning as needed.\n\n### First steps\n- Measure slow queries and add indexes\n- Reduce payload size and avoid full table scans\n- Cache repeated reads\n\n### When growth continues\n- Add read replicas for read-heavy traffic\n- Shard by tenant or key range\n- Use background jobs for heavy writes",
-    "title":  "Guide 5: Scaling Essentials",
+    "content":  "## Overview\nPassive scanning analyzes observed traffic without changing requests. Active scanning sends attack payloads to find vulnerabilities.\n\n### Use passive scanning when\n- You are exploring the app manually\n- You need a safe baseline scan\n\n### Use active scanning when\n- You have explicit permission\n- You can run in a maintenance window\n\n### Combine for best coverage\nStart with passive scans and follow up with targeted active scans.",
+    "title":  "Guide 5: Passive vs Active Scanning",
     "steps":  [
-                  "Profile queries and identify bottlenecks.",
-                  "Add indexes that match access patterns.",
-                  "Introduce caching with clear invalidation rules.",
-                  "Scale reads with replicas, writes with partitioning.",
-                  "Continuously monitor latency and error rates."
+                  "Explore the app through the proxy to generate traffic.",
+                  "Review passive alerts and fix obvious issues first.",
+                  "Define scope to prevent out-of-scope scans.",
+                  "Run a targeted active scan on key areas.",
+                  "Validate findings and document results."
               ]
 }

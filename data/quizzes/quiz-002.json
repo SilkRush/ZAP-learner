@@ -1,162 +1,163 @@
 {
     "id":  "quiz-002",
     "tags":  [
-                 "data-structures"
+                 "zap",
+                 "context"
              ],
     "questions":  [
                       {
-                          "question":  "Which data structure follows LIFO (last in, first out)?",
+                          "question":  "What is the main purpose of a ZAP context?",
                           "tags":  [
-                                       "data-structures"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Stacks add and remove elements from the same end.",
-                          "correct_answer":  "Stack",
+                          "explanation":  "Contexts define scope and hold authentication and user settings.",
+                          "correct_answer":  "Define scope and authentication settings",
                           "choices":  [
-                                          "Queue",
-                                          "Stack",
-                                          "Linked list",
-                                          "Tree"
+                                          "Optimize database queries",
+                                          "Define scope and authentication settings",
+                                          "Manage OS services",
+                                          "Store binary files"
                                       ]
                       },
                       {
-                          "question":  "Which data structure follows FIFO (first in, first out)?",
+                          "question":  "Which method is used to include or exclude URLs in a context?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Queues remove elements in the order they were added.",
-                          "correct_answer":  "Queue",
+                          "explanation":  "Contexts use regular expressions to include or exclude URLs.",
+                          "correct_answer":  "Regular expressions",
                           "choices":  [
-                                          "Queue",
-                                          "Stack",
-                                          "Hash table",
-                                          "Heap"
+                                          "SQL queries",
+                                          "Regular expressions",
+                                          "Cookies",
+                                          "User agents"
                                       ]
                       },
                       {
-                          "question":  "What is the time complexity to access the middle element of a linked list?",
+                          "question":  "Where are users defined in ZAP?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Linked lists require traversal from the head to reach the middle.",
-                          "correct_answer":  "O(n)",
+                          "explanation":  "Users are defined within a context.",
+                          "correct_answer":  "Inside a context",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n log n)"
+                                          "Global settings",
+                                          "Inside a context",
+                                          "The sites tree",
+                                          "Reports"
                                       ]
                       },
                       {
-                          "question":  "What is the average-case lookup time for a well-implemented hash table?",
+                          "question":  "Which ZAP mode helps prevent scanning out-of-scope URLs?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "With a good hash function and low load factor, lookup is constant on average.",
-                          "correct_answer":  "O(1)",
+                          "explanation":  "Protected mode blocks potentially dangerous actions outside of scope.",
+                          "correct_answer":  "Protected mode",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n log n)"
+                                          "Safe mode",
+                                          "Protected mode",
+                                          "Standard mode",
+                                          "Attack mode"
                                       ]
                       },
                       {
-                          "question":  "What is the typical time complexity for search in a balanced BST?",
+                          "question":  "Why should you exclude logout URLs from scope?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Balanced trees keep height near log n.",
-                          "correct_answer":  "O(log n)",
+                          "explanation":  "Scanning logout endpoints can invalidate sessions and disrupt testing.",
+                          "correct_answer":  "To avoid invalidating sessions",
                           "choices":  [
-                                          "O(1)",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n^2)"
+                                          "To speed up DNS",
+                                          "To avoid invalidating sessions",
+                                          "To increase alert count",
+                                          "To enable safe mode"
                                       ]
                       },
                       {
-                          "question":  "Which data structure is most appropriate for BFS traversal?",
+                          "question":  "Authentication settings in ZAP are configured per:",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "BFS explores neighbors in layers using a queue.",
-                          "correct_answer":  "Queue",
+                          "explanation":  "Authentication is configured for each context.",
+                          "correct_answer":  "Context",
                           "choices":  [
-                                          "Stack",
-                                          "Queue",
-                                          "Heap",
-                                          "Set"
+                                          "Browser profile",
+                                          "Context",
+                                          "Proxy port",
+                                          "Workspace"
                                       ]
                       },
                       {
-                          "question":  "In a binary tree, each node has at most how many children?",
+                          "question":  "What should you do after configuring authentication?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "By definition, a binary tree node has at most two children.",
-                          "correct_answer":  "Two",
+                          "explanation":  "You should validate that users are actually logged in before scanning.",
+                          "correct_answer":  "Validate that users are logged in",
                           "choices":  [
-                                          "One",
-                                          "Two",
-                                          "Three",
-                                          "Four"
+                                          "Delete the context",
+                                          "Validate that users are logged in",
+                                          "Switch to Safe mode",
+                                          "Clear all alerts"
                                       ]
                       },
                       {
-                          "question":  "What is the amortized time complexity of appending to a dynamic array?",
+                          "question":  "How can you reuse context settings in automation?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Resizing is occasional, so appends are O(1) amortized.",
-                          "correct_answer":  "O(1) amortized",
+                          "explanation":  "Contexts can be exported and reused in Automation Framework plans.",
+                          "correct_answer":  "Export the context",
                           "choices":  [
-                                          "O(1) amortized",
-                                          "O(log n)",
-                                          "O(n)",
-                                          "O(n log n)"
+                                          "Restart ZAP",
+                                          "Export the context",
+                                          "Disable passive scanning",
+                                          "Change proxy ports"
                                       ]
                       },
                       {
-                          "question":  "Which data structure is commonly used to check balanced parentheses?",
+                          "question":  "Which approach is safest for defining scope?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Stacks track the most recent opening bracket.",
-                          "correct_answer":  "Stack",
+                          "explanation":  "Narrow include patterns reduce accidental out-of-scope scans.",
+                          "correct_answer":  "Use explicit include paths",
                           "choices":  [
-                                          "Queue",
-                                          "Stack",
-                                          "Array",
-                                          "Priority queue"
+                                          "Use broad wildcards",
+                                          "Use explicit include paths",
+                                          "Skip scope entirely",
+                                          "Use random targets"
                                       ]
                       },
                       {
-                          "question":  "Which traversal yields sorted order for a binary search tree?",
+                          "question":  "What does an include regex determine?",
                           "tags":  [
-                                       "data-structures"
+                                       "context"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Inorder traversal of a BST visits nodes in ascending key order.",
-                          "correct_answer":  "Inorder traversal",
+                          "explanation":  "Include regex patterns determine which URLs are considered in scope.",
+                          "correct_answer":  "Which URLs are in scope",
                           "choices":  [
-                                          "Preorder traversal",
-                                          "Inorder traversal",
-                                          "Postorder traversal",
-                                          "Level-order traversal"
+                                          "Which alerts are critical",
+                                          "Which URLs are in scope",
+                                          "Which browser to use",
+                                          "Which scan type to run"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
-    "module":  "Data Structures",
-    "summary":  "Check your understanding of core data structures and their performance.",
-    "title":  "Data Structures Quiz 2"
+    "module":  "ZAP Auth & Contexts",
+    "summary":  "Check your understanding of contexts, scope, and users.",
+    "title":  "ZAP Contexts Quiz 2"
 }

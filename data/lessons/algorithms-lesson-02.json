@@ -1,47 +1,44 @@
 {
-    "topic":  "Arrays and Strings as Linear Containers",
+    "topic":  "Installing and running ZAP",
     "id":  "algorithms-lesson-02",
     "practice":  [
-                     "Write a function that reverses an array in place.",
-                     "Use two pointers to check if a string is a palindrome.",
-                     "Describe the difference between random access and sequential access."
+                     "Explain the difference between the desktop app and Docker Webswing.",
+                     "List the ports used by the ZAP Webswing container.",
+                     "Describe when a headless or containerized setup is preferable."
                  ],
     "quizzes":  [
                     "quiz-002"
                 ],
     "codeSamples":  [
                         {
-                            "code":  "function reverseInPlace(arr){\n    let left = 0\n    let right = arr.length - 1\n    while(left < right){\n        const tmp = arr[left]\n        arr[left] = arr[right]\n        arr[right] = tmp\n        left++\n        right--\n    }\n    return arr\n}",
-                            "language":  "javascript"
-                        },
-                        {
-                            "code":  "function isPalindrome(text){\n    let left = 0\n    let right = text.length - 1\n    while(left < right){\n        if(text[left] !== text[right]) return false\n        left++\n        right--\n    }\n    return true\n}",
-                            "language":  "javascript"
+                            "code":  "docker run -u zap -p 8080:8080 -p 8090:8090 -i ghcr.io/zaproxy/zaproxy:stable zap-webswing.sh",
+                            "language":  "bash"
                         }
                     ],
-    "module":  "Algorithms",
-    "title":  "Algorithms Lesson 2: Arrays and Strings",
+    "module":  "ZAP Setup",
+    "title":  "ZAP Lesson 2: Install and Launch",
     "references":  [
-                       "Cracking the Coding Interview, Arrays and Strings",
-                       "Competitive Programming 4, Arrays and Strings",
-                       "JavaScript Arrays and Strings reference"
+                       "OWASP ZAP Getting Started",
+                       "ZAP Docker: About",
+                       "ZAP Docker: Webswing"
                    ],
-    "summary":  "Understand indexing, traversal, and common patterns like two pointers and sliding windows.",
+    "summary":  "Install ZAP on desktop or run it in Docker with the Webswing UI.",
     "difficulty":  "beginner",
-    "content":  "# Algorithms Lesson 2: Arrays and Strings\n\n## Overview\nArrays and strings are linear containers with fast random access. Many algorithmic patterns build on them, including two pointers and sliding windows.\n\n## Key properties\n- Indexing is O(1)\n- Insertion or deletion in the middle is O(n)\n- Contiguous storage helps cache performance\n\n## Common patterns\n- Two pointers for pairs and palindromes\n- Sliding window for ranges and subarrays\n- Prefix sums for fast range queries\n\n## Practical tips\n1. Be explicit about bounds and indices\n2. Watch for off-by-one errors\n3. Handle empty input early\n\n## Example use case\nFind the longest substring with at most k distinct characters using a sliding window.",
+    "content":  "# ZAP Lesson 2: Install and Launch\n\n## Overview\nZAP can run as a desktop application or inside a Docker container. The desktop app requires Java, while Docker images ship with everything you need.\n\n## Desktop setup\n- Install the ZAP desktop application\n- Ensure the required Java version is installed\n- Launch ZAP and open the Quick Start tab\n\n## Docker Webswing\nThe Webswing container provides the ZAP UI in a browser. It is useful for labs, demos, and shared environments.\n\n## When to choose which\n- Desktop: daily interactive testing\n- Docker Webswing: quick lab setup, remote access\n- Headless CLI: CI pipelines and automation\n\n## Tips\n- Use a stable image tag for reproducible results\n- Keep scan targets local or authorized",
     "examples":  [
-                     "Remove duplicates from a sorted array.",
-                     "Find two numbers that sum to a target in a sorted array.",
-                     "Compute the maximum sum of a fixed-length window."
+                     "Use Webswing to run ZAP without installing Java locally.",
+                     "Choose desktop ZAP for a test session that requires manual exploration.",
+                     "Use a container in CI to keep the environment consistent."
                  ],
     "tags":  [
-                 "algorithms",
-                 "lesson"
+                 "zap",
+                 "owasp",
+                 "setup"
              ],
     "objectives":  [
-                       "Explain array access costs and tradeoffs.",
-                       "Use two pointers to solve a linear scan problem.",
-                       "Apply a sliding window to range-based queries.",
-                       "Identify off-by-one pitfalls in index math."
+                       "Describe desktop vs Docker ZAP setups.",
+                       "Run the Webswing container with the correct ports.",
+                       "Choose an appropriate deployment option for your workflow.",
+                       "Identify when headless execution is useful."
                    ]
 }

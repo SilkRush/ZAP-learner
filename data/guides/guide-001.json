@@ -1,32 +1,32 @@
 {
-    "summary":  "Practical checklist for choosing and implementing search algorithms.",
+    "summary":  "Step-by-step checklist for running a safe Quick Start scan.",
     "id":  "guide-001",
     "examples":  [
-                     "Scan an unsorted list of IDs to find a match.",
-                     "Binary search a sorted list of SKUs.",
-                     "Use a hash lookup when queries are frequent."
+                     "Run an automated scan on a staging app.",
+                     "Use the built-in browser for a manual explore pass.",
+                     "Review alerts and export a report."
                  ],
     "references":  [
-                       "Introduction to Algorithms (Cormen et al.), Searching",
-                       "Algorithms (Sedgewick), Searching",
-                       "Binary search correctness notes"
+                       "ZAP Quick Start: Automated Scan",
+                       "OWASP ZAP Getting Started"
                    ],
-    "category":  "algorithms",
+    "category":  "zap-quick-start",
     "tags":  [
-                 "algorithms",
-                 "guide"
+                 "zap",
+                 "owasp",
+                 "quick-start"
              ],
     "diagrams":  [
-                     "Binary search window shrinking (low, mid, high)",
-                     "Decision tree: sorted vs unsorted input"
+                     "Quick Start workflow: target -> spider -> active scan",
+                     "Alert review flow: scan -> triage -> report"
                  ],
-    "content":  "## Overview\nUse this guide to pick the right search strategy based on data shape and constraints.\n\n### When to use which\n- Linear search: unsorted data, small collections\n- Binary search: sorted data, random access\n- Hash lookup: repeated queries with preprocessing\n\n### Common pitfalls\n- Off-by-one errors in binary search bounds\n- Assuming data is sorted when it is not\n- Ignoring duplicates and empty inputs",
-    "title":  "Guide 1: Searching Essentials",
+    "content":  "## Overview\nQuick Start is the fastest way to run a baseline scan against an authorized target.\n\n### What it does\n- Crawls the target with the spider\n- Optionally uses the AJAX spider for JS-heavy apps\n- Runs active scanning to identify issues\n\n### Safety reminders\n- Only scan systems you are authorized to test\n- Use Protected mode to avoid out-of-scope scans",
+    "title":  "Guide 1: Quick Start Checklist",
     "steps":  [
-                  "Clarify the data shape (sorted or unsorted).",
-                  "Choose linear, binary, or hash-based search.",
-                  "Define the target match rule (exact, first, last).",
-                  "Implement with careful bounds and test edge cases.",
-                  "Measure performance on realistic input sizes."
+                  "Confirm you have written authorization to test the target.",
+                  "Open Quick Start and select Automated Scan.",
+                  "Enter the target URL and select spider options if needed.",
+                  "Run the scan and monitor the progress tab.",
+                  "Review alerts by risk and confidence, then export a report."
               ]
 }

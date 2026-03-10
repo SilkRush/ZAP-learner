@@ -1,162 +1,163 @@
 {
     "id":  "quiz-003",
     "tags":  [
-                 "fundamentals"
+                 "zap",
+                 "scanning"
              ],
     "questions":  [
                       {
-                          "question":  "Which statement best describes a variable?",
+                          "question":  "What does the Quick Start automated scan do first?",
                           "tags":  [
-                                       "fundamentals"
+                                       "zap"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Variables store values that can change during program execution.",
-                          "correct_answer":  "A named value that can change",
+                          "explanation":  "Quick Start begins by crawling the site with a spider.",
+                          "correct_answer":  "Crawl the site with a spider",
                           "choices":  [
-                                          "A named value that can change",
-                                          "A fixed constant that never changes",
-                                          "A data type definition",
-                                          "A loop construct"
+                                          "Delete old alerts",
+                                          "Crawl the site with a spider",
+                                          "Disable HTTPS",
+                                          "Export a report"
                                       ]
                       },
                       {
-                          "question":  "What is the purpose of a function parameter?",
+                          "question":  "Which spider is best for JavaScript-heavy applications?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Parameters define the inputs a function accepts.",
-                          "correct_answer":  "To define inputs to the function",
+                          "explanation":  "The AJAX spider uses a browser engine to explore dynamic content.",
+                          "correct_answer":  "AJAX spider",
                           "choices":  [
-                                          "To define inputs to the function",
-                                          "To store output values",
-                                          "To control program flow",
-                                          "To allocate memory"
+                                          "Traditional spider",
+                                          "AJAX spider",
+                                          "Passive scanner",
+                                          "Alert filter"
                                       ]
                       },
                       {
-                          "question":  "Which construct repeats a block of code while a condition is true?",
+                          "question":  "Why use the traditional spider?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "While loops repeat as long as the condition remains true.",
-                          "correct_answer":  "While loop",
+                          "explanation":  "It is fast and works well on classic HTML navigation.",
+                          "correct_answer":  "It is fast for classic HTML navigation",
                           "choices":  [
-                                          "If statement",
-                                          "While loop",
-                                          "Switch statement",
-                                          "Function call"
+                                          "It only scans WebSockets",
+                                          "It is fast for classic HTML navigation",
+                                          "It modifies cookies",
+                                          "It requires a browser license"
                                       ]
                       },
                       {
-                          "question":  "What does an if/else statement do?",
+                          "question":  "After a Quick Start scan finishes, what should you do?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "It selects between branches based on a condition.",
-                          "correct_answer":  "Chooses a branch based on a condition",
+                          "explanation":  "You should review alerts by risk and confidence before reporting.",
+                          "correct_answer":  "Review alerts by risk and confidence",
                           "choices":  [
-                                          "Repeats a block of code",
-                                          "Chooses a branch based on a condition",
-                                          "Defines a new data type",
-                                          "Allocates memory"
+                                          "Ignore the results",
+                                          "Review alerts by risk and confidence",
+                                          "Switch to Safe mode",
+                                          "Delete the session"
                                       ]
                       },
                       {
-                          "question":  "What does a function return?",
+                          "question":  "Which statement is true about automated scanning?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Functions return output values to the caller.",
-                          "correct_answer":  "An output value",
+                          "explanation":  "Automated scans should only run against authorized targets.",
+                          "correct_answer":  "Only run scans on authorized targets",
                           "choices":  [
-                                          "An output value",
-                                          "Only input values",
-                                          "Only global variables",
-                                          "Nothing ever"
+                                          "Always scan production",
+                                          "Only run scans on authorized targets",
+                                          "Scans never create alerts",
+                                          "Scans only work on localhost"
                                       ]
                       },
                       {
-                          "question":  "Which data type represents true/false values?",
+                          "question":  "What is the purpose of the spider phase?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Boolean values are either true or false.",
-                          "correct_answer":  "Boolean",
+                          "explanation":  "The spider discovers URLs and inputs for later scanning.",
+                          "correct_answer":  "Discover URLs and inputs",
                           "choices":  [
-                                          "Integer",
-                                          "String",
-                                          "Boolean",
-                                          "Array"
+                                          "Encrypt traffic",
+                                          "Discover URLs and inputs",
+                                          "Generate PDF reports",
+                                          "Patch vulnerabilities"
                                       ]
                       },
                       {
-                          "question":  "What is a common cause of off-by-one errors?",
+                          "question":  "Which option is best for scanning a single-page application?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Incorrect loop boundaries often lead to off-by-one mistakes.",
-                          "correct_answer":  "Incorrect loop boundaries",
+                          "explanation":  "SPAs typically require the AJAX spider to handle JavaScript.",
+                          "correct_answer":  "AJAX spider",
                           "choices":  [
-                                          "Using variables",
-                                          "Incorrect loop boundaries",
-                                          "Using functions",
-                                          "Using constants"
+                                          "Traditional spider",
+                                          "AJAX spider",
+                                          "Passive scanner",
+                                          "Safe mode"
                                       ]
                       },
                       {
-                          "question":  "What does local scope mean?",
+                          "question":  "Which tool is commonly used for CLI scanning in ZAP Docker images?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Local scope limits a variable to a specific block or function.",
-                          "correct_answer":  "Visibility limited to a block or function",
+                          "explanation":  "ZAP Docker images include packaged scan scripts like zap-full-scan.py.",
+                          "correct_answer":  "zap-full-scan.py",
                           "choices":  [
-                                          "Visible everywhere",
-                                          "Visibility limited to a block or function",
-                                          "Stored on disk",
-                                          "Only for constants"
+                                          "npm audit",
+                                          "zap-full-scan.py",
+                                          "curl-only",
+                                          "docker-compose"
                                       ]
                       },
                       {
-                          "question":  "Which step helps break a problem into manageable parts?",
+                          "question":  "Which statement best describes the scan order?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Decomposition separates a problem into smaller tasks.",
-                          "correct_answer":  "Decomposition",
+                          "explanation":  "ZAP typically crawls first, then actively scans discovered URLs.",
+                          "correct_answer":  "Crawl first, then active scan",
                           "choices":  [
-                                          "Inlining",
-                                          "Decomposition",
-                                          "Compilation",
-                                          "Memoization"
+                                          "Active scan first, then crawl",
+                                          "Crawl first, then active scan",
+                                          "Only passive scanning runs",
+                                          "Reports are generated before crawling"
                                       ]
                       },
                       {
-                          "question":  "What is the main benefit of writing small, focused functions?",
+                          "question":  "What is a good reason to export a report after scanning?",
                           "tags":  [
-                                       "fundamentals"
+                                       "scanning"
                                    ],
                           "difficulty":  "beginner",
-                          "explanation":  "Small functions are easier to test and understand.",
-                          "correct_answer":  "They are easier to test and understand",
+                          "explanation":  "Reports capture findings for triage and documentation.",
+                          "correct_answer":  "To document findings for triage",
                           "choices":  [
-                                          "They use more memory",
-                                          "They are easier to test and understand",
-                                          "They require fewer variables",
-                                          "They always run faster"
+                                          "To speed up DNS",
+                                          "To document findings for triage",
+                                          "To enable Safe mode",
+                                          "To delete scan history"
                                       ]
                       }
                   ],
     "difficulty":  "beginner",
-    "module":  "Programming Fundamentals",
-    "summary":  "Check your grasp of variables, functions, control flow, and scope.",
-    "title":  "Programming Fundamentals Quiz 3"
+    "module":  "ZAP Scanning",
+    "summary":  "Check your understanding of Quick Start, spidering, and automated scans.",
+    "title":  "ZAP Quick Start Quiz 3"
 }
