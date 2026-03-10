@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for System Design topic 293.",
-    "id":  "guide-293",
-    "examples":  [
-                     "Example workflow for System Design.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "System Design Field Notes",
-                       "Checklist: System Design Review"
-                   ],
-    "category":  "system-design",
-    "tags":  [
-                 "system-design",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for System Design topic 293.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 293: Caching Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply System Design patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Use ZAP modes to control scan safety and scope.",
+    "id": "guide-293",
+    "examples": [
+        "Use Protected mode during CI scanning.",
+        "Switch to Safe mode for read-only analysis."
+    ],
+    "references": [
+        "Modes",
+        "Scope"
+    ],
+    "category": "modes",
+    "tags": [
+        "zap",
+        "guide",
+        "modes"
+    ],
+    "diagrams": [
+        "Mode matrix vs allowed actions",
+        "Scope guardrails by mode"
+    ],
+    "content": "## Overview\nUse ZAP modes to control scan safety and scope.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Working Safely with Modes (Workflow 25)",
+    "steps": [
+        "Start in Safe or Protected mode by default.",
+        "Define scope before enabling active scans.",
+        "Use Standard mode for manual exploration.",
+        "Reserve Attack mode for controlled environments.",
+        "Validate that actions stay in scope."
+    ]
 }

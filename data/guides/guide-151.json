@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Web Development topic 151.",
-    "id":  "guide-151",
-    "examples":  [
-                     "Example workflow for Web Development.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Web Development Field Notes",
-                       "Checklist: Web Development Review"
-                   ],
-    "category":  "web",
-    "tags":  [
-                 "web",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Web Development topic 151.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 151: HTML Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Web Development patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model targets, contexts, and variables in the environment section.",
+    "id": "guide-151",
+    "examples": [
+        "Keep default ports out of URLs when required.",
+        "Reuse variables across multiple jobs."
+    ],
+    "references": [
+        "Automation Framework - Environment"
+    ],
+    "category": "automation",
+    "tags": [
+        "zap",
+        "guide",
+        "automation"
+    ],
+    "diagrams": [
+        "Environment section structure",
+        "Context binding to jobs"
+    ],
+    "content": "## Overview\nModel targets, contexts, and variables in the environment section.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Automation Framework Environment (Workflow 13)",
+    "steps": [
+        "Define context names and top-level URLs.",
+        "Add include/exclude regex paths.",
+        "Specify authentication configuration if needed.",
+        "Set variables for hostnames and ports.",
+        "Run a validation pass with -autocheck."
+    ]
 }

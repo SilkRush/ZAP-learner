@@ -1,33 +1,31 @@
 {
-    "summary":  "Choose the right mix of passive and active scanning for the target.",
-    "id":  "guide-005",
-    "examples":  [
-                     "Run passive scanning during a manual walkthrough.",
-                     "Schedule an active scan during a test window.",
-                     "Use AJAX spider + active scan for SPAs."
-                 ],
-    "references":  [
-                       "ZAP Passive Scanner Add-on",
-                       "ZAP Quick Start: Automated Scan"
-                   ],
-    "category":  "zap-scanning",
-    "tags":  [
-                 "zap",
-                 "scanning",
-                 "passive-scan",
-                 "active-scan"
-             ],
-    "diagrams":  [
-                     "Passive vs active scan comparison",
-                     "Scan timeline: explore -> passive -> active"
-                 ],
-    "content":  "## Overview\nPassive scanning analyzes observed traffic without changing requests. Active scanning sends attack payloads to find vulnerabilities.\n\n### Use passive scanning when\n- You are exploring the app manually\n- You need a safe baseline scan\n\n### Use active scanning when\n- You have explicit permission\n- You can run in a maintenance window\n\n### Combine for best coverage\nStart with passive scans and follow up with targeted active scans.",
-    "title":  "Guide 5: Passive vs Active Scanning",
-    "steps":  [
-                  "Explore the app through the proxy to generate traffic.",
-                  "Review passive alerts and fix obvious issues first.",
-                  "Define scope to prevent out-of-scope scans.",
-                  "Run a targeted active scan on key areas.",
-                  "Validate findings and document results."
-              ]
+    "summary": "Use ZAP modes to control scan safety and scope.",
+    "id": "guide-005",
+    "examples": [
+        "Use Protected mode during CI scanning.",
+        "Switch to Safe mode for read-only analysis."
+    ],
+    "references": [
+        "Modes",
+        "Scope"
+    ],
+    "category": "modes",
+    "tags": [
+        "zap",
+        "guide",
+        "modes"
+    ],
+    "diagrams": [
+        "Mode matrix vs allowed actions",
+        "Scope guardrails by mode"
+    ],
+    "content": "## Overview\nUse ZAP modes to control scan safety and scope.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Working Safely with Modes",
+    "steps": [
+        "Start in Safe or Protected mode by default.",
+        "Define scope before enabling active scans.",
+        "Use Standard mode for manual exploration.",
+        "Reserve Attack mode for controlled environments.",
+        "Validate that actions stay in scope."
+    ]
 }

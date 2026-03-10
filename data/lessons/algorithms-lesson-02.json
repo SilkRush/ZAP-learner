@@ -1,44 +1,43 @@
 {
-    "topic":  "Installing and running ZAP",
-    "id":  "algorithms-lesson-02",
-    "practice":  [
-                     "Explain the difference between the desktop app and Docker Webswing.",
-                     "List the ports used by the ZAP Webswing container.",
-                     "Describe when a headless or containerized setup is preferable."
-                 ],
-    "quizzes":  [
-                    "quiz-002"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "docker run -u zap -p 8080:8080 -p 8090:8090 -i ghcr.io/zaproxy/zaproxy:stable zap-webswing.sh",
-                            "language":  "bash"
-                        }
-                    ],
-    "module":  "ZAP Setup",
-    "title":  "ZAP Lesson 2: Install and Launch",
-    "references":  [
-                       "OWASP ZAP Getting Started",
-                       "ZAP Docker: About",
-                       "ZAP Docker: Webswing"
-                   ],
-    "summary":  "Install ZAP on desktop or run it in Docker with the Webswing UI.",
-    "difficulty":  "beginner",
-    "content":  "# ZAP Lesson 2: Install and Launch\n\n## Overview\nZAP can run as a desktop application or inside a Docker container. The desktop app requires Java, while Docker images ship with everything you need.\n\n## Desktop setup\n- Install the ZAP desktop application\n- Ensure the required Java version is installed\n- Launch ZAP and open the Quick Start tab\n\n## Docker Webswing\nThe Webswing container provides the ZAP UI in a browser. It is useful for labs, demos, and shared environments.\n\n## When to choose which\n- Desktop: daily interactive testing\n- Docker Webswing: quick lab setup, remote access\n- Headless CLI: CI pipelines and automation\n\n## Tips\n- Use a stable image tag for reproducible results\n- Keep scan targets local or authorized",
-    "examples":  [
-                     "Use Webswing to run ZAP without installing Java locally.",
-                     "Choose desktop ZAP for a test session that requires manual exploration.",
-                     "Use a container in CI to keep the environment consistent."
-                 ],
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "setup"
-             ],
-    "objectives":  [
-                       "Describe desktop vs Docker ZAP setups.",
-                       "Run the Webswing container with the correct ports.",
-                       "Choose an appropriate deployment option for your workflow.",
-                       "Identify when headless execution is useful."
-                   ]
+    "topic": "Include and Exclude Patterns",
+    "id": "algorithms-lesson-02",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on include and exclude patterns.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-002"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "-zapit https://www.example1.com -zapit http://example2.com/ -cmd"
+        }
+    ],
+    "module": "ZAP Scanning Core",
+    "title": "Include and Exclude Patterns",
+    "references": [
+        "Scope",
+        "Contexts",
+        "Quick Start Add-on",
+        "Scan Policy"
+    ],
+    "summary": "Apply include and exclude patterns in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Include and Exclude Patterns\n\n## Overview\nApply include and exclude patterns in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run include and exclude patterns on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "scanning",
+        "zap-scanning-core"
+    ],
+    "objectives": [
+        "Explain how include and exclude patterns fits into ZAP testing.",
+        "Configure include and exclude patterns safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

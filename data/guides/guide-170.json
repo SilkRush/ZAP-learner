@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Algorithms topic 170.",
-    "id":  "guide-170",
-    "examples":  [
-                     "Example workflow for Algorithms.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Algorithms Field Notes",
-                       "Checklist: Algorithms Review"
-                   ],
-    "category":  "algorithms",
-    "tags":  [
-                 "algorithms",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Algorithms topic 170.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 170: Dynamic Programming Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Algorithms patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Proxy a browser through ZAP to explore and collect real traffic.",
+    "id": "guide-170",
+    "examples": [
+        "Record a login flow for authenticated testing later.",
+        "Use manual explore to hit hidden navigation paths."
+    ],
+    "references": [
+        "Quick Start Add-on",
+        "Desktop UI Overview"
+    ],
+    "category": "proxy",
+    "tags": [
+        "zap",
+        "guide",
+        "proxy"
+    ],
+    "diagrams": [
+        "Browser -> ZAP Proxy -> Target App",
+        "Manual explore and follow-up scan loop"
+    ],
+    "content": "## Overview\nProxy a browser through ZAP to explore and collect real traffic.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Manual Explore with Proxy (Workflow 15)",
+    "steps": [
+        "Launch the Quick Start Manual Explore browser.",
+        "Navigate through core user journeys.",
+        "Capture traffic in the History tab.",
+        "Add important URLs to scope and contexts.",
+        "Trigger follow-up scans on discovered paths."
+    ]
 }

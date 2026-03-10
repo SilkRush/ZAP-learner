@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Databases topic 70.",
-    "id":  "guide-070",
-    "examples":  [
-                     "Example workflow for Databases.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Databases Field Notes",
-                       "Checklist: Databases Review"
-                   ],
-    "category":  "databases",
-    "tags":  [
-                 "databases",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Databases topic 70.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 70: Scaling Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Databases patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Adjust scan policies to balance coverage and safety.",
+    "id": "guide-070",
+    "examples": [
+        "Use a conservative policy for production scans.",
+        "Increase strength for a deep-dive assessment."
+    ],
+    "references": [
+        "Scan Policy"
+    ],
+    "category": "scanning",
+    "tags": [
+        "zap",
+        "guide",
+        "scanning"
+    ],
+    "diagrams": [
+        "Policy selection workflow",
+        "Rule strength vs coverage"
+    ],
+    "content": "## Overview\nAdjust scan policies to balance coverage and safety.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Scan Policy Tuning (Workflow 6)",
+    "steps": [
+        "Select an appropriate scan policy.",
+        "Review active scan rules included.",
+        "Adjust rule strength and thresholds.",
+        "Save a policy for reuse.",
+        "Run a focused scan to validate."
+    ]
 }

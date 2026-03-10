@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for System Design topic 7.",
-    "id":  "lab-007",
-    "category":  "system-design",
-    "tags":  [
-                 "system-design",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for System Design lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 7: Reliability",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for System Design topic 7.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Run a ZAPit reconnaissance scan from the command line.",
+    "id": "lab-007",
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "lab",
+        "quick-start"
+    ],
+    "starter": "-zapit https://www.example1.com -zapit http://example2.com/ -cmd",
+    "objectives": [
+        "Run the -zapit command correctly.",
+        "Capture summary output.",
+        "Identify reported technologies."
+    ],
+    "solutionOutline": [
+        "Recon output captured and summarized.",
+        "Next steps identified for deeper scans."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 7: ZAPit Recon Run",
+    "steps": [
+        "Run ZAP with the -zapit option.",
+        "Ensure -cmd is included.",
+        "Review the output for alerts and stats.",
+        "Record technologies detected."
+    ],
+    "overview": "## Goal\nRun a ZAPit reconnaissance scan from the command line."
 }

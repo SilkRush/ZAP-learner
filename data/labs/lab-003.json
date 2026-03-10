@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Programming Fundamentals topic 3.",
-    "id":  "lab-003",
-    "category":  "fundamentals",
-    "tags":  [
-                 "fundamentals",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Programming Fundamentals lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 3: Functions",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Programming Fundamentals topic 3.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Compare traditional spider and AJAX spider coverage.",
+    "id": "lab-003",
+    "category": "scanning",
+    "tags": [
+        "zap",
+        "lab",
+        "scanning"
+    ],
+    "starter": "# Record spider configuration and output counts",
+    "objectives": [
+        "Run both spiders on the same target.",
+        "Compare discovered URLs.",
+        "Document coverage differences."
+    ],
+    "solutionOutline": [
+        "Coverage differences documented.",
+        "Spider choice justified for the target app."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 3: Spider Coverage Comparison",
+    "steps": [
+        "Run the traditional spider from the target URL.",
+        "Run the AJAX spider with the same scope.",
+        "Compare results in the Sites Tree.",
+        "Note pages found only by one spider.",
+        "Decide which spider to use for deeper scans."
+    ],
+    "overview": "## Goal\nCompare traditional spider and AJAX spider coverage."
 }

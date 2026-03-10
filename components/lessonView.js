@@ -34,8 +34,8 @@ async function renderLessonList(app, query){
     app.innerHTML = `
         <section class="page-header">
             <div>
-                <h1>Lessons Library</h1>
-                <p>Browse lessons by module, difficulty, or keyword.</p>
+                <h1>ZAP Lessons</h1>
+                <p>Browse OWASP ZAP lessons by module, level, or keyword.</p>
             </div>
         </section>
         <section class="filters">

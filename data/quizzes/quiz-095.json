@@ -1,162 +1,163 @@
-﻿{
-    "id":  "quiz-095",
-    "tags":  [
-                 "operating-systems"
-             ],
-    "questions":  [
-                      {
-                          "question":  "Question 1 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 2 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 3 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 4 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 5 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 6 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 7 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 8 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 9 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 10 on Operating Systems fundamentals.",
-                          "tags":  [
-                                       "operating-systems"
-                                   ],
-                          "difficulty":  "intermediate",
-                          "explanation":  "Review the key steps for Operating Systems to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "intermediate",
-    "module":  "Operating Systems",
-    "summary":  "Check your understanding of Operating Systems concepts.",
-    "title":  "Operating Systems Quiz 95"
+{
+    "id": "quiz-095",
+    "tags": [
+        "zap",
+        "zap-advanced"
+    ],
+    "questions": [
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        },
+        {
+            "question": "The AJAX spider explores applications by using what?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "AJAX spider launches a browser and clicks links to explore JS-driven apps.",
+            "correct_answer": "A browser",
+            "choices": [
+                "A browser",
+                "A database",
+                "A reverse proxy",
+                "A static sitemap"
+            ]
+        },
+        {
+            "question": "When using -zapit, which option must be included or it will be ignored?",
+            "tags": [
+                "zapit"
+            ],
+            "difficulty": "beginner",
+            "explanation": "ZAPit requires -cmd or the option is ignored.",
+            "correct_answer": "-cmd",
+            "choices": [
+                "-cmd",
+                "-daemon",
+                "-quickout",
+                "-config"
+            ]
+        },
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        },
+        {
+            "question": "The ZAP full scan script runs a spider, optional AJAX spider, then what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The full scan script finishes with a full active scan.",
+            "correct_answer": "A full active scan",
+            "choices": [
+                "A full active scan",
+                "Only passive scanning",
+                "A report export",
+                "A proxy replay"
+            ]
+        },
+        {
+            "question": "In zap-full-scan.py usage, the target must include what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The target URL must include the protocol.",
+            "correct_answer": "The protocol, e.g. https://",
+            "choices": [
+                "The protocol, e.g. https://",
+                "An API key",
+                "A report path",
+                "A context file"
+            ]
+        },
+        {
+            "question": "An alert in ZAP is associated with what?",
+            "tags": [
+                "alerts"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Alerts are tied to specific requests and can have multiple per request.",
+            "correct_answer": "A specific request",
+            "choices": [
+                "A specific request",
+                "A user account",
+                "A scan policy",
+                "A context name"
+            ]
+        }
+    ],
+    "difficulty": "intermediate",
+    "module": "ZAP Advanced",
+    "summary": "Check your understanding of zap advanced concepts.",
+    "title": "ZAP Advanced Quiz 095"
 }

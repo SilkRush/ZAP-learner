@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for Operating Systems topic 30.",
-    "id":  "lab-030",
-    "category":  "operating-systems",
-    "tags":  [
-                 "operating-systems",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Operating Systems lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "advanced",
-    "title":  "Lab 30: Filesystems",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Operating Systems topic 30.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Confirm Protected mode blocks out-of-scope actions.",
+    "id": "lab-030",
+    "category": "modes",
+    "tags": [
+        "zap",
+        "lab",
+        "modes"
+    ],
+    "starter": "# Use Protected mode before active scans",
+    "objectives": [
+        "Set a context in scope.",
+        "Switch to Protected mode.",
+        "Verify out-of-scope scanning is blocked."
+    ],
+    "solutionOutline": [
+        "Protected mode prevents out-of-scope actions.",
+        "Scope validated for safe testing."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 30: Protected Mode Validation (Iteration 3)",
+    "steps": [
+        "Create or select a context with scope rules.",
+        "Enable Protected mode from the toolbar.",
+        "Attempt to run an active scan on out-of-scope URLs.",
+        "Record the blocked action."
+    ],
+    "overview": "## Goal\nConfirm Protected mode blocks out-of-scope actions."
 }

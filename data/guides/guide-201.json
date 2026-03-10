@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Networking topic 201.",
-    "id":  "guide-201",
-    "examples":  [
-                     "Example workflow for Networking.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Networking Field Notes",
-                       "Checklist: Networking Review"
-                   ],
-    "category":  "networking",
-    "tags":  [
-                 "networking",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Networking topic 201.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 201: TCP Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Networking patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Interpret alerts, assess risk, and plan remediation.",
+    "id": "guide-201",
+    "examples": [
+        "Tag recurring alerts for follow-up.",
+        "Export alerts to share with engineering."
+    ],
+    "references": [
+        "Alerts"
+    ],
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "guide",
+        "alerts"
+    ],
+    "diagrams": [
+        "Alert lifecycle",
+        "Risk vs confidence matrix"
+    ],
+    "content": "## Overview\nInterpret alerts, assess risk, and plan remediation.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Alerts and Prioritization (Workflow 17)",
+    "steps": [
+        "Review alert details and evidence.",
+        "Check risk and confidence levels.",
+        "Validate findings with manual requests.",
+        "Document remediation guidance.",
+        "Retest and close findings."
+    ]
 }

@@ -1,266 +1,266 @@
-﻿[
+[
     {
-        "title":  "Algorithms Cheat Sheet 1",
-        "category":  "algorithms",
-        "id":  "cheatsheet-001",
-        "items":  [
-                      "Key concept 1 for Algorithms",
-                      "Key concept 2 for Algorithms",
-                      "Key concept 3 for Algorithms",
-                      "Key concept 4 for Algorithms"
-                  ]
+        "id": "cheatsheet-001",
+        "title": "Quick Start Checklist",
+        "category": "quick-start",
+        "items": [
+            "Confirm you have permission to test the target.",
+            "Enter a full URL including http/https.",
+            "Choose traditional or AJAX spider based on the app.",
+            "Review alerts immediately after the scan completes."
+        ]
     },
     {
-        "title":  "Data Structures Cheat Sheet 2",
-        "category":  "data-structures",
-        "id":  "cheatsheet-002",
-        "items":  [
-                      "Key concept 1 for Data Structures",
-                      "Key concept 2 for Data Structures",
-                      "Key concept 3 for Data Structures",
-                      "Key concept 4 for Data Structures"
-                  ]
+        "id": "cheatsheet-002",
+        "title": "Modes At-a-Glance",
+        "category": "modes",
+        "items": [
+            "Safe: no dangerous actions allowed.",
+            "Protected: dangerous actions only in scope.",
+            "Standard: no restrictions.",
+            "Attack: active scan new nodes in scope automatically."
+        ]
     },
     {
-        "title":  "Programming Fundamentals Cheat Sheet 3",
-        "category":  "fundamentals",
-        "id":  "cheatsheet-003",
-        "items":  [
-                      "Key concept 1 for Programming Fundamentals",
-                      "Key concept 2 for Programming Fundamentals",
-                      "Key concept 3 for Programming Fundamentals",
-                      "Key concept 4 for Programming Fundamentals"
-                  ]
+        "id": "cheatsheet-003",
+        "title": "Context & Scope Setup",
+        "category": "scope",
+        "items": [
+            "Create one context per application.",
+            "Use include/exclude regex patterns.",
+            "Set the context in scope before scanning.",
+            "Prefer Protected mode for safety."
+        ]
     },
     {
-        "title":  "Operating Systems Cheat Sheet 4",
-        "category":  "operating-systems",
-        "id":  "cheatsheet-004",
-        "items":  [
-                      "Key concept 1 for Operating Systems",
-                      "Key concept 2 for Operating Systems",
-                      "Key concept 3 for Operating Systems",
-                      "Key concept 4 for Operating Systems"
-                  ]
+        "id": "cheatsheet-004",
+        "title": "User & Auth Setup",
+        "category": "auth",
+        "items": [
+            "Define authentication method in the context.",
+            "Create users with credentials.",
+            "Verify session management settings.",
+            "Run scans as the desired user."
+        ]
     },
     {
-        "title":  "Databases Cheat Sheet 5",
-        "category":  "databases",
-        "id":  "cheatsheet-005",
-        "items":  [
-                      "Key concept 1 for Databases",
-                      "Key concept 2 for Databases",
-                      "Key concept 3 for Databases",
-                      "Key concept 4 for Databases"
-                  ]
+        "id": "cheatsheet-005",
+        "title": "Automation Framework",
+        "category": "automation",
+        "items": [
+            "Generate plans with -autogenmin or -autogenmax.",
+            "Run plans with -cmd -autorun plan.yaml.",
+            "Check exit codes: 0 success, 1 error, 2 warnings.",
+            "Define contexts and URLs in env section."
+        ]
     },
     {
-        "title":  "Networking Cheat Sheet 6",
-        "category":  "networking",
-        "id":  "cheatsheet-006",
-        "items":  [
-                      "Key concept 1 for Networking",
-                      "Key concept 2 for Networking",
-                      "Key concept 3 for Networking",
-                      "Key concept 4 for Networking"
-                  ]
+        "id": "cheatsheet-006",
+        "title": "Docker Full Scan",
+        "category": "docker",
+        "items": [
+            "Use ghcr.io/zaproxy/zaproxy:stable image.",
+            "Run zap-full-scan.py with a target URL.",
+            "Mount a work dir for reports.",
+            "Use exit codes to control CI."
+        ]
     },
     {
-        "title":  "System Design Cheat Sheet 7",
-        "category":  "system-design",
-        "id":  "cheatsheet-007",
-        "items":  [
-                      "Key concept 1 for System Design",
-                      "Key concept 2 for System Design",
-                      "Key concept 3 for System Design",
-                      "Key concept 4 for System Design"
-                  ]
+        "id": "cheatsheet-007",
+        "title": "ZAPit Recon",
+        "category": "quick-start",
+        "items": [
+            "Use -zapit with full URLs.",
+            "Include -cmd or it will be ignored.",
+            "Review tech detection and alert summary.",
+            "Use findings to plan deeper scans."
+        ]
     },
     {
-        "title":  "Web Development Cheat Sheet 8",
-        "category":  "web",
-        "id":  "cheatsheet-008",
-        "items":  [
-                      "Key concept 1 for Web Development",
-                      "Key concept 2 for Web Development",
-                      "Key concept 3 for Web Development",
-                      "Key concept 4 for Web Development"
-                  ]
+        "id": "cheatsheet-008",
+        "title": "Alert Review",
+        "category": "alerts",
+        "items": [
+            "Check risk and confidence levels.",
+            "Capture evidence from request/response.",
+            "Prioritize high and medium risks.",
+            "Retest after fixes."
+        ]
     },
     {
-        "title":  "Backend Engineering Cheat Sheet 9",
-        "category":  "backend",
-        "id":  "cheatsheet-009",
-        "items":  [
-                      "Key concept 1 for Backend Engineering",
-                      "Key concept 2 for Backend Engineering",
-                      "Key concept 3 for Backend Engineering",
-                      "Key concept 4 for Backend Engineering"
-                  ]
+        "id": "cheatsheet-009",
+        "title": "Spider Choice",
+        "category": "scanning",
+        "items": [
+            "Traditional spider is fast for HTML links.",
+            "AJAX spider handles JS-driven apps.",
+            "Run both for coverage comparison.",
+            "Check Sites Tree for gaps."
+        ]
     },
     {
-        "title":  "Frontend Engineering Cheat Sheet 10",
-        "category":  "frontend",
-        "id":  "cheatsheet-010",
-        "items":  [
-                      "Key concept 1 for Frontend Engineering",
-                      "Key concept 2 for Frontend Engineering",
-                      "Key concept 3 for Frontend Engineering",
-                      "Key concept 4 for Frontend Engineering"
-                  ]
+        "id": "cheatsheet-010",
+        "title": "Scan Policy Basics",
+        "category": "scanning",
+        "items": [
+            "Policies define active scan rules.",
+            "Tune strength and thresholds per target.",
+            "Save policies for reuse.",
+            "Validate coverage changes with retests."
+        ]
     },
     {
-        "title":  "Data Science Cheat Sheet 11",
-        "category":  "data-science",
-        "id":  "cheatsheet-011",
-        "items":  [
-                      "Key concept 1 for Data Science",
-                      "Key concept 2 for Data Science",
-                      "Key concept 3 for Data Science",
-                      "Key concept 4 for Data Science"
-                  ]
+        "id": "cheatsheet-011",
+        "title": "API Access",
+        "category": "api",
+        "items": [
+            "API UI available at http://zap/ when proxying.",
+            "Configure API access in Options if needed.",
+            "Restrict API access to trusted hosts.",
+            "Use API for automation and reporting."
+        ]
     },
     {
-        "title":  "Machine Learning Cheat Sheet 12",
-        "category":  "machine-learning",
-        "id":  "cheatsheet-012",
-        "items":  [
-                      "Key concept 1 for Machine Learning",
-                      "Key concept 2 for Machine Learning",
-                      "Key concept 3 for Machine Learning",
-                      "Key concept 4 for Machine Learning"
-                  ]
+        "id": "cheatsheet-012",
+        "title": "UI Navigation",
+        "category": "ui",
+        "items": [
+            "Sites Tree organizes discovered URLs.",
+            "History tab shows proxied traffic.",
+            "Alerts tab lists findings by risk.",
+            "Toolbar controls modes and scans."
+        ]
     },
     {
-        "title":  "Security Cheat Sheet 13",
-        "category":  "security",
-        "id":  "cheatsheet-013",
-        "items":  [
-                      "Key concept 1 for Security",
-                      "Key concept 2 for Security",
-                      "Key concept 3 for Security",
-                      "Key concept 4 for Security"
-                  ]
+        "id": "cheatsheet-013",
+        "title": "Manual Explore",
+        "category": "proxy",
+        "items": [
+            "Launch browser from Quick Start Manual Explore.",
+            "Walk through critical user journeys.",
+            "Capture traffic in History.",
+            "Add discovered URLs to scope."
+        ]
     },
     {
-        "title":  "Algorithms Cheat Sheet 14",
-        "category":  "algorithms",
-        "id":  "cheatsheet-014",
-        "items":  [
-                      "Key concept 1 for Algorithms",
-                      "Key concept 2 for Algorithms",
-                      "Key concept 3 for Algorithms",
-                      "Key concept 4 for Algorithms"
-                  ]
+        "id": "cheatsheet-014",
+        "title": "Automation Environment",
+        "category": "automation",
+        "items": [
+            "Define contexts with names and URLs.",
+            "Use include/exclude regex paths.",
+            "Avoid default ports in URLs when required.",
+            "Use vars and configs for repeatability."
+        ]
     },
     {
-        "title":  "Data Structures Cheat Sheet 15",
-        "category":  "data-structures",
-        "id":  "cheatsheet-015",
-        "items":  [
-                      "Key concept 1 for Data Structures",
-                      "Key concept 2 for Data Structures",
-                      "Key concept 3 for Data Structures",
-                      "Key concept 4 for Data Structures"
-                  ]
+        "id": "cheatsheet-015",
+        "title": "Exit Codes",
+        "category": "automation",
+        "items": [
+            "0: Plan completed with no errors or warnings.",
+            "1: One or more errors.",
+            "2: Warnings only.",
+            "Override with exitStatus job if needed."
+        ]
     },
     {
-        "title":  "Programming Fundamentals Cheat Sheet 16",
-        "category":  "fundamentals",
-        "id":  "cheatsheet-016",
-        "items":  [
-                      "Key concept 1 for Programming Fundamentals",
-                      "Key concept 2 for Programming Fundamentals",
-                      "Key concept 3 for Programming Fundamentals",
-                      "Key concept 4 for Programming Fundamentals"
-                  ]
+        "id": "cheatsheet-016",
+        "title": "Packaged Scans",
+        "category": "docker",
+        "items": [
+            "Baseline: passive scan focused.",
+            "Full scan: spider + optional AJAX + active scan.",
+            "API scan: OpenAPI/GraphQL/SOAP definitions.",
+            "Use reports and exit codes for CI."
+        ]
     },
     {
-        "title":  "Operating Systems Cheat Sheet 17",
-        "category":  "operating-systems",
-        "id":  "cheatsheet-017",
-        "items":  [
-                      "Key concept 1 for Operating Systems",
-                      "Key concept 2 for Operating Systems",
-                      "Key concept 3 for Operating Systems",
-                      "Key concept 4 for Operating Systems"
-                  ]
+        "id": "cheatsheet-017",
+        "title": "Scan Safety",
+        "category": "security",
+        "items": [
+            "Only scan targets you have permission to test.",
+            "Use Protected mode and defined scope.",
+            "Document rules of engagement.",
+            "Avoid aggressive scans in production."
+        ]
     },
     {
-        "title":  "Databases Cheat Sheet 18",
-        "category":  "databases",
-        "id":  "cheatsheet-018",
-        "items":  [
-                      "Key concept 1 for Databases",
-                      "Key concept 2 for Databases",
-                      "Key concept 3 for Databases",
-                      "Key concept 4 for Databases"
-                  ]
+        "id": "cheatsheet-018",
+        "title": "Evidence Capture",
+        "category": "alerts",
+        "items": [
+            "Save request/response pairs.",
+            "Capture timestamps and URLs.",
+            "Record risk and confidence.",
+            "Link to remediation guidance."
+        ]
     },
     {
-        "title":  "Networking Cheat Sheet 19",
-        "category":  "networking",
-        "id":  "cheatsheet-019",
-        "items":  [
-                      "Key concept 1 for Networking",
-                      "Key concept 2 for Networking",
-                      "Key concept 3 for Networking",
-                      "Key concept 4 for Networking"
-                  ]
+        "id": "cheatsheet-019",
+        "title": "CI/CD Integration",
+        "category": "automation",
+        "items": [
+            "Use Automation Framework plans.",
+            "Run in Docker for repeatability.",
+            "Fail builds on errors or high-risk alerts.",
+            "Archive reports as artifacts."
+        ]
     },
     {
-        "title":  "System Design Cheat Sheet 20",
-        "category":  "system-design",
-        "id":  "cheatsheet-020",
-        "items":  [
-                      "Key concept 1 for System Design",
-                      "Key concept 2 for System Design",
-                      "Key concept 3 for System Design",
-                      "Key concept 4 for System Design"
-                  ]
+        "id": "cheatsheet-020",
+        "title": "Troubleshooting",
+        "category": "operations",
+        "items": [
+            "Check scope and context patterns.",
+            "Verify proxy settings in browser.",
+            "Review automation logs and exit codes.",
+            "Confirm target URL accessibility."
+        ]
     },
     {
-        "title":  "Web Development Cheat Sheet 21",
-        "category":  "web",
-        "id":  "cheatsheet-021",
-        "items":  [
-                      "Key concept 1 for Web Development",
-                      "Key concept 2 for Web Development",
-                      "Key concept 3 for Web Development",
-                      "Key concept 4 for Web Development"
-                  ]
+        "id": "cheatsheet-021",
+        "title": "Full Scan Options",
+        "category": "docker",
+        "items": [
+            "-t target URL with protocol.",
+            "-r report_html for HTML report.",
+            "-J report_json for JSON output.",
+            "-j to include AJAX spider."
+        ]
     },
     {
-        "title":  "Backend Engineering Cheat Sheet 22",
-        "category":  "backend",
-        "id":  "cheatsheet-022",
-        "items":  [
-                      "Key concept 1 for Backend Engineering",
-                      "Key concept 2 for Backend Engineering",
-                      "Key concept 3 for Backend Engineering",
-                      "Key concept 4 for Backend Engineering"
-                  ]
+        "id": "cheatsheet-022",
+        "title": "Automation Configs",
+        "category": "automation",
+        "items": [
+            "Use configs section to set ZAP options.",
+            "Prefer relative paths in plans.",
+            "Keep configs in version control.",
+            "Validate plans with -autocheck."
+        ]
     },
     {
-        "title":  "Frontend Engineering Cheat Sheet 23",
-        "category":  "frontend",
-        "id":  "cheatsheet-023",
-        "items":  [
-                      "Key concept 1 for Frontend Engineering",
-                      "Key concept 2 for Frontend Engineering",
-                      "Key concept 3 for Frontend Engineering",
-                      "Key concept 4 for Frontend Engineering"
-                  ]
+        "id": "cheatsheet-023",
+        "title": "Report Outputs",
+        "category": "reporting",
+        "items": [
+            "HTML for human review.",
+            "JSON for automation pipelines.",
+            "Markdown for documentation.",
+            "XML for integration needs."
+        ]
     },
     {
-        "title":  "Data Science Cheat Sheet 24",
-        "category":  "data-science",
-        "id":  "cheatsheet-024",
-        "items":  [
-                      "Key concept 1 for Data Science",
-                      "Key concept 2 for Data Science",
-                      "Key concept 3 for Data Science",
-                      "Key concept 4 for Data Science"
-                  ]
+        "id": "cheatsheet-024",
+        "title": "API UI Reminders",
+        "category": "api",
+        "items": [
+            "API UI available at http://zap/ when proxying.",
+            "Restrict API access to trusted hosts.",
+            "Use API key for sensitive actions.",
+            "Disable risky API options in shared environments."
+        ]
     }
 ]

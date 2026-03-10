@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Algorithms topic 27.",
-    "id":  "lab-027",
-    "category":  "algorithms",
-    "tags":  [
-                 "algorithms",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Algorithms lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 27: Sorting",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Algorithms topic 27.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Generate and run an Automation Framework plan.",
+    "id": "lab-027",
+    "category": "automation",
+    "tags": [
+        "zap",
+        "lab",
+        "automation"
+    ],
+    "starter": "./zap.sh -cmd -autogenmin zap-plan.yaml\n./zap.sh -cmd -autorun zap-plan.yaml",
+    "objectives": [
+        "Generate a template plan.",
+        "Add a spider and active scan job.",
+        "Run the plan with -autorun."
+    ],
+    "solutionOutline": [
+        "Automation plan completed successfully.",
+        "Exit code interpreted correctly."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 27: Automation Plan Execution (Iteration 3)",
+    "steps": [
+        "Generate a plan using -autogenmin.",
+        "Add target URLs in the environment section.",
+        "Insert spider and active scan jobs.",
+        "Run the plan with -autorun and -cmd.",
+        "Review exit code and output."
+    ],
+    "overview": "## Goal\nGenerate and run an Automation Framework plan."
 }

@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Operating Systems topic 17.",
-    "id":  "lab-017",
-    "category":  "operating-systems",
-    "tags":  [
-                 "operating-systems",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Operating Systems lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 17: Threads",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Operating Systems topic 17.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Run the packaged full scan from ZAP Docker images.",
+    "id": "lab-017",
+    "category": "docker",
+    "tags": [
+        "zap",
+        "lab",
+        "docker"
+    ],
+    "starter": "docker run -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py -t https://www.example.com",
+    "objectives": [
+        "Run zap-full-scan.py with a target URL.",
+        "Generate an HTML report.",
+        "Capture the exit code."
+    ],
+    "solutionOutline": [
+        "Report generated and saved to disk.",
+        "Exit code documented for CI usage."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 17: Docker Full Scan Run (Iteration 2)",
+    "steps": [
+        "Pull the stable ZAP Docker image.",
+        "Run zap-full-scan.py with a target URL.",
+        "Mount a working directory for reports.",
+        "Open the HTML report and note alerts.",
+        "Record the script exit code."
+    ],
+    "overview": "## Goal\nRun the packaged full scan from ZAP Docker images."
 }

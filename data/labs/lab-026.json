@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Security topic 26.",
-    "id":  "lab-026",
-    "category":  "security",
-    "tags":  [
-                 "security",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Security lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 26: Threats",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Security topic 26.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Review alerts, validate evidence, and prioritize risks.",
+    "id": "lab-026",
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "lab",
+        "alerts"
+    ],
+    "starter": "# Choose two alerts and document evidence",
+    "objectives": [
+        "Identify high and medium risk alerts.",
+        "Capture evidence from request/response views.",
+        "Summarize remediation guidance."
+    ],
+    "solutionOutline": [
+        "Evidence captured for each alert.",
+        "Findings prioritized by risk and confidence."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 26: Alert Triage and Evidence (Iteration 3)",
+    "steps": [
+        "Open the Alerts tab and filter by risk.",
+        "Select a high-risk alert and review evidence.",
+        "Capture request and response details.",
+        "Record recommended remediation steps.",
+        "Repeat for one medium-risk alert."
+    ],
+    "overview": "## Goal\nReview alerts, validate evidence, and prioritize risks."
 }

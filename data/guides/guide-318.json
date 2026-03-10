@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Networking topic 318.",
-    "id":  "guide-318",
-    "examples":  [
-                     "Example workflow for Networking.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Networking Field Notes",
-                       "Checklist: Networking Review"
-                   ],
-    "category":  "networking",
-    "tags":  [
-                 "networking",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Networking topic 318.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 318: DNS Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Networking patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Automate repeatable ZAP scans with YAML plans.",
+    "id": "guide-318",
+    "examples": [
+        "Run a plan in CI to block on failures.",
+        "Iterate on a plan for a complex app."
+    ],
+    "references": [
+        "Automation Framework",
+        "Automation Framework - Environment"
+    ],
+    "category": "automation",
+    "tags": [
+        "zap",
+        "guide",
+        "automation"
+    ],
+    "diagrams": [
+        "Automation plan lifecycle",
+        "Plan -> Jobs -> Results"
+    ],
+    "content": "## Overview\nAutomate repeatable ZAP scans with YAML plans.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Automation Framework Plan Basics (Workflow 27)",
+    "steps": [
+        "Generate a minimal plan with -autogenmin.",
+        "Define the environment and context URLs.",
+        "Add spider and active scan jobs.",
+        "Run the plan using -autorun.",
+        "Check exit codes and warnings."
+    ]
 }

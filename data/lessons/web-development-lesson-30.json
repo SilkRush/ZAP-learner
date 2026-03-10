@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Web Development Topic 30",
-    "id":  "web-development-lesson-30",
-    "practice":  [
-                     "Describe the main steps of Web Development Topic 30.",
-                     "Solve a small exercise using Web Development Topic 30.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-100"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Web Development Topic 30\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Web Development",
-    "title":  "Web Development Lesson 30",
-    "references":  [
-                       "Guide: Web Development Topic 30 Essentials",
-                       "Cheat Sheet: Web Development Basics"
-                   ],
-    "summary":  "Master Web Development Topic 30 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# Web Development Lesson 30\n\n## Overview\nMaster Web Development Topic 30 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Web Development Topic 30.",
-                     "Edge case analysis for Web Development Topic 30."
-                 ],
-    "tags":  [
-                 "web",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Web Development Topic 30."
-                   ]
+{
+    "topic": "Combining Manual and Automated",
+    "id": "web-development-lesson-30",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on combining manual and automated.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-100"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Web App Testing",
+    "title": "Combining Manual and Automated (Part 3)",
+    "references": [
+        "Quick Start Add-on",
+        "Scope",
+        "Alerts",
+        "Scan Policy"
+    ],
+    "summary": "Apply combining manual and automated in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Combining Manual and Automated (Part 3)\n\n## Overview\nApply combining manual and automated in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run combining manual and automated on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "web",
+        "zap-web-app-testing"
+    ],
+    "objectives": [
+        "Explain how combining manual and automated fits into ZAP testing.",
+        "Configure combining manual and automated safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

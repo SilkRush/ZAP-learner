@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Security Topic 6",
-    "id":  "security-lesson-06",
-    "practice":  [
-                     "Describe the main steps of Security Topic 6.",
-                     "Solve a small exercise using Security Topic 6.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-066"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 6\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Security",
-    "title":  "Security Lesson 6",
-    "references":  [
-                       "Guide: Security Topic 6 Essentials",
-                       "Cheat Sheet: Security Basics"
-                   ],
-    "summary":  "Master Security Topic 6 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "beginner",
-    "content":  "# Security Lesson 6\n\n## Overview\nMaster Security Topic 6 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Security Topic 6.",
-                     "Edge case analysis for Security Topic 6."
-                 ],
-    "tags":  [
-                 "security",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Security Topic 6."
-                   ]
+{
+    "topic": "Retesting and Verification",
+    "id": "security-lesson-06",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on retesting and verification.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-066"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "./zap.sh -cmd -autogenmin zap-plan.yaml\n./zap.sh -cmd -autorun zap-plan.yaml"
+        }
+    ],
+    "module": "ZAP Security Practice",
+    "title": "Retesting and Verification",
+    "references": [
+        "ZAP Desktop User Guide",
+        "Alerts",
+        "Scan Policy",
+        "Getting Started Guide"
+    ],
+    "summary": "Apply retesting and verification in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Retesting and Verification\n\n## Overview\nApply retesting and verification in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run retesting and verification on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "security",
+        "zap-security-practice"
+    ],
+    "objectives": [
+        "Explain how retesting and verification fits into ZAP testing.",
+        "Configure retesting and verification safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

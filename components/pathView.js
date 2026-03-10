@@ -18,7 +18,7 @@ app.innerHTML = `
     <section class="page-header">
         <div>
             <h1>Learning Paths</h1>
-            <p>Structured journeys to build skills step by step.</p>
+            <p>Structured ZAP journeys to build skills step by step.</p>
         </div>
     </section>
     <section class="card-grid">

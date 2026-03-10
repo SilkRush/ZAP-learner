@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Web Development topic 229.",
-    "id":  "guide-229",
-    "examples":  [
-                     "Example workflow for Web Development.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Web Development Field Notes",
-                       "Checklist: Web Development Review"
-                   ],
-    "category":  "web",
-    "tags":  [
-                 "web",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Web Development topic 229.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 229: APIs Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Web Development patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Run an automated scan quickly and safely with ZAP Quick Start.",
+    "id": "guide-229",
+    "examples": [
+        "Scan a staging site to validate headers and low-risk findings.",
+        "Compare results between traditional and AJAX spider runs."
+    ],
+    "references": [
+        "Quick Start Add-on"
+    ],
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "guide",
+        "quick-start"
+    ],
+    "diagrams": [
+        "Quick Start flow: URL -> Spider -> Active Scan -> Alerts",
+        "Decision tree for traditional vs AJAX spider"
+    ],
+    "content": "## Overview\nRun an automated scan quickly and safely with ZAP Quick Start.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Quick Start Automated Scan (Workflow 20)",
+    "steps": [
+        "Open the Quick Start tab and choose Automated Scan.",
+        "Enter the target URL and verify you have permission.",
+        "Pick traditional spider or AJAX spider based on the app.",
+        "Launch the scan and monitor progress in the toolbar.",
+        "Review alerts and capture evidence for follow-up."
+    ]
 }

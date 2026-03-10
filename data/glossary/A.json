@@ -1,184 +1,673 @@
-﻿[
+[
     {
-        "id":  "term-001",
-        "related_terms":  [
-                              "term-320",
-                              "term-002"
-                          ],
-        "definition":  "Definition for Algorithm Concept 1 within the Algorithms domain.",
-        "term":  "Algorithm Concept 1",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 1.",
-                         "Common scenario for Algorithm Concept 1."
-                     ]
+        "id": "term-001",
+        "term": "Active Scan",
+        "definition": "Active Scan is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how active scan affects scan results.",
+            "Example: Review active scan settings before a run."
+        ],
+        "related_terms": [
+            "term-002"
+        ]
     },
     {
-        "id":  "term-027",
-        "related_terms":  [
-                              "term-026",
-                              "term-028"
-                          ],
-        "definition":  "Definition for Algorithm Concept 27 within the Algorithms domain.",
-        "term":  "Algorithm Concept 27",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 27.",
-                         "Common scenario for Algorithm Concept 27."
-                     ]
+        "id": "term-002",
+        "term": "Active Scan Rules",
+        "definition": "Active Scan Rules is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how active scan rules affects scan results.",
+            "Example: Review active scan rules settings before a run."
+        ],
+        "related_terms": [
+            "term-001",
+            "term-003"
+        ]
     },
     {
-        "id":  "term-053",
-        "related_terms":  [
-                              "term-052",
-                              "term-054"
-                          ],
-        "definition":  "Definition for Algorithm Concept 53 within the Algorithms domain.",
-        "term":  "Algorithm Concept 53",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 53.",
-                         "Common scenario for Algorithm Concept 53."
-                     ]
+        "id": "term-003",
+        "term": "Add-on",
+        "definition": "Add-on is a core ZAP concept that supports the overall testing workflow.",
+        "category": "core",
+        "examples": [
+            "Example: Document how add-on affects scan results.",
+            "Example: Review add-on settings before a run."
+        ],
+        "related_terms": [
+            "term-002",
+            "term-004"
+        ]
     },
     {
-        "id":  "term-079",
-        "related_terms":  [
-                              "term-078",
-                              "term-080"
-                          ],
-        "definition":  "Definition for Algorithm Concept 79 within the Algorithms domain.",
-        "term":  "Algorithm Concept 79",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 79.",
-                         "Common scenario for Algorithm Concept 79."
-                     ]
+        "id": "term-004",
+        "term": "Alert",
+        "definition": "Alert relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert affects scan results.",
+            "Example: Review alert settings before a run."
+        ],
+        "related_terms": [
+            "term-003",
+            "term-005"
+        ]
     },
     {
-        "id":  "term-105",
-        "related_terms":  [
-                              "term-104",
-                              "term-106"
-                          ],
-        "definition":  "Definition for Algorithm Concept 105 within the Algorithms domain.",
-        "term":  "Algorithm Concept 105",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 105.",
-                         "Common scenario for Algorithm Concept 105."
-                     ]
+        "id": "term-005",
+        "term": "Alert Evidence",
+        "definition": "Alert Evidence relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert evidence affects scan results.",
+            "Example: Review alert evidence settings before a run."
+        ],
+        "related_terms": [
+            "term-004",
+            "term-006"
+        ]
     },
     {
-        "id":  "term-131",
-        "related_terms":  [
-                              "term-130",
-                              "term-132"
-                          ],
-        "definition":  "Definition for Algorithm Concept 131 within the Algorithms domain.",
-        "term":  "Algorithm Concept 131",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 131.",
-                         "Common scenario for Algorithm Concept 131."
-                     ]
+        "id": "term-006",
+        "term": "Alert Filters",
+        "definition": "Alert Filters relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert filters affects scan results.",
+            "Example: Review alert filters settings before a run."
+        ],
+        "related_terms": [
+            "term-005",
+            "term-007"
+        ]
     },
     {
-        "id":  "term-157",
-        "related_terms":  [
-                              "term-156",
-                              "term-158"
-                          ],
-        "definition":  "Definition for Algorithm Concept 157 within the Algorithms domain.",
-        "term":  "Algorithm Concept 157",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 157.",
-                         "Common scenario for Algorithm Concept 157."
-                     ]
+        "id": "term-007",
+        "term": "Alerts Tab",
+        "definition": "Alerts Tab is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how alerts tab affects scan results.",
+            "Example: Review alerts tab settings before a run."
+        ],
+        "related_terms": [
+            "term-006",
+            "term-008"
+        ]
     },
     {
-        "id":  "term-183",
-        "related_terms":  [
-                              "term-182",
-                              "term-184"
-                          ],
-        "definition":  "Definition for Algorithm Concept 183 within the Algorithms domain.",
-        "term":  "Algorithm Concept 183",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 183.",
-                         "Common scenario for Algorithm Concept 183."
-                     ]
+        "id": "term-008",
+        "term": "API",
+        "definition": "API is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how api affects scan results.",
+            "Example: Review api settings before a run."
+        ],
+        "related_terms": [
+            "term-007",
+            "term-009"
+        ]
     },
     {
-        "id":  "term-209",
-        "related_terms":  [
-                              "term-208",
-                              "term-210"
-                          ],
-        "definition":  "Definition for Algorithm Concept 209 within the Algorithms domain.",
-        "term":  "Algorithm Concept 209",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 209.",
-                         "Common scenario for Algorithm Concept 209."
-                     ]
+        "id": "term-009",
+        "term": "API Key",
+        "definition": "API Key is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how api key affects scan results.",
+            "Example: Review api key settings before a run."
+        ],
+        "related_terms": [
+            "term-008",
+            "term-010"
+        ]
     },
     {
-        "id":  "term-235",
-        "related_terms":  [
-                              "term-234",
-                              "term-236"
-                          ],
-        "definition":  "Definition for Algorithm Concept 235 within the Algorithms domain.",
-        "term":  "Algorithm Concept 235",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 235.",
-                         "Common scenario for Algorithm Concept 235."
-                     ]
+        "id": "term-010",
+        "term": "Attack Mode",
+        "definition": "Attack Mode is a ZAP mode that changes which actions are allowed.",
+        "category": "modes",
+        "examples": [
+            "Example: Document how attack mode affects scan results.",
+            "Example: Review attack mode settings before a run."
+        ],
+        "related_terms": [
+            "term-009",
+            "term-011"
+        ]
     },
     {
-        "id":  "term-261",
-        "related_terms":  [
-                              "term-260",
-                              "term-262"
-                          ],
-        "definition":  "Definition for Algorithm Concept 261 within the Algorithms domain.",
-        "term":  "Algorithm Concept 261",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 261.",
-                         "Common scenario for Algorithm Concept 261."
-                     ]
+        "id": "term-011",
+        "term": "Automation Framework",
+        "definition": "Automation Framework is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation framework affects scan results.",
+            "Example: Review automation framework settings before a run."
+        ],
+        "related_terms": [
+            "term-010",
+            "term-012"
+        ]
     },
     {
-        "id":  "term-287",
-        "related_terms":  [
-                              "term-286",
-                              "term-288"
-                          ],
-        "definition":  "Definition for Algorithm Concept 287 within the Algorithms domain.",
-        "term":  "Algorithm Concept 287",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 287.",
-                         "Common scenario for Algorithm Concept 287."
-                     ]
+        "id": "term-012",
+        "term": "Automation Plan",
+        "definition": "Automation Plan is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation plan affects scan results.",
+            "Example: Review automation plan settings before a run."
+        ],
+        "related_terms": [
+            "term-011",
+            "term-013"
+        ]
     },
     {
-        "id":  "term-313",
-        "related_terms":  [
-                              "term-312",
-                              "term-314"
-                          ],
-        "definition":  "Definition for Algorithm Concept 313 within the Algorithms domain.",
-        "term":  "Algorithm Concept 313",
-        "category":  "algorithms",
-        "examples":  [
-                         "Example use of Algorithm Concept 313.",
-                         "Common scenario for Algorithm Concept 313."
-                     ]
+        "id": "term-013",
+        "term": "AJAX Spider",
+        "definition": "AJAX Spider is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how ajax spider affects scan results.",
+            "Example: Review ajax spider settings before a run."
+        ],
+        "related_terms": [
+            "term-012",
+            "term-014"
+        ]
+    },
+    {
+        "id": "term-044",
+        "term": "Automation Environment",
+        "definition": "Automation Environment is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation environment affects scan results.",
+            "Example: Review automation environment settings before a run."
+        ],
+        "related_terms": [
+            "term-043",
+            "term-045"
+        ]
+    },
+    {
+        "id": "term-045",
+        "term": "Automation GUI",
+        "definition": "Automation GUI is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation gui affects scan results.",
+            "Example: Review automation gui settings before a run."
+        ],
+        "related_terms": [
+            "term-044",
+            "term-046"
+        ]
+    },
+    {
+        "id": "term-046",
+        "term": "Automation Jobs",
+        "definition": "Automation Jobs is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation jobs affects scan results.",
+            "Example: Review automation jobs settings before a run."
+        ],
+        "related_terms": [
+            "term-045",
+            "term-047"
+        ]
+    },
+    {
+        "id": "term-047",
+        "term": "Automation Vars",
+        "definition": "Automation Vars is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation vars affects scan results.",
+            "Example: Review automation vars settings before a run."
+        ],
+        "related_terms": [
+            "term-046",
+            "term-048"
+        ]
+    },
+    {
+        "id": "term-048",
+        "term": "Attack Surface",
+        "definition": "Attack Surface is a security testing concept used with ZAP.",
+        "category": "security",
+        "examples": [
+            "Example: Document how attack surface affects scan results.",
+            "Example: Review attack surface settings before a run."
+        ],
+        "related_terms": [
+            "term-047",
+            "term-049"
+        ]
+    },
+    {
+        "id": "term-049",
+        "term": "Authentication Method",
+        "definition": "Authentication Method relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how authentication method affects scan results.",
+            "Example: Review authentication method settings before a run."
+        ],
+        "related_terms": [
+            "term-048",
+            "term-050"
+        ]
+    },
+    {
+        "id": "term-050",
+        "term": "Authentication Verification",
+        "definition": "Authentication Verification relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how authentication verification affects scan results.",
+            "Example: Review authentication verification settings before a run."
+        ],
+        "related_terms": [
+            "term-049",
+            "term-051"
+        ]
+    },
+    {
+        "id": "term-051",
+        "term": "Alerts Count",
+        "definition": "Alerts Count relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alerts count affects scan results.",
+            "Example: Review alerts count settings before a run."
+        ],
+        "related_terms": [
+            "term-050",
+            "term-052"
+        ]
+    },
+    {
+        "id": "term-052",
+        "term": "Alert Risk",
+        "definition": "Alert Risk relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert risk affects scan results.",
+            "Example: Review alert risk settings before a run."
+        ],
+        "related_terms": [
+            "term-051",
+            "term-053"
+        ]
+    },
+    {
+        "id": "term-053",
+        "term": "Alert Confidence",
+        "definition": "Alert Confidence relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert confidence affects scan results.",
+            "Example: Review alert confidence settings before a run."
+        ],
+        "related_terms": [
+            "term-052",
+            "term-054"
+        ]
+    },
+    {
+        "id": "term-054",
+        "term": "API UI",
+        "definition": "API UI is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how api ui affects scan results.",
+            "Example: Review api ui settings before a run."
+        ],
+        "related_terms": [
+            "term-053",
+            "term-055"
+        ]
+    },
+    {
+        "id": "term-055",
+        "term": "Automation -autorun",
+        "definition": "Automation -autorun is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation -autorun affects scan results.",
+            "Example: Review automation -autorun settings before a run."
+        ],
+        "related_terms": [
+            "term-054",
+            "term-056"
+        ]
+    },
+    {
+        "id": "term-056",
+        "term": "Automation -autogenmin",
+        "definition": "Automation -autogenmin is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation -autogenmin affects scan results.",
+            "Example: Review automation -autogenmin settings before a run."
+        ],
+        "related_terms": [
+            "term-055",
+            "term-057"
+        ]
+    },
+    {
+        "id": "term-057",
+        "term": "Automation -autocheck",
+        "definition": "Automation -autocheck is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation -autocheck affects scan results.",
+            "Example: Review automation -autocheck settings before a run."
+        ],
+        "related_terms": [
+            "term-056",
+            "term-058"
+        ]
+    },
+    {
+        "id": "term-058",
+        "term": "Automation -autogenmax",
+        "definition": "Automation -autogenmax is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation -autogenmax affects scan results.",
+            "Example: Review automation -autogenmax settings before a run."
+        ],
+        "related_terms": [
+            "term-057",
+            "term-059"
+        ]
+    },
+    {
+        "id": "term-088",
+        "term": "Active Scan Strength",
+        "definition": "Active Scan Strength is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how active scan strength affects scan results.",
+            "Example: Review active scan strength settings before a run."
+        ],
+        "related_terms": [
+            "term-087",
+            "term-089"
+        ]
+    },
+    {
+        "id": "term-089",
+        "term": "Active Scan Threshold",
+        "definition": "Active Scan Threshold is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how active scan threshold affects scan results.",
+            "Example: Review active scan threshold settings before a run."
+        ],
+        "related_terms": [
+            "term-088",
+            "term-090"
+        ]
+    },
+    {
+        "id": "term-092",
+        "term": "Attack Mode Toolbar",
+        "definition": "Attack Mode Toolbar is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how attack mode toolbar affects scan results.",
+            "Example: Review attack mode toolbar settings before a run."
+        ],
+        "related_terms": [
+            "term-091",
+            "term-093"
+        ]
+    },
+    {
+        "id": "term-096",
+        "term": "Alerts Filter",
+        "definition": "Alerts Filter is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how alerts filter affects scan results.",
+            "Example: Review alerts filter settings before a run."
+        ],
+        "related_terms": [
+            "term-095",
+            "term-097"
+        ]
+    },
+    {
+        "id": "term-098",
+        "term": "Active Scan Tab",
+        "definition": "Active Scan Tab is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how active scan tab affects scan results.",
+            "Example: Review active scan tab settings before a run."
+        ],
+        "related_terms": [
+            "term-097",
+            "term-099"
+        ]
+    },
+    {
+        "id": "term-102",
+        "term": "Automation Job: Spider",
+        "definition": "Automation Job: Spider is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation job: spider affects scan results.",
+            "Example: Review automation job: spider settings before a run."
+        ],
+        "related_terms": [
+            "term-101",
+            "term-103"
+        ]
+    },
+    {
+        "id": "term-103",
+        "term": "Automation Job: Active Scan",
+        "definition": "Automation Job: Active Scan is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation job: active scan affects scan results.",
+            "Example: Review automation job: active scan settings before a run."
+        ],
+        "related_terms": [
+            "term-102",
+            "term-104"
+        ]
+    },
+    {
+        "id": "term-104",
+        "term": "Automation Job: OpenAPI",
+        "definition": "Automation Job: OpenAPI is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation job: openapi affects scan results.",
+            "Example: Review automation job: openapi settings before a run."
+        ],
+        "related_terms": [
+            "term-103",
+            "term-105"
+        ]
+    },
+    {
+        "id": "term-105",
+        "term": "Automation Job: GraphQL",
+        "definition": "Automation Job: GraphQL is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation job: graphql affects scan results.",
+            "Example: Review automation job: graphql settings before a run."
+        ],
+        "related_terms": [
+            "term-104",
+            "term-106"
+        ]
+    },
+    {
+        "id": "term-106",
+        "term": "Automation Job: SOAP",
+        "definition": "Automation Job: SOAP is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation job: soap affects scan results.",
+            "Example: Review automation job: soap settings before a run."
+        ],
+        "related_terms": [
+            "term-105",
+            "term-107"
+        ]
+    },
+    {
+        "id": "term-107",
+        "term": "Automation Configs",
+        "definition": "Automation Configs is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation configs affects scan results.",
+            "Example: Review automation configs settings before a run."
+        ],
+        "related_terms": [
+            "term-106",
+            "term-108"
+        ]
+    },
+    {
+        "id": "term-108",
+        "term": "Automation Params",
+        "definition": "Automation Params is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation params affects scan results.",
+            "Example: Review automation params settings before a run."
+        ],
+        "related_terms": [
+            "term-107",
+            "term-109"
+        ]
+    },
+    {
+        "id": "term-109",
+        "term": "Automation Env Vars",
+        "definition": "Automation Env Vars is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation env vars affects scan results.",
+            "Example: Review automation env vars settings before a run."
+        ],
+        "related_terms": [
+            "term-108",
+            "term-110"
+        ]
+    },
+    {
+        "id": "term-111",
+        "term": "Add-on Updates",
+        "definition": "Add-on Updates relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how add-on updates affects scan results.",
+            "Example: Review add-on updates settings before a run."
+        ],
+        "related_terms": [
+            "term-110",
+            "term-112"
+        ]
+    },
+    {
+        "id": "term-114",
+        "term": "Alpha Add-on",
+        "definition": "Alpha Add-on relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how alpha add-on affects scan results.",
+            "Example: Review alpha add-on settings before a run."
+        ],
+        "related_terms": [
+            "term-113",
+            "term-115"
+        ]
+    },
+    {
+        "id": "term-128",
+        "term": "API Endpoint",
+        "definition": "API Endpoint is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how api endpoint affects scan results.",
+            "Example: Review api endpoint settings before a run."
+        ],
+        "related_terms": [
+            "term-127",
+            "term-129"
+        ]
+    },
+    {
+        "id": "term-129",
+        "term": "API Response Format",
+        "definition": "API Response Format is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how api response format affects scan results.",
+            "Example: Review api response format settings before a run."
+        ],
+        "related_terms": [
+            "term-128",
+            "term-130"
+        ]
+    },
+    {
+        "id": "term-133",
+        "term": "Alert Evidence Line",
+        "definition": "Alert Evidence Line relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how alert evidence line affects scan results.",
+            "Example: Review alert evidence line settings before a run."
+        ],
+        "related_terms": [
+            "term-132",
+            "term-134"
+        ]
+    },
+    {
+        "id": "term-137",
+        "term": "Automation Report",
+        "definition": "Automation Report relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how automation report affects scan results.",
+            "Example: Review automation report settings before a run."
+        ],
+        "related_terms": [
+            "term-136",
+            "term-138"
+        ]
+    },
+    {
+        "id": "term-143",
+        "term": "Automation Plan YAML",
+        "definition": "Automation Plan YAML is part of the Automation Framework for repeatable scans.",
+        "category": "automation",
+        "examples": [
+            "Example: Document how automation plan yaml affects scan results.",
+            "Example: Review automation plan yaml settings before a run."
+        ],
+        "related_terms": [
+            "term-142",
+            "term-144"
+        ]
     }
 ]

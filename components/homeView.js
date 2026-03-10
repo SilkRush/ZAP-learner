@@ -19,12 +19,12 @@ export async function homeView(){
     app.innerHTML = `
         <section class="hero">
             <div>
-                <div class="eyebrow">Offline-first learning platform</div>
-                <h1>ZAP Master Ultimate</h1>
-                <p>Learn at scale with structured lessons, quizzes, guides, and labs.</p>
+                <div class="eyebrow">OWASP ZAP field guide</div>
+                <h1>ZAP Master Guide</h1>
+                <p>Master OWASP ZAP with structured lessons, verified workflows, and hands-on labs built around real scanning, automation, and reporting tasks.</p>
                 <div class="hero-actions">
-                    <a class="btn btn-primary" href="#/lesson">Start Learning</a>
-                    <a class="btn btn-secondary" href="#/paths">View Paths</a>
+                    <a class="btn btn-primary" href="#/lesson">Start with Fundamentals</a>
+                    <a class="btn btn-secondary" href="#/paths">Browse Learning Paths</a>
                 </div>
             </div>
             <div class="hero-stats">
@@ -72,7 +72,7 @@ export async function homeView(){
             <article class="card">
                 <div class="card-meta">Learning</div>
                 <h3>Lessons</h3>
-                <p>Structured modules with objectives, examples, and practice tasks.</p>
+                <p>Step-by-step modules covering ZAP setup, proxying, scanning, and alert analysis.</p>
                 <div class="card-actions">
                     <a class="btn btn-secondary btn-small" href="#/lesson">Browse lessons</a>
                 </div>
@@ -80,7 +80,7 @@ export async function homeView(){
             <article class="card">
                 <div class="card-meta">Practice</div>
                 <h3>Quizzes</h3>
-                <p>Timed drills and skill checks with instant feedback.</p>
+                <p>Knowledge checks on ZAP modes, contexts, automation, and scan rules.</p>
                 <div class="card-actions">
                     <a class="btn btn-secondary btn-small" href="#/quiz">Take a quiz</a>
                 </div>
@@ -88,7 +88,7 @@ export async function homeView(){
             <article class="card">
                 <div class="card-meta">Deep Dives</div>
                 <h3>Guides</h3>
-                <p>Step-by-step breakdowns with diagrams and references.</p>
+                <p>Walkthroughs for Quick Start, authentication flows, automation YAML, and Docker runs.</p>
                 <div class="card-actions">
                     <a class="btn btn-secondary btn-small" href="#/guide">Explore guides</a>
                 </div>
@@ -96,7 +96,7 @@ export async function homeView(){
             <article class="card">
                 <div class="card-meta">Hands-on</div>
                 <h3>Labs</h3>
-                <p>Build projects and strengthen problem-solving skills.</p>
+                <p>Hands-on labs that mirror real ZAP workflows from discovery to reporting.</p>
                 <div class="card-actions">
                     <a class="btn btn-secondary btn-small" href="#/labs">Open labs</a>
                 </div>

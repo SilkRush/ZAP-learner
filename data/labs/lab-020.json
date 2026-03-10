@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for System Design topic 20.",
-    "id":  "lab-020",
-    "category":  "system-design",
-    "tags":  [
-                 "system-design",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for System Design lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 20: Observability",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for System Design topic 20.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Tune scan policies to balance coverage and safety.",
+    "id": "lab-020",
+    "category": "scanning",
+    "tags": [
+        "zap",
+        "lab",
+        "scanning"
+    ],
+    "starter": "# Document rule changes and outcomes",
+    "objectives": [
+        "Select a scan policy.",
+        "Adjust rule strength or thresholds.",
+        "Run a targeted scan to validate impact."
+    ],
+    "solutionOutline": [
+        "Policy changes documented and validated.",
+        "Coverage impact evaluated."
+    ],
+    "difficulty": "advanced",
+    "title": "Lab 20: Scan Policy Tuning (Iteration 2)",
+    "steps": [
+        "Open the Scan Policy manager.",
+        "Adjust rules for the target app.",
+        "Run an active scan with the policy.",
+        "Review alert differences."
+    ],
+    "overview": "## Goal\nTune scan policies to balance coverage and safety."
 }

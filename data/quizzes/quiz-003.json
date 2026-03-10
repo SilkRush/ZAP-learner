@@ -1,163 +1,163 @@
 {
-    "id":  "quiz-003",
-    "tags":  [
-                 "zap",
-                 "scanning"
-             ],
-    "questions":  [
-                      {
-                          "question":  "What does the Quick Start automated scan do first?",
-                          "tags":  [
-                                       "zap"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Quick Start begins by crawling the site with a spider.",
-                          "correct_answer":  "Crawl the site with a spider",
-                          "choices":  [
-                                          "Delete old alerts",
-                                          "Crawl the site with a spider",
-                                          "Disable HTTPS",
-                                          "Export a report"
-                                      ]
-                      },
-                      {
-                          "question":  "Which spider is best for JavaScript-heavy applications?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "The AJAX spider uses a browser engine to explore dynamic content.",
-                          "correct_answer":  "AJAX spider",
-                          "choices":  [
-                                          "Traditional spider",
-                                          "AJAX spider",
-                                          "Passive scanner",
-                                          "Alert filter"
-                                      ]
-                      },
-                      {
-                          "question":  "Why use the traditional spider?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "It is fast and works well on classic HTML navigation.",
-                          "correct_answer":  "It is fast for classic HTML navigation",
-                          "choices":  [
-                                          "It only scans WebSockets",
-                                          "It is fast for classic HTML navigation",
-                                          "It modifies cookies",
-                                          "It requires a browser license"
-                                      ]
-                      },
-                      {
-                          "question":  "After a Quick Start scan finishes, what should you do?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "You should review alerts by risk and confidence before reporting.",
-                          "correct_answer":  "Review alerts by risk and confidence",
-                          "choices":  [
-                                          "Ignore the results",
-                                          "Review alerts by risk and confidence",
-                                          "Switch to Safe mode",
-                                          "Delete the session"
-                                      ]
-                      },
-                      {
-                          "question":  "Which statement is true about automated scanning?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Automated scans should only run against authorized targets.",
-                          "correct_answer":  "Only run scans on authorized targets",
-                          "choices":  [
-                                          "Always scan production",
-                                          "Only run scans on authorized targets",
-                                          "Scans never create alerts",
-                                          "Scans only work on localhost"
-                                      ]
-                      },
-                      {
-                          "question":  "What is the purpose of the spider phase?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "The spider discovers URLs and inputs for later scanning.",
-                          "correct_answer":  "Discover URLs and inputs",
-                          "choices":  [
-                                          "Encrypt traffic",
-                                          "Discover URLs and inputs",
-                                          "Generate PDF reports",
-                                          "Patch vulnerabilities"
-                                      ]
-                      },
-                      {
-                          "question":  "Which option is best for scanning a single-page application?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "SPAs typically require the AJAX spider to handle JavaScript.",
-                          "correct_answer":  "AJAX spider",
-                          "choices":  [
-                                          "Traditional spider",
-                                          "AJAX spider",
-                                          "Passive scanner",
-                                          "Safe mode"
-                                      ]
-                      },
-                      {
-                          "question":  "Which tool is commonly used for CLI scanning in ZAP Docker images?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "ZAP Docker images include packaged scan scripts like zap-full-scan.py.",
-                          "correct_answer":  "zap-full-scan.py",
-                          "choices":  [
-                                          "npm audit",
-                                          "zap-full-scan.py",
-                                          "curl-only",
-                                          "docker-compose"
-                                      ]
-                      },
-                      {
-                          "question":  "Which statement best describes the scan order?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "ZAP typically crawls first, then actively scans discovered URLs.",
-                          "correct_answer":  "Crawl first, then active scan",
-                          "choices":  [
-                                          "Active scan first, then crawl",
-                                          "Crawl first, then active scan",
-                                          "Only passive scanning runs",
-                                          "Reports are generated before crawling"
-                                      ]
-                      },
-                      {
-                          "question":  "What is a good reason to export a report after scanning?",
-                          "tags":  [
-                                       "scanning"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Reports capture findings for triage and documentation.",
-                          "correct_answer":  "To document findings for triage",
-                          "choices":  [
-                                          "To speed up DNS",
-                                          "To document findings for triage",
-                                          "To enable Safe mode",
-                                          "To delete scan history"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "beginner",
-    "module":  "ZAP Scanning",
-    "summary":  "Check your understanding of Quick Start, spidering, and automated scans.",
-    "title":  "ZAP Quick Start Quiz 3"
+    "id": "quiz-003",
+    "tags": [
+        "zap",
+        "zap-automation"
+    ],
+    "questions": [
+        {
+            "question": "In ZAP, scope is defined primarily by what?",
+            "tags": [
+                "scope"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Scope is defined by the contexts you set in ZAP.",
+            "correct_answer": "Contexts",
+            "choices": [
+                "Contexts",
+                "Users",
+                "Alerts",
+                "Policies"
+            ]
+        },
+        {
+            "question": "Contexts in ZAP are defined using what to match URLs?",
+            "tags": [
+                "contexts"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Contexts use regex patterns that must match full URLs.",
+            "correct_answer": "Regular expressions",
+            "choices": [
+                "Regular expressions",
+                "Cookies",
+                "Headers",
+                "XPath"
+            ]
+        },
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        },
+        {
+            "question": "The AJAX spider explores applications by using what?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "AJAX spider launches a browser and clicks links to explore JS-driven apps.",
+            "correct_answer": "A browser",
+            "choices": [
+                "A browser",
+                "A database",
+                "A reverse proxy",
+                "A static sitemap"
+            ]
+        },
+        {
+            "question": "When using -zapit, which option must be included or it will be ignored?",
+            "tags": [
+                "zapit"
+            ],
+            "difficulty": "beginner",
+            "explanation": "ZAPit requires -cmd or the option is ignored.",
+            "correct_answer": "-cmd",
+            "choices": [
+                "-cmd",
+                "-daemon",
+                "-quickout",
+                "-config"
+            ]
+        },
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        },
+        {
+            "question": "The ZAP full scan script runs a spider, optional AJAX spider, then what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The full scan script finishes with a full active scan.",
+            "correct_answer": "A full active scan",
+            "choices": [
+                "A full active scan",
+                "Only passive scanning",
+                "A report export",
+                "A proxy replay"
+            ]
+        }
+    ],
+    "difficulty": "beginner",
+    "module": "ZAP Automation",
+    "summary": "Check your understanding of zap automation concepts.",
+    "title": "ZAP Automation Quiz 003"
 }

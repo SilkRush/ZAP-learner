@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Backend Engineering Topic 32",
-    "id":  "backend-engineering-lesson-32",
-    "practice":  [
-                     "Describe the main steps of Backend Engineering Topic 32.",
-                     "Solve a small exercise using Backend Engineering Topic 32.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-142"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Backend Engineering Topic 32\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Backend Engineering",
-    "title":  "Backend Engineering Lesson 32",
-    "references":  [
-                       "Guide: Backend Engineering Topic 32 Essentials",
-                       "Cheat Sheet: Backend Engineering Basics"
-                   ],
-    "summary":  "Master Backend Engineering Topic 32 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# Backend Engineering Lesson 32\n\n## Overview\nMaster Backend Engineering Topic 32 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Backend Engineering Topic 32.",
-                     "Edge case analysis for Backend Engineering Topic 32."
-                 ],
-    "tags":  [
-                 "backend",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Backend Engineering Topic 32."
-                   ]
+{
+    "topic": "Generating Automation Plans",
+    "id": "backend-engineering-lesson-32",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on generating automation plans.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-142"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "./zap.sh -cmd -autogenmin zap-plan.yaml\n./zap.sh -cmd -autorun zap-plan.yaml"
+        }
+    ],
+    "module": "ZAP Automation & CI",
+    "title": "Generating Automation Plans (Part 4)",
+    "references": [
+        "Automation Framework",
+        "Automation Framework - Environment",
+        "Automation Framework - GUI",
+        "ZAP Docker Documentation"
+    ],
+    "summary": "Apply generating automation plans in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Generating Automation Plans (Part 4)\n\n## Overview\nApply generating automation plans in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run generating automation plans on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "automation",
+        "zap-automation-ci"
+    ],
+    "objectives": [
+        "Explain how generating automation plans fits into ZAP testing.",
+        "Configure generating automation plans safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

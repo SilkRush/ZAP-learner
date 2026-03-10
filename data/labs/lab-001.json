@@ -1,32 +1,31 @@
 {
-    "summary":  "Run a Quick Start scan against a local test app and triage the results.",
-    "id":  "lab-001",
-    "category":  "zap-labs",
-    "tags":  [
-                 "zap",
-                 "lab",
-                 "quick-start"
-             ],
-    "starter":  "# Start OWASP Juice Shop (local test app)\ndocker run -d -p 3000:3000 bkimminich/juice-shop\n\n# Optional: start ZAP Webswing\ndocker run -u zap -p 8080:8080 -p 8090:8090 -i ghcr.io/zaproxy/zaproxy:stable zap-webswing.sh",
-    "objectives":  [
-                       "Launch a local test target and confirm it is reachable.",
-                       "Run a Quick Start automated scan in ZAP.",
-                       "Review and triage the resulting alerts."
-                   ],
-    "solutionOutline":  [
-                            "Verify Juice Shop is running at http://localhost:3000.",
-                            "Open ZAP Quick Start and run an automated scan on the target URL.",
-                            "Review alerts by risk and confidence; note at least three findings.",
-                            "Export a report or capture screenshots for documentation."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 1: Quick Start Scan",
-    "steps":  [
-                  "Start the local test app and confirm it loads in your browser.",
-                  "Launch ZAP (desktop or Webswing).",
-                  "In Quick Start, choose Automated Scan and enter the target URL.",
-                  "Run the scan and monitor progress.",
-                  "Review alerts, classify severity, and record findings."
-              ],
-    "overview":  "## Goal\nUse ZAP Quick Start to scan a local test application and practice triage.\n\n### Requirements\n- You must own or have permission to test the target\n- Use a local test app (like OWASP Juice Shop)\n\n### Deliverables\n- A short list of prioritized alerts\n- A brief summary of what you observed"
+    "summary": "Run a Quick Start automated scan safely and review the alerts.",
+    "id": "lab-001",
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "lab",
+        "quick-start"
+    ],
+    "starter": "# Use Quick Start UI to launch the scan\n# Record the URL, spider choice, and top alerts",
+    "objectives": [
+        "Launch an automated scan from Quick Start.",
+        "Choose the right spider option.",
+        "Review alerts and capture evidence."
+    ],
+    "solutionOutline": [
+        "Scan completed with the selected spider option.",
+        "Alerts reviewed and summarized by risk.",
+        "Evidence captured for key findings."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 1: Quick Start Automated Scan",
+    "steps": [
+        "Open Quick Start and select Automated Scan.",
+        "Enter the target URL you have permission to test.",
+        "Select traditional or AJAX spider based on the app.",
+        "Launch the scan and wait for completion.",
+        "Review alerts and note top risks."
+    ],
+    "overview": "## Goal\nRun a Quick Start automated scan safely and review the alerts."
 }

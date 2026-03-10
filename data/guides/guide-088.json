@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Frontend Engineering topic 88.",
-    "id":  "guide-088",
-    "examples":  [
-                     "Example workflow for Frontend Engineering.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Frontend Engineering Field Notes",
-                       "Checklist: Frontend Engineering Review"
-                   ],
-    "category":  "frontend",
-    "tags":  [
-                 "frontend",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Frontend Engineering topic 88.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 88: Performance Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Frontend Engineering patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model authenticated users and sessions for realistic scans.",
+    "id": "guide-088",
+    "examples": [
+        "Create a read-only user for baseline scans.",
+        "Test admin-only endpoints with an admin user."
+    ],
+    "references": [
+        "Users",
+        "Contexts"
+    ],
+    "category": "auth",
+    "tags": [
+        "zap",
+        "guide",
+        "auth"
+    ],
+    "diagrams": [
+        "Context -> Authentication -> Users",
+        "Session refresh lifecycle"
+    ],
+    "content": "## Overview\nModel authenticated users and sessions for realistic scans.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Users and Authentication Setup (Workflow 8)",
+    "steps": [
+        "Define authentication settings in the context.",
+        "Create users with the right credentials.",
+        "Verify session management behavior.",
+        "Run scans as a specific user.",
+        "Re-authenticate when sessions expire."
+    ]
 }

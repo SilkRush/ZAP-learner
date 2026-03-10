@@ -1,29 +1,32 @@
-﻿{
-    "summary":  "Step-by-step guide for Data Science topic 219.",
-    "id":  "guide-219",
-    "examples":  [
-                     "Example workflow for Data Science.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Data Science Field Notes",
-                       "Checklist: Data Science Review"
-                   ],
-    "category":  "data-science",
-    "tags":  [
-                 "data-science",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Data Science topic 219.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 219: EDA Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Data Science patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Keep scans safe and focused by modeling scope with contexts.",
+    "id": "guide-219",
+    "examples": [
+        "Exclude logout endpoints to keep sessions alive.",
+        "Limit scans to /app/ paths during testing."
+    ],
+    "references": [
+        "Contexts",
+        "Scope",
+        "Modes"
+    ],
+    "category": "scope",
+    "tags": [
+        "zap",
+        "guide",
+        "scope"
+    ],
+    "diagrams": [
+        "Context include/exclude boundary",
+        "Scope enforcement in Protected mode"
+    ],
+    "content": "## Overview\nKeep scans safe and focused by modeling scope with contexts.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Defining Scope with Contexts (Workflow 19)",
+    "steps": [
+        "Create a new context for your application.",
+        "Define include and exclude regex patterns.",
+        "Set the context in scope before scanning.",
+        "Use Protected mode to enforce scope rules.",
+        "Revisit scope as the app changes."
+    ]
 }

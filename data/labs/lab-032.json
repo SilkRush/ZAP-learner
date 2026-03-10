@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for Networking topic 32.",
-    "id":  "lab-032",
-    "category":  "networking",
-    "tags":  [
-                 "networking",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Networking lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "advanced",
-    "title":  "Lab 32: HTTP",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Networking topic 32.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Retest a fixed issue and validate the alert status.",
+    "id": "lab-032",
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "lab",
+        "alerts"
+    ],
+    "starter": "# Record before/after evidence",
+    "objectives": [
+        "Retest a previously flagged issue.",
+        "Confirm alert no longer appears.",
+        "Document the fix verification."
+    ],
+    "solutionOutline": [
+        "Fix verified with retest evidence.",
+        "Alert status updated appropriately."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 32: Alert Retest Workflow (Iteration 3)",
+    "steps": [
+        "Identify a resolved alert.",
+        "Re-run the relevant scan steps.",
+        "Compare new results with prior evidence.",
+        "Document validation outcome."
+    ],
+    "overview": "## Goal\nRetest a fixed issue and validate the alert status."
 }

@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Data Science topic 76.",
-    "id":  "guide-076",
-    "examples":  [
-                     "Example workflow for Data Science.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Data Science Field Notes",
-                       "Checklist: Data Science Review"
-                   ],
-    "category":  "data-science",
-    "tags":  [
-                 "data-science",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Data Science topic 76.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 76: Pandas Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Data Science patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model authenticated users and sessions for realistic scans.",
+    "id": "guide-076",
+    "examples": [
+        "Create a read-only user for baseline scans.",
+        "Test admin-only endpoints with an admin user."
+    ],
+    "references": [
+        "Users",
+        "Contexts"
+    ],
+    "category": "auth",
+    "tags": [
+        "zap",
+        "guide",
+        "auth"
+    ],
+    "diagrams": [
+        "Context -> Authentication -> Users",
+        "Session refresh lifecycle"
+    ],
+    "content": "## Overview\nModel authenticated users and sessions for realistic scans.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Users and Authentication Setup (Workflow 7)",
+    "steps": [
+        "Define authentication settings in the context.",
+        "Create users with the right credentials.",
+        "Verify session management behavior.",
+        "Run scans as a specific user.",
+        "Re-authenticate when sessions expire."
+    ]
 }

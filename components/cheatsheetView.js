@@ -51,7 +51,7 @@ function renderList(app, data){
         <section class="page-header">
             <div>
                 <h1>Cheat Sheets</h1>
-                <p>Quick reference cards for fast recall.</p>
+                <p>Quick ZAP reference cards for fast recall.</p>
             </div>
         </section>
         <section class="filters">

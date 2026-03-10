@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Security Topic 14",
-    "id":  "security-lesson-14",
-    "practice":  [
-                     "Describe the main steps of Security Topic 14.",
-                     "Solve a small exercise using Security Topic 14.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-074"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 14\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Security",
-    "title":  "Security Lesson 14",
-    "references":  [
-                       "Guide: Security Topic 14 Essentials",
-                       "Cheat Sheet: Security Basics"
-                   ],
-    "summary":  "Master Security Topic 14 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "beginner",
-    "content":  "# Security Lesson 14\n\n## Overview\nMaster Security Topic 14 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Security Topic 14.",
-                     "Edge case analysis for Security Topic 14."
-                 ],
-    "tags":  [
-                 "security",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Security Topic 14."
-                   ]
+{
+    "topic": "Documenting Evidence",
+    "id": "security-lesson-14",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on documenting evidence.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-074"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "docker run -v $(pwd):/zap/wrk/:rw -t ghcr.io/zaproxy/zaproxy:stable \\\n  zap-full-scan.py -t https://www.example.com -g gen.conf -r report.html"
+        }
+    ],
+    "module": "ZAP Security Practice",
+    "title": "Documenting Evidence (Part 2)",
+    "references": [
+        "ZAP Desktop User Guide",
+        "Alerts",
+        "Scan Policy",
+        "Getting Started Guide"
+    ],
+    "summary": "Apply documenting evidence in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "intermediate",
+    "content": "# Documenting Evidence (Part 2)\n\n## Overview\nApply documenting evidence in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run documenting evidence on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "security",
+        "zap-security-practice"
+    ],
+    "objectives": [
+        "Explain how documenting evidence fits into ZAP testing.",
+        "Configure documenting evidence safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

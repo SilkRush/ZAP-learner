@@ -1,28 +1,31 @@
-﻿{
-    "summary":  "Hands-on lab for Machine Learning topic 12.",
-    "id":  "lab-012",
-    "category":  "machine-learning",
-    "tags":  [
-                 "machine-learning",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Machine Learning lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 12: Training",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Machine Learning topic 12.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Run a Quick Start automated scan safely and review the alerts.",
+    "id": "lab-012",
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "lab",
+        "quick-start"
+    ],
+    "starter": "# Use Quick Start UI to launch the scan\n# Record the URL, spider choice, and top alerts",
+    "objectives": [
+        "Launch an automated scan from Quick Start.",
+        "Choose the right spider option.",
+        "Review alerts and capture evidence."
+    ],
+    "solutionOutline": [
+        "Scan completed with the selected spider option.",
+        "Alerts reviewed and summarized by risk.",
+        "Evidence captured for key findings."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 12: Quick Start Automated Scan (Iteration 2)",
+    "steps": [
+        "Open Quick Start and select Automated Scan.",
+        "Enter the target URL you have permission to test.",
+        "Select traditional or AJAX spider based on the app.",
+        "Launch the scan and wait for completion.",
+        "Review alerts and note top risks."
+    ],
+    "overview": "## Goal\nRun a Quick Start automated scan safely and review the alerts."
 }

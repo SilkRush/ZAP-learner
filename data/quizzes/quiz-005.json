@@ -1,163 +1,163 @@
 {
-    "id":  "quiz-005",
-    "tags":  [
-                 "zap",
-                 "automation"
-             ],
-    "questions":  [
-                      {
-                          "question":  "What format does the Automation Framework plan use?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Automation plans are defined in YAML files.",
-                          "correct_answer":  "YAML",
-                          "choices":  [
-                                          "XML",
-                                          "YAML",
-                                          "CSV",
-                                          "Binary"
-                                      ]
-                      },
-                      {
-                          "question":  "Which command line option executes an automation plan?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "-autorun runs the automation plan in ZAP.",
-                          "correct_answer":  "-autorun",
-                          "choices":  [
-                                          "-autogenmin",
-                                          "-autorun",
-                                          "-daemon",
-                                          "-config"
-                                      ]
-                      },
-                      {
-                          "question":  "Which option generates a minimal automation plan template?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "-autogenmin creates a minimal plan template.",
-                          "correct_answer":  "-autogenmin",
-                          "choices":  [
-                                          "-autogenmin",
-                                          "-autogenmax",
-                                          "-autorun",
-                                          "-autocheck"
-                                      ]
-                      },
-                      {
-                          "question":  "What does the Webswing container provide?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Webswing provides the ZAP UI in a browser.",
-                          "correct_answer":  "A browser-based ZAP UI",
-                          "choices":  [
-                                          "A database",
-                                          "A browser-based ZAP UI",
-                                          "A vulnerability feed",
-                                          "A packet sniffer"
-                                      ]
-                      },
-                      {
-                          "question":  "Which ports are used by the Webswing container command in the docs?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "The recommended Webswing command maps ports 8080 and 8090.",
-                          "correct_answer":  "8080 and 8090",
-                          "choices":  [
-                                          "80 and 443",
-                                          "3000 and 3001",
-                                          "8080 and 8090",
-                                          "9000 and 9001"
-                                      ]
-                      },
-                      {
-                          "question":  "Why is the Automation Framework useful in CI pipelines?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "It enables repeatable, headless scans defined in code.",
-                          "correct_answer":  "Repeatable, headless scans",
-                          "choices":  [
-                                          "It replaces unit tests",
-                                          "Repeatable, headless scans",
-                                          "It disables scanning",
-                                          "It encrypts secrets"
-                                      ]
-                      },
-                      {
-                          "question":  "What do automation plans typically include?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Plans include environment definitions and jobs such as spider or active scan.",
-                          "correct_answer":  "Environment definitions and jobs",
-                          "choices":  [
-                                          "Only UI themes",
-                                          "Environment definitions and jobs",
-                                          "Binary patches",
-                                          "User passwords"
-                                      ]
-                      },
-                      {
-                          "question":  "Which packaged script is commonly used for CLI scans in ZAP Docker images?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "ZAP Docker images include scripts like zap-full-scan.py.",
-                          "correct_answer":  "zap-full-scan.py",
-                          "choices":  [
-                                          "zap-full-scan.py",
-                                          "pip-audit",
-                                          "nmap",
-                                          "terraform"
-                                      ]
-                      },
-                      {
-                          "question":  "What is a recommended reason to use a stable Docker image tag?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Stable tags help keep scans reproducible over time.",
-                          "correct_answer":  "Reproducible scans",
-                          "choices":  [
-                                          "Faster internet",
-                                          "Reproducible scans",
-                                          "Extra UI features",
-                                          "Mandatory licensing"
-                                      ]
-                      },
-                      {
-                          "question":  "Which command creates a maximal plan template?",
-                          "tags":  [
-                                       "automation"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "-autogenmax generates a full template plan.",
-                          "correct_answer":  "-autogenmax",
-                          "choices":  [
-                                          "-autogenmax",
-                                          "-autorun",
-                                          "-config",
-                                          "-daemon"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "beginner",
-    "module":  "ZAP Automation",
-    "summary":  "Check your understanding of the Automation Framework and Docker options.",
-    "title":  "ZAP Automation Quiz 5"
+    "id": "quiz-005",
+    "tags": [
+        "zap",
+        "zap-docker"
+    ],
+    "questions": [
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        },
+        {
+            "question": "The AJAX spider explores applications by using what?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "AJAX spider launches a browser and clicks links to explore JS-driven apps.",
+            "correct_answer": "A browser",
+            "choices": [
+                "A browser",
+                "A database",
+                "A reverse proxy",
+                "A static sitemap"
+            ]
+        },
+        {
+            "question": "When using -zapit, which option must be included or it will be ignored?",
+            "tags": [
+                "zapit"
+            ],
+            "difficulty": "beginner",
+            "explanation": "ZAPit requires -cmd or the option is ignored.",
+            "correct_answer": "-cmd",
+            "choices": [
+                "-cmd",
+                "-daemon",
+                "-quickout",
+                "-config"
+            ]
+        },
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        },
+        {
+            "question": "The ZAP full scan script runs a spider, optional AJAX spider, then what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The full scan script finishes with a full active scan.",
+            "correct_answer": "A full active scan",
+            "choices": [
+                "A full active scan",
+                "Only passive scanning",
+                "A report export",
+                "A proxy replay"
+            ]
+        },
+        {
+            "question": "In zap-full-scan.py usage, the target must include what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The target URL must include the protocol.",
+            "correct_answer": "The protocol, e.g. https://",
+            "choices": [
+                "The protocol, e.g. https://",
+                "An API key",
+                "A report path",
+                "A context file"
+            ]
+        },
+        {
+            "question": "An alert in ZAP is associated with what?",
+            "tags": [
+                "alerts"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Alerts are tied to specific requests and can have multiple per request.",
+            "correct_answer": "A specific request",
+            "choices": [
+                "A specific request",
+                "A user account",
+                "A scan policy",
+                "A context name"
+            ]
+        }
+    ],
+    "difficulty": "beginner",
+    "module": "ZAP Docker",
+    "summary": "Check your understanding of zap docker concepts.",
+    "title": "ZAP Docker Quiz 005"
 }

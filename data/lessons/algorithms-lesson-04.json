@@ -1,44 +1,43 @@
 {
-    "topic":  "Proxying traffic and passive scanning",
-    "id":  "algorithms-lesson-04",
-    "practice":  [
-                     "Configure a browser to send traffic through ZAP.",
-                     "Explain how passive scanning differs from active scanning.",
-                     "Identify two types of messages that passive scanning inspects."
-                 ],
-    "quizzes":  [
-                    "quiz-004"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "pscans.scanOnlyInScope=true\npscans.maxAlertsPerRule=50",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "ZAP Proxying",
-    "title":  "ZAP Lesson 4: Proxying and Passive Scan",
-    "references":  [
-                       "OWASP ZAP Getting Started",
-                       "ZAP Passive Scanner Add-on"
-                   ],
-    "summary":  "Route traffic through ZAP and understand how passive scanning works.",
-    "difficulty":  "beginner",
-    "content":  "# ZAP Lesson 4: Proxying and Passive Scan\n\n## Overview\nZAP can proxy your browser so it records requests and responses while you explore the target. Passive scanning then analyzes this traffic in the background.\n\n## Proxying basics\n- Configure your browser to use ZAP as an HTTP/HTTPS proxy\n- Use the built-in browser from Quick Start for a preconfigured setup\n- Explore the application to populate the Sites tree\n\n## Passive scanning\n- Runs in the background on observed traffic\n- Does not modify requests or responses\n- Scans HTTP and WebSocket messages to raise alerts\n\n## Why it matters\nPassive scanning is safe and can run continuously while you browse or test. It surfaces issues without actively attacking the target.",
-    "examples":  [
-                     "Launch the built-in browser to avoid manual proxy configuration.",
-                     "Review passive scan alerts after a manual walkthrough.",
-                     "Use passive scanning to catch missing security headers."
-                 ],
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "proxy",
-                 "passive-scan"
-             ],
-    "objectives":  [
-                       "Proxy traffic through ZAP.",
-                       "Describe how passive scanning analyzes traffic.",
-                       "Identify where passive alerts appear in the UI.",
-                       "Explain why passive scanning is safe to run."
-                   ]
+    "topic": "AJAX Spider Strategy",
+    "id": "algorithms-lesson-04",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on ajax spider strategy.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-004"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "docker run -v $(pwd):/zap/wrk/:rw -t ghcr.io/zaproxy/zaproxy:stable \\\n  zap-full-scan.py -t https://www.example.com -g gen.conf -r report.html"
+        }
+    ],
+    "module": "ZAP Scanning Core",
+    "title": "AJAX Spider Strategy",
+    "references": [
+        "Scope",
+        "Contexts",
+        "Quick Start Add-on",
+        "Scan Policy"
+    ],
+    "summary": "Apply ajax spider strategy in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# AJAX Spider Strategy\n\n## Overview\nApply ajax spider strategy in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run ajax spider strategy on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "scanning",
+        "zap-scanning-core"
+    ],
+    "objectives": [
+        "Explain how ajax spider strategy fits into ZAP testing.",
+        "Configure ajax spider strategy safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

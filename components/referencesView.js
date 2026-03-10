@@ -16,7 +16,7 @@ export async function referencesView(){
         <section class="page-header">
             <div>
                 <h1>References</h1>
-                <p>Curated resources grouped by category.</p>
+                <p>Curated OWASP ZAP resources grouped by category.</p>
             </div>
         </section>
         <section class="filters">

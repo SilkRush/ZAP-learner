@@ -1,33 +1,32 @@
 {
-    "summary":  "Configure authentication and users in a ZAP context.",
-    "id":  "guide-003",
-    "examples":  [
-                     "Set up form-based authentication for a staging app.",
-                     "Create users for different roles (admin vs viewer).",
-                     "Validate authenticated sessions before scanning."
-                 ],
-    "references":  [
-                       "ZAP Authentication (All Done)",
-                       "ZAP Users",
-                       "ZAP Contexts"
-                   ],
-    "category":  "zap-auth",
-    "tags":  [
-                 "zap",
-                 "authentication",
-                 "users"
-             ],
-    "diagrams":  [
-                     "Login flow with context and user session",
-                     "Authentication validation check sequence"
-                 ],
-    "content":  "## Overview\nAuthentication is configured per context, and users are created under that context. Validate auth before active scanning.\n\n### Common steps\n- Create the context and include URLs\n- Configure authentication method\n- Add users and test authentication\n- Export the context for reuse\n\n### Tips\n- Revalidate after login flows change\n- Keep a dedicated test account",
-    "title":  "Guide 3: Authentication Setup",
-    "steps":  [
-                  "Create or select the target context.",
-                  "Configure the authentication method for that context.",
-                  "Add one or more users and set credentials.",
-                  "Run authentication tests and verify logged-in indicators.",
-                  "Export the context for automation and future scans."
-              ]
+    "summary": "Keep scans safe and focused by modeling scope with contexts.",
+    "id": "guide-003",
+    "examples": [
+        "Exclude logout endpoints to keep sessions alive.",
+        "Limit scans to /app/ paths during testing."
+    ],
+    "references": [
+        "Contexts",
+        "Scope",
+        "Modes"
+    ],
+    "category": "scope",
+    "tags": [
+        "zap",
+        "guide",
+        "scope"
+    ],
+    "diagrams": [
+        "Context include/exclude boundary",
+        "Scope enforcement in Protected mode"
+    ],
+    "content": "## Overview\nKeep scans safe and focused by modeling scope with contexts.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Defining Scope with Contexts",
+    "steps": [
+        "Create a new context for your application.",
+        "Define include and exclude regex patterns.",
+        "Set the context in scope before scanning.",
+        "Use Protected mode to enforce scope rules.",
+        "Revisit scope as the app changes."
+    ]
 }

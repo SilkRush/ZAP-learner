@@ -1,170 +1,30 @@
-﻿[
+[
     {
-        "id":  "term-023",
-        "related_terms":  [
-                              "term-022",
-                              "term-024"
-                          ],
-        "definition":  "Definition for Workflow Concept 23 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 23",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 23.",
-                         "Common scenario for Workflow Concept 23."
-                     ]
+        "id": "term-077",
+        "term": "Webswing",
+        "definition": "Webswing is related to running ZAP in Docker or using packaged scans.",
+        "category": "docker",
+        "examples": [
+            "Example: Document how webswing affects scan results.",
+            "Example: Review webswing settings before a run."
+        ],
+        "related_terms": [
+            "term-076",
+            "term-078"
+        ]
     },
     {
-        "id":  "term-049",
-        "related_terms":  [
-                              "term-048",
-                              "term-050"
-                          ],
-        "definition":  "Definition for Workflow Concept 49 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 49",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 49.",
-                         "Common scenario for Workflow Concept 49."
-                     ]
-    },
-    {
-        "id":  "term-075",
-        "related_terms":  [
-                              "term-074",
-                              "term-076"
-                          ],
-        "definition":  "Definition for Workflow Concept 75 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 75",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 75.",
-                         "Common scenario for Workflow Concept 75."
-                     ]
-    },
-    {
-        "id":  "term-101",
-        "related_terms":  [
-                              "term-100",
-                              "term-102"
-                          ],
-        "definition":  "Definition for Workflow Concept 101 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 101",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 101.",
-                         "Common scenario for Workflow Concept 101."
-                     ]
-    },
-    {
-        "id":  "term-127",
-        "related_terms":  [
-                              "term-126",
-                              "term-128"
-                          ],
-        "definition":  "Definition for Workflow Concept 127 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 127",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 127.",
-                         "Common scenario for Workflow Concept 127."
-                     ]
-    },
-    {
-        "id":  "term-153",
-        "related_terms":  [
-                              "term-152",
-                              "term-154"
-                          ],
-        "definition":  "Definition for Workflow Concept 153 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 153",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 153.",
-                         "Common scenario for Workflow Concept 153."
-                     ]
-    },
-    {
-        "id":  "term-179",
-        "related_terms":  [
-                              "term-178",
-                              "term-180"
-                          ],
-        "definition":  "Definition for Workflow Concept 179 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 179",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 179.",
-                         "Common scenario for Workflow Concept 179."
-                     ]
-    },
-    {
-        "id":  "term-205",
-        "related_terms":  [
-                              "term-204",
-                              "term-206"
-                          ],
-        "definition":  "Definition for Workflow Concept 205 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 205",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 205.",
-                         "Common scenario for Workflow Concept 205."
-                     ]
-    },
-    {
-        "id":  "term-231",
-        "related_terms":  [
-                              "term-230",
-                              "term-232"
-                          ],
-        "definition":  "Definition for Workflow Concept 231 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 231",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 231.",
-                         "Common scenario for Workflow Concept 231."
-                     ]
-    },
-    {
-        "id":  "term-257",
-        "related_terms":  [
-                              "term-256",
-                              "term-258"
-                          ],
-        "definition":  "Definition for Workflow Concept 257 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 257",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 257.",
-                         "Common scenario for Workflow Concept 257."
-                     ]
-    },
-    {
-        "id":  "term-283",
-        "related_terms":  [
-                              "term-282",
-                              "term-284"
-                          ],
-        "definition":  "Definition for Workflow Concept 283 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 283",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 283.",
-                         "Common scenario for Workflow Concept 283."
-                     ]
-    },
-    {
-        "id":  "term-309",
-        "related_terms":  [
-                              "term-308",
-                              "term-310"
-                          ],
-        "definition":  "Definition for Workflow Concept 309 within the Frontend Engineering domain.",
-        "term":  "Workflow Concept 309",
-        "category":  "frontend",
-        "examples":  [
-                         "Example use of Workflow Concept 309.",
-                         "Common scenario for Workflow Concept 309."
-                     ]
+        "id": "term-140",
+        "term": "Webswing Session",
+        "definition": "Webswing Session is related to running ZAP in Docker or using packaged scans.",
+        "category": "docker",
+        "examples": [
+            "Example: Document how webswing session affects scan results.",
+            "Example: Review webswing session settings before a run."
+        ],
+        "related_terms": [
+            "term-139",
+            "term-141"
+        ]
     }
 ]

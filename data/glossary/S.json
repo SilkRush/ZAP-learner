@@ -1,170 +1,226 @@
-﻿[
+[
     {
-        "id":  "term-019",
-        "related_terms":  [
-                              "term-018",
-                              "term-020"
-                          ],
-        "definition":  "Definition for Stack Concept 19 within the Networking domain.",
-        "term":  "Stack Concept 19",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 19.",
-                         "Common scenario for Stack Concept 19."
-                     ]
+        "id": "term-035",
+        "term": "Scan Policy",
+        "definition": "Scan Policy is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how scan policy affects scan results.",
+            "Example: Review scan policy settings before a run."
+        ],
+        "related_terms": [
+            "term-034",
+            "term-036"
+        ]
     },
     {
-        "id":  "term-045",
-        "related_terms":  [
-                              "term-044",
-                              "term-046"
-                          ],
-        "definition":  "Definition for Stack Concept 45 within the Networking domain.",
-        "term":  "Stack Concept 45",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 45.",
-                         "Common scenario for Stack Concept 45."
-                     ]
+        "id": "term-036",
+        "term": "Scope",
+        "definition": "Scope helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how scope affects scan results.",
+            "Example: Review scope settings before a run."
+        ],
+        "related_terms": [
+            "term-035",
+            "term-037"
+        ]
     },
     {
-        "id":  "term-071",
-        "related_terms":  [
-                              "term-070",
-                              "term-072"
-                          ],
-        "definition":  "Definition for Stack Concept 71 within the Networking domain.",
-        "term":  "Stack Concept 71",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 71.",
-                         "Common scenario for Stack Concept 71."
-                     ]
+        "id": "term-037",
+        "term": "Session Management",
+        "definition": "Session Management relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how session management affects scan results.",
+            "Example: Review session management settings before a run."
+        ],
+        "related_terms": [
+            "term-036",
+            "term-038"
+        ]
     },
     {
-        "id":  "term-097",
-        "related_terms":  [
-                              "term-096",
-                              "term-098"
-                          ],
-        "definition":  "Definition for Stack Concept 97 within the Networking domain.",
-        "term":  "Stack Concept 97",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 97.",
-                         "Common scenario for Stack Concept 97."
-                     ]
+        "id": "term-038",
+        "term": "Sites Tree",
+        "definition": "Sites Tree is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how sites tree affects scan results.",
+            "Example: Review sites tree settings before a run."
+        ],
+        "related_terms": [
+            "term-037",
+            "term-039"
+        ]
     },
     {
-        "id":  "term-123",
-        "related_terms":  [
-                              "term-122",
-                              "term-124"
-                          ],
-        "definition":  "Definition for Stack Concept 123 within the Networking domain.",
-        "term":  "Stack Concept 123",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 123.",
-                         "Common scenario for Stack Concept 123."
-                     ]
+        "id": "term-039",
+        "term": "Spider",
+        "definition": "Spider is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how spider affects scan results.",
+            "Example: Review spider settings before a run."
+        ],
+        "related_terms": [
+            "term-038",
+            "term-040"
+        ]
     },
     {
-        "id":  "term-149",
-        "related_terms":  [
-                              "term-148",
-                              "term-150"
-                          ],
-        "definition":  "Definition for Stack Concept 149 within the Networking domain.",
-        "term":  "Stack Concept 149",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 149.",
-                         "Common scenario for Stack Concept 149."
-                     ]
+        "id": "term-040",
+        "term": "Standard Mode",
+        "definition": "Standard Mode is a ZAP mode that changes which actions are allowed.",
+        "category": "modes",
+        "examples": [
+            "Example: Document how standard mode affects scan results.",
+            "Example: Review standard mode settings before a run."
+        ],
+        "related_terms": [
+            "term-039",
+            "term-041"
+        ]
     },
     {
-        "id":  "term-175",
-        "related_terms":  [
-                              "term-174",
-                              "term-176"
-                          ],
-        "definition":  "Definition for Stack Concept 175 within the Networking domain.",
-        "term":  "Stack Concept 175",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 175.",
-                         "Common scenario for Stack Concept 175."
-                     ]
+        "id": "term-041",
+        "term": "Safe Mode",
+        "definition": "Safe Mode is a ZAP mode that changes which actions are allowed.",
+        "category": "modes",
+        "examples": [
+            "Example: Document how safe mode affects scan results.",
+            "Example: Review safe mode settings before a run."
+        ],
+        "related_terms": [
+            "term-040",
+            "term-042"
+        ]
     },
     {
-        "id":  "term-201",
-        "related_terms":  [
-                              "term-200",
-                              "term-202"
-                          ],
-        "definition":  "Definition for Stack Concept 201 within the Networking domain.",
-        "term":  "Stack Concept 201",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 201.",
-                         "Common scenario for Stack Concept 201."
-                     ]
+        "id": "term-073",
+        "term": "Spider Coverage",
+        "definition": "Spider Coverage is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how spider coverage affects scan results.",
+            "Example: Review spider coverage settings before a run."
+        ],
+        "related_terms": [
+            "term-072",
+            "term-074"
+        ]
     },
     {
-        "id":  "term-227",
-        "related_terms":  [
-                              "term-226",
-                              "term-228"
-                          ],
-        "definition":  "Definition for Stack Concept 227 within the Networking domain.",
-        "term":  "Stack Concept 227",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 227.",
-                         "Common scenario for Stack Concept 227."
-                     ]
+        "id": "term-091",
+        "term": "Scan Policy Manager",
+        "definition": "Scan Policy Manager is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how scan policy manager affects scan results.",
+            "Example: Review scan policy manager settings before a run."
+        ],
+        "related_terms": [
+            "term-090",
+            "term-092"
+        ]
     },
     {
-        "id":  "term-253",
-        "related_terms":  [
-                              "term-252",
-                              "term-254"
-                          ],
-        "definition":  "Definition for Stack Concept 253 within the Networking domain.",
-        "term":  "Stack Concept 253",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 253.",
-                         "Common scenario for Stack Concept 253."
-                     ]
+        "id": "term-094",
+        "term": "Sites Tree Node",
+        "definition": "Sites Tree Node is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how sites tree node affects scan results.",
+            "Example: Review sites tree node settings before a run."
+        ],
+        "related_terms": [
+            "term-093",
+            "term-095"
+        ]
     },
     {
-        "id":  "term-279",
-        "related_terms":  [
-                              "term-278",
-                              "term-280"
-                          ],
-        "definition":  "Definition for Stack Concept 279 within the Networking domain.",
-        "term":  "Stack Concept 279",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 279.",
-                         "Common scenario for Stack Concept 279."
-                     ]
+        "id": "term-097",
+        "term": "Spider Tab",
+        "definition": "Spider Tab is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how spider tab affects scan results.",
+            "Example: Review spider tab settings before a run."
+        ],
+        "related_terms": [
+            "term-096",
+            "term-098"
+        ]
     },
     {
-        "id":  "term-305",
-        "related_terms":  [
-                              "term-304",
-                              "term-306"
-                          ],
-        "definition":  "Definition for Stack Concept 305 within the Networking domain.",
-        "term":  "Stack Concept 305",
-        "category":  "networking",
-        "examples":  [
-                         "Example use of Stack Concept 305.",
-                         "Common scenario for Stack Concept 305."
-                     ]
+        "id": "term-101",
+        "term": "SOAP Import",
+        "definition": "SOAP Import is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how soap import affects scan results.",
+            "Example: Review soap import settings before a run."
+        ],
+        "related_terms": [
+            "term-100",
+            "term-102"
+        ]
+    },
+    {
+        "id": "term-115",
+        "term": "Script Console",
+        "definition": "Script Console relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how script console affects scan results.",
+            "Example: Review script console settings before a run."
+        ],
+        "related_terms": [
+            "term-114",
+            "term-116"
+        ]
+    },
+    {
+        "id": "term-116",
+        "term": "Script Type",
+        "definition": "Script Type relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how script type affects scan results.",
+            "Example: Review script type settings before a run."
+        ],
+        "related_terms": [
+            "term-115",
+            "term-117"
+        ]
+    },
+    {
+        "id": "term-117",
+        "term": "Selenium WebDriver",
+        "definition": "Selenium WebDriver relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how selenium webdriver affects scan results.",
+            "Example: Review selenium webdriver settings before a run."
+        ],
+        "related_terms": [
+            "term-116",
+            "term-118"
+        ]
+    },
+    {
+        "id": "term-123",
+        "term": "Session Token",
+        "definition": "Session Token relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how session token affects scan results.",
+            "Example: Review session token settings before a run."
+        ],
+        "related_terms": [
+            "term-122",
+            "term-124"
+        ]
     }
 ]

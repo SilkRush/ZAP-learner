@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for Web Development topic 21.",
-    "id":  "lab-021",
-    "category":  "web",
-    "tags":  [
-                 "web",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Web Development lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 21: HTML",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Web Development topic 21.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Retest a fixed issue and validate the alert status.",
+    "id": "lab-021",
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "lab",
+        "alerts"
+    ],
+    "starter": "# Record before/after evidence",
+    "objectives": [
+        "Retest a previously flagged issue.",
+        "Confirm alert no longer appears.",
+        "Document the fix verification."
+    ],
+    "solutionOutline": [
+        "Fix verified with retest evidence.",
+        "Alert status updated appropriately."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 21: Alert Retest Workflow (Iteration 2)",
+    "steps": [
+        "Identify a resolved alert.",
+        "Re-run the relevant scan steps.",
+        "Compare new results with prior evidence.",
+        "Document validation outcome."
+    ],
+    "overview": "## Goal\nRetest a fixed issue and validate the alert status."
 }

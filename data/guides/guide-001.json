@@ -1,32 +1,30 @@
 {
-    "summary":  "Step-by-step checklist for running a safe Quick Start scan.",
-    "id":  "guide-001",
-    "examples":  [
-                     "Run an automated scan on a staging app.",
-                     "Use the built-in browser for a manual explore pass.",
-                     "Review alerts and export a report."
-                 ],
-    "references":  [
-                       "ZAP Quick Start: Automated Scan",
-                       "OWASP ZAP Getting Started"
-                   ],
-    "category":  "zap-quick-start",
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "quick-start"
-             ],
-    "diagrams":  [
-                     "Quick Start workflow: target -> spider -> active scan",
-                     "Alert review flow: scan -> triage -> report"
-                 ],
-    "content":  "## Overview\nQuick Start is the fastest way to run a baseline scan against an authorized target.\n\n### What it does\n- Crawls the target with the spider\n- Optionally uses the AJAX spider for JS-heavy apps\n- Runs active scanning to identify issues\n\n### Safety reminders\n- Only scan systems you are authorized to test\n- Use Protected mode to avoid out-of-scope scans",
-    "title":  "Guide 1: Quick Start Checklist",
-    "steps":  [
-                  "Confirm you have written authorization to test the target.",
-                  "Open Quick Start and select Automated Scan.",
-                  "Enter the target URL and select spider options if needed.",
-                  "Run the scan and monitor the progress tab.",
-                  "Review alerts by risk and confidence, then export a report."
-              ]
+    "summary": "Run an automated scan quickly and safely with ZAP Quick Start.",
+    "id": "guide-001",
+    "examples": [
+        "Scan a staging site to validate headers and low-risk findings.",
+        "Compare results between traditional and AJAX spider runs."
+    ],
+    "references": [
+        "Quick Start Add-on"
+    ],
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "guide",
+        "quick-start"
+    ],
+    "diagrams": [
+        "Quick Start flow: URL -> Spider -> Active Scan -> Alerts",
+        "Decision tree for traditional vs AJAX spider"
+    ],
+    "content": "## Overview\nRun an automated scan quickly and safely with ZAP Quick Start.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Quick Start Automated Scan",
+    "steps": [
+        "Open the Quick Start tab and choose Automated Scan.",
+        "Enter the target URL and verify you have permission.",
+        "Pick traditional spider or AJAX spider based on the app.",
+        "Launch the scan and monitor progress in the toolbar.",
+        "Review alerts and capture evidence for follow-up."
+    ]
 }

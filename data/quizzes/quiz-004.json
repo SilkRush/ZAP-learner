@@ -1,163 +1,163 @@
 {
-    "id":  "quiz-004",
-    "tags":  [
-                 "zap",
-                 "passive-scan"
-             ],
-    "questions":  [
-                      {
-                          "question":  "Which scan type analyzes traffic without changing requests?",
-                          "tags":  [
-                                       "zap"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Passive scanning observes traffic without modifying it.",
-                          "correct_answer":  "Passive scanning",
-                          "choices":  [
-                                          "Active scanning",
-                                          "Passive scanning",
-                                          "Fuzzing",
-                                          "Attack mode"
-                                      ]
-                      },
-                      {
-                          "question":  "When does passive scanning typically run?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Passive scanning runs in the background as traffic is observed.",
-                          "correct_answer":  "In the background as traffic is observed",
-                          "choices":  [
-                                          "Only at startup",
-                                          "In the background as traffic is observed",
-                                          "Only after a report is exported",
-                                          "Only in Safe mode"
-                                      ]
-                      },
-                      {
-                          "question":  "Which message types can passive scanning analyze?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Passive scanning can analyze HTTP and WebSocket messages.",
-                          "correct_answer":  "HTTP and WebSocket messages",
-                          "choices":  [
-                                          "Only HTTP requests",
-                                          "Only DNS traffic",
-                                          "HTTP and WebSocket messages",
-                                          "Only encrypted payloads"
-                                      ]
-                      },
-                      {
-                          "question":  "Which scan type sends attack payloads to find vulnerabilities?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Active scanning sends requests designed to trigger vulnerabilities.",
-                          "correct_answer":  "Active scanning",
-                          "choices":  [
-                                          "Passive scanning",
-                                          "Active scanning",
-                                          "Proxying",
-                                          "Indexing"
-                                      ]
-                      },
-                      {
-                          "question":  "Why is passive scanning considered safer?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "It does not modify traffic and therefore does not actively attack the target.",
-                          "correct_answer":  "It does not modify traffic",
-                          "choices":  [
-                                          "It runs faster",
-                                          "It does not modify traffic",
-                                          "It requires no proxy",
-                                          "It uses no CPU"
-                                      ]
-                      },
-                      {
-                          "question":  "What does Protected mode enforce?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Protected mode blocks potentially dangerous actions outside the defined scope.",
-                          "correct_answer":  "Only in-scope dangerous actions are allowed",
-                          "choices":  [
-                                          "All scans are disabled",
-                                          "Only in-scope dangerous actions are allowed",
-                                          "Only passive scanning is disabled",
-                                          "Everything is auto-allowed"
-                                      ]
-                      },
-                      {
-                          "question":  "Which mode automatically performs active scans on in-scope nodes?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Attack mode actively scans in-scope nodes as they are discovered.",
-                          "correct_answer":  "Attack mode",
-                          "choices":  [
-                                          "Safe mode",
-                                          "Protected mode",
-                                          "Standard mode",
-                                          "Attack mode"
-                                      ]
-                      },
-                      {
-                          "question":  "When should you schedule active scans?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Active scans can be intrusive, so they should run during approved test windows.",
-                          "correct_answer":  "During authorized test windows",
-                          "choices":  [
-                                          "During peak production traffic",
-                                          "During authorized test windows",
-                                          "Never",
-                                          "Only without scope"
-                                      ]
-                      },
-                      {
-                          "question":  "What is a common outcome of passive scanning?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Passive scanning raises alerts based on observed issues.",
-                          "correct_answer":  "Alerts based on observed issues",
-                          "choices":  [
-                                          "Automatic patching",
-                                          "Alerts based on observed issues",
-                                          "Database migrations",
-                                          "User creation"
-                                      ]
-                      },
-                      {
-                          "question":  "What is the recommended scanning sequence?",
-                          "tags":  [
-                                       "passive-scan"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Start with passive scanning and then run targeted active scans for deeper coverage.",
-                          "correct_answer":  "Passive first, then targeted active scans",
-                          "choices":  [
-                                          "Active first, then passive",
-                                          "Passive first, then targeted active scans",
-                                          "Only active scans",
-                                          "Only manual testing"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "beginner",
-    "module":  "ZAP Proxying",
-    "summary":  "Check your understanding of passive vs active scanning and safe workflows.",
-    "title":  "ZAP Scanning Quiz 4"
+    "id": "quiz-004",
+    "tags": [
+        "zap",
+        "zap-auth"
+    ],
+    "questions": [
+        {
+            "question": "Contexts in ZAP are defined using what to match URLs?",
+            "tags": [
+                "contexts"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Contexts use regex patterns that must match full URLs.",
+            "correct_answer": "Regular expressions",
+            "choices": [
+                "Regular expressions",
+                "Cookies",
+                "Headers",
+                "XPath"
+            ]
+        },
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        },
+        {
+            "question": "The AJAX spider explores applications by using what?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "AJAX spider launches a browser and clicks links to explore JS-driven apps.",
+            "correct_answer": "A browser",
+            "choices": [
+                "A browser",
+                "A database",
+                "A reverse proxy",
+                "A static sitemap"
+            ]
+        },
+        {
+            "question": "When using -zapit, which option must be included or it will be ignored?",
+            "tags": [
+                "zapit"
+            ],
+            "difficulty": "beginner",
+            "explanation": "ZAPit requires -cmd or the option is ignored.",
+            "correct_answer": "-cmd",
+            "choices": [
+                "-cmd",
+                "-daemon",
+                "-quickout",
+                "-config"
+            ]
+        },
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        },
+        {
+            "question": "The ZAP full scan script runs a spider, optional AJAX spider, then what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The full scan script finishes with a full active scan.",
+            "correct_answer": "A full active scan",
+            "choices": [
+                "A full active scan",
+                "Only passive scanning",
+                "A report export",
+                "A proxy replay"
+            ]
+        },
+        {
+            "question": "In zap-full-scan.py usage, the target must include what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The target URL must include the protocol.",
+            "correct_answer": "The protocol, e.g. https://",
+            "choices": [
+                "The protocol, e.g. https://",
+                "An API key",
+                "A report path",
+                "A context file"
+            ]
+        }
+    ],
+    "difficulty": "beginner",
+    "module": "ZAP Auth",
+    "summary": "Check your understanding of zap auth concepts.",
+    "title": "ZAP Auth Quiz 004"
 }

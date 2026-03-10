@@ -30,7 +30,7 @@ async function renderGuideList(app){
         <section class="page-header">
             <div>
                 <h1>Guides</h1>
-                <p>Detailed walkthroughs, diagrams, and examples.</p>
+                <p>ZAP walkthroughs with diagrams, examples, and step-by-step workflows.</p>
             </div>
         </section>
         <section class="filters">

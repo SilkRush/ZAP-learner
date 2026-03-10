@@ -1,44 +1,43 @@
 {
-    "topic":  "What ZAP is and how to use it safely",
-    "id":  "algorithms-lesson-01",
-    "practice":  [
-                     "Explain how an intercepting proxy changes the testing workflow.",
-                     "List the four ZAP modes and describe when each is appropriate.",
-                     "Write a short authorization checklist for testing a target."
-                 ],
-    "quizzes":  [
-                    "quiz-001"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Safe: no potentially dangerous actions\nProtected: only in-scope actions allowed\nStandard: no restrictions\nAttack: in-scope nodes actively scanned when discovered",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "ZAP Fundamentals",
-    "title":  "ZAP Lesson 1: Overview and Modes",
-    "references":  [
-                       "OWASP ZAP Getting Started",
-                       "ZAP Desktop User Guide: Modes",
-                       "ZAP Quick Start"
-                   ],
-    "summary":  "Learn how ZAP works as an intercepting proxy and how modes control risk.",
-    "difficulty":  "beginner",
-    "content":  "# ZAP Lesson 1: Overview and Modes\n\n## Overview\nOWASP ZAP is an intercepting proxy for testing web applications. It sits between your browser and the target so you can observe and analyze traffic as you explore the application.\n\n## How ZAP works\n- Runs locally as a proxy\n- Records and analyzes requests and responses\n- Raises alerts via passive and active scanners\n\n## ZAP modes\n- Safe: no potentially dangerous actions\n- Protected: only allows potentially dangerous actions on in-scope URLs\n- Standard: does not restrict actions\n- Attack: actively scans new in-scope nodes as they are discovered\n\n## Recommended baseline\nStart in Protected mode and define scope before scanning. This reduces the chance of scanning the wrong target.\n\n## Quick Start\nThe Quick Start tab provides a streamlined workflow for scanning a target you are authorized to test.",
-    "examples":  [
-                     "Explain why Protected mode prevents accidental out-of-scope scans.",
-                     "Identify when Attack mode is appropriate in a controlled test environment.",
-                     "Describe how Quick Start fits into a basic test workflow."
-                 ],
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "web-security"
-             ],
-    "objectives":  [
-                       "Describe ZAP as an intercepting proxy.",
-                       "Differentiate Safe, Protected, Standard, and Attack modes.",
-                       "Explain why scope and authorization matter in ZAP testing.",
-                       "Recognize when to use Quick Start."
-                   ]
+    "topic": "Defining Scope with Contexts",
+    "id": "algorithms-lesson-01",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on defining scope with contexts.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-001"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Scanning Core",
+    "title": "Defining Scope with Contexts",
+    "references": [
+        "Scope",
+        "Contexts",
+        "Quick Start Add-on",
+        "Scan Policy"
+    ],
+    "summary": "Apply defining scope with contexts in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Defining Scope with Contexts\n\n## Overview\nApply defining scope with contexts in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run defining scope with contexts on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "scanning",
+        "zap-scanning-core"
+    ],
+    "objectives": [
+        "Explain how defining scope with contexts fits into ZAP testing.",
+        "Configure defining scope with contexts safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

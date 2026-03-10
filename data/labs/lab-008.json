@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for Web Development topic 8.",
-    "id":  "lab-008",
-    "category":  "web",
-    "tags":  [
-                 "web",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Web Development lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 8: Accessibility",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Web Development topic 8.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Confirm Protected mode blocks out-of-scope actions.",
+    "id": "lab-008",
+    "category": "modes",
+    "tags": [
+        "zap",
+        "lab",
+        "modes"
+    ],
+    "starter": "# Use Protected mode before active scans",
+    "objectives": [
+        "Set a context in scope.",
+        "Switch to Protected mode.",
+        "Verify out-of-scope scanning is blocked."
+    ],
+    "solutionOutline": [
+        "Protected mode prevents out-of-scope actions.",
+        "Scope validated for safe testing."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 8: Protected Mode Validation",
+    "steps": [
+        "Create or select a context with scope rules.",
+        "Enable Protected mode from the toolbar.",
+        "Attempt to run an active scan on out-of-scope URLs.",
+        "Record the blocked action."
+    ],
+    "overview": "## Goal\nConfirm Protected mode blocks out-of-scope actions."
 }

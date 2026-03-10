@@ -1,162 +1,163 @@
-﻿{
-    "id":  "quiz-193",
-    "tags":  [
-                 "data-science"
-             ],
-    "questions":  [
-                      {
-                          "question":  "Question 1 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 2 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 3 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 4 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 5 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 6 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 7 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 8 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 9 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 10 on Data Science fundamentals.",
-                          "tags":  [
-                                       "data-science"
-                                   ],
-                          "difficulty":  "advanced",
-                          "explanation":  "Review the key steps for Data Science to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "advanced",
-    "module":  "Data Science",
-    "summary":  "Check your understanding of Data Science concepts.",
-    "title":  "Data Science Quiz 193"
+{
+    "id": "quiz-193",
+    "tags": [
+        "zap",
+        "zap-foundations"
+    ],
+    "questions": [
+        {
+            "question": "In zap-full-scan.py usage, the target must include what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The target URL must include the protocol.",
+            "correct_answer": "The protocol, e.g. https://",
+            "choices": [
+                "The protocol, e.g. https://",
+                "An API key",
+                "A report path",
+                "A context file"
+            ]
+        },
+        {
+            "question": "An alert in ZAP is associated with what?",
+            "tags": [
+                "alerts"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Alerts are tied to specific requests and can have multiple per request.",
+            "correct_answer": "A specific request",
+            "choices": [
+                "A specific request",
+                "A user account",
+                "A scan policy",
+                "A context name"
+            ]
+        },
+        {
+            "question": "Where is the ZAP API UI available when proxying via ZAP?",
+            "tags": [
+                "api"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "The API UI is accessible via http://zap/ when proxying through ZAP.",
+            "correct_answer": "http://zap/",
+            "choices": [
+                "http://zap/",
+                "http://api/",
+                "http://localhost/api",
+                "http://zap/ui"
+            ]
+        },
+        {
+            "question": "Which ZAP mode only allows potentially dangerous actions on URLs in scope?",
+            "tags": [
+                "modes"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Protected mode restricts potentially dangerous actions to in-scope URLs.",
+            "correct_answer": "Protected",
+            "choices": [
+                "Protected",
+                "Safe",
+                "Standard",
+                "Attack"
+            ]
+        },
+        {
+            "question": "Which ZAP mode actively scans new in-scope nodes as soon as they are discovered?",
+            "tags": [
+                "modes"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Attack mode triggers active scanning automatically for new in-scope nodes.",
+            "correct_answer": "Attack",
+            "choices": [
+                "Attack",
+                "Protected",
+                "Safe",
+                "Standard"
+            ]
+        },
+        {
+            "question": "In ZAP, scope is defined primarily by what?",
+            "tags": [
+                "scope"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Scope is defined by the contexts you set in ZAP.",
+            "correct_answer": "Contexts",
+            "choices": [
+                "Contexts",
+                "Users",
+                "Alerts",
+                "Policies"
+            ]
+        },
+        {
+            "question": "Contexts in ZAP are defined using what to match URLs?",
+            "tags": [
+                "contexts"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Contexts use regex patterns that must match full URLs.",
+            "correct_answer": "Regular expressions",
+            "choices": [
+                "Regular expressions",
+                "Cookies",
+                "Headers",
+                "XPath"
+            ]
+        },
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        }
+    ],
+    "difficulty": "advanced",
+    "module": "ZAP Foundations",
+    "summary": "Check your understanding of zap foundations concepts.",
+    "title": "ZAP Foundations Quiz 193"
 }

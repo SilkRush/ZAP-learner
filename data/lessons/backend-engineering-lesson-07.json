@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Backend Engineering Topic 7",
-    "id":  "backend-engineering-lesson-07",
-    "practice":  [
-                     "Describe the main steps of Backend Engineering Topic 7.",
-                     "Solve a small exercise using Backend Engineering Topic 7.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-117"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Backend Engineering Topic 7\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Backend Engineering",
-    "title":  "Backend Engineering Lesson 7",
-    "references":  [
-                       "Guide: Backend Engineering Topic 7 Essentials",
-                       "Cheat Sheet: Backend Engineering Basics"
-                   ],
-    "summary":  "Master Backend Engineering Topic 7 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "beginner",
-    "content":  "# Backend Engineering Lesson 7\n\n## Overview\nMaster Backend Engineering Topic 7 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Backend Engineering Topic 7.",
-                     "Edge case analysis for Backend Engineering Topic 7."
-                 ],
-    "tags":  [
-                 "backend",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Backend Engineering Topic 7."
-                   ]
+{
+    "topic": "Interpreting Automation Exit Codes",
+    "id": "backend-engineering-lesson-07",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on interpreting automation exit codes.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-117"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "./zap.sh -cmd -autogenmin zap-plan.yaml\n./zap.sh -cmd -autorun zap-plan.yaml"
+        }
+    ],
+    "module": "ZAP Automation & CI",
+    "title": "Interpreting Automation Exit Codes",
+    "references": [
+        "Automation Framework",
+        "Automation Framework - Environment",
+        "Automation Framework - GUI",
+        "ZAP Docker Documentation"
+    ],
+    "summary": "Apply interpreting automation exit codes in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Interpreting Automation Exit Codes\n\n## Overview\nApply interpreting automation exit codes in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run interpreting automation exit codes on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "automation",
+        "zap-automation-ci"
+    ],
+    "objectives": [
+        "Explain how interpreting automation exit codes fits into ZAP testing.",
+        "Configure interpreting automation exit codes safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

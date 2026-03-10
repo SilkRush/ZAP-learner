@@ -1,32 +1,31 @@
 {
-    "summary":  "Build an Automation Framework plan for repeatable ZAP scans.",
-    "id":  "guide-004",
-    "examples":  [
-                     "Generate a starter plan with -autogenmin.",
-                     "Run a headless scan with -autorun.",
-                     "Store plans in version control for CI."
-                 ],
-    "references":  [
-                       "ZAP Automation Framework Add-on",
-                       "ZAP Automation Framework Environment"
-                   ],
-    "category":  "zap-automation",
-    "tags":  [
-                 "zap",
-                 "automation",
-                 "ci-cd"
-             ],
-    "diagrams":  [
-                     "Automation plan: env -> jobs -> reports",
-                     "CI flow: build -> zap scan -> report"
-                 ],
-    "content":  "## Overview\nThe Automation Framework uses a YAML plan to define environments and jobs. It is designed for repeatable, headless scans.\n\n### Typical workflow\n- Generate a template plan\n- Fill in contexts, users, and scan jobs\n- Run the plan in CI or locally\n\n### Key commands\n- -autogenmin: minimal template\n- -autogenmax: full template\n- -autorun: execute the plan",
-    "title":  "Guide 4: Automation Framework Basics",
-    "steps":  [
-                  "Generate a minimal plan template.",
-                  "Fill in the environment section and context URLs.",
-                  "Add spider and active scan jobs as needed.",
-                  "Run the plan headlessly with -autorun.",
-                  "Review reports and store the plan for reuse."
-              ]
+    "summary": "Model authenticated users and sessions for realistic scans.",
+    "id": "guide-004",
+    "examples": [
+        "Create a read-only user for baseline scans.",
+        "Test admin-only endpoints with an admin user."
+    ],
+    "references": [
+        "Users",
+        "Contexts"
+    ],
+    "category": "auth",
+    "tags": [
+        "zap",
+        "guide",
+        "auth"
+    ],
+    "diagrams": [
+        "Context -> Authentication -> Users",
+        "Session refresh lifecycle"
+    ],
+    "content": "## Overview\nModel authenticated users and sessions for realistic scans.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Users and Authentication Setup",
+    "steps": [
+        "Define authentication settings in the context.",
+        "Create users with the right credentials.",
+        "Verify session management behavior.",
+        "Run scans as a specific user.",
+        "Re-authenticate when sessions expire."
+    ]
 }

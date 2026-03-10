@@ -1,170 +1,44 @@
-﻿[
+[
     {
-        "id":  "term-021",
-        "related_terms":  [
-                              "term-020",
-                              "term-022"
-                          ],
-        "definition":  "Definition for Upload Concept 21 within the Web Development domain.",
-        "term":  "Upload Concept 21",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 21.",
-                         "Common scenario for Upload Concept 21."
-                     ]
+        "id": "term-042",
+        "term": "User",
+        "definition": "User relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how user affects scan results.",
+            "Example: Review user settings before a run."
+        ],
+        "related_terms": [
+            "term-041",
+            "term-043"
+        ]
     },
     {
-        "id":  "term-047",
-        "related_terms":  [
-                              "term-046",
-                              "term-048"
-                          ],
-        "definition":  "Definition for Upload Concept 47 within the Web Development domain.",
-        "term":  "Upload Concept 47",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 47.",
-                         "Common scenario for Upload Concept 47."
-                     ]
+        "id": "term-076",
+        "term": "URL to Attack",
+        "definition": "URL to Attack is part of the Quick Start workflow for fast scans.",
+        "category": "quick-start",
+        "examples": [
+            "Example: Document how url to attack affects scan results.",
+            "Example: Review url to attack settings before a run."
+        ],
+        "related_terms": [
+            "term-075",
+            "term-077"
+        ]
     },
     {
-        "id":  "term-073",
-        "related_terms":  [
-                              "term-072",
-                              "term-074"
-                          ],
-        "definition":  "Definition for Upload Concept 73 within the Web Development domain.",
-        "term":  "Upload Concept 73",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 73.",
-                         "Common scenario for Upload Concept 73."
-                     ]
-    },
-    {
-        "id":  "term-099",
-        "related_terms":  [
-                              "term-098",
-                              "term-100"
-                          ],
-        "definition":  "Definition for Upload Concept 99 within the Web Development domain.",
-        "term":  "Upload Concept 99",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 99.",
-                         "Common scenario for Upload Concept 99."
-                     ]
-    },
-    {
-        "id":  "term-125",
-        "related_terms":  [
-                              "term-124",
-                              "term-126"
-                          ],
-        "definition":  "Definition for Upload Concept 125 within the Web Development domain.",
-        "term":  "Upload Concept 125",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 125.",
-                         "Common scenario for Upload Concept 125."
-                     ]
-    },
-    {
-        "id":  "term-151",
-        "related_terms":  [
-                              "term-150",
-                              "term-152"
-                          ],
-        "definition":  "Definition for Upload Concept 151 within the Web Development domain.",
-        "term":  "Upload Concept 151",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 151.",
-                         "Common scenario for Upload Concept 151."
-                     ]
-    },
-    {
-        "id":  "term-177",
-        "related_terms":  [
-                              "term-176",
-                              "term-178"
-                          ],
-        "definition":  "Definition for Upload Concept 177 within the Web Development domain.",
-        "term":  "Upload Concept 177",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 177.",
-                         "Common scenario for Upload Concept 177."
-                     ]
-    },
-    {
-        "id":  "term-203",
-        "related_terms":  [
-                              "term-202",
-                              "term-204"
-                          ],
-        "definition":  "Definition for Upload Concept 203 within the Web Development domain.",
-        "term":  "Upload Concept 203",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 203.",
-                         "Common scenario for Upload Concept 203."
-                     ]
-    },
-    {
-        "id":  "term-229",
-        "related_terms":  [
-                              "term-228",
-                              "term-230"
-                          ],
-        "definition":  "Definition for Upload Concept 229 within the Web Development domain.",
-        "term":  "Upload Concept 229",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 229.",
-                         "Common scenario for Upload Concept 229."
-                     ]
-    },
-    {
-        "id":  "term-255",
-        "related_terms":  [
-                              "term-254",
-                              "term-256"
-                          ],
-        "definition":  "Definition for Upload Concept 255 within the Web Development domain.",
-        "term":  "Upload Concept 255",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 255.",
-                         "Common scenario for Upload Concept 255."
-                     ]
-    },
-    {
-        "id":  "term-281",
-        "related_terms":  [
-                              "term-280",
-                              "term-282"
-                          ],
-        "definition":  "Definition for Upload Concept 281 within the Web Development domain.",
-        "term":  "Upload Concept 281",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 281.",
-                         "Common scenario for Upload Concept 281."
-                     ]
-    },
-    {
-        "id":  "term-307",
-        "related_terms":  [
-                              "term-306",
-                              "term-308"
-                          ],
-        "definition":  "Definition for Upload Concept 307 within the Web Development domain.",
-        "term":  "Upload Concept 307",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Upload Concept 307.",
-                         "Common scenario for Upload Concept 307."
-                     ]
+        "id": "term-119",
+        "term": "Upstream Proxy",
+        "definition": "Upstream Proxy relates to proxying traffic through ZAP.",
+        "category": "proxy",
+        "examples": [
+            "Example: Document how upstream proxy affects scan results.",
+            "Example: Review upstream proxy settings before a run."
+        ],
+        "related_terms": [
+            "term-118",
+            "term-120"
+        ]
     }
 ]

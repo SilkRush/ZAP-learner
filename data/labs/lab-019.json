@@ -1,28 +1,29 @@
-﻿{
-    "summary":  "Hands-on lab for Networking topic 19.",
-    "id":  "lab-019",
-    "category":  "networking",
-    "tags":  [
-                 "networking",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Networking lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 19: Security",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Networking topic 19.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Confirm Protected mode blocks out-of-scope actions.",
+    "id": "lab-019",
+    "category": "modes",
+    "tags": [
+        "zap",
+        "lab",
+        "modes"
+    ],
+    "starter": "# Use Protected mode before active scans",
+    "objectives": [
+        "Set a context in scope.",
+        "Switch to Protected mode.",
+        "Verify out-of-scope scanning is blocked."
+    ],
+    "solutionOutline": [
+        "Protected mode prevents out-of-scope actions.",
+        "Scope validated for safe testing."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 19: Protected Mode Validation (Iteration 2)",
+    "steps": [
+        "Create or select a context with scope rules.",
+        "Enable Protected mode from the toolbar.",
+        "Attempt to run an active scan on out-of-scope URLs.",
+        "Record the blocked action."
+    ],
+    "overview": "## Goal\nConfirm Protected mode blocks out-of-scope actions."
 }

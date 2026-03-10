@@ -30,7 +30,7 @@ async function renderLabList(app){
         <section class="page-header">
             <div>
                 <h1>Labs</h1>
-                <p>Hands-on exercises to apply what you learn.</p>
+                <p>Hands-on ZAP exercises to apply each workflow end to end.</p>
             </div>
         </section>
         <section class="filters">

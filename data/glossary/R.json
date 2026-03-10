@@ -1,170 +1,128 @@
-﻿[
+[
     {
-        "id":  "term-018",
-        "related_terms":  [
-                              "term-017",
-                              "term-019"
-                          ],
-        "definition":  "Definition for Runtime Concept 18 within the Databases domain.",
-        "term":  "Runtime Concept 18",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 18.",
-                         "Common scenario for Runtime Concept 18."
-                     ]
+        "id": "term-034",
+        "term": "Report",
+        "definition": "Report relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how report affects scan results.",
+            "Example: Review report settings before a run."
+        ],
+        "related_terms": [
+            "term-033",
+            "term-035"
+        ]
     },
     {
-        "id":  "term-044",
-        "related_terms":  [
-                              "term-043",
-                              "term-045"
-                          ],
-        "definition":  "Definition for Runtime Concept 44 within the Databases domain.",
-        "term":  "Runtime Concept 44",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 44.",
-                         "Common scenario for Runtime Concept 44."
-                     ]
+        "id": "term-071",
+        "term": "Request/Response",
+        "definition": "Request/Response is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how request/response affects scan results.",
+            "Example: Review request/response settings before a run."
+        ],
+        "related_terms": [
+            "term-070",
+            "term-072"
+        ]
     },
     {
-        "id":  "term-070",
-        "related_terms":  [
-                              "term-069",
-                              "term-071"
-                          ],
-        "definition":  "Definition for Runtime Concept 70 within the Databases domain.",
-        "term":  "Runtime Concept 70",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 70.",
-                         "Common scenario for Runtime Concept 70."
-                     ]
+        "id": "term-072",
+        "term": "Risk Level",
+        "definition": "Risk Level relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how risk level affects scan results.",
+            "Example: Review risk level settings before a run."
+        ],
+        "related_terms": [
+            "term-071",
+            "term-073"
+        ]
     },
     {
-        "id":  "term-096",
-        "related_terms":  [
-                              "term-095",
-                              "term-097"
-                          ],
-        "definition":  "Definition for Runtime Concept 96 within the Databases domain.",
-        "term":  "Runtime Concept 96",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 96.",
-                         "Common scenario for Runtime Concept 96."
-                     ]
+        "id": "term-112",
+        "term": "Release Channel",
+        "definition": "Release Channel relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how release channel affects scan results.",
+            "Example: Review release channel settings before a run."
+        ],
+        "related_terms": [
+            "term-111",
+            "term-113"
+        ]
     },
     {
-        "id":  "term-122",
-        "related_terms":  [
-                              "term-121",
-                              "term-123"
-                          ],
-        "definition":  "Definition for Runtime Concept 122 within the Databases domain.",
-        "term":  "Runtime Concept 122",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 122.",
-                         "Common scenario for Runtime Concept 122."
-                     ]
+        "id": "term-122",
+        "term": "Regex Pattern",
+        "definition": "Regex Pattern helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how regex pattern affects scan results.",
+            "Example: Review regex pattern settings before a run."
+        ],
+        "related_terms": [
+            "term-121",
+            "term-123"
+        ]
     },
     {
-        "id":  "term-148",
-        "related_terms":  [
-                              "term-147",
-                              "term-149"
-                          ],
-        "definition":  "Definition for Runtime Concept 148 within the Databases domain.",
-        "term":  "Runtime Concept 148",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 148.",
-                         "Common scenario for Runtime Concept 148."
-                     ]
+        "id": "term-127",
+        "term": "Request Breakpoint",
+        "definition": "Request Breakpoint is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how request breakpoint affects scan results.",
+            "Example: Review request breakpoint settings before a run."
+        ],
+        "related_terms": [
+            "term-126",
+            "term-128"
+        ]
     },
     {
-        "id":  "term-174",
-        "related_terms":  [
-                              "term-173",
-                              "term-175"
-                          ],
-        "definition":  "Definition for Runtime Concept 174 within the Databases domain.",
-        "term":  "Runtime Concept 174",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 174.",
-                         "Common scenario for Runtime Concept 174."
-                     ]
+        "id": "term-130",
+        "term": "Report Template",
+        "definition": "Report Template relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how report template affects scan results.",
+            "Example: Review report template settings before a run."
+        ],
+        "related_terms": [
+            "term-129",
+            "term-131"
+        ]
     },
     {
-        "id":  "term-200",
-        "related_terms":  [
-                              "term-199",
-                              "term-201"
-                          ],
-        "definition":  "Definition for Runtime Concept 200 within the Databases domain.",
-        "term":  "Runtime Concept 200",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 200.",
-                         "Common scenario for Runtime Concept 200."
-                     ]
+        "id": "term-131",
+        "term": "Risk Severity",
+        "definition": "Risk Severity relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how risk severity affects scan results.",
+            "Example: Review risk severity settings before a run."
+        ],
+        "related_terms": [
+            "term-130",
+            "term-132"
+        ]
     },
     {
-        "id":  "term-226",
-        "related_terms":  [
-                              "term-225",
-                              "term-227"
-                          ],
-        "definition":  "Definition for Runtime Concept 226 within the Databases domain.",
-        "term":  "Runtime Concept 226",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 226.",
-                         "Common scenario for Runtime Concept 226."
-                     ]
-    },
-    {
-        "id":  "term-252",
-        "related_terms":  [
-                              "term-251",
-                              "term-253"
-                          ],
-        "definition":  "Definition for Runtime Concept 252 within the Databases domain.",
-        "term":  "Runtime Concept 252",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 252.",
-                         "Common scenario for Runtime Concept 252."
-                     ]
-    },
-    {
-        "id":  "term-278",
-        "related_terms":  [
-                              "term-277",
-                              "term-279"
-                          ],
-        "definition":  "Definition for Runtime Concept 278 within the Databases domain.",
-        "term":  "Runtime Concept 278",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 278.",
-                         "Common scenario for Runtime Concept 278."
-                     ]
-    },
-    {
-        "id":  "term-304",
-        "related_terms":  [
-                              "term-303",
-                              "term-305"
-                          ],
-        "definition":  "Definition for Runtime Concept 304 within the Databases domain.",
-        "term":  "Runtime Concept 304",
-        "category":  "databases",
-        "examples":  [
-                         "Example use of Runtime Concept 304.",
-                         "Common scenario for Runtime Concept 304."
-                     ]
+        "id": "term-136",
+        "term": "Report Export",
+        "definition": "Report Export relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how report export affects scan results.",
+            "Example: Review report export settings before a run."
+        ],
+        "related_terms": [
+            "term-135",
+            "term-137"
+        ]
     }
 ]

@@ -1,184 +1,44 @@
-﻿[
+[
     {
-        "id":  "term-008",
-        "related_terms":  [
-                              "term-007",
-                              "term-009"
-                          ],
-        "definition":  "Definition for Heap Concept 8 within the Web Development domain.",
-        "term":  "Heap Concept 8",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 8.",
-                         "Common scenario for Heap Concept 8."
-                     ]
+        "id": "term-026",
+        "term": "History Tab",
+        "definition": "History Tab is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how history tab affects scan results.",
+            "Example: Review history tab settings before a run."
+        ],
+        "related_terms": [
+            "term-025",
+            "term-027"
+        ]
     },
     {
-        "id":  "term-034",
-        "related_terms":  [
-                              "term-033",
-                              "term-035"
-                          ],
-        "definition":  "Definition for Heap Concept 34 within the Web Development domain.",
-        "term":  "Heap Concept 34",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 34.",
-                         "Common scenario for Heap Concept 34."
-                     ]
+        "id": "term-064",
+        "term": "HTML Report",
+        "definition": "HTML Report relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how html report affects scan results.",
+            "Example: Review html report settings before a run."
+        ],
+        "related_terms": [
+            "term-063",
+            "term-065"
+        ]
     },
     {
-        "id":  "term-060",
-        "related_terms":  [
-                              "term-059",
-                              "term-061"
-                          ],
-        "definition":  "Definition for Heap Concept 60 within the Web Development domain.",
-        "term":  "Heap Concept 60",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 60.",
-                         "Common scenario for Heap Concept 60."
-                     ]
-    },
-    {
-        "id":  "term-086",
-        "related_terms":  [
-                              "term-085",
-                              "term-087"
-                          ],
-        "definition":  "Definition for Heap Concept 86 within the Web Development domain.",
-        "term":  "Heap Concept 86",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 86.",
-                         "Common scenario for Heap Concept 86."
-                     ]
-    },
-    {
-        "id":  "term-112",
-        "related_terms":  [
-                              "term-111",
-                              "term-113"
-                          ],
-        "definition":  "Definition for Heap Concept 112 within the Web Development domain.",
-        "term":  "Heap Concept 112",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 112.",
-                         "Common scenario for Heap Concept 112."
-                     ]
-    },
-    {
-        "id":  "term-138",
-        "related_terms":  [
-                              "term-137",
-                              "term-139"
-                          ],
-        "definition":  "Definition for Heap Concept 138 within the Web Development domain.",
-        "term":  "Heap Concept 138",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 138.",
-                         "Common scenario for Heap Concept 138."
-                     ]
-    },
-    {
-        "id":  "term-164",
-        "related_terms":  [
-                              "term-163",
-                              "term-165"
-                          ],
-        "definition":  "Definition for Heap Concept 164 within the Web Development domain.",
-        "term":  "Heap Concept 164",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 164.",
-                         "Common scenario for Heap Concept 164."
-                     ]
-    },
-    {
-        "id":  "term-190",
-        "related_terms":  [
-                              "term-189",
-                              "term-191"
-                          ],
-        "definition":  "Definition for Heap Concept 190 within the Web Development domain.",
-        "term":  "Heap Concept 190",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 190.",
-                         "Common scenario for Heap Concept 190."
-                     ]
-    },
-    {
-        "id":  "term-216",
-        "related_terms":  [
-                              "term-215",
-                              "term-217"
-                          ],
-        "definition":  "Definition for Heap Concept 216 within the Web Development domain.",
-        "term":  "Heap Concept 216",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 216.",
-                         "Common scenario for Heap Concept 216."
-                     ]
-    },
-    {
-        "id":  "term-242",
-        "related_terms":  [
-                              "term-241",
-                              "term-243"
-                          ],
-        "definition":  "Definition for Heap Concept 242 within the Web Development domain.",
-        "term":  "Heap Concept 242",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 242.",
-                         "Common scenario for Heap Concept 242."
-                     ]
-    },
-    {
-        "id":  "term-268",
-        "related_terms":  [
-                              "term-267",
-                              "term-269"
-                          ],
-        "definition":  "Definition for Heap Concept 268 within the Web Development domain.",
-        "term":  "Heap Concept 268",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 268.",
-                         "Common scenario for Heap Concept 268."
-                     ]
-    },
-    {
-        "id":  "term-294",
-        "related_terms":  [
-                              "term-293",
-                              "term-295"
-                          ],
-        "definition":  "Definition for Heap Concept 294 within the Web Development domain.",
-        "term":  "Heap Concept 294",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 294.",
-                         "Common scenario for Heap Concept 294."
-                     ]
-    },
-    {
-        "id":  "term-320",
-        "related_terms":  [
-                              "term-319",
-                              "term-001"
-                          ],
-        "definition":  "Definition for Heap Concept 320 within the Web Development domain.",
-        "term":  "Heap Concept 320",
-        "category":  "web",
-        "examples":  [
-                         "Example use of Heap Concept 320.",
-                         "Common scenario for Heap Concept 320."
-                     ]
+        "id": "term-095",
+        "term": "History Filter",
+        "definition": "History Filter is a desktop UI element used to inspect or control scans.",
+        "category": "ui",
+        "examples": [
+            "Example: Document how history filter affects scan results.",
+            "Example: Review history filter settings before a run."
+        ],
+        "related_terms": [
+            "term-094",
+            "term-096"
+        ]
     }
 ]

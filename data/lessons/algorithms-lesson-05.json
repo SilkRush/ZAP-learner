@@ -1,45 +1,43 @@
 {
-    "topic":  "Defining scope with contexts, users, and authentication",
-    "id":  "algorithms-lesson-05",
-    "practice":  [
-                     "Create an include and exclude regex for a target domain.",
-                     "Explain how users relate to a context.",
-                     "List the steps to validate authentication in ZAP."
-                 ],
-    "quizzes":  [
-                    "quiz-005"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "env:\n  contexts:\n    - name: Target\n      urls:\n        - https://app.example.com\n      includePaths:\n        - https://app.example.com/.*",
-                            "language":  "yaml"
-                        }
-                    ],
-    "module":  "ZAP Auth & Contexts",
-    "title":  "ZAP Lesson 5: Contexts and Authentication",
-    "references":  [
-                       "ZAP Contexts",
-                       "ZAP Users",
-                       "ZAP Authentication (All Done)"
-                   ],
-    "summary":  "Define scope with contexts and configure users and authentication.",
-    "difficulty":  "beginner",
-    "content":  "# ZAP Lesson 5: Contexts and Authentication\n\n## Overview\nContexts define what is in scope and how ZAP should handle authentication. They are the foundation for safe scanning and repeatable automation.\n\n## Contexts and scope\n- Include and exclude paths using regular expressions\n- Keep the scope narrow to avoid scanning unrelated systems\n- Use context settings in protected mode and automation\n\n## Users and authentication\n- Users belong to a context\n- Authentication methods are configured per context\n- Validate authentication before running active scans\n\n## Practical workflow\n1. Create a context and define include/exclude paths\n2. Configure the authentication method\n3. Add users and verify they are logged in\n4. Export the context for reuse in automation\n\n## Tips\n- Prefer explicit include paths over broad wildcards\n- Re-test authentication after login flows change",
-    "examples":  [
-                     "Define a scope for https://app.example.com and exclude /logout.",
-                     "Create a user for an authenticated scan of an admin area.",
-                     "Export a context for use in the Automation Framework."
-                 ],
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "context",
-                 "authentication"
-             ],
-    "objectives":  [
-                       "Define a safe scope with contexts.",
-                       "Explain how users and authentication are configured.",
-                       "Validate authentication before scanning.",
-                       "Reuse context configuration in automation."
-                   ]
+    "topic": "Passive Scan Rules",
+    "id": "algorithms-lesson-05",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on passive scan rules.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-005"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Scanning Core",
+    "title": "Passive Scan Rules",
+    "references": [
+        "Scope",
+        "Contexts",
+        "Quick Start Add-on",
+        "Scan Policy"
+    ],
+    "summary": "Apply passive scan rules in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Passive Scan Rules\n\n## Overview\nApply passive scan rules in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run passive scan rules on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "scanning",
+        "zap-scanning-core"
+    ],
+    "objectives": [
+        "Explain how passive scan rules fits into ZAP testing.",
+        "Configure passive scan rules safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

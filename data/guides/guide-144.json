@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Algorithms topic 144.",
-    "id":  "guide-144",
-    "examples":  [
-                     "Example workflow for Algorithms.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Algorithms Field Notes",
-                       "Checklist: Algorithms Review"
-                   ],
-    "category":  "algorithms",
-    "tags":  [
-                 "algorithms",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Algorithms topic 144.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 144: Graphs Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Algorithms patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Use the ZAP API to control scans and collect results.",
+    "id": "guide-144",
+    "examples": [
+        "Trigger an active scan from a build pipeline.",
+        "Retrieve alerts via the API for dashboards."
+    ],
+    "references": [
+        "API"
+    ],
+    "category": "api",
+    "tags": [
+        "zap",
+        "guide",
+        "api"
+    ],
+    "diagrams": [
+        "API control flow",
+        "Automation via API endpoints"
+    ],
+    "content": "## Overview\nUse the ZAP API to control scans and collect results.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "API Access and Control (Workflow 12)",
+    "steps": [
+        "Enable API access in Options if required.",
+        "Confirm host and port for API access.",
+        "Use API endpoints to trigger scans.",
+        "Secure the API with keys and allowed hosts.",
+        "Monitor API-driven activity in the UI."
+    ]
 }

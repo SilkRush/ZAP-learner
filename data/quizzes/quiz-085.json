@@ -1,162 +1,163 @@
-﻿{
-    "id":  "quiz-085",
-    "tags":  [
-                 "system-design"
-             ],
-    "questions":  [
-                      {
-                          "question":  "Question 1 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 2 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 3 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 4 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 5 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 6 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 7 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option C",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 8 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option D",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 9 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option A",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      },
-                      {
-                          "question":  "Question 10 on System Design fundamentals.",
-                          "tags":  [
-                                       "system-design"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Review the key steps for System Design to validate this answer.",
-                          "correct_answer":  "Option B",
-                          "choices":  [
-                                          "Option A",
-                                          "Option B",
-                                          "Option C",
-                                          "Option D"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "beginner",
-    "module":  "System Design",
-    "summary":  "Check your understanding of System Design concepts.",
-    "title":  "System Design Quiz 85"
+{
+    "id": "quiz-085",
+    "tags": [
+        "zap",
+        "zap-docker"
+    ],
+    "questions": [
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        },
+        {
+            "question": "The ZAP full scan script runs a spider, optional AJAX spider, then what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The full scan script finishes with a full active scan.",
+            "correct_answer": "A full active scan",
+            "choices": [
+                "A full active scan",
+                "Only passive scanning",
+                "A report export",
+                "A proxy replay"
+            ]
+        },
+        {
+            "question": "In zap-full-scan.py usage, the target must include what?",
+            "tags": [
+                "docker"
+            ],
+            "difficulty": "beginner",
+            "explanation": "The target URL must include the protocol.",
+            "correct_answer": "The protocol, e.g. https://",
+            "choices": [
+                "The protocol, e.g. https://",
+                "An API key",
+                "A report path",
+                "A context file"
+            ]
+        },
+        {
+            "question": "An alert in ZAP is associated with what?",
+            "tags": [
+                "alerts"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Alerts are tied to specific requests and can have multiple per request.",
+            "correct_answer": "A specific request",
+            "choices": [
+                "A specific request",
+                "A user account",
+                "A scan policy",
+                "A context name"
+            ]
+        },
+        {
+            "question": "Where is the ZAP API UI available when proxying via ZAP?",
+            "tags": [
+                "api"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "The API UI is accessible via http://zap/ when proxying through ZAP.",
+            "correct_answer": "http://zap/",
+            "choices": [
+                "http://zap/",
+                "http://api/",
+                "http://localhost/api",
+                "http://zap/ui"
+            ]
+        },
+        {
+            "question": "Which ZAP mode only allows potentially dangerous actions on URLs in scope?",
+            "tags": [
+                "modes"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Protected mode restricts potentially dangerous actions to in-scope URLs.",
+            "correct_answer": "Protected",
+            "choices": [
+                "Protected",
+                "Safe",
+                "Standard",
+                "Attack"
+            ]
+        },
+        {
+            "question": "Which ZAP mode actively scans new in-scope nodes as soon as they are discovered?",
+            "tags": [
+                "modes"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Attack mode triggers active scanning automatically for new in-scope nodes.",
+            "correct_answer": "Attack",
+            "choices": [
+                "Attack",
+                "Protected",
+                "Safe",
+                "Standard"
+            ]
+        },
+        {
+            "question": "In ZAP, scope is defined primarily by what?",
+            "tags": [
+                "scope"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Scope is defined by the contexts you set in ZAP.",
+            "correct_answer": "Contexts",
+            "choices": [
+                "Contexts",
+                "Users",
+                "Alerts",
+                "Policies"
+            ]
+        },
+        {
+            "question": "Contexts in ZAP are defined using what to match URLs?",
+            "tags": [
+                "contexts"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Contexts use regex patterns that must match full URLs.",
+            "correct_answer": "Regular expressions",
+            "choices": [
+                "Regular expressions",
+                "Cookies",
+                "Headers",
+                "XPath"
+            ]
+        }
+    ],
+    "difficulty": "intermediate",
+    "module": "ZAP Docker",
+    "summary": "Check your understanding of zap docker concepts.",
+    "title": "ZAP Docker Quiz 085"
 }

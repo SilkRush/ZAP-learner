@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Security Topic 40",
-    "id":  "security-lesson-40",
-    "practice":  [
-                     "Describe the main steps of Security Topic 40.",
-                     "Solve a small exercise using Security Topic 40.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-100"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Security Topic 40\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Security",
-    "title":  "Security Lesson 40",
-    "references":  [
-                       "Guide: Security Topic 40 Essentials",
-                       "Cheat Sheet: Security Basics"
-                   ],
-    "summary":  "Master Security Topic 40 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# Security Lesson 40\n\n## Overview\nMaster Security Topic 40 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Security Topic 40.",
-                     "Edge case analysis for Security Topic 40."
-                 ],
-    "tags":  [
-                 "security",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Security Topic 40."
-                   ]
+{
+    "topic": "Measuring Coverage",
+    "id": "security-lesson-40",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on measuring coverage.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-100"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Security Practice",
+    "title": "Measuring Coverage (Part 4)",
+    "references": [
+        "ZAP Desktop User Guide",
+        "Alerts",
+        "Scan Policy",
+        "Getting Started Guide"
+    ],
+    "summary": "Apply measuring coverage in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Measuring Coverage (Part 4)\n\n## Overview\nApply measuring coverage in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run measuring coverage on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "security",
+        "zap-security-practice"
+    ],
+    "objectives": [
+        "Explain how measuring coverage fits into ZAP testing.",
+        "Configure measuring coverage safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

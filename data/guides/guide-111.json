@@ -1,29 +1,32 @@
-﻿{
-    "summary":  "Step-by-step guide for System Design topic 111.",
-    "id":  "guide-111",
-    "examples":  [
-                     "Example workflow for System Design.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "System Design Field Notes",
-                       "Checklist: System Design Review"
-                   ],
-    "category":  "system-design",
-    "tags":  [
-                 "system-design",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for System Design topic 111.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 111: Scalability Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply System Design patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Keep scans safe and focused by modeling scope with contexts.",
+    "id": "guide-111",
+    "examples": [
+        "Exclude logout endpoints to keep sessions alive.",
+        "Limit scans to /app/ paths during testing."
+    ],
+    "references": [
+        "Contexts",
+        "Scope",
+        "Modes"
+    ],
+    "category": "scope",
+    "tags": [
+        "zap",
+        "guide",
+        "scope"
+    ],
+    "diagrams": [
+        "Context include/exclude boundary",
+        "Scope enforcement in Protected mode"
+    ],
+    "content": "## Overview\nKeep scans safe and focused by modeling scope with contexts.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Defining Scope with Contexts (Workflow 10)",
+    "steps": [
+        "Create a new context for your application.",
+        "Define include and exclude regex patterns.",
+        "Set the context in scope before scanning.",
+        "Use Protected mode to enforce scope rules.",
+        "Revisit scope as the app changes."
+    ]
 }

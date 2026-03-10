@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Frontend Engineering Topic 10",
-    "id":  "frontend-engineering-lesson-10",
-    "practice":  [
-                     "Describe the main steps of Frontend Engineering Topic 10.",
-                     "Solve a small exercise using Frontend Engineering Topic 10.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-160"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Frontend Engineering Topic 10\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Frontend Engineering",
-    "title":  "Frontend Engineering Lesson 10",
-    "references":  [
-                       "Guide: Frontend Engineering Topic 10 Essentials",
-                       "Cheat Sheet: Frontend Engineering Basics"
-                   ],
-    "summary":  "Master Frontend Engineering Topic 10 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "beginner",
-    "content":  "# Frontend Engineering Lesson 10\n\n## Overview\nMaster Frontend Engineering Topic 10 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Frontend Engineering Topic 10.",
-                     "Edge case analysis for Frontend Engineering Topic 10."
-                 ],
-    "tags":  [
-                 "frontend",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Frontend Engineering Topic 10."
-                   ]
+{
+    "topic": "Organizing Extension Settings",
+    "id": "frontend-engineering-lesson-10",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on organizing extension settings.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-160"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Scripting & Extensions",
+    "title": "Organizing Extension Settings",
+    "references": [
+        "Quick Start Add-on",
+        "Passive Scan Rules",
+        "Scan Policy",
+        "Automation Framework"
+    ],
+    "summary": "Apply organizing extension settings in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Organizing Extension Settings\n\n## Overview\nApply organizing extension settings in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run organizing extension settings on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "extensions",
+        "zap-scripting-extensions"
+    ],
+    "objectives": [
+        "Explain how organizing extension settings fits into ZAP testing.",
+        "Configure organizing extension settings safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

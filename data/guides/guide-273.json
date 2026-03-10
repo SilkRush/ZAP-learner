@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Security topic 273.",
-    "id":  "guide-273",
-    "examples":  [
-                     "Example workflow for Security.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Security Field Notes",
-                       "Checklist: Security Review"
-                   ],
-    "category":  "security",
-    "tags":  [
-                 "security",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Security topic 273.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 273: Encryption Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Security patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Interpret alerts, assess risk, and plan remediation.",
+    "id": "guide-273",
+    "examples": [
+        "Tag recurring alerts for follow-up.",
+        "Export alerts to share with engineering."
+    ],
+    "references": [
+        "Alerts"
+    ],
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "guide",
+        "alerts"
+    ],
+    "diagrams": [
+        "Alert lifecycle",
+        "Risk vs confidence matrix"
+    ],
+    "content": "## Overview\nInterpret alerts, assess risk, and plan remediation.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Alerts and Prioritization (Workflow 23)",
+    "steps": [
+        "Review alert details and evidence.",
+        "Check risk and confidence levels.",
+        "Validate findings with manual requests.",
+        "Document remediation guidance.",
+        "Retest and close findings."
+    ]
 }

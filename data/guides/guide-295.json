@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Backend Engineering topic 295.",
-    "id":  "guide-295",
-    "examples":  [
-                     "Example workflow for Backend Engineering.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Backend Engineering Field Notes",
-                       "Checklist: Backend Engineering Review"
-                   ],
-    "category":  "backend",
-    "tags":  [
-                 "backend",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Backend Engineering topic 295.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 295: Testing Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Backend Engineering patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model targets, contexts, and variables in the environment section.",
+    "id": "guide-295",
+    "examples": [
+        "Keep default ports out of URLs when required.",
+        "Reuse variables across multiple jobs."
+    ],
+    "references": [
+        "Automation Framework - Environment"
+    ],
+    "category": "automation",
+    "tags": [
+        "zap",
+        "guide",
+        "automation"
+    ],
+    "diagrams": [
+        "Environment section structure",
+        "Context binding to jobs"
+    ],
+    "content": "## Overview\nModel targets, contexts, and variables in the environment section.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Automation Framework Environment (Workflow 25)",
+    "steps": [
+        "Define context names and top-level URLs.",
+        "Add include/exclude regex paths.",
+        "Specify authentication configuration if needed.",
+        "Set variables for hostnames and ports.",
+        "Run a validation pass with -autocheck."
+    ]
 }

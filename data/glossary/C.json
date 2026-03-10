@@ -1,184 +1,100 @@
-﻿[
+[
     {
-        "id":  "term-003",
-        "related_terms":  [
-                              "term-002",
-                              "term-004"
-                          ],
-        "definition":  "Definition for Cache Concept 3 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 3",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 3.",
-                         "Common scenario for Cache Concept 3."
-                     ]
+        "id": "term-017",
+        "term": "Command Line",
+        "definition": "Command Line is a command line capability for running ZAP.",
+        "category": "cli",
+        "examples": [
+            "Example: Document how command line affects scan results.",
+            "Example: Review command line settings before a run."
+        ],
+        "related_terms": [
+            "term-016",
+            "term-018"
+        ]
     },
     {
-        "id":  "term-029",
-        "related_terms":  [
-                              "term-028",
-                              "term-030"
-                          ],
-        "definition":  "Definition for Cache Concept 29 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 29",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 29.",
-                         "Common scenario for Cache Concept 29."
-                     ]
+        "id": "term-018",
+        "term": "Context",
+        "definition": "Context helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how context affects scan results.",
+            "Example: Review context settings before a run."
+        ],
+        "related_terms": [
+            "term-017",
+            "term-019"
+        ]
     },
     {
-        "id":  "term-055",
-        "related_terms":  [
-                              "term-054",
-                              "term-056"
-                          ],
-        "definition":  "Definition for Cache Concept 55 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 55",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 55.",
-                         "Common scenario for Cache Concept 55."
-                     ]
+        "id": "term-019",
+        "term": "Context Include Paths",
+        "definition": "Context Include Paths helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how context include paths affects scan results.",
+            "Example: Review context include paths settings before a run."
+        ],
+        "related_terms": [
+            "term-018",
+            "term-020"
+        ]
     },
     {
-        "id":  "term-081",
-        "related_terms":  [
-                              "term-080",
-                              "term-082"
-                          ],
-        "definition":  "Definition for Cache Concept 81 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 81",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 81.",
-                         "Common scenario for Cache Concept 81."
-                     ]
+        "id": "term-020",
+        "term": "Context Exclude Paths",
+        "definition": "Context Exclude Paths helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how context exclude paths affects scan results.",
+            "Example: Review context exclude paths settings before a run."
+        ],
+        "related_terms": [
+            "term-019",
+            "term-021"
+        ]
     },
     {
-        "id":  "term-107",
-        "related_terms":  [
-                              "term-106",
-                              "term-108"
-                          ],
-        "definition":  "Definition for Cache Concept 107 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 107",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 107.",
-                         "Common scenario for Cache Concept 107."
-                     ]
+        "id": "term-021",
+        "term": "Credentials",
+        "definition": "Credentials relates to authentication or session handling in ZAP.",
+        "category": "auth",
+        "examples": [
+            "Example: Document how credentials affects scan results.",
+            "Example: Review credentials settings before a run."
+        ],
+        "related_terms": [
+            "term-020",
+            "term-022"
+        ]
     },
     {
-        "id":  "term-133",
-        "related_terms":  [
-                              "term-132",
-                              "term-134"
-                          ],
-        "definition":  "Definition for Cache Concept 133 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 133",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 133.",
-                         "Common scenario for Cache Concept 133."
-                     ]
+        "id": "term-059",
+        "term": "Context Regex",
+        "definition": "Context Regex helps define which URLs are in or out of scope.",
+        "category": "scope",
+        "examples": [
+            "Example: Document how context regex affects scan results.",
+            "Example: Review context regex settings before a run."
+        ],
+        "related_terms": [
+            "term-058",
+            "term-060"
+        ]
     },
     {
-        "id":  "term-159",
-        "related_terms":  [
-                              "term-158",
-                              "term-160"
-                          ],
-        "definition":  "Definition for Cache Concept 159 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 159",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 159.",
-                         "Common scenario for Cache Concept 159."
-                     ]
-    },
-    {
-        "id":  "term-185",
-        "related_terms":  [
-                              "term-184",
-                              "term-186"
-                          ],
-        "definition":  "Definition for Cache Concept 185 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 185",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 185.",
-                         "Common scenario for Cache Concept 185."
-                     ]
-    },
-    {
-        "id":  "term-211",
-        "related_terms":  [
-                              "term-210",
-                              "term-212"
-                          ],
-        "definition":  "Definition for Cache Concept 211 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 211",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 211.",
-                         "Common scenario for Cache Concept 211."
-                     ]
-    },
-    {
-        "id":  "term-237",
-        "related_terms":  [
-                              "term-236",
-                              "term-238"
-                          ],
-        "definition":  "Definition for Cache Concept 237 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 237",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 237.",
-                         "Common scenario for Cache Concept 237."
-                     ]
-    },
-    {
-        "id":  "term-263",
-        "related_terms":  [
-                              "term-262",
-                              "term-264"
-                          ],
-        "definition":  "Definition for Cache Concept 263 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 263",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 263.",
-                         "Common scenario for Cache Concept 263."
-                     ]
-    },
-    {
-        "id":  "term-289",
-        "related_terms":  [
-                              "term-288",
-                              "term-290"
-                          ],
-        "definition":  "Definition for Cache Concept 289 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 289",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 289.",
-                         "Common scenario for Cache Concept 289."
-                     ]
-    },
-    {
-        "id":  "term-315",
-        "related_terms":  [
-                              "term-314",
-                              "term-316"
-                          ],
-        "definition":  "Definition for Cache Concept 315 within the Programming Fundamentals domain.",
-        "term":  "Cache Concept 315",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Cache Concept 315.",
-                         "Common scenario for Cache Concept 315."
-                     ]
+        "id": "term-132",
+        "term": "Confidence Level",
+        "definition": "Confidence Level relates to how ZAP records, presents, or prioritizes findings.",
+        "category": "reporting",
+        "examples": [
+            "Example: Document how confidence level affects scan results.",
+            "Example: Review confidence level settings before a run."
+        ],
+        "related_terms": [
+            "term-131",
+            "term-133"
+        ]
     }
 ]

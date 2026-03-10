@@ -1,28 +1,30 @@
-﻿{
-    "summary":  "Hands-on lab for Operating Systems topic 4.",
-    "id":  "lab-004",
-    "category":  "operating-systems",
-    "tags":  [
-                 "operating-systems",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Operating Systems lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 4: Scheduling",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Operating Systems topic 4.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Review alerts, validate evidence, and prioritize risks.",
+    "id": "lab-004",
+    "category": "alerts",
+    "tags": [
+        "zap",
+        "lab",
+        "alerts"
+    ],
+    "starter": "# Choose two alerts and document evidence",
+    "objectives": [
+        "Identify high and medium risk alerts.",
+        "Capture evidence from request/response views.",
+        "Summarize remediation guidance."
+    ],
+    "solutionOutline": [
+        "Evidence captured for each alert.",
+        "Findings prioritized by risk and confidence."
+    ],
+    "difficulty": "beginner",
+    "title": "Lab 4: Alert Triage and Evidence",
+    "steps": [
+        "Open the Alerts tab and filter by risk.",
+        "Select a high-risk alert and review evidence.",
+        "Capture request and response details.",
+        "Record recommended remediation steps.",
+        "Repeat for one medium-risk alert."
+    ],
+    "overview": "## Goal\nReview alerts, validate evidence, and prioritize risks."
 }

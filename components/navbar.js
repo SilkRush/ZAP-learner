@@ -8,7 +8,7 @@ export function renderNavbar(){
     nav.innerHTML = `
         <div class="nav-brand">
             <span class="brand-mark">Z</span>
-            <span class="brand-text">ZAP Master Ultimate</span>
+            <span class="brand-text">ZAP Master Guide</span>
         </div>
         <nav class="nav-links">
             <a href="#/">Home</a>

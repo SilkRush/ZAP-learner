@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "System Design Topic 38",
-    "id":  "system-design-lesson-38",
-    "practice":  [
-                     "Describe the main steps of System Design Topic 38.",
-                     "Solve a small exercise using System Design Topic 38.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-068"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply System Design Topic 38\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "System Design",
-    "title":  "System Design Lesson 38",
-    "references":  [
-                       "Guide: System Design Topic 38 Essentials",
-                       "Cheat Sheet: System Design Basics"
-                   ],
-    "summary":  "Master System Design Topic 38 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# System Design Lesson 38\n\n## Overview\nMaster System Design Topic 38 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using System Design Topic 38.",
-                     "Edge case analysis for System Design Topic 38."
-                 ],
-    "tags":  [
-                 "system-design",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in System Design Topic 38."
-                   ]
+{
+    "topic": "Access Control for Testing",
+    "id": "system-design-lesson-38",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on access control for testing.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-068"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "docker run -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py -t https://www.example.com"
+        }
+    ],
+    "module": "ZAP Program & Governance",
+    "title": "Access Control for Testing (Part 4)",
+    "references": [
+        "Automation Framework",
+        "ZAP Docker Documentation",
+        "Scan Policy",
+        "Alerts"
+    ],
+    "summary": "Apply access control for testing in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Access Control for Testing (Part 4)\n\n## Overview\nApply access control for testing in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run access control for testing on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "governance",
+        "zap-program-governance"
+    ],
+    "objectives": [
+        "Explain how access control for testing fits into ZAP testing.",
+        "Configure access control for testing safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

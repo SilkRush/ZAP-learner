@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Web Development Topic 39",
-    "id":  "web-development-lesson-39",
-    "practice":  [
-                     "Describe the main steps of Web Development Topic 39.",
-                     "Solve a small exercise using Web Development Topic 39.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-109"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Web Development Topic 39\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Web Development",
-    "title":  "Web Development Lesson 39",
-    "references":  [
-                       "Guide: Web Development Topic 39 Essentials",
-                       "Cheat Sheet: Web Development Basics"
-                   ],
-    "summary":  "Master Web Development Topic 39 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# Web Development Lesson 39\n\n## Overview\nMaster Web Development Topic 39 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Web Development Topic 39.",
-                     "Edge case analysis for Web Development Topic 39."
-                 ],
-    "tags":  [
-                 "web",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Web Development Topic 39."
-                   ]
+{
+    "topic": "Retesting After Fixes",
+    "id": "web-development-lesson-39",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on retesting after fixes.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-109"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "docker run -v $(pwd):/zap/wrk/:rw -t ghcr.io/zaproxy/zaproxy:stable \\\n  zap-full-scan.py -t https://www.example.com -g gen.conf -r report.html"
+        }
+    ],
+    "module": "ZAP Web App Testing",
+    "title": "Retesting After Fixes (Part 4)",
+    "references": [
+        "Quick Start Add-on",
+        "Scope",
+        "Alerts",
+        "Scan Policy"
+    ],
+    "summary": "Apply retesting after fixes in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Retesting After Fixes (Part 4)\n\n## Overview\nApply retesting after fixes in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run retesting after fixes on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "web",
+        "zap-web-app-testing"
+    ],
+    "objectives": [
+        "Explain how retesting after fixes fits into ZAP testing.",
+        "Configure retesting after fixes safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

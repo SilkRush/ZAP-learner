@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Security topic 104.",
-    "id":  "guide-104",
-    "examples":  [
-                     "Example workflow for Security.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Security Field Notes",
-                       "Checklist: Security Review"
-                   ],
-    "category":  "security",
-    "tags":  [
-                 "security",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Security topic 104.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 104: Hardening Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Security patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Run the packaged full scan script from official ZAP Docker images.",
+    "id": "guide-104",
+    "examples": [
+        "Generate an HTML report from a nightly scan.",
+        "Tune warnings with a configuration file."
+    ],
+    "references": [
+        "ZAP - Full Scan",
+        "ZAP Docker User Guide"
+    ],
+    "category": "docker",
+    "tags": [
+        "zap",
+        "guide",
+        "docker"
+    ],
+    "diagrams": [
+        "Docker container -> Scan -> Report",
+        "Full scan pipeline"
+    ],
+    "content": "## Overview\nRun the packaged full scan script from official ZAP Docker images.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Docker Full Scan Workflow (Workflow 9)",
+    "steps": [
+        "Pull the stable ZAP Docker image.",
+        "Run zap-full-scan.py with a target URL.",
+        "Mount a working directory for reports.",
+        "Review HTML or JSON reports.",
+        "Use exit codes to drive CI results."
+    ]
 }

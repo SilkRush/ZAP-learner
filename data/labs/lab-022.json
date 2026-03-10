@@ -1,28 +1,28 @@
-﻿{
-    "summary":  "Hands-on lab for Backend Engineering topic 22.",
-    "id":  "lab-022",
-    "category":  "backend",
-    "tags":  [
-                 "backend",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Backend Engineering lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "intermediate",
-    "title":  "Lab 22: Authentication",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Backend Engineering topic 22.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Interpret Automation Framework exit codes for CI logic.",
+    "id": "lab-022",
+    "category": "automation",
+    "tags": [
+        "zap",
+        "lab",
+        "automation"
+    ],
+    "starter": "./zap.sh -cmd -autorun zap-plan.yaml",
+    "objectives": [
+        "Run a plan that produces warnings.",
+        "Capture exit code output.",
+        "Map exit codes to CI outcomes."
+    ],
+    "solutionOutline": [
+        "Exit codes mapped to CI responses.",
+        "Automation run documented."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 22: Automation Exit Codes (Iteration 2)",
+    "steps": [
+        "Run a plan with -autorun and -cmd.",
+        "Note the exit code after completion.",
+        "Document how code maps to pass/fail."
+    ],
+    "overview": "## Goal\nInterpret Automation Framework exit codes for CI logic."
 }

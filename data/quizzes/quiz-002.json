@@ -1,163 +1,163 @@
 {
-    "id":  "quiz-002",
-    "tags":  [
-                 "zap",
-                 "context"
-             ],
-    "questions":  [
-                      {
-                          "question":  "What is the main purpose of a ZAP context?",
-                          "tags":  [
-                                       "zap"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Contexts define scope and hold authentication and user settings.",
-                          "correct_answer":  "Define scope and authentication settings",
-                          "choices":  [
-                                          "Optimize database queries",
-                                          "Define scope and authentication settings",
-                                          "Manage OS services",
-                                          "Store binary files"
-                                      ]
-                      },
-                      {
-                          "question":  "Which method is used to include or exclude URLs in a context?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Contexts use regular expressions to include or exclude URLs.",
-                          "correct_answer":  "Regular expressions",
-                          "choices":  [
-                                          "SQL queries",
-                                          "Regular expressions",
-                                          "Cookies",
-                                          "User agents"
-                                      ]
-                      },
-                      {
-                          "question":  "Where are users defined in ZAP?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Users are defined within a context.",
-                          "correct_answer":  "Inside a context",
-                          "choices":  [
-                                          "Global settings",
-                                          "Inside a context",
-                                          "The sites tree",
-                                          "Reports"
-                                      ]
-                      },
-                      {
-                          "question":  "Which ZAP mode helps prevent scanning out-of-scope URLs?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Protected mode blocks potentially dangerous actions outside of scope.",
-                          "correct_answer":  "Protected mode",
-                          "choices":  [
-                                          "Safe mode",
-                                          "Protected mode",
-                                          "Standard mode",
-                                          "Attack mode"
-                                      ]
-                      },
-                      {
-                          "question":  "Why should you exclude logout URLs from scope?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Scanning logout endpoints can invalidate sessions and disrupt testing.",
-                          "correct_answer":  "To avoid invalidating sessions",
-                          "choices":  [
-                                          "To speed up DNS",
-                                          "To avoid invalidating sessions",
-                                          "To increase alert count",
-                                          "To enable safe mode"
-                                      ]
-                      },
-                      {
-                          "question":  "Authentication settings in ZAP are configured per:",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Authentication is configured for each context.",
-                          "correct_answer":  "Context",
-                          "choices":  [
-                                          "Browser profile",
-                                          "Context",
-                                          "Proxy port",
-                                          "Workspace"
-                                      ]
-                      },
-                      {
-                          "question":  "What should you do after configuring authentication?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "You should validate that users are actually logged in before scanning.",
-                          "correct_answer":  "Validate that users are logged in",
-                          "choices":  [
-                                          "Delete the context",
-                                          "Validate that users are logged in",
-                                          "Switch to Safe mode",
-                                          "Clear all alerts"
-                                      ]
-                      },
-                      {
-                          "question":  "How can you reuse context settings in automation?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Contexts can be exported and reused in Automation Framework plans.",
-                          "correct_answer":  "Export the context",
-                          "choices":  [
-                                          "Restart ZAP",
-                                          "Export the context",
-                                          "Disable passive scanning",
-                                          "Change proxy ports"
-                                      ]
-                      },
-                      {
-                          "question":  "Which approach is safest for defining scope?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Narrow include patterns reduce accidental out-of-scope scans.",
-                          "correct_answer":  "Use explicit include paths",
-                          "choices":  [
-                                          "Use broad wildcards",
-                                          "Use explicit include paths",
-                                          "Skip scope entirely",
-                                          "Use random targets"
-                                      ]
-                      },
-                      {
-                          "question":  "What does an include regex determine?",
-                          "tags":  [
-                                       "context"
-                                   ],
-                          "difficulty":  "beginner",
-                          "explanation":  "Include regex patterns determine which URLs are considered in scope.",
-                          "correct_answer":  "Which URLs are in scope",
-                          "choices":  [
-                                          "Which alerts are critical",
-                                          "Which URLs are in scope",
-                                          "Which browser to use",
-                                          "Which scan type to run"
-                                      ]
-                      }
-                  ],
-    "difficulty":  "beginner",
-    "module":  "ZAP Auth & Contexts",
-    "summary":  "Check your understanding of contexts, scope, and users.",
-    "title":  "ZAP Contexts Quiz 2"
+    "id": "quiz-002",
+    "tags": [
+        "zap",
+        "zap-scanning"
+    ],
+    "questions": [
+        {
+            "question": "Which ZAP mode actively scans new in-scope nodes as soon as they are discovered?",
+            "tags": [
+                "modes"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Attack mode triggers active scanning automatically for new in-scope nodes.",
+            "correct_answer": "Attack",
+            "choices": [
+                "Attack",
+                "Protected",
+                "Safe",
+                "Standard"
+            ]
+        },
+        {
+            "question": "In ZAP, scope is defined primarily by what?",
+            "tags": [
+                "scope"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Scope is defined by the contexts you set in ZAP.",
+            "correct_answer": "Contexts",
+            "choices": [
+                "Contexts",
+                "Users",
+                "Alerts",
+                "Policies"
+            ]
+        },
+        {
+            "question": "Contexts in ZAP are defined using what to match URLs?",
+            "tags": [
+                "contexts"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Contexts use regex patterns that must match full URLs.",
+            "correct_answer": "Regular expressions",
+            "choices": [
+                "Regular expressions",
+                "Cookies",
+                "Headers",
+                "XPath"
+            ]
+        },
+        {
+            "question": "Users in ZAP are closely tied to which features?",
+            "tags": [
+                "users"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Users rely on the authentication and session management defined in a context.",
+            "correct_answer": "Authentication and Session Management",
+            "choices": [
+                "Authentication and Session Management",
+                "Alerts and Reports",
+                "Proxy and UI",
+                "Spider and Scope"
+            ]
+        },
+        {
+            "question": "Quick Start Automated Scan requires you to enter what?",
+            "tags": [
+                "quick-start"
+            ],
+            "difficulty": "beginner",
+            "explanation": "Automated Scan launches against the URL you specify.",
+            "correct_answer": "The target URL",
+            "choices": [
+                "The target URL",
+                "An API key",
+                "A scan policy name",
+                "A report template"
+            ]
+        },
+        {
+            "question": "The traditional spider is fast but struggles with what type of applications?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Traditional spider finds links in HTML and does not handle heavy JavaScript well.",
+            "correct_answer": "Apps heavy in JavaScript",
+            "choices": [
+                "Apps heavy in JavaScript",
+                "Static HTML sites",
+                "Localhost apps",
+                "APIs"
+            ]
+        },
+        {
+            "question": "The AJAX spider explores applications by using what?",
+            "tags": [
+                "spider"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "AJAX spider launches a browser and clicks links to explore JS-driven apps.",
+            "correct_answer": "A browser",
+            "choices": [
+                "A browser",
+                "A database",
+                "A reverse proxy",
+                "A static sitemap"
+            ]
+        },
+        {
+            "question": "When using -zapit, which option must be included or it will be ignored?",
+            "tags": [
+                "zapit"
+            ],
+            "difficulty": "beginner",
+            "explanation": "ZAPit requires -cmd or the option is ignored.",
+            "correct_answer": "-cmd",
+            "choices": [
+                "-cmd",
+                "-daemon",
+                "-quickout",
+                "-config"
+            ]
+        },
+        {
+            "question": "Which Automation Framework option runs a plan?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "beginner",
+            "explanation": "-autorun runs the automation jobs from a plan file.",
+            "correct_answer": "-autorun",
+            "choices": [
+                "-autorun",
+                "-autocheck",
+                "-autogenmin",
+                "-autogenconf"
+            ]
+        },
+        {
+            "question": "Automation Framework exit code 2 means what?",
+            "tags": [
+                "automation"
+            ],
+            "difficulty": "intermediate",
+            "explanation": "Exit code 2 signals warnings without errors.",
+            "correct_answer": "Warnings with no errors",
+            "choices": [
+                "Warnings with no errors",
+                "Success",
+                "Errors found",
+                "Plan stopped"
+            ]
+        }
+    ],
+    "difficulty": "beginner",
+    "module": "ZAP Scanning",
+    "summary": "Check your understanding of zap scanning concepts.",
+    "title": "ZAP Scanning Quiz 002"
 }

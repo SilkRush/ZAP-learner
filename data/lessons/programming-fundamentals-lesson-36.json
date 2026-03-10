@@ -1,38 +1,43 @@
-﻿{
-    "topic":  "Programming Fundamentals Topic 36",
-    "id":  "programming-fundamentals-lesson-36",
-    "practice":  [
-                     "Describe the main steps of Programming Fundamentals Topic 36.",
-                     "Solve a small exercise using Programming Fundamentals Topic 36.",
-                     "List two pitfalls and how to avoid them."
-                 ],
-    "quizzes":  [
-                    "quiz-116"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "Step 1: Define the problem\\nStep 2: Apply Programming Fundamentals Topic 36\\nStep 3: Verify results",
-                            "language":  "plaintext"
-                        }
-                    ],
-    "module":  "Programming Fundamentals",
-    "title":  "Programming Fundamentals Lesson 36",
-    "references":  [
-                       "Guide: Programming Fundamentals Topic 36 Essentials",
-                       "Cheat Sheet: Programming Fundamentals Basics"
-                   ],
-    "summary":  "Master Programming Fundamentals Topic 36 with focused objectives, examples, and practice tasks.",
-    "difficulty":  "advanced",
-    "content":  "# Programming Fundamentals Lesson 36\n\n## Overview\nMaster Programming Fundamentals Topic 36 with focused objectives, examples, and practice tasks.\n\n- Identify core terminology\n- Walk through a guided example\n- Practice with a short task list",
-    "examples":  [
-                     "Worked example using Programming Fundamentals Topic 36.",
-                     "Edge case analysis for Programming Fundamentals Topic 36."
-                 ],
-    "tags":  [
-                 "fundamentals",
-                 "lesson"
-             ],
-    "objectives":  [
-                       "Explain key concepts in Programming Fundamentals Topic 36."
-                   ]
+{
+    "topic": "Preparing a Test Target and Scope",
+    "id": "programming-fundamentals-lesson-36",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on preparing a test target and scope.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-116"
+    ],
+    "codeSamples": [
+        {
+            "language": "yaml",
+            "code": "env:\n  contexts:\n    - name: target\n      urls:\n        - https://www.example.com\n      includePaths: []\n      excludePaths: []\n      authentication:\n        method: manual\n  vars:\n    env: dev\njobs:\n  - type: spider\n  - type: activeScan"
+        }
+    ],
+    "module": "ZAP Foundations",
+    "title": "Preparing a Test Target and Scope (Part 3)",
+    "references": [
+        "ZAP Desktop User Guide",
+        "Getting Started Guide",
+        "ZAP Modes",
+        "Quick Start Add-on"
+    ],
+    "summary": "Apply preparing a test target and scope in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "advanced",
+    "content": "# Preparing a Test Target and Scope (Part 3)\n\n## Overview\nApply preparing a test target and scope in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run preparing a test target and scope on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "foundations",
+        "zap-foundations"
+    ],
+    "objectives": [
+        "Explain how preparing a test target and scope fits into ZAP testing.",
+        "Configure preparing a test target and scope safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

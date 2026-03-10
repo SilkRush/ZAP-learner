@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Programming Fundamentals topic 107.",
-    "id":  "guide-107",
-    "examples":  [
-                     "Example workflow for Programming Fundamentals.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Programming Fundamentals Field Notes",
-                       "Checklist: Programming Fundamentals Review"
-                   ],
-    "category":  "fundamentals",
-    "tags":  [
-                 "fundamentals",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Programming Fundamentals topic 107.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 107: Control Flow Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Programming Fundamentals patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Run a lightweight reconnaissance scan from the command line.",
+    "id": "guide-107",
+    "examples": [
+        "Quickly snapshot a new target for triage.",
+        "Compare recon output across environments."
+    ],
+    "references": [
+        "ZAPit"
+    ],
+    "category": "quick-start",
+    "tags": [
+        "zap",
+        "guide",
+        "quick-start"
+    ],
+    "diagrams": [
+        "ZAPit quick recon pipeline",
+        "Recon vs full scan workflow"
+    ],
+    "content": "## Overview\nRun a lightweight reconnaissance scan from the command line.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "ZAPit Recon Workflow (Workflow 9)",
+    "steps": [
+        "Invoke the -zapit command line option.",
+        "Verify that -cmd is included.",
+        "Review summarized alerts and stats.",
+        "Capture technologies detected.",
+        "Use findings to plan deeper scans."
+    ]
 }

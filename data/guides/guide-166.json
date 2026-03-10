@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for Frontend Engineering topic 166.",
-    "id":  "guide-166",
-    "examples":  [
-                     "Example workflow for Frontend Engineering.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Frontend Engineering Field Notes",
-                       "Checklist: Frontend Engineering Review"
-                   ],
-    "category":  "frontend",
-    "tags":  [
-                 "frontend",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Frontend Engineering topic 166.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 166: UI Systems Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Frontend Engineering patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Adjust scan policies to balance coverage and safety.",
+    "id": "guide-166",
+    "examples": [
+        "Use a conservative policy for production scans.",
+        "Increase strength for a deep-dive assessment."
+    ],
+    "references": [
+        "Scan Policy"
+    ],
+    "category": "scanning",
+    "tags": [
+        "zap",
+        "guide",
+        "scanning"
+    ],
+    "diagrams": [
+        "Policy selection workflow",
+        "Rule strength vs coverage"
+    ],
+    "content": "## Overview\nAdjust scan policies to balance coverage and safety.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Scan Policy Tuning (Workflow 14)",
+    "steps": [
+        "Select an appropriate scan policy.",
+        "Review active scan rules included.",
+        "Adjust rule strength and thresholds.",
+        "Save a policy for reuse.",
+        "Run a focused scan to validate."
+    ]
 }

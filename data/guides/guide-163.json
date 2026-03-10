@@ -1,29 +1,30 @@
-﻿{
-    "summary":  "Step-by-step guide for System Design topic 163.",
-    "id":  "guide-163",
-    "examples":  [
-                     "Example workflow for System Design.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "System Design Field Notes",
-                       "Checklist: System Design Review"
-                   ],
-    "category":  "system-design",
-    "tags":  [
-                 "system-design",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for System Design topic 163.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 163: Caching Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply System Design patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model targets, contexts, and variables in the environment section.",
+    "id": "guide-163",
+    "examples": [
+        "Keep default ports out of URLs when required.",
+        "Reuse variables across multiple jobs."
+    ],
+    "references": [
+        "Automation Framework - Environment"
+    ],
+    "category": "automation",
+    "tags": [
+        "zap",
+        "guide",
+        "automation"
+    ],
+    "diagrams": [
+        "Environment section structure",
+        "Context binding to jobs"
+    ],
+    "content": "## Overview\nModel targets, contexts, and variables in the environment section.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Automation Framework Environment (Workflow 14)",
+    "steps": [
+        "Define context names and top-level URLs.",
+        "Add include/exclude regex paths.",
+        "Specify authentication configuration if needed.",
+        "Set variables for hostnames and ports.",
+        "Run a validation pass with -autocheck."
+    ]
 }

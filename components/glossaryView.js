@@ -30,7 +30,7 @@ async function renderGlossaryList(app){
         <section class="page-header">
             <div>
                 <h1>Glossary</h1>
-                <p>Definitions, examples, and cross-links for core concepts.</p>
+                <p>Definitions, examples, and cross-links for ZAP concepts.</p>
             </div>
         </section>
         <section class="filters">

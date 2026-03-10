@@ -1,170 +1,127 @@
-﻿[
+[
     {
-        "id":  "term-026",
-        "related_terms":  [
-                              "term-025",
-                              "term-027"
-                          ],
-        "definition":  "Definition for Zero Concept 26 within the Security domain.",
-        "term":  "Zero Concept 26",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 26.",
-                         "Common scenario for Zero Concept 26."
-                     ]
+        "id": "term-043",
+        "term": "ZAPit",
+        "definition": "ZAPit is part of the Quick Start workflow for fast scans.",
+        "category": "quick-start",
+        "examples": [
+            "Example: Document how zapit affects scan results.",
+            "Example: Review zapit settings before a run."
+        ],
+        "related_terms": [
+            "term-042",
+            "term-044"
+        ]
     },
     {
-        "id":  "term-052",
-        "related_terms":  [
-                              "term-051",
-                              "term-053"
-                          ],
-        "definition":  "Definition for Zero Concept 52 within the Security domain.",
-        "term":  "Zero Concept 52",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 52.",
-                         "Common scenario for Zero Concept 52."
-                     ]
+        "id": "term-078",
+        "term": "ZAP API Format",
+        "definition": "ZAP API Format is part of the ZAP API used to automate or retrieve results.",
+        "category": "api",
+        "examples": [
+            "Example: Document how zap api format affects scan results.",
+            "Example: Review zap api format settings before a run."
+        ],
+        "related_terms": [
+            "term-077",
+            "term-079"
+        ]
     },
     {
-        "id":  "term-078",
-        "related_terms":  [
-                              "term-077",
-                              "term-079"
-                          ],
-        "definition":  "Definition for Zero Concept 78 within the Security domain.",
-        "term":  "Zero Concept 78",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 78.",
-                         "Common scenario for Zero Concept 78."
-                     ]
+        "id": "term-079",
+        "term": "ZAP Docker",
+        "definition": "ZAP Docker is related to running ZAP in Docker or using packaged scans.",
+        "category": "docker",
+        "examples": [
+            "Example: Document how zap docker affects scan results.",
+            "Example: Review zap docker settings before a run."
+        ],
+        "related_terms": [
+            "term-078",
+            "term-080"
+        ]
     },
     {
-        "id":  "term-104",
-        "related_terms":  [
-                              "term-103",
-                              "term-105"
-                          ],
-        "definition":  "Definition for Zero Concept 104 within the Security domain.",
-        "term":  "Zero Concept 104",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 104.",
-                         "Common scenario for Zero Concept 104."
-                     ]
+        "id": "term-080",
+        "term": "ZAP Desktop User Guide",
+        "definition": "ZAP Desktop User Guide is a core ZAP concept that supports the overall testing workflow.",
+        "category": "core",
+        "examples": [
+            "Example: Document how zap desktop user guide affects scan results.",
+            "Example: Review zap desktop user guide settings before a run."
+        ],
+        "related_terms": [
+            "term-079",
+            "term-081"
+        ]
     },
     {
-        "id":  "term-130",
-        "related_terms":  [
-                              "term-129",
-                              "term-131"
-                          ],
-        "definition":  "Definition for Zero Concept 130 within the Security domain.",
-        "term":  "Zero Concept 130",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 130.",
-                         "Common scenario for Zero Concept 130."
-                     ]
+        "id": "term-110",
+        "term": "ZAP Marketplace",
+        "definition": "ZAP Marketplace relates to ZAP add-ons, scripts, or extension capabilities.",
+        "category": "extensions",
+        "examples": [
+            "Example: Document how zap marketplace affects scan results.",
+            "Example: Review zap marketplace settings before a run."
+        ],
+        "related_terms": [
+            "term-109",
+            "term-111"
+        ]
     },
     {
-        "id":  "term-156",
-        "related_terms":  [
-                              "term-155",
-                              "term-157"
-                          ],
-        "definition":  "Definition for Zero Concept 156 within the Security domain.",
-        "term":  "Zero Concept 156",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 156.",
-                         "Common scenario for Zero Concept 156."
-                     ]
+        "id": "term-141",
+        "term": "ZAP CLI",
+        "definition": "ZAP CLI is a command line capability for running ZAP.",
+        "category": "cli",
+        "examples": [
+            "Example: Document how zap cli affects scan results.",
+            "Example: Review zap cli settings before a run."
+        ],
+        "related_terms": [
+            "term-140",
+            "term-142"
+        ]
     },
     {
-        "id":  "term-182",
-        "related_terms":  [
-                              "term-181",
-                              "term-183"
-                          ],
-        "definition":  "Definition for Zero Concept 182 within the Security domain.",
-        "term":  "Zero Concept 182",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 182.",
-                         "Common scenario for Zero Concept 182."
-                     ]
+        "id": "term-142",
+        "term": "ZAP Command Line Options",
+        "definition": "ZAP Command Line Options is a command line capability for running ZAP.",
+        "category": "cli",
+        "examples": [
+            "Example: Document how zap command line options affects scan results.",
+            "Example: Review zap command line options settings before a run."
+        ],
+        "related_terms": [
+            "term-141",
+            "term-143"
+        ]
     },
     {
-        "id":  "term-208",
-        "related_terms":  [
-                              "term-207",
-                              "term-209"
-                          ],
-        "definition":  "Definition for Zero Concept 208 within the Security domain.",
-        "term":  "Zero Concept 208",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 208.",
-                         "Common scenario for Zero Concept 208."
-                     ]
+        "id": "term-144",
+        "term": "ZAP Full Scan Script",
+        "definition": "ZAP Full Scan Script is related to running ZAP in Docker or using packaged scans.",
+        "category": "docker",
+        "examples": [
+            "Example: Document how zap full scan script affects scan results.",
+            "Example: Review zap full scan script settings before a run."
+        ],
+        "related_terms": [
+            "term-143",
+            "term-145"
+        ]
     },
     {
-        "id":  "term-234",
-        "related_terms":  [
-                              "term-233",
-                              "term-235"
-                          ],
-        "definition":  "Definition for Zero Concept 234 within the Security domain.",
-        "term":  "Zero Concept 234",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 234.",
-                         "Common scenario for Zero Concept 234."
-                     ]
-    },
-    {
-        "id":  "term-260",
-        "related_terms":  [
-                              "term-259",
-                              "term-261"
-                          ],
-        "definition":  "Definition for Zero Concept 260 within the Security domain.",
-        "term":  "Zero Concept 260",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 260.",
-                         "Common scenario for Zero Concept 260."
-                     ]
-    },
-    {
-        "id":  "term-286",
-        "related_terms":  [
-                              "term-285",
-                              "term-287"
-                          ],
-        "definition":  "Definition for Zero Concept 286 within the Security domain.",
-        "term":  "Zero Concept 286",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 286.",
-                         "Common scenario for Zero Concept 286."
-                     ]
-    },
-    {
-        "id":  "term-312",
-        "related_terms":  [
-                              "term-311",
-                              "term-313"
-                          ],
-        "definition":  "Definition for Zero Concept 312 within the Security domain.",
-        "term":  "Zero Concept 312",
-        "category":  "security",
-        "examples":  [
-                         "Example use of Zero Concept 312.",
-                         "Common scenario for Zero Concept 312."
-                     ]
+        "id": "term-145",
+        "term": "ZAP Baseline Script",
+        "definition": "ZAP Baseline Script is related to running ZAP in Docker or using packaged scans.",
+        "category": "docker",
+        "examples": [
+            "Example: Document how zap baseline script affects scan results.",
+            "Example: Review zap baseline script settings before a run."
+        ],
+        "related_terms": [
+            "term-144"
+        ]
     }
 ]

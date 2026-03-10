@@ -1,170 +1,86 @@
-﻿[
+[
     {
-        "id":  "term-016",
-        "related_terms":  [
-                              "term-015",
-                              "term-017"
-                          ],
-        "definition":  "Definition for Packet Concept 16 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 16",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 16.",
-                         "Common scenario for Packet Concept 16."
-                     ]
+        "id": "term-029",
+        "term": "Passive Scan",
+        "definition": "Passive Scan is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how passive scan affects scan results.",
+            "Example: Review passive scan settings before a run."
+        ],
+        "related_terms": [
+            "term-028",
+            "term-030"
+        ]
     },
     {
-        "id":  "term-042",
-        "related_terms":  [
-                              "term-041",
-                              "term-043"
-                          ],
-        "definition":  "Definition for Packet Concept 42 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 42",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 42.",
-                         "Common scenario for Packet Concept 42."
-                     ]
+        "id": "term-030",
+        "term": "Passive Scan Rules",
+        "definition": "Passive Scan Rules is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how passive scan rules affects scan results.",
+            "Example: Review passive scan rules settings before a run."
+        ],
+        "related_terms": [
+            "term-029",
+            "term-031"
+        ]
     },
     {
-        "id":  "term-068",
-        "related_terms":  [
-                              "term-067",
-                              "term-069"
-                          ],
-        "definition":  "Definition for Packet Concept 68 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 68",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 68.",
-                         "Common scenario for Packet Concept 68."
-                     ]
+        "id": "term-031",
+        "term": "Protected Mode",
+        "definition": "Protected Mode is a ZAP mode that changes which actions are allowed.",
+        "category": "modes",
+        "examples": [
+            "Example: Document how protected mode affects scan results.",
+            "Example: Review protected mode settings before a run."
+        ],
+        "related_terms": [
+            "term-030",
+            "term-032"
+        ]
     },
     {
-        "id":  "term-094",
-        "related_terms":  [
-                              "term-093",
-                              "term-095"
-                          ],
-        "definition":  "Definition for Packet Concept 94 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 94",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 94.",
-                         "Common scenario for Packet Concept 94."
-                     ]
+        "id": "term-070",
+        "term": "Proxy Settings",
+        "definition": "Proxy Settings relates to proxying traffic through ZAP.",
+        "category": "proxy",
+        "examples": [
+            "Example: Document how proxy settings affects scan results.",
+            "Example: Review proxy settings settings before a run."
+        ],
+        "related_terms": [
+            "term-069",
+            "term-071"
+        ]
     },
     {
-        "id":  "term-120",
-        "related_terms":  [
-                              "term-119",
-                              "term-121"
-                          ],
-        "definition":  "Definition for Packet Concept 120 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 120",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 120.",
-                         "Common scenario for Packet Concept 120."
-                     ]
+        "id": "term-090",
+        "term": "Passive Scan Threshold",
+        "definition": "Passive Scan Threshold is a ZAP scanning concept used to discover or test target behavior.",
+        "category": "scanning",
+        "examples": [
+            "Example: Document how passive scan threshold affects scan results.",
+            "Example: Review passive scan threshold settings before a run."
+        ],
+        "related_terms": [
+            "term-089",
+            "term-091"
+        ]
     },
     {
-        "id":  "term-146",
-        "related_terms":  [
-                              "term-145",
-                              "term-147"
-                          ],
-        "definition":  "Definition for Packet Concept 146 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 146",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 146.",
-                         "Common scenario for Packet Concept 146."
-                     ]
-    },
-    {
-        "id":  "term-172",
-        "related_terms":  [
-                              "term-171",
-                              "term-173"
-                          ],
-        "definition":  "Definition for Packet Concept 172 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 172",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 172.",
-                         "Common scenario for Packet Concept 172."
-                     ]
-    },
-    {
-        "id":  "term-198",
-        "related_terms":  [
-                              "term-197",
-                              "term-199"
-                          ],
-        "definition":  "Definition for Packet Concept 198 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 198",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 198.",
-                         "Common scenario for Packet Concept 198."
-                     ]
-    },
-    {
-        "id":  "term-224",
-        "related_terms":  [
-                              "term-223",
-                              "term-225"
-                          ],
-        "definition":  "Definition for Packet Concept 224 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 224",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 224.",
-                         "Common scenario for Packet Concept 224."
-                     ]
-    },
-    {
-        "id":  "term-250",
-        "related_terms":  [
-                              "term-249",
-                              "term-251"
-                          ],
-        "definition":  "Definition for Packet Concept 250 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 250",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 250.",
-                         "Common scenario for Packet Concept 250."
-                     ]
-    },
-    {
-        "id":  "term-276",
-        "related_terms":  [
-                              "term-275",
-                              "term-277"
-                          ],
-        "definition":  "Definition for Packet Concept 276 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 276",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 276.",
-                         "Common scenario for Packet Concept 276."
-                     ]
-    },
-    {
-        "id":  "term-302",
-        "related_terms":  [
-                              "term-301",
-                              "term-303"
-                          ],
-        "definition":  "Definition for Packet Concept 302 within the Programming Fundamentals domain.",
-        "term":  "Packet Concept 302",
-        "category":  "fundamentals",
-        "examples":  [
-                         "Example use of Packet Concept 302.",
-                         "Common scenario for Packet Concept 302."
-                     ]
+        "id": "term-118",
+        "term": "Proxy History",
+        "definition": "Proxy History relates to proxying traffic through ZAP.",
+        "category": "proxy",
+        "examples": [
+            "Example: Document how proxy history affects scan results.",
+            "Example: Review proxy history settings before a run."
+        ],
+        "related_terms": [
+            "term-117",
+            "term-119"
+        ]
     }
 ]

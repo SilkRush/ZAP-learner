@@ -1,1682 +1,254 @@
-﻿[
+[
     {
-        "url":  "https://example.com/algorithms/resource-1",
-        "title":  "Algorithms Resource 1",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 1.",
-        "id":  "ref-001"
+        "url": "https://www.zaproxy.org/docs/desktop/",
+        "title": "ZAP Desktop User Guide",
+        "category": "core",
+        "description": "Official ZAP Desktop User Guide and feature reference.",
+        "id": "ref-001"
     },
     {
-        "url":  "https://example.com/data-structures/resource-2",
-        "title":  "Data Structures Resource 2",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 2.",
-        "id":  "ref-002"
+        "url": "https://www.zaproxy.org/getting-started/",
+        "title": "Getting Started",
+        "category": "core",
+        "description": "Overview of ZAP UI and safe usage guidance.",
+        "id": "ref-002"
     },
     {
-        "url":  "https://example.com/programming-fundamentals/resource-3",
-        "title":  "Programming Fundamentals Resource 3",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 3.",
-        "id":  "ref-003"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/quick-start/",
+        "title": "Quick Start Add-on",
+        "category": "quick-start",
+        "description": "Quick Start workflows, automated scan, and manual explore.",
+        "id": "ref-003"
     },
     {
-        "url":  "https://example.com/operating-systems/resource-4",
-        "title":  "Operating Systems Resource 4",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 4.",
-        "id":  "ref-004"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/quick-start/zapit/",
+        "title": "ZAPit",
+        "category": "quick-start",
+        "description": "Command line reconnaissance scan using -zapit.",
+        "id": "ref-004"
     },
     {
-        "url":  "https://example.com/databases/resource-5",
-        "title":  "Databases Resource 5",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 5.",
-        "id":  "ref-005"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/modes/",
+        "title": "Modes",
+        "category": "modes",
+        "description": "Safe, Protected, Standard, and Attack modes explained.",
+        "id": "ref-005"
     },
     {
-        "url":  "https://example.com/networking/resource-6",
-        "title":  "Networking Resource 6",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 6.",
-        "id":  "ref-006"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/scope/",
+        "title": "Scope",
+        "category": "scope",
+        "description": "How scope is defined and used within ZAP.",
+        "id": "ref-006"
     },
     {
-        "url":  "https://example.com/system-design/resource-7",
-        "title":  "System Design Resource 7",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 7.",
-        "id":  "ref-007"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/contexts/",
+        "title": "Contexts",
+        "category": "scope",
+        "description": "Define contexts with regex-based URL matching.",
+        "id": "ref-007"
     },
     {
-        "url":  "https://example.com/web-development/resource-8",
-        "title":  "Web Development Resource 8",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 8.",
-        "id":  "ref-008"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/users/",
+        "title": "Users",
+        "category": "auth",
+        "description": "User configuration for authenticated scans.",
+        "id": "ref-008"
     },
     {
-        "url":  "https://example.com/backend-engineering/resource-9",
-        "title":  "Backend Engineering Resource 9",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 9.",
-        "id":  "ref-009"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/automation-framework/",
+        "title": "Automation Framework",
+        "category": "automation",
+        "description": "Automation plans, command line options, and jobs.",
+        "id": "ref-009"
     },
     {
-        "url":  "https://example.com/frontend-engineering/resource-10",
-        "title":  "Frontend Engineering Resource 10",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 10.",
-        "id":  "ref-010"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/automation-framework/environment/",
+        "title": "Automation Framework - Environment",
+        "category": "automation",
+        "description": "Define contexts, URLs, and vars in automation plans.",
+        "id": "ref-010"
     },
     {
-        "url":  "https://example.com/data-science/resource-11",
-        "title":  "Data Science Resource 11",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 11.",
-        "id":  "ref-011"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/automation-framework/gui/",
+        "title": "Automation Framework - GUI",
+        "category": "automation",
+        "description": "Automation GUI for creating and running plans.",
+        "id": "ref-011"
     },
     {
-        "url":  "https://example.com/machine-learning/resource-12",
-        "title":  "Machine Learning Resource 12",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 12.",
-        "id":  "ref-012"
+        "url": "https://www.zaproxy.org/docs/docker/",
+        "title": "ZAP Docker Documentation",
+        "category": "docker",
+        "description": "Overview of ZAP Docker images and packaged scans.",
+        "id": "ref-012"
     },
     {
-        "url":  "https://example.com/security/resource-13",
-        "title":  "Security Resource 13",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 13.",
-        "id":  "ref-013"
+        "url": "https://www.zaproxy.org/docs/docker/about/",
+        "title": "ZAP Docker User Guide",
+        "category": "docker",
+        "description": "Getting started with ZAP Docker images.",
+        "id": "ref-013"
     },
     {
-        "url":  "https://example.com/algorithms/resource-14",
-        "title":  "Algorithms Resource 14",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 14.",
-        "id":  "ref-014"
+        "url": "https://www.zaproxy.org/docs/docker/full-scan/",
+        "title": "ZAP Full Scan",
+        "category": "docker",
+        "description": "Full scan script usage and options.",
+        "id": "ref-014"
     },
     {
-        "url":  "https://example.com/data-structures/resource-15",
-        "title":  "Data Structures Resource 15",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 15.",
-        "id":  "ref-015"
+        "url": "https://www.zaproxy.org/docs/docker/baseline-scan/",
+        "title": "ZAP Baseline Scan",
+        "category": "docker",
+        "description": "Baseline scan script for passive-only scans.",
+        "id": "ref-015"
     },
     {
-        "url":  "https://example.com/programming-fundamentals/resource-16",
-        "title":  "Programming Fundamentals Resource 16",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 16.",
-        "id":  "ref-016"
+        "url": "https://www.zaproxy.org/docs/docker/api-scan/",
+        "title": "ZAP API Scan",
+        "category": "docker",
+        "description": "API scan script for OpenAPI, SOAP, and GraphQL.",
+        "id": "ref-016"
     },
     {
-        "url":  "https://example.com/operating-systems/resource-17",
-        "title":  "Operating Systems Resource 17",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 17.",
-        "id":  "ref-017"
+        "url": "https://www.zaproxy.org/docs/docker/scan-hooks/",
+        "title": "Scan Hooks",
+        "category": "docker",
+        "description": "Customize packaged scans with hooks.",
+        "id": "ref-017"
     },
     {
-        "url":  "https://example.com/databases/resource-18",
-        "title":  "Databases Resource 18",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 18.",
-        "id":  "ref-018"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/alerts/",
+        "title": "Alerts",
+        "category": "alerts",
+        "description": "Alert definition and UI behavior.",
+        "id": "ref-018"
     },
     {
-        "url":  "https://example.com/networking/resource-19",
-        "title":  "Networking Resource 19",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 19.",
-        "id":  "ref-019"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/scanpolicy/",
+        "title": "Scan Policy",
+        "category": "scanning",
+        "description": "How scan policies control active scan rules.",
+        "id": "ref-019"
     },
     {
-        "url":  "https://example.com/system-design/resource-20",
-        "title":  "System Design Resource 20",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 20.",
-        "id":  "ref-020"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/api/",
+        "title": "API",
+        "category": "api",
+        "description": "ZAP API usage and access control.",
+        "id": "ref-020"
     },
     {
-        "url":  "https://example.com/web-development/resource-21",
-        "title":  "Web Development Resource 21",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 21.",
-        "id":  "ref-021"
+        "url": "https://www.zaproxy.org/docs/desktop/ui/",
+        "title": "Desktop UI Overview",
+        "category": "ui",
+        "description": "Overview of the ZAP desktop interface.",
+        "id": "ref-021"
     },
     {
-        "url":  "https://example.com/backend-engineering/resource-22",
-        "title":  "Backend Engineering Resource 22",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 22.",
-        "id":  "ref-022"
+        "url": "https://www.zaproxy.org/docs/desktop/ui/tltoolbar/",
+        "title": "Top Level Toolbar",
+        "category": "ui",
+        "description": "Toolbar controls and mode selector.",
+        "id": "ref-022"
     },
     {
-        "url":  "https://example.com/frontend-engineering/resource-23",
-        "title":  "Frontend Engineering Resource 23",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 23.",
-        "id":  "ref-023"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/passive-scan-rules/",
+        "title": "Passive Scan Rules",
+        "category": "scanning",
+        "description": "Passive scan rules and configuration options.",
+        "id": "ref-023"
     },
     {
-        "url":  "https://example.com/data-science/resource-24",
-        "title":  "Data Science Resource 24",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 24.",
-        "id":  "ref-024"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/active-scan-rules/",
+        "title": "Active Scan Rules",
+        "category": "scanning",
+        "description": "Active scan rule add-on coverage.",
+        "id": "ref-024"
     },
     {
-        "url":  "https://example.com/machine-learning/resource-25",
-        "title":  "Machine Learning Resource 25",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 25.",
-        "id":  "ref-025"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/spider/",
+        "title": "Spider Add-on",
+        "category": "scanning",
+        "description": "Traditional spider add-on documentation.",
+        "id": "ref-025"
     },
     {
-        "url":  "https://example.com/security/resource-26",
-        "title":  "Security Resource 26",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 26.",
-        "id":  "ref-026"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/ajax-spider/",
+        "title": "AJAX Spider Add-on",
+        "category": "scanning",
+        "description": "AJAX spider add-on documentation.",
+        "id": "ref-026"
     },
     {
-        "url":  "https://example.com/algorithms/resource-27",
-        "title":  "Algorithms Resource 27",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 27.",
-        "id":  "ref-027"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/marketplace/",
+        "title": "ZAP Marketplace",
+        "category": "extensions",
+        "description": "Add-ons marketplace and update channels.",
+        "id": "ref-027"
     },
     {
-        "url":  "https://example.com/data-structures/resource-28",
-        "title":  "Data Structures Resource 28",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 28.",
-        "id":  "ref-028"
+        "url": "https://www.zaproxy.org/docs/docker/webswing/",
+        "title": "Webswing",
+        "category": "docker",
+        "description": "Run ZAP with a web UI via Webswing in Docker.",
+        "id": "ref-028"
     },
     {
-        "url":  "https://example.com/programming-fundamentals/resource-29",
-        "title":  "Programming Fundamentals Resource 29",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 29.",
-        "id":  "ref-029"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/openapi-support/",
+        "title": "OpenAPI Support",
+        "category": "api",
+        "description": "Import and spider OpenAPI definitions.",
+        "id": "ref-029"
     },
     {
-        "url":  "https://example.com/operating-systems/resource-30",
-        "title":  "Operating Systems Resource 30",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 30.",
-        "id":  "ref-030"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/graphql-support/",
+        "title": "GraphQL Support",
+        "category": "api",
+        "description": "Import GraphQL definitions and generate queries.",
+        "id": "ref-030"
     },
     {
-        "url":  "https://example.com/databases/resource-31",
-        "title":  "Databases Resource 31",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 31.",
-        "id":  "ref-031"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/soap-support/",
+        "title": "SOAP Support",
+        "category": "api",
+        "description": "Import and scan SOAP WSDL definitions.",
+        "id": "ref-031"
     },
     {
-        "url":  "https://example.com/networking/resource-32",
-        "title":  "Networking Resource 32",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 32.",
-        "id":  "ref-032"
+        "url": "https://www.zaproxy.org/docs/desktop/start/features/scripts/",
+        "title": "Scripts",
+        "category": "extensions",
+        "description": "Script types and scripting capabilities inside ZAP.",
+        "id": "ref-032"
     },
     {
-        "url":  "https://example.com/system-design/resource-33",
-        "title":  "System Design Resource 33",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 33.",
-        "id":  "ref-033"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/script-console/",
+        "title": "Script Console",
+        "category": "extensions",
+        "description": "Script console add-on overview and usage.",
+        "id": "ref-033"
     },
     {
-        "url":  "https://example.com/web-development/resource-34",
-        "title":  "Web Development Resource 34",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 34.",
-        "id":  "ref-034"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/selenium/",
+        "title": "Selenium Add-on",
+        "category": "extensions",
+        "description": "Browser automation add-on used by AJAX spider and manual browsing.",
+        "id": "ref-034"
     },
     {
-        "url":  "https://example.com/backend-engineering/resource-35",
-        "title":  "Backend Engineering Resource 35",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 35.",
-        "id":  "ref-035"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/openapi-support/automation/",
+        "title": "OpenAPI Automation Support",
+        "category": "automation",
+        "description": "Automation job for importing OpenAPI definitions.",
+        "id": "ref-035"
     },
     {
-        "url":  "https://example.com/frontend-engineering/resource-36",
-        "title":  "Frontend Engineering Resource 36",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 36.",
-        "id":  "ref-036"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-37",
-        "title":  "Data Science Resource 37",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 37.",
-        "id":  "ref-037"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-38",
-        "title":  "Machine Learning Resource 38",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 38.",
-        "id":  "ref-038"
-    },
-    {
-        "url":  "https://example.com/security/resource-39",
-        "title":  "Security Resource 39",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 39.",
-        "id":  "ref-039"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-40",
-        "title":  "Algorithms Resource 40",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 40.",
-        "id":  "ref-040"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-41",
-        "title":  "Data Structures Resource 41",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 41.",
-        "id":  "ref-041"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-42",
-        "title":  "Programming Fundamentals Resource 42",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 42.",
-        "id":  "ref-042"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-43",
-        "title":  "Operating Systems Resource 43",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 43.",
-        "id":  "ref-043"
-    },
-    {
-        "url":  "https://example.com/databases/resource-44",
-        "title":  "Databases Resource 44",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 44.",
-        "id":  "ref-044"
-    },
-    {
-        "url":  "https://example.com/networking/resource-45",
-        "title":  "Networking Resource 45",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 45.",
-        "id":  "ref-045"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-46",
-        "title":  "System Design Resource 46",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 46.",
-        "id":  "ref-046"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-47",
-        "title":  "Web Development Resource 47",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 47.",
-        "id":  "ref-047"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-48",
-        "title":  "Backend Engineering Resource 48",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 48.",
-        "id":  "ref-048"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-49",
-        "title":  "Frontend Engineering Resource 49",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 49.",
-        "id":  "ref-049"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-50",
-        "title":  "Data Science Resource 50",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 50.",
-        "id":  "ref-050"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-51",
-        "title":  "Machine Learning Resource 51",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 51.",
-        "id":  "ref-051"
-    },
-    {
-        "url":  "https://example.com/security/resource-52",
-        "title":  "Security Resource 52",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 52.",
-        "id":  "ref-052"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-53",
-        "title":  "Algorithms Resource 53",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 53.",
-        "id":  "ref-053"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-54",
-        "title":  "Data Structures Resource 54",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 54.",
-        "id":  "ref-054"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-55",
-        "title":  "Programming Fundamentals Resource 55",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 55.",
-        "id":  "ref-055"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-56",
-        "title":  "Operating Systems Resource 56",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 56.",
-        "id":  "ref-056"
-    },
-    {
-        "url":  "https://example.com/databases/resource-57",
-        "title":  "Databases Resource 57",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 57.",
-        "id":  "ref-057"
-    },
-    {
-        "url":  "https://example.com/networking/resource-58",
-        "title":  "Networking Resource 58",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 58.",
-        "id":  "ref-058"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-59",
-        "title":  "System Design Resource 59",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 59.",
-        "id":  "ref-059"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-60",
-        "title":  "Web Development Resource 60",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 60.",
-        "id":  "ref-060"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-61",
-        "title":  "Backend Engineering Resource 61",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 61.",
-        "id":  "ref-061"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-62",
-        "title":  "Frontend Engineering Resource 62",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 62.",
-        "id":  "ref-062"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-63",
-        "title":  "Data Science Resource 63",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 63.",
-        "id":  "ref-063"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-64",
-        "title":  "Machine Learning Resource 64",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 64.",
-        "id":  "ref-064"
-    },
-    {
-        "url":  "https://example.com/security/resource-65",
-        "title":  "Security Resource 65",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 65.",
-        "id":  "ref-065"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-66",
-        "title":  "Algorithms Resource 66",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 66.",
-        "id":  "ref-066"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-67",
-        "title":  "Data Structures Resource 67",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 67.",
-        "id":  "ref-067"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-68",
-        "title":  "Programming Fundamentals Resource 68",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 68.",
-        "id":  "ref-068"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-69",
-        "title":  "Operating Systems Resource 69",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 69.",
-        "id":  "ref-069"
-    },
-    {
-        "url":  "https://example.com/databases/resource-70",
-        "title":  "Databases Resource 70",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 70.",
-        "id":  "ref-070"
-    },
-    {
-        "url":  "https://example.com/networking/resource-71",
-        "title":  "Networking Resource 71",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 71.",
-        "id":  "ref-071"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-72",
-        "title":  "System Design Resource 72",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 72.",
-        "id":  "ref-072"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-73",
-        "title":  "Web Development Resource 73",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 73.",
-        "id":  "ref-073"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-74",
-        "title":  "Backend Engineering Resource 74",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 74.",
-        "id":  "ref-074"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-75",
-        "title":  "Frontend Engineering Resource 75",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 75.",
-        "id":  "ref-075"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-76",
-        "title":  "Data Science Resource 76",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 76.",
-        "id":  "ref-076"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-77",
-        "title":  "Machine Learning Resource 77",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 77.",
-        "id":  "ref-077"
-    },
-    {
-        "url":  "https://example.com/security/resource-78",
-        "title":  "Security Resource 78",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 78.",
-        "id":  "ref-078"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-79",
-        "title":  "Algorithms Resource 79",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 79.",
-        "id":  "ref-079"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-80",
-        "title":  "Data Structures Resource 80",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 80.",
-        "id":  "ref-080"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-81",
-        "title":  "Programming Fundamentals Resource 81",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 81.",
-        "id":  "ref-081"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-82",
-        "title":  "Operating Systems Resource 82",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 82.",
-        "id":  "ref-082"
-    },
-    {
-        "url":  "https://example.com/databases/resource-83",
-        "title":  "Databases Resource 83",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 83.",
-        "id":  "ref-083"
-    },
-    {
-        "url":  "https://example.com/networking/resource-84",
-        "title":  "Networking Resource 84",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 84.",
-        "id":  "ref-084"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-85",
-        "title":  "System Design Resource 85",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 85.",
-        "id":  "ref-085"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-86",
-        "title":  "Web Development Resource 86",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 86.",
-        "id":  "ref-086"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-87",
-        "title":  "Backend Engineering Resource 87",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 87.",
-        "id":  "ref-087"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-88",
-        "title":  "Frontend Engineering Resource 88",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 88.",
-        "id":  "ref-088"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-89",
-        "title":  "Data Science Resource 89",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 89.",
-        "id":  "ref-089"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-90",
-        "title":  "Machine Learning Resource 90",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 90.",
-        "id":  "ref-090"
-    },
-    {
-        "url":  "https://example.com/security/resource-91",
-        "title":  "Security Resource 91",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 91.",
-        "id":  "ref-091"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-92",
-        "title":  "Algorithms Resource 92",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 92.",
-        "id":  "ref-092"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-93",
-        "title":  "Data Structures Resource 93",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 93.",
-        "id":  "ref-093"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-94",
-        "title":  "Programming Fundamentals Resource 94",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 94.",
-        "id":  "ref-094"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-95",
-        "title":  "Operating Systems Resource 95",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 95.",
-        "id":  "ref-095"
-    },
-    {
-        "url":  "https://example.com/databases/resource-96",
-        "title":  "Databases Resource 96",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 96.",
-        "id":  "ref-096"
-    },
-    {
-        "url":  "https://example.com/networking/resource-97",
-        "title":  "Networking Resource 97",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 97.",
-        "id":  "ref-097"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-98",
-        "title":  "System Design Resource 98",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 98.",
-        "id":  "ref-098"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-99",
-        "title":  "Web Development Resource 99",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 99.",
-        "id":  "ref-099"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-100",
-        "title":  "Backend Engineering Resource 100",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 100.",
-        "id":  "ref-100"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-101",
-        "title":  "Frontend Engineering Resource 101",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 101.",
-        "id":  "ref-101"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-102",
-        "title":  "Data Science Resource 102",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 102.",
-        "id":  "ref-102"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-103",
-        "title":  "Machine Learning Resource 103",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 103.",
-        "id":  "ref-103"
-    },
-    {
-        "url":  "https://example.com/security/resource-104",
-        "title":  "Security Resource 104",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 104.",
-        "id":  "ref-104"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-105",
-        "title":  "Algorithms Resource 105",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 105.",
-        "id":  "ref-105"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-106",
-        "title":  "Data Structures Resource 106",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 106.",
-        "id":  "ref-106"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-107",
-        "title":  "Programming Fundamentals Resource 107",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 107.",
-        "id":  "ref-107"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-108",
-        "title":  "Operating Systems Resource 108",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 108.",
-        "id":  "ref-108"
-    },
-    {
-        "url":  "https://example.com/databases/resource-109",
-        "title":  "Databases Resource 109",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 109.",
-        "id":  "ref-109"
-    },
-    {
-        "url":  "https://example.com/networking/resource-110",
-        "title":  "Networking Resource 110",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 110.",
-        "id":  "ref-110"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-111",
-        "title":  "System Design Resource 111",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 111.",
-        "id":  "ref-111"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-112",
-        "title":  "Web Development Resource 112",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 112.",
-        "id":  "ref-112"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-113",
-        "title":  "Backend Engineering Resource 113",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 113.",
-        "id":  "ref-113"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-114",
-        "title":  "Frontend Engineering Resource 114",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 114.",
-        "id":  "ref-114"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-115",
-        "title":  "Data Science Resource 115",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 115.",
-        "id":  "ref-115"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-116",
-        "title":  "Machine Learning Resource 116",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 116.",
-        "id":  "ref-116"
-    },
-    {
-        "url":  "https://example.com/security/resource-117",
-        "title":  "Security Resource 117",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 117.",
-        "id":  "ref-117"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-118",
-        "title":  "Algorithms Resource 118",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 118.",
-        "id":  "ref-118"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-119",
-        "title":  "Data Structures Resource 119",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 119.",
-        "id":  "ref-119"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-120",
-        "title":  "Programming Fundamentals Resource 120",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 120.",
-        "id":  "ref-120"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-121",
-        "title":  "Operating Systems Resource 121",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 121.",
-        "id":  "ref-121"
-    },
-    {
-        "url":  "https://example.com/databases/resource-122",
-        "title":  "Databases Resource 122",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 122.",
-        "id":  "ref-122"
-    },
-    {
-        "url":  "https://example.com/networking/resource-123",
-        "title":  "Networking Resource 123",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 123.",
-        "id":  "ref-123"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-124",
-        "title":  "System Design Resource 124",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 124.",
-        "id":  "ref-124"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-125",
-        "title":  "Web Development Resource 125",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 125.",
-        "id":  "ref-125"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-126",
-        "title":  "Backend Engineering Resource 126",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 126.",
-        "id":  "ref-126"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-127",
-        "title":  "Frontend Engineering Resource 127",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 127.",
-        "id":  "ref-127"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-128",
-        "title":  "Data Science Resource 128",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 128.",
-        "id":  "ref-128"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-129",
-        "title":  "Machine Learning Resource 129",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 129.",
-        "id":  "ref-129"
-    },
-    {
-        "url":  "https://example.com/security/resource-130",
-        "title":  "Security Resource 130",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 130.",
-        "id":  "ref-130"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-131",
-        "title":  "Algorithms Resource 131",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 131.",
-        "id":  "ref-131"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-132",
-        "title":  "Data Structures Resource 132",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 132.",
-        "id":  "ref-132"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-133",
-        "title":  "Programming Fundamentals Resource 133",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 133.",
-        "id":  "ref-133"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-134",
-        "title":  "Operating Systems Resource 134",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 134.",
-        "id":  "ref-134"
-    },
-    {
-        "url":  "https://example.com/databases/resource-135",
-        "title":  "Databases Resource 135",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 135.",
-        "id":  "ref-135"
-    },
-    {
-        "url":  "https://example.com/networking/resource-136",
-        "title":  "Networking Resource 136",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 136.",
-        "id":  "ref-136"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-137",
-        "title":  "System Design Resource 137",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 137.",
-        "id":  "ref-137"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-138",
-        "title":  "Web Development Resource 138",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 138.",
-        "id":  "ref-138"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-139",
-        "title":  "Backend Engineering Resource 139",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 139.",
-        "id":  "ref-139"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-140",
-        "title":  "Frontend Engineering Resource 140",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 140.",
-        "id":  "ref-140"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-141",
-        "title":  "Data Science Resource 141",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 141.",
-        "id":  "ref-141"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-142",
-        "title":  "Machine Learning Resource 142",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 142.",
-        "id":  "ref-142"
-    },
-    {
-        "url":  "https://example.com/security/resource-143",
-        "title":  "Security Resource 143",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 143.",
-        "id":  "ref-143"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-144",
-        "title":  "Algorithms Resource 144",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 144.",
-        "id":  "ref-144"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-145",
-        "title":  "Data Structures Resource 145",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 145.",
-        "id":  "ref-145"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-146",
-        "title":  "Programming Fundamentals Resource 146",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 146.",
-        "id":  "ref-146"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-147",
-        "title":  "Operating Systems Resource 147",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 147.",
-        "id":  "ref-147"
-    },
-    {
-        "url":  "https://example.com/databases/resource-148",
-        "title":  "Databases Resource 148",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 148.",
-        "id":  "ref-148"
-    },
-    {
-        "url":  "https://example.com/networking/resource-149",
-        "title":  "Networking Resource 149",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 149.",
-        "id":  "ref-149"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-150",
-        "title":  "System Design Resource 150",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 150.",
-        "id":  "ref-150"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-151",
-        "title":  "Web Development Resource 151",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 151.",
-        "id":  "ref-151"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-152",
-        "title":  "Backend Engineering Resource 152",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 152.",
-        "id":  "ref-152"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-153",
-        "title":  "Frontend Engineering Resource 153",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 153.",
-        "id":  "ref-153"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-154",
-        "title":  "Data Science Resource 154",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 154.",
-        "id":  "ref-154"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-155",
-        "title":  "Machine Learning Resource 155",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 155.",
-        "id":  "ref-155"
-    },
-    {
-        "url":  "https://example.com/security/resource-156",
-        "title":  "Security Resource 156",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 156.",
-        "id":  "ref-156"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-157",
-        "title":  "Algorithms Resource 157",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 157.",
-        "id":  "ref-157"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-158",
-        "title":  "Data Structures Resource 158",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 158.",
-        "id":  "ref-158"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-159",
-        "title":  "Programming Fundamentals Resource 159",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 159.",
-        "id":  "ref-159"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-160",
-        "title":  "Operating Systems Resource 160",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 160.",
-        "id":  "ref-160"
-    },
-    {
-        "url":  "https://example.com/databases/resource-161",
-        "title":  "Databases Resource 161",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 161.",
-        "id":  "ref-161"
-    },
-    {
-        "url":  "https://example.com/networking/resource-162",
-        "title":  "Networking Resource 162",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 162.",
-        "id":  "ref-162"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-163",
-        "title":  "System Design Resource 163",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 163.",
-        "id":  "ref-163"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-164",
-        "title":  "Web Development Resource 164",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 164.",
-        "id":  "ref-164"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-165",
-        "title":  "Backend Engineering Resource 165",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 165.",
-        "id":  "ref-165"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-166",
-        "title":  "Frontend Engineering Resource 166",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 166.",
-        "id":  "ref-166"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-167",
-        "title":  "Data Science Resource 167",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 167.",
-        "id":  "ref-167"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-168",
-        "title":  "Machine Learning Resource 168",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 168.",
-        "id":  "ref-168"
-    },
-    {
-        "url":  "https://example.com/security/resource-169",
-        "title":  "Security Resource 169",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 169.",
-        "id":  "ref-169"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-170",
-        "title":  "Algorithms Resource 170",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 170.",
-        "id":  "ref-170"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-171",
-        "title":  "Data Structures Resource 171",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 171.",
-        "id":  "ref-171"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-172",
-        "title":  "Programming Fundamentals Resource 172",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 172.",
-        "id":  "ref-172"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-173",
-        "title":  "Operating Systems Resource 173",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 173.",
-        "id":  "ref-173"
-    },
-    {
-        "url":  "https://example.com/databases/resource-174",
-        "title":  "Databases Resource 174",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 174.",
-        "id":  "ref-174"
-    },
-    {
-        "url":  "https://example.com/networking/resource-175",
-        "title":  "Networking Resource 175",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 175.",
-        "id":  "ref-175"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-176",
-        "title":  "System Design Resource 176",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 176.",
-        "id":  "ref-176"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-177",
-        "title":  "Web Development Resource 177",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 177.",
-        "id":  "ref-177"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-178",
-        "title":  "Backend Engineering Resource 178",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 178.",
-        "id":  "ref-178"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-179",
-        "title":  "Frontend Engineering Resource 179",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 179.",
-        "id":  "ref-179"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-180",
-        "title":  "Data Science Resource 180",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 180.",
-        "id":  "ref-180"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-181",
-        "title":  "Machine Learning Resource 181",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 181.",
-        "id":  "ref-181"
-    },
-    {
-        "url":  "https://example.com/security/resource-182",
-        "title":  "Security Resource 182",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 182.",
-        "id":  "ref-182"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-183",
-        "title":  "Algorithms Resource 183",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 183.",
-        "id":  "ref-183"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-184",
-        "title":  "Data Structures Resource 184",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 184.",
-        "id":  "ref-184"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-185",
-        "title":  "Programming Fundamentals Resource 185",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 185.",
-        "id":  "ref-185"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-186",
-        "title":  "Operating Systems Resource 186",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 186.",
-        "id":  "ref-186"
-    },
-    {
-        "url":  "https://example.com/databases/resource-187",
-        "title":  "Databases Resource 187",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 187.",
-        "id":  "ref-187"
-    },
-    {
-        "url":  "https://example.com/networking/resource-188",
-        "title":  "Networking Resource 188",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 188.",
-        "id":  "ref-188"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-189",
-        "title":  "System Design Resource 189",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 189.",
-        "id":  "ref-189"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-190",
-        "title":  "Web Development Resource 190",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 190.",
-        "id":  "ref-190"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-191",
-        "title":  "Backend Engineering Resource 191",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 191.",
-        "id":  "ref-191"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-192",
-        "title":  "Frontend Engineering Resource 192",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 192.",
-        "id":  "ref-192"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-193",
-        "title":  "Data Science Resource 193",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 193.",
-        "id":  "ref-193"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-194",
-        "title":  "Machine Learning Resource 194",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 194.",
-        "id":  "ref-194"
-    },
-    {
-        "url":  "https://example.com/security/resource-195",
-        "title":  "Security Resource 195",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 195.",
-        "id":  "ref-195"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-196",
-        "title":  "Algorithms Resource 196",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 196.",
-        "id":  "ref-196"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-197",
-        "title":  "Data Structures Resource 197",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 197.",
-        "id":  "ref-197"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-198",
-        "title":  "Programming Fundamentals Resource 198",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 198.",
-        "id":  "ref-198"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-199",
-        "title":  "Operating Systems Resource 199",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 199.",
-        "id":  "ref-199"
-    },
-    {
-        "url":  "https://example.com/databases/resource-200",
-        "title":  "Databases Resource 200",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 200.",
-        "id":  "ref-200"
-    },
-    {
-        "url":  "https://example.com/networking/resource-201",
-        "title":  "Networking Resource 201",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 201.",
-        "id":  "ref-201"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-202",
-        "title":  "System Design Resource 202",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 202.",
-        "id":  "ref-202"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-203",
-        "title":  "Web Development Resource 203",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 203.",
-        "id":  "ref-203"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-204",
-        "title":  "Backend Engineering Resource 204",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 204.",
-        "id":  "ref-204"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-205",
-        "title":  "Frontend Engineering Resource 205",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 205.",
-        "id":  "ref-205"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-206",
-        "title":  "Data Science Resource 206",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 206.",
-        "id":  "ref-206"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-207",
-        "title":  "Machine Learning Resource 207",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 207.",
-        "id":  "ref-207"
-    },
-    {
-        "url":  "https://example.com/security/resource-208",
-        "title":  "Security Resource 208",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 208.",
-        "id":  "ref-208"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-209",
-        "title":  "Algorithms Resource 209",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 209.",
-        "id":  "ref-209"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-210",
-        "title":  "Data Structures Resource 210",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 210.",
-        "id":  "ref-210"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-211",
-        "title":  "Programming Fundamentals Resource 211",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 211.",
-        "id":  "ref-211"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-212",
-        "title":  "Operating Systems Resource 212",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 212.",
-        "id":  "ref-212"
-    },
-    {
-        "url":  "https://example.com/databases/resource-213",
-        "title":  "Databases Resource 213",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 213.",
-        "id":  "ref-213"
-    },
-    {
-        "url":  "https://example.com/networking/resource-214",
-        "title":  "Networking Resource 214",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 214.",
-        "id":  "ref-214"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-215",
-        "title":  "System Design Resource 215",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 215.",
-        "id":  "ref-215"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-216",
-        "title":  "Web Development Resource 216",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 216.",
-        "id":  "ref-216"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-217",
-        "title":  "Backend Engineering Resource 217",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 217.",
-        "id":  "ref-217"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-218",
-        "title":  "Frontend Engineering Resource 218",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 218.",
-        "id":  "ref-218"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-219",
-        "title":  "Data Science Resource 219",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 219.",
-        "id":  "ref-219"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-220",
-        "title":  "Machine Learning Resource 220",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 220.",
-        "id":  "ref-220"
-    },
-    {
-        "url":  "https://example.com/security/resource-221",
-        "title":  "Security Resource 221",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 221.",
-        "id":  "ref-221"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-222",
-        "title":  "Algorithms Resource 222",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 222.",
-        "id":  "ref-222"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-223",
-        "title":  "Data Structures Resource 223",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 223.",
-        "id":  "ref-223"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-224",
-        "title":  "Programming Fundamentals Resource 224",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 224.",
-        "id":  "ref-224"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-225",
-        "title":  "Operating Systems Resource 225",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 225.",
-        "id":  "ref-225"
-    },
-    {
-        "url":  "https://example.com/databases/resource-226",
-        "title":  "Databases Resource 226",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 226.",
-        "id":  "ref-226"
-    },
-    {
-        "url":  "https://example.com/networking/resource-227",
-        "title":  "Networking Resource 227",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 227.",
-        "id":  "ref-227"
-    },
-    {
-        "url":  "https://example.com/system-design/resource-228",
-        "title":  "System Design Resource 228",
-        "category":  "system-design",
-        "description":  "Curated resource for System Design topic 228.",
-        "id":  "ref-228"
-    },
-    {
-        "url":  "https://example.com/web-development/resource-229",
-        "title":  "Web Development Resource 229",
-        "category":  "web",
-        "description":  "Curated resource for Web Development topic 229.",
-        "id":  "ref-229"
-    },
-    {
-        "url":  "https://example.com/backend-engineering/resource-230",
-        "title":  "Backend Engineering Resource 230",
-        "category":  "backend",
-        "description":  "Curated resource for Backend Engineering topic 230.",
-        "id":  "ref-230"
-    },
-    {
-        "url":  "https://example.com/frontend-engineering/resource-231",
-        "title":  "Frontend Engineering Resource 231",
-        "category":  "frontend",
-        "description":  "Curated resource for Frontend Engineering topic 231.",
-        "id":  "ref-231"
-    },
-    {
-        "url":  "https://example.com/data-science/resource-232",
-        "title":  "Data Science Resource 232",
-        "category":  "data-science",
-        "description":  "Curated resource for Data Science topic 232.",
-        "id":  "ref-232"
-    },
-    {
-        "url":  "https://example.com/machine-learning/resource-233",
-        "title":  "Machine Learning Resource 233",
-        "category":  "machine-learning",
-        "description":  "Curated resource for Machine Learning topic 233.",
-        "id":  "ref-233"
-    },
-    {
-        "url":  "https://example.com/security/resource-234",
-        "title":  "Security Resource 234",
-        "category":  "security",
-        "description":  "Curated resource for Security topic 234.",
-        "id":  "ref-234"
-    },
-    {
-        "url":  "https://example.com/algorithms/resource-235",
-        "title":  "Algorithms Resource 235",
-        "category":  "algorithms",
-        "description":  "Curated resource for Algorithms topic 235.",
-        "id":  "ref-235"
-    },
-    {
-        "url":  "https://example.com/data-structures/resource-236",
-        "title":  "Data Structures Resource 236",
-        "category":  "data-structures",
-        "description":  "Curated resource for Data Structures topic 236.",
-        "id":  "ref-236"
-    },
-    {
-        "url":  "https://example.com/programming-fundamentals/resource-237",
-        "title":  "Programming Fundamentals Resource 237",
-        "category":  "fundamentals",
-        "description":  "Curated resource for Programming Fundamentals topic 237.",
-        "id":  "ref-237"
-    },
-    {
-        "url":  "https://example.com/operating-systems/resource-238",
-        "title":  "Operating Systems Resource 238",
-        "category":  "operating-systems",
-        "description":  "Curated resource for Operating Systems topic 238.",
-        "id":  "ref-238"
-    },
-    {
-        "url":  "https://example.com/databases/resource-239",
-        "title":  "Databases Resource 239",
-        "category":  "databases",
-        "description":  "Curated resource for Databases topic 239.",
-        "id":  "ref-239"
-    },
-    {
-        "url":  "https://example.com/networking/resource-240",
-        "title":  "Networking Resource 240",
-        "category":  "networking",
-        "description":  "Curated resource for Networking topic 240.",
-        "id":  "ref-240"
+        "url": "https://www.zaproxy.org/docs/desktop/addons/graphql-support/automation/",
+        "title": "GraphQL Automation Support",
+        "category": "automation",
+        "description": "Automation job for importing GraphQL definitions.",
+        "id": "ref-036"
     }
 ]

@@ -1,29 +1,31 @@
-﻿{
-    "summary":  "Step-by-step guide for Networking topic 136.",
-    "id":  "guide-136",
-    "examples":  [
-                     "Example workflow for Networking.",
-                     "Checklist for common pitfalls."
-                 ],
-    "references":  [
-                       "Networking Field Notes",
-                       "Checklist: Networking Review"
-                   ],
-    "category":  "networking",
-    "tags":  [
-                 "networking",
-                 "guide"
-             ],
-    "diagrams":  [
-                     "High-level architecture diagram.",
-                     "Flow diagram with key checkpoints."
-                 ],
-    "content":  "## Overview\nStep-by-step guide for Networking topic 136.\n\nUse this guide to move from concepts to practical implementation.",
-    "title":  "Guide 136: TCP Essentials",
-    "steps":  [
-                  "Clarify the goal and constraints.",
-                  "Break the problem into smaller steps.",
-                  "Apply Networking patterns.",
-                  "Validate with tests or examples."
-              ]
+{
+    "summary": "Model authenticated users and sessions for realistic scans.",
+    "id": "guide-136",
+    "examples": [
+        "Create a read-only user for baseline scans.",
+        "Test admin-only endpoints with an admin user."
+    ],
+    "references": [
+        "Users",
+        "Contexts"
+    ],
+    "category": "auth",
+    "tags": [
+        "zap",
+        "guide",
+        "auth"
+    ],
+    "diagrams": [
+        "Context -> Authentication -> Users",
+        "Session refresh lifecycle"
+    ],
+    "content": "## Overview\nModel authenticated users and sessions for realistic scans.\n\n### Why it matters\nThis guide turns a ZAP feature into a repeatable workflow you can share across teams.\n\n### Preparation\n- Confirm scope and permissions.\n- Ensure required add-ons are installed.\n- Decide how you will capture evidence.\n",
+    "title": "Users and Authentication Setup (Workflow 12)",
+    "steps": [
+        "Define authentication settings in the context.",
+        "Create users with the right credentials.",
+        "Verify session management behavior.",
+        "Run scans as a specific user.",
+        "Re-authenticate when sessions expire."
+    ]
 }

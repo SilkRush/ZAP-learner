@@ -1,44 +1,43 @@
 {
-    "topic":  "Quick Start automated scan workflow",
-    "id":  "algorithms-lesson-03",
-    "practice":  [
-                     "Describe the steps in the Quick Start automated scan.",
-                     "Explain when to choose the traditional spider vs the AJAX spider.",
-                     "List two reasons to run a scan only with explicit permission."
-                 ],
-    "quizzes":  [
-                    "quiz-003"
-                ],
-    "codeSamples":  [
-                        {
-                            "code":  "zap-full-scan.py -t https://example.test -r zap-report.html",
-                            "language":  "bash"
-                        }
-                    ],
-    "module":  "ZAP Scanning",
-    "title":  "ZAP Lesson 3: Quick Start Automated Scan",
-    "references":  [
-                       "ZAP Quick Start: Automated Scan",
-                       "OWASP ZAP Getting Started",
-                       "ZAP Docker: About"
-                   ],
-    "summary":  "Run a Quick Start automated scan and understand spider options.",
-    "difficulty":  "beginner",
-    "content":  "# ZAP Lesson 3: Quick Start Automated Scan\n\n## Overview\nQuick Start provides an automated scan workflow. You enter a target URL, choose scan options, and ZAP handles crawling and testing.\n\n## Automated scan steps\n1. Open the Quick Start tab\n2. Choose Automated Scan\n3. Enter the target URL you are authorized to test\n4. Select spider options if needed\n5. Start the scan and review alerts\n\n## Spider choices\n- Traditional spider: fast, works best on classic HTML navigation\n- AJAX spider: slower, uses a browser to explore JavaScript-heavy apps\n\n## After the scan\nReview alerts, confirm false positives, and prioritize by risk and confidence.\n\n## CLI alternative\nFor CI pipelines, packaged scripts can run scans from the command line using ZAP Docker images.",
-    "examples":  [
-                     "Run a traditional spider for a server-rendered app.",
-                     "Use the AJAX spider for a single-page application.",
-                     "Export an HTML report after scanning a test environment."
-                 ],
-    "tags":  [
-                 "zap",
-                 "owasp",
-                 "scanning"
-             ],
-    "objectives":  [
-                       "Perform a Quick Start automated scan.",
-                       "Choose the appropriate spider type for the target app.",
-                       "Explain what happens after a scan completes.",
-                       "Identify when to use CLI automation."
-                   ]
+    "topic": "Traditional Spider Strategy",
+    "id": "algorithms-lesson-03",
+    "practice": [
+        "Define a context and set it in scope.",
+        "Execute a workflow focused on traditional spider strategy.",
+        "Summarize the top three findings and next steps."
+    ],
+    "quizzes": [
+        "quiz-003"
+    ],
+    "codeSamples": [
+        {
+            "language": "bash",
+            "code": "docker run -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py -t https://www.example.com"
+        }
+    ],
+    "module": "ZAP Scanning Core",
+    "title": "Traditional Spider Strategy",
+    "references": [
+        "Scope",
+        "Contexts",
+        "Quick Start Add-on",
+        "Scan Policy"
+    ],
+    "summary": "Apply traditional spider strategy in real ZAP workflows with guided steps, examples, and practice.",
+    "difficulty": "beginner",
+    "content": "# Traditional Spider Strategy\n\n## Overview\nApply traditional spider strategy in real ZAP workflows with guided steps, examples, and practice.\n\n## Key ideas\n- Keep scope explicit before running scans.\n- Prefer safe defaults when testing new targets.\n- Capture evidence for every significant finding.\n\n## Workflow\n1. Define scope and choose the right mode.\n2. Run the scan or action for this topic.\n3. Review alerts and validate results.\n\n## What to watch for\n- Out-of-scope requests or unexpected targets.\n- Missing coverage in dynamic sections.\n- False positives that need manual validation.",
+    "examples": [
+        "Run traditional spider strategy on a staging target and compare alerts.",
+        "Document one alert with evidence and remediation notes."
+    ],
+    "tags": [
+        "zap",
+        "scanning",
+        "zap-scanning-core"
+    ],
+    "objectives": [
+        "Explain how traditional spider strategy fits into ZAP testing.",
+        "Configure traditional spider strategy safely for your target.",
+        "Interpret results and validate findings."
+    ]
 }

@@ -1,28 +1,28 @@
-﻿{
-    "summary":  "Hands-on lab for Data Science topic 11.",
-    "id":  "lab-011",
-    "category":  "data-science",
-    "tags":  [
-                 "data-science",
-                 "lab"
-             ],
-    "starter":  "/* Starter template for Data Science lab */",
-    "objectives":  [
-                       "Set up the lab environment.",
-                       "Implement the required functionality.",
-                       "Validate the results."
-                   ],
-    "solutionOutline":  [
-                            "Implement core data structures.",
-                            "Handle edge cases and errors.",
-                            "Write a quick verification script."
-                        ],
-    "difficulty":  "beginner",
-    "title":  "Lab 11: Pandas",
-    "steps":  [
-                  "Review the requirements and constraints.",
-                  "Sketch a plan for the implementation.",
-                  "Build and test the solution."
-              ],
-    "overview":  "## Goal\nHands-on lab for Data Science topic 11.\n\nComplete the steps to build a working solution."
+{
+    "summary": "Interpret Automation Framework exit codes for CI logic.",
+    "id": "lab-011",
+    "category": "automation",
+    "tags": [
+        "zap",
+        "lab",
+        "automation"
+    ],
+    "starter": "./zap.sh -cmd -autorun zap-plan.yaml",
+    "objectives": [
+        "Run a plan that produces warnings.",
+        "Capture exit code output.",
+        "Map exit codes to CI outcomes."
+    ],
+    "solutionOutline": [
+        "Exit codes mapped to CI responses.",
+        "Automation run documented."
+    ],
+    "difficulty": "intermediate",
+    "title": "Lab 11: Automation Exit Codes",
+    "steps": [
+        "Run a plan with -autorun and -cmd.",
+        "Note the exit code after completion.",
+        "Document how code maps to pass/fail."
+    ],
+    "overview": "## Goal\nInterpret Automation Framework exit codes for CI logic."
 }
