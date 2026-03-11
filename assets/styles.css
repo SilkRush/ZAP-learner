@@ -663,10 +663,10 @@ pre code{
     margin-bottom: 16px;
     position: relative;
     padding: 0;
-    border-radius: 16px;
+    border-radius: 12px;
     background: var(--surface);
     border: 1px solid rgba(255,255,255,0.2);
-    box-shadow: var(--shadow-soft);
+    box-shadow: 0 18px 36px rgba(7,12,24,0.45);
     backdrop-filter: blur(25px) saturate(160%);
     overflow: hidden;
 }
@@ -675,10 +675,10 @@ pre code{
     margin-bottom: 16px;
     position: relative;
     padding: 0;
-    border-radius: 16px;
+    border-radius: 12px;
     background: var(--surface);
     border: 1px solid rgba(255,255,255,0.2);
-    box-shadow: var(--shadow-soft);
+    box-shadow: 0 18px 36px rgba(7,12,24,0.45);
     backdrop-filter: blur(25px) saturate(160%);
     overflow: hidden;
 }
@@ -691,9 +691,9 @@ pre code{
     min-height: 32px;
     justify-content: space-between;
     padding: 10px 12px;
-    background: rgba(10,14,24,0.9);
+    background: rgba(16,20,32,0.95);
     border-bottom: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px 16px 0 0;
+    border-radius: 12px 12px 0 0;
 }
 
 .code-header .code-label{
@@ -715,7 +715,7 @@ pre code{
     padding: 6px 12px;
     background: rgba(255,255,255,0.12);
     border: 1px solid rgba(255,255,255,0.2);
-    opacity: 0.7;
+    opacity: 0;
     transition: opacity 0.2s ease, border-color 0.2s ease;
     display: inline-flex;
     align-items: center;
@@ -733,8 +733,8 @@ pre code{
 pre{
     background: #111522;
     color: var(--code-text);
-    padding: 16px;
-    border-radius: 0 0 14px 14px;
+    padding: 1.5rem;
+    border-radius: 0 0 12px 12px;
     border: 1px solid rgba(122,184,255,0.2);
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 30px rgba(13,18,32,0.35);
     overflow-x: auto;
@@ -779,6 +779,11 @@ pre{
 .yaml-boolean{ color: #7fe7f2; }
 .yaml-comment{ color: rgba(233,241,255,0.45); font-style: italic; }
 .yaml-punct{ color: #9fb3d9; }
+
+.code-block span,
+.code-sample span{
+    background: none;
+}
 
 .quiz-card{
     background: var(--surface-elevated);
