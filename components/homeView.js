@@ -15,6 +15,9 @@ export async function homeView(){
     const completedLessons = Progress.getCompletedLessonIds().length
     const totalLessons = totals.lessons || index.lessons?.length || 0
     const percent = totalLessons ? Math.round((completedLessons / totalLessons) * 100) : 0
+    const nextLessons = (index.lessons || [])
+        .filter(lesson=>!Progress.isCompleted(lesson.id))
+        .slice(0, 3)
 
     app.innerHTML = `
         <section class="hero">
@@ -41,6 +44,37 @@ export async function homeView(){
                     <span class="stat-value">${percent}%</span>
                 </div>
             </div>
+        </section>
+        <section class="dashboard-grid">
+            <article class="glass-tile">
+                <div class="tile-header">Current Progress</div>
+                <div class="tile-value">${percent}%</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width:${percent}%"></div>
+                </div>
+                <p class="tile-meta">${completedLessons} of ${totalLessons} lessons completed.</p>
+            </article>
+            <article class="glass-tile">
+                <div class="tile-header">Upcoming Assignments</div>
+                <ul class="tile-list">
+                    ${nextLessons.map(lesson=>`
+                        <li>
+                            <strong>${lesson.title}</strong>
+                            <span>${lesson.module}</span>
+                        </li>
+                    `).join("") || `
+                        <li>
+                            <strong>All caught up</strong>
+                            <span>Pick a guide or lab next</span>
+                        </li>
+                    `}
+                </ul>
+            </article>
+            <article class="glass-tile">
+                <div class="tile-header">Learning Streak</div>
+                <div class="tile-value">${Streak.get()} days</div>
+                <p class="tile-meta">Keep momentum with a short scan review today.</p>
+            </article>
         </section>
         <section class="metrics">
             <article class="metric">
