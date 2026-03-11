@@ -98,6 +98,20 @@ button{
     font-weight: 600;
     letter-spacing: 0.2px;
     color: var(--text);
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-brand:hover .brand-text,
+.nav-brand:focus-visible .brand-text{
+    color: #ffffff;
+}
+
+.nav-brand:hover .brand-mark,
+.nav-brand:focus-visible .brand-mark{
+    transform: translateY(-1px);
+    box-shadow: 0 14px 26px rgba(0,122,255,0.45);
 }
 
 .brand-mark{

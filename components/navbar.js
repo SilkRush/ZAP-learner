@@ -25,6 +25,19 @@ export function renderNavbar(){
         </div>
     `
 
+    const brandLink = nav.querySelector(".nav-brand")
+    if(brandLink){
+        brandLink.addEventListener("click", event=>{
+            event.preventDefault()
+            if(location.hash !== "#/"){
+                location.hash = "#/"
+            }
+            else{
+                window.dispatchEvent(new Event("hashchange"))
+            }
+        })
+    }
+
     highlightActiveLinks()
     window.addEventListener("hashchange", highlightActiveLinks)
 }
