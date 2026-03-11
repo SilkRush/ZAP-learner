@@ -1,6 +1,6 @@
-# ZAP Master Ultimate
+# ZAP Master Guide
 
-ZAP Master Ultimate is an offline-first, framework-free learning platform built with vanilla JavaScript, HTML, CSS, and JSON. It ships a large, modular content library and runs entirely from static files.
+ZAP Master Guide is an offline-first, framework-free learning platform built with vanilla JavaScript, HTML, CSS, and JSON. It ships a large, modular content library and runs entirely from static files.
 
 ## Overview
 - Offline-first and browser-only (no backend).

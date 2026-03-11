@@ -1,5 +1,5 @@
-const STATIC_CACHE = "zap-static-v2"
-const DATA_CACHE = "zap-data-v2"
+const STATIC_CACHE = "zap-static-v3"
+const DATA_CACHE = "zap-data-v3"
 
 const STATIC_ASSETS = [
     "./",
@@ -12,6 +12,7 @@ self.addEventListener("install", event=>{
     event.waitUntil(
         caches.open(STATIC_CACHE).then(cache=>cache.addAll(STATIC_ASSETS))
     )
+    self.skipWaiting()
 })
 
 self.addEventListener("activate", event=>{
@@ -24,6 +25,7 @@ self.addEventListener("activate", event=>{
             )
         })
     )
+    self.clients.claim()
 })
 
 self.addEventListener("fetch", event=>{
@@ -34,7 +36,7 @@ self.addEventListener("fetch", event=>{
     if(url.origin !== location.origin) return
 
     if(url.pathname.includes("/data/")){
-        event.respondWith(cacheFirst(DATA_CACHE, request))
+        event.respondWith(staleWhileRevalidate(DATA_CACHE, request))
         return
     }
 
