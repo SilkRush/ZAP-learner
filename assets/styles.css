@@ -15,7 +15,7 @@
     --border: rgba(255,255,255,0.2);
     --shadow: 0 28px 60px rgba(7,12,24,0.55);
     --shadow-soft: 0 16px 36px rgba(7,12,24,0.35);
-    --code-bg: rgba(12,18,32,0.92);
+    --code-bg: #0d1117;
     --code-border: rgba(122,184,255,0.2);
     --code-text: #e9f1ff;
     --code-muted: rgba(233,241,255,0.7);
@@ -545,9 +545,11 @@ button{
     color: var(--text);
     text-decoration: none;
     transition: color 0.2s ease, text-decoration-color 0.2s ease;
+    cursor: pointer;
 }
 
-.card-title-link:hover{
+.card-title-link:hover,
+.card-title-link:focus-visible{
     color: #bfe2ff;
     text-decoration: underline;
     text-decoration-color: rgba(191,226,255,0.7);
@@ -745,17 +747,18 @@ pre code{
 }
 
 pre{
-    background: #111522;
+    background: var(--code-bg);
     color: var(--code-text);
     padding: 1.5rem;
     border-radius: 0 0 12px 12px;
-    border: 1px solid rgba(122,184,255,0.2);
+    border: 1px solid var(--code-border);
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 30px rgba(13,18,32,0.35);
     overflow-x: auto;
     margin: 0;
     font-size: 0.92rem;
     line-height: 1.6;
     tab-size: 2;
+    text-align: left;
 }
 
 .code-block:hover .code-copy,
@@ -797,6 +800,40 @@ pre{
 .code-block span,
 .code-sample span{
     background: none;
+}
+
+.code-block pre,
+.code-sample pre,
+.markdown pre,
+.content-block pre{
+    background: var(--code-bg) !important;
+}
+
+.code-block pre code,
+.code-sample pre code,
+.markdown pre code,
+.content-block pre code{
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+.code-block pre span,
+.code-sample pre span,
+.markdown pre span,
+.content-block pre span,
+.code-block pre div,
+.code-sample pre div,
+.markdown pre div,
+.content-block pre div{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.code-block pre *{
+    background-clip: padding-box;
 }
 
 .quiz-card{
