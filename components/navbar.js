@@ -6,10 +6,10 @@ export function renderNavbar(){
     if(!nav) return
 
     nav.innerHTML = `
-        <div class="nav-brand">
+        <a class="nav-brand" href="#/">
             <span class="brand-mark">Z</span>
             <span class="brand-text">ZAP Master Guide</span>
-        </div>
+        </a>
         <nav class="nav-links">
             <a href="#/">Home</a>
             <a href="#/lesson">Learn</a>

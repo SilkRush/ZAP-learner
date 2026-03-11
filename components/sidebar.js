@@ -14,6 +14,7 @@ export async function renderSidebar(){
     const modules = Array.from(new Set((index.lessons || []).map(l=>l.module))).sort()
     const completed = Progress.getCompletedLessonIds().length
     const totalLessons = index.totals?.lessons || index.lessons?.length || 0
+    const activeModule = getActiveModule()
 
     sidebar.innerHTML = `
         <div class="sidebar-section">
@@ -35,7 +36,7 @@ export async function renderSidebar(){
             <h3>Modules</h3>
             <ul class="sidebar-links">
                 ${modules.map(module=>`
-                    <li><a href="#/lesson?module=${encodeURIComponent(module)}">${module}</a></li>
+                    <li><a class="${module === activeModule ? "active" : ""}" href="#/lesson?module=${encodeURIComponent(module)}">${module}</a></li>
                 `).join("")}
             </ul>
         </div>
@@ -48,4 +49,12 @@ export async function renderSidebar(){
             </ul>
         </div>
     `
+}
+
+function getActiveModule(){
+    const hash = location.hash.replace(/^#/, "")
+    const [, queryString] = hash.split("?")
+    if(!queryString) return ""
+    const params = new URLSearchParams(queryString)
+    return params.get("module") || ""
 }

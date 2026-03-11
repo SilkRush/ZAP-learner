@@ -34,6 +34,7 @@ async function renderLessonList(app, query){
     app.innerHTML = `
         <section class="page-header">
             <div>
+                <nav class="breadcrumbs" id="lessonBreadcrumbs"></nav>
                 <h1>ZAP Lessons</h1>
                 <p>Browse OWASP ZAP lessons by module, level, or keyword.</p>
             </div>
@@ -78,13 +79,49 @@ async function renderLessonList(app, query){
             return true
         })
 
+        const breadcrumbs = document.getElementById("lessonBreadcrumbs")
+        if(breadcrumbs){
+            const crumbs = [
+                `<a href="#/">Home</a>`,
+                `<a href="#/lesson">Lessons</a>`
+            ]
+            if(moduleValue){
+                crumbs.push(`<span>${escapeHTML(moduleValue)}</span>`)
+            }
+            breadcrumbs.innerHTML = crumbs.join(`<span class="crumb-sep">›</span>`)
+        }
+
         const container = document.getElementById("lessonList")
+        if(!filtered.length){
+            if(q){
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No lessons found</h3>
+                        <p>Try a different keyword or clear the search.</p>
+                        <button id="clearLessonSearch" class="btn btn-secondary btn-small">Clear Search</button>
+                    </div>
+                `
+                const clearBtn = document.getElementById("clearLessonSearch")
+                if(clearBtn){
+                    clearBtn.addEventListener("click", ()=>{
+                        searchInput.value = ""
+                        render()
+                        searchInput.focus()
+                    })
+                }
+            }
+            else{
+                container.innerHTML = `<p class="muted">No lessons match your filters.</p>`
+            }
+            return
+        }
+
         container.innerHTML = filtered.map(lesson=>{
             const completed = Progress.isCompleted(lesson.id)
             return `
-                <article class="card">
+                <article class="card card-clickable" data-href="/lesson/${lesson.id}" tabindex="0" role="link">
                     <div class="card-meta">${escapeHTML(lesson.module)} · ${escapeHTML(lesson.difficulty)}</div>
-                    <h3>${escapeHTML(lesson.title)}</h3>
+                    <h3><a class="card-title-link" href="#/lesson/${lesson.id}">${escapeHTML(lesson.title)}</a></h3>
                     <p>${escapeHTML(truncate(lesson.summary || "", 120))}</p>
                     <div class="card-actions">
                         <a class="btn btn-secondary btn-small" href="#/lesson/${lesson.id}">Open</a>
@@ -92,7 +129,26 @@ async function renderLessonList(app, query){
                     </div>
                 </article>
             `
-        }).join("") || `<p class="muted">No lessons match your filters.</p>`
+        }).join("")
+
+        container.querySelectorAll(".card-clickable").forEach(card=>{
+            card.addEventListener("click", event=>{
+                if(event.target.closest("a, button")) return
+                const href = card.dataset.href
+                if(href){
+                    location.hash = `#${href}`
+                }
+            })
+            card.addEventListener("keydown", event=>{
+                if(event.key === "Enter" || event.key === " "){
+                    event.preventDefault()
+                    const href = card.dataset.href
+                    if(href){
+                        location.hash = `#${href}`
+                    }
+                }
+            })
+        })
     }
 
     render()

@@ -97,6 +97,7 @@ button{
     gap: 12px;
     font-weight: 600;
     letter-spacing: 0.2px;
+    color: var(--text);
 }
 
 .brand-mark{
@@ -213,6 +214,12 @@ button{
 .sidebar-links a:hover{
     background: rgba(122,184,255,0.22);
     color: var(--text);
+}
+
+.sidebar-links a.active{
+    background: rgba(122,184,255,0.28);
+    color: var(--text);
+    border: 1px solid rgba(122,184,255,0.4);
 }
 
 .stat{
@@ -514,6 +521,48 @@ button{
     align-items: center;
     gap: 10px;
     margin-top: 12px;
+}
+
+.card-clickable{
+    cursor: pointer;
+}
+
+.card-title-link{
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.card-title-link:hover{
+    color: #bfe2ff;
+    text-decoration: underline;
+    text-decoration-color: rgba(191,226,255,0.7);
+}
+
+.breadcrumbs{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+}
+
+.breadcrumbs a{
+    color: rgba(247,249,255,0.8);
+}
+
+.crumb-sep{
+    color: rgba(247,249,255,0.45);
+}
+
+.empty-state{
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: var(--surface);
+    box-shadow: var(--shadow-soft);
+    text-align: center;
 }
 
 .btn{
