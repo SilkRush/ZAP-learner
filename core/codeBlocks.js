@@ -1,3 +1,6 @@
+const COPY_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H10V7h9v14z"/></svg>`
+const CHECK_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>`
+
 function normalizeCodeText(text){
     return String(text || "")
         .replace(/\r\n/g, "\n")
@@ -12,6 +15,78 @@ function normalizeCodeDisplay(code){
     }
     if(code.textContent.includes("\\t") && !code.textContent.includes("\t")){
         code.textContent = code.textContent.replace(/\\t/g, "\t")
+    }
+}
+
+function escapeHTML(value){
+    return String(value || "")
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#39;")
+}
+
+function highlightYaml(text){
+    const lines = String(text || "").split("\n")
+    return lines.map(line=>{
+        const trimmed = line.trimStart()
+        const indent = line.slice(0, line.length - trimmed.length)
+        const listMatch = trimmed.match(/^-\\s+/)
+        let lineContent = trimmed
+        let prefix = escapeHTML(indent)
+        if(listMatch){
+            prefix = `${escapeHTML(indent)}<span class="yaml-punct">-</span>${escapeHTML(listMatch[0].slice(1))}`
+            lineContent = trimmed.slice(listMatch[0].length)
+        }
+
+        const keyMatch = lineContent.match(/^([^:#]+?)(\\s*):(.*)$/)
+        if(keyMatch){
+            const key = keyMatch[1]
+            const colon = keyMatch[2] || ":"
+            const value = keyMatch[3] || ""
+            return `${prefix}<span class="yaml-key">${escapeHTML(key)}</span><span class="yaml-colon">${escapeHTML(colon)}</span>${highlightYamlValue(value)}`
+        }
+        return `${prefix}${highlightYamlValue(lineContent)}`
+    }).join("\n")
+}
+
+function splitComment(value){
+    let inSingle = false
+    let inDouble = false
+    for(let i = 0; i < value.length; i++){
+        const char = value[i]
+        const prev = value[i - 1]
+        if(char === "'" && !inDouble && prev !== "\\"){
+            inSingle = !inSingle
+        }
+        else if(char === "\"" && !inSingle && prev !== "\\"){
+            inDouble = !inDouble
+        }
+        if(char === "#" && !inSingle && !inDouble){
+            return [value.slice(0, i), value.slice(i)]
+        }
+    }
+    return [value, ""]
+}
+
+function highlightYamlValue(value){
+    const [rawValue, comment] = splitComment(value || "")
+    let result = escapeHTML(rawValue)
+    result = result.replace(/(\"([^\"\\\\]|\\\\.)*\")/g,'<span class="yaml-string">$1</span>')
+    result = result.replace(/('([^'\\\\]|\\\\.)*')/g,"<span class=\"yaml-string\">$1</span>")
+    result = result.replace(/\\b(true|false|yes|no|on|off|null|~)\\b/gi,'<span class="yaml-boolean">$1</span>')
+    result = result.replace(/\\b-?\\d+(?:\\.\\d+)?\\b/g,'<span class="yaml-number">$&</span>')
+    const commentHtml = comment ? `<span class="yaml-comment">${escapeHTML(comment)}</span>` : ""
+    return `${result}${commentHtml}`
+}
+
+function applySyntaxHighlight(code, language){
+    if(code.dataset.syntaxApplied) return
+    const lang = String(language || "").toLowerCase()
+    if(lang.includes("yaml") || lang.includes("yml")){
+        code.innerHTML = highlightYaml(code.textContent)
+        code.dataset.syntaxApplied = "yaml"
     }
 }
 
@@ -64,7 +139,8 @@ function ensureCopyButton(wrapper){
         button = document.createElement("button")
         button.type = "button"
         button.className = "btn btn-ghost btn-small code-copy"
-        button.textContent = "Copy"
+        button.setAttribute("aria-label","Copy code")
+        button.innerHTML = `${COPY_ICON}<span class="sr-only">Copy</span>`
         header.appendChild(button)
     }
 
@@ -78,13 +154,13 @@ function ensureCopyButton(wrapper){
         if(!code) return
         const text = normalizeCodeText(code.textContent)
         const success = await copyText(text)
-        const previous = button.textContent
-        button.textContent = success ? "Copied" : "Copy"
+        const previous = button.innerHTML
+        button.innerHTML = success ? `${CHECK_ICON}<span class="sr-only">Copied</span>` : `${COPY_ICON}<span class="sr-only">Copy</span>`
         if(success){
             button.classList.add("is-copied")
             setTimeout(()=>{
                 button.classList.remove("is-copied")
-                button.textContent = previous
+                button.innerHTML = previous
             }, 1400)
         }
     })
@@ -94,22 +170,26 @@ export function enhanceCodeBlocks(root = document){
     const blocks = root.querySelectorAll("pre > code")
     blocks.forEach(code=>{
         normalizeCodeDisplay(code)
+        const wrapper = code.closest(".code-sample, .code-block")
+        const label = wrapper ? wrapper.querySelector(".code-label") : null
+        const language = label ? label.textContent : ""
+        applySyntaxHighlight(code, language)
         const pre = code.parentElement
         if(!pre) return
-        let wrapper = pre.parentElement
-        if(!wrapper){
+        let container = pre.parentElement
+        if(!container){
             return
         }
 
-        if(wrapper.classList.contains("code-sample") || wrapper.classList.contains("code-block")){
-            ensureCopyButton(wrapper)
+        if(container.classList.contains("code-sample") || container.classList.contains("code-block")){
+            ensureCopyButton(container)
             return
         }
 
-        const container = document.createElement("div")
-        container.className = "code-block"
-        pre.parentNode.insertBefore(container, pre)
-        container.appendChild(pre)
-        ensureCopyButton(container)
+        const block = document.createElement("div")
+        block.className = "code-block"
+        pre.parentNode.insertBefore(block, pre)
+        block.appendChild(pre)
+        ensureCopyButton(block)
     })
 }
